@@ -4,7 +4,6 @@
   "packageJsonOverride": {
     "author": "Dfilipiak",
     "description": "Description for docs. Hello world!",
-    "private": true,
     "scripts": {},
   },
   "version": "v21",

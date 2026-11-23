@@ -340,53 +340,37 @@ Taon will automatically find project if it is linked inside package (source is a
 <h2 id="7-linking-projects-and-cli-tools" translate="" [translate-t]="t">7. Linking Projects and CLI Tools</h2>
 <p><span translate="" [translate-t]="t">Taon provides linking commands similar to </span><code>{{ context.codeblock58 }}</code><span translate="" [translate-t]="t">, allowing locally developed CLI tools and libraries to be used without publishing them first.</span></p>
 <h3 id="interactive-linking" translate="" [translate-t]="t">Interactive Linking</h3>
+<p translate="" [translate-t]="t">Linking menu</p>
 <div class="docs-code-block"><span translate="" [translate-t]="t">
           <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock59, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>
           </button>
         </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock59Html"></code></pre></div>
-<p translate="" [translate-t]="t">Opens the linking workflow.</p>
-<h3 id="local-linking" translate="" [translate-t]="t">Local Linking</h3>
+<p translate="" [translate-t]="t">Links the CLI created in the current repository.</p>
+<h3 id="global-development-linking" translate="" [translate-t]="t">Global Development Linking</h3>
 <div class="docs-code-block"><span translate="" [translate-t]="t">
           <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock60, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>
           </button>
         </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock60Html"></code></pre></div>
-<p translate="" [translate-t]="t">Links the CLI created in the current repository.</p>
-<h3 id="global-development-linking" translate="" [translate-t]="t">Global Development Linking</h3>
-<div class="docs-code-block"><span translate="" [translate-t]="t">
-          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock61, $event)">
-            <span class="material-icons" aria-hidden="true">content_copy</span>
-          </button>
-        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock61Html"></code></pre></div>
-<p translate="" [translate-t]="t">Creates a global NPM link for the current project in development mode.</p>
-<p translate="" [translate-t]="t">Useful when testing changes to a CLI tool directly from its source repository.</p>
-<h3 id="release-branch-linking" translate="" [translate-t]="t">Release Branch Linking</h3>
+<hr>
+<h2 id="8-branding-and-pwa-assets" translate="" [translate-t]="t">8. Branding and PWA Assets</h2>
+<p><span translate="" [translate-t]="t">Taon can generate branding assets from a project's </span><code>{{ context.codeblock61 }}</code><span translate="" [translate-t]="t">.</span></p>
 <div class="docs-code-block"><span translate="" [translate-t]="t">
           <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock62, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>
           </button>
         </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock62Html"></code></pre></div>
-<p translate="" [translate-t]="t">Links the CLI built from a separate release branch.</p>
-<p translate="" [translate-t]="t">This can be useful when testing a released version without replacing the active development version.</p>
-<hr>
-<h2 id="8-branding-and-pwa-assets" translate="" [translate-t]="t">8. Branding and PWA Assets</h2>
-<p><span translate="" [translate-t]="t">Taon can generate branding assets from a project's </span><code>{{ context.codeblock63 }}</code><span translate="" [translate-t]="t">.</span></p>
-<div class="docs-code-block"><span translate="" [translate-t]="t">
-          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock64, $event)">
-            <span class="material-icons" aria-hidden="true">content_copy</span>
-          </button>
-        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock64Html"></code></pre></div>
 <p translate="" [translate-t]="t">This recreates assets such as favicons and Progressive Web App icons.</p>
 <p translate="" [translate-t]="t">It helps keep branding consistent across supported application targets.</p>
 <hr>
 <h2 id="9-automated-code-refactoring" translate="" [translate-t]="t">9. Automated Code Refactoring</h2>
 <p translate="" [translate-t]="t">Taon provides a project-wide refactoring command.</p>
 <div class="docs-code-block"><span translate="" [translate-t]="t">
-          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock65, $event)">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock63, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>
           </button>
-        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock65Html"></code></pre></div>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock63Html"></code></pre></div>
 <p translate="" [translate-t]="t">The command processes project files to:</p>
 <ul>
 <li>Apply Prettier formatting.</li>
@@ -400,47 +384,47 @@ Taon will automatically find project if it is linked inside package (source is a
 <p translate="" [translate-t]="t">These can be used to extend a Taon application with additional Cloudflare-specific functionality.</p>
 <h3 id="add-a-subproject" translate="" [translate-t]="t">Add a Subproject</h3>
 <div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock64, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock64Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">Creates a subproject inside the project's </span><code>{{ context.codeblock65 }}</code><span translate="" [translate-t]="t"> directory.</span></p>
+<h3 id="example-structure" translate="" [translate-t]="t">Example Structure</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
           <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock66, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>
           </button>
-        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock66Html"></code></pre></div>
-<p><span translate="" [translate-t]="t">Creates a subproject inside the project's </span><code>{{ context.codeblock67 }}</code><span translate="" [translate-t]="t"> directory.</span></p>
-<h3 id="example-structure" translate="" [translate-t]="t">Example Structure</h3>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock66Html"></code></pre></div>
+<h3 id="remove-a-subproject" translate="" [translate-t]="t">Remove a Subproject</h3>
+<p translate="" [translate-t]="t">To remove a subproject, delete its directory.</p>
+<p translate="" [translate-t]="t">For example:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock67, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock67Html"></code></pre></div>
+<h3 id="deploy-subprojects-manually" translate="" [translate-t]="t">Deploy Subprojects Manually</h3>
 <div class="docs-code-block"><span translate="" [translate-t]="t">
           <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock68, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>
           </button>
-        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock68Html"></code></pre></div>
-<h3 id="remove-a-subproject" translate="" [translate-t]="t">Remove a Subproject</h3>
-<p translate="" [translate-t]="t">To remove a subproject, delete its directory.</p>
-<p translate="" [translate-t]="t">For example:</p>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock68Html"></code></pre></div>
+<p translate="" [translate-t]="t">Deploys the configured Cloudflare subproject.</p>
+<p translate="" [translate-t]="t">Manual deployment is usually unnecessary because the main Taon release workflow can handle deployment.</p>
+<h3 id="local-cloudflare-worker-development" translate="" [translate-t]="t">Local Cloudflare Worker Development</h3>
 <div class="docs-code-block"><span translate="" [translate-t]="t">
           <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock69, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>
           </button>
         </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock69Html"></code></pre></div>
-<h3 id="deploy-subprojects-manually" translate="" [translate-t]="t">Deploy Subprojects Manually</h3>
+<p translate="" [translate-t]="t">Starts the local development environment for Cloudflare subprojects.</p>
+<p translate="" [translate-t]="t">When developing an Angular application connected to a local Cloudflare Worker, start the Worker development environment first.</p>
+<p translate="" [translate-t]="t">Then start the Angular application in a separate terminal:</p>
 <div class="docs-code-block"><span translate="" [translate-t]="t">
           <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock70, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>
           </button>
         </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock70Html"></code></pre></div>
-<p translate="" [translate-t]="t">Deploys the configured Cloudflare subproject.</p>
-<p translate="" [translate-t]="t">Manual deployment is usually unnecessary because the main Taon release workflow can handle deployment.</p>
-<h3 id="local-cloudflare-worker-development" translate="" [translate-t]="t">Local Cloudflare Worker Development</h3>
-<div class="docs-code-block"><span translate="" [translate-t]="t">
-          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock71, $event)">
-            <span class="material-icons" aria-hidden="true">content_copy</span>
-          </button>
-        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock71Html"></code></pre></div>
-<p translate="" [translate-t]="t">Starts the local development environment for Cloudflare subprojects.</p>
-<p translate="" [translate-t]="t">When developing an Angular application connected to a local Cloudflare Worker, start the Worker development environment first.</p>
-<p translate="" [translate-t]="t">Then start the Angular application in a separate terminal:</p>
-<div class="docs-code-block"><span translate="" [translate-t]="t">
-          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock72, $event)">
-            <span class="material-icons" aria-hidden="true">content_copy</span>
-          </button>
-        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock72Html"></code></pre></div>
 <p translate="" [translate-t]="t">This allows the Angular application to communicate with the locally running Cloudflare backend.</p>
 <hr>
 <h2 id="11-quick-command-reference" translate="" [translate-t]="t">11. Quick Command Reference</h2>
@@ -455,102 +439,92 @@ Taon will automatically find project if it is linked inside package (source is a
 <tbody>
 <tr>
 <td>New project</td>
-<td><code>{{ context.codeblock73 }}</code></td>
+<td><code>{{ context.codeblock71 }}</code></td>
 <td>—</td>
 </tr>
 <tr>
 <td>Development build</td>
+<td><code>{{ context.codeblock72 }}</code></td>
+<td><code>{{ context.codeblock73 }}</code></td>
+</tr>
+<tr>
+<td>Clean build</td>
 <td><code>{{ context.codeblock74 }}</code></td>
 <td><code>{{ context.codeblock75 }}</code></td>
 </tr>
 <tr>
-<td>Clean build</td>
+<td>Production build</td>
 <td><code>{{ context.codeblock76 }}</code></td>
 <td><code>{{ context.codeblock77 }}</code></td>
 </tr>
 <tr>
-<td>Production build</td>
+<td>Watch build</td>
 <td><code>{{ context.codeblock78 }}</code></td>
 <td><code>{{ context.codeblock79 }}</code></td>
 </tr>
 <tr>
-<td>Watch build</td>
-<td><code>{{ context.codeblock80 }}</code></td>
-<td><code>{{ context.codeblock81 }}</code></td>
-</tr>
-<tr>
-<td>Library watch</td>
-<td><code>{{ context.codeblock82 }}</code></td>
-<td><code>{{ context.codeblock83 }}</code></td>
-</tr>
-<tr>
 <td>Application menu</td>
-<td><code>{{ context.codeblock84 }}</code></td>
+<td><code>{{ context.codeblock80 }}</code></td>
 <td>—</td>
 </tr>
 <tr>
 <td>Web application</td>
+<td><code>{{ context.codeblock81 }}</code></td>
+<td><code>{{ context.codeblock82 }}</code></td>
+</tr>
+<tr>
+<td>Cloudflare application</td>
+<td><code>{{ context.codeblock83 }}</code></td>
+<td><code>{{ context.codeblock84 }}</code></td>
+</tr>
+<tr>
+<td>WebSQL application</td>
 <td><code>{{ context.codeblock85 }}</code></td>
 <td><code>{{ context.codeblock86 }}</code></td>
 </tr>
 <tr>
-<td>Cloudflare application</td>
+<td>Electron application</td>
 <td><code>{{ context.codeblock87 }}</code></td>
 <td><code>{{ context.codeblock88 }}</code></td>
 </tr>
 <tr>
-<td>WebSQL application</td>
+<td>Release menu</td>
 <td><code>{{ context.codeblock89 }}</code></td>
 <td><code>{{ context.codeblock90 }}</code></td>
 </tr>
 <tr>
-<td>Electron application</td>
+<td>Automated release</td>
 <td><code>{{ context.codeblock91 }}</code></td>
 <td><code>{{ context.codeblock92 }}</code></td>
 </tr>
 <tr>
-<td>Release menu</td>
-<td><code>{{ context.codeblock93 }}</code></td>
-<td><code>{{ context.codeblock94 }}</code></td>
-</tr>
-<tr>
-<td>Automated release</td>
-<td><code>{{ context.codeblock95 }}</code></td>
-<td><code>{{ context.codeblock96 }}</code></td>
-</tr>
-<tr>
-<td>Project linking</td>
-<td><code>{{ context.codeblock97 }}</code></td>
-<td>—</td>
-</tr>
-<tr>
 <td>Global development link</td>
-<td><code>{{ context.codeblock98 }}</code></td>
+<td><code>{{ context.codeblock93 }}</code></td>
 <td>—</td>
 </tr>
 <tr>
 <td>Branding</td>
-<td><code>{{ context.codeblock99 }}</code></td>
+<td><code>{{ context.codeblock94 }}</code></td>
 <td>—</td>
 </tr>
 <tr>
 <td>Code refactoring</td>
-<td><code>{{ context.codeblock100 }}</code></td>
+<td><code>{{ context.codeblock95 }}</code></td>
 <td>—</td>
 </tr>
 <tr>
 <td>Add Cloudflare subproject</td>
-<td><code>{{ context.codeblock101 }}</code></td>
+<td><code>{{ context.codeblock96 }}</code></td>
 <td>—</td>
 </tr>
 <tr>
 <td>Deploy Cloudflare subproject</td>
-<td><code>{{ context.codeblock102 }}</code></td>
+<td><code>{{ context.codeblock97 }}</code></td>
 <td>—</td>
 </tr>
 <tr>
 <td>Local Cloudflare Worker</td>
-<td><code>{{ context.codeblock103 }}</code></td>
+<td><code>{{ context.codeblock98 }}</code></td>
 <td>—</td>
 </tr>
 </tbody>
@@ -562,132 +536,132 @@ Taon will automatically find project if it is linked inside package (source is a
 <p translate="" [translate-t]="t">Its app-library architecture allows projects to combine reusable libraries, backend functionality, frontend applications, and multiple deployment targets.</p>
 <p translate="" [translate-t]="t">Developers can work with a single project or coordinate entire containers of interconnected applications without manually maintaining separate build and release systems for each project.</p>
 <h2 id="os" translate="" [translate-t]="t">Os</h2>
-<p><code>{{ context.codeblock104 }}</code><span translate="" [translate-t]="t">  =&gt; check if port(s) are taken</span></p>
-<p><code>{{ context.codeblock105 }}</code><span translate="" [translate-t]="t">  =&gt; copy file or folder</span></p>
-<p><code>{{ context.codeblock106 }}</code><span translate="" [translate-t]="t">  =&gt; link file or folder</span></p>
-<p><code>{{ context.codeblock107 }}</code><span translate="" [translate-t]="t"> =&gt; refresh linked projects configuration
+<p><code>{{ context.codeblock99 }}</code><span translate="" [translate-t]="t">  =&gt; check if port(s) are taken</span></p>
+<p><code>{{ context.codeblock100 }}</code><span translate="" [translate-t]="t">  =&gt; copy file or folder</span></p>
+<p><code>{{ context.codeblock101 }}</code><span translate="" [translate-t]="t">  =&gt; link file or folder</span></p>
+<p><code>{{ context.codeblock102 }}</code><span translate="" [translate-t]="t"> =&gt; refresh linked projects configuration
 (after deleting or adding new repo)</span></p>
-<p><code>{{ context.codeblock108 }}</code><span translate="" [translate-t]="t"> =&gt; set random nice colors for you vscode window</span></p>
+<p><code>{{ context.codeblock103 }}</code><span translate="" [translate-t]="t"> =&gt; set random nice colors for you vscode window</span></p>
 <h3 id="java-tomcat" translate="" [translate-t]="t">java &amp; tomcat</h3>
-<p><code>{{ context.codeblock109 }}</code><span translate="" [translate-t]="t">  =&gt; select java for $JAVA_HOME</span></p>
-<p><code>{{ context.codeblock110 }}</code><span translate="" [translate-t]="t">  =&gt; select tomcat for $TOMCAT_HOME</span></p>
+<p><code>{{ context.codeblock104 }}</code><span translate="" [translate-t]="t">  =&gt; select java for $JAVA_HOME</span></p>
+<p><code>{{ context.codeblock105 }}</code><span translate="" [translate-t]="t">  =&gt; select tomcat for $TOMCAT_HOME</span></p>
 <h3 id="etc-host" translate="" [translate-t]="t">/etc/host</h3>
-<p><code>{{ context.codeblock111 }}</code><span translate="" [translate-t]="t">  =&gt; modify /etc/host in a nice way</span></p>
-<p><code>{{ context.codeblock112 }}</code><span translate="" [translate-t]="t">  =&gt; open /etc/hosts files in VSCode</span></p>
+<p><code>{{ context.codeblock106 }}</code><span translate="" [translate-t]="t">  =&gt; modify /etc/host in a nice way</span></p>
+<p><code>{{ context.codeblock107 }}</code><span translate="" [translate-t]="t">  =&gt; open /etc/hosts files in VSCode</span></p>
 <h2 id="git" translate="" [translate-t]="t">Git</h2>
 <h3 id="handy-shortcuts" translate="" [translate-t]="t">Handy shortcuts</h3>
-<p><code>{{ context.codeblock113 }}</code><span translate="" [translate-t]="t">  =&gt; </span><code>{{ context.codeblock114 }}</code></p>
-<p><code>{{ context.codeblock115 }}</code><span translate="" [translate-t]="t">  =&gt; show origin of project</span></p>
-<p><code>{{ context.codeblock116 }}</code><span translate="" [translate-t]="t">  =&gt; remove all submodules from repo</span></p>
-<p><code>{{ context.codeblock117 }}</code><span translate="" [translate-t]="t">  =&gt; remove submodule by folder name</span></p>
-<p><code>{{ context.codeblock118 }}</code><span translate="" [translate-t]="t"> =&gt; remove git tag (if not provided name - select menu appears)</span></p>
-<p><code>{{ context.codeblock119 }}</code><span translate="" [translate-t]="t"> =&gt; display info aboutlast tag</span></p>
-<p><code>{{ context.codeblock120 }}</code><span translate="" [translate-t]="t"> =&gt; display info aboutlast tag</span></p>
+<p><code>{{ context.codeblock108 }}</code><span translate="" [translate-t]="t">  =&gt; </span><code>{{ context.codeblock109 }}</code></p>
+<p><code>{{ context.codeblock110 }}</code><span translate="" [translate-t]="t">  =&gt; show origin of project</span></p>
+<p><code>{{ context.codeblock111 }}</code><span translate="" [translate-t]="t">  =&gt; remove all submodules from repo</span></p>
+<p><code>{{ context.codeblock112 }}</code><span translate="" [translate-t]="t">  =&gt; remove submodule by folder name</span></p>
+<p><code>{{ context.codeblock113 }}</code><span translate="" [translate-t]="t"> =&gt; remove git tag (if not provided name - select menu appears)</span></p>
+<p><code>{{ context.codeblock114 }}</code><span translate="" [translate-t]="t"> =&gt; display info aboutlast tag</span></p>
+<p><code>{{ context.codeblock115 }}</code><span translate="" [translate-t]="t"> =&gt; display info aboutlast tag</span></p>
 <h3 id="remotes" translate="" [translate-t]="t">Remotes</h3>
-<p><code>{{ context.codeblock121 }}</code><span translate="" [translate-t]="t">  =&gt; show origin of project</span></p>
-<p><code>{{ context.codeblock122 }}</code><span translate="" [translate-t]="t">  =&gt; </span><code>{{ context.codeblock123 }}</code></p>
-<p><code>{{ context.codeblock124 }}</code><span translate="" [translate-t]="t">  =&gt; show all origins of project</span></p>
-<p><code>{{ context.codeblock125 }}</code><span translate="" [translate-t]="t">  =&gt; </span><code>{{ context.codeblock126 }}</code></p>
-<p><code>{{ context.codeblock127 }}</code><span translate="" [translate-t]="t">  =&gt; replaces default origin new provided</span></p>
-<p><code>{{ context.codeblock128 }}</code><span translate="" [translate-t]="t">  =&gt; alias to rename:origin</span></p>
-<p><code>{{ context.codeblock129 }}</code><span translate="" [translate-t]="t">  =&gt; changes http remote to ssh remote</span></p>
-<p><code>{{ context.codeblock130 }}</code><span translate="" [translate-t]="t">  =&gt; changes ssh remote to https remote</span></p>
+<p><code>{{ context.codeblock116 }}</code><span translate="" [translate-t]="t">  =&gt; show origin of project</span></p>
+<p><code>{{ context.codeblock117 }}</code><span translate="" [translate-t]="t">  =&gt; </span><code>{{ context.codeblock118 }}</code></p>
+<p><code>{{ context.codeblock119 }}</code><span translate="" [translate-t]="t">  =&gt; show all origins of project</span></p>
+<p><code>{{ context.codeblock120 }}</code><span translate="" [translate-t]="t">  =&gt; </span><code>{{ context.codeblock121 }}</code></p>
+<p><code>{{ context.codeblock122 }}</code><span translate="" [translate-t]="t">  =&gt; replaces default origin new provided</span></p>
+<p><code>{{ context.codeblock123 }}</code><span translate="" [translate-t]="t">  =&gt; alias to rename:origin</span></p>
+<p><code>{{ context.codeblock124 }}</code><span translate="" [translate-t]="t">  =&gt; changes http remote to ssh remote</span></p>
+<p><code>{{ context.codeblock125 }}</code><span translate="" [translate-t]="t">  =&gt; changes ssh remote to https remote</span></p>
 <h3 id="rebase" translate="" [translate-t]="t">Rebase</h3>
-<p><code>{{ context.codeblock131 }}</code><span translate="" [translate-t]="t">  =&gt; rebase current branch with default branch</span></p>
-<p><code>{{ context.codeblock132 }}</code><span translate="" [translate-t]="t">  =&gt; rebase current branch with changes from branch-to-rebase</span></p>
+<p><code>{{ context.codeblock126 }}</code><span translate="" [translate-t]="t">  =&gt; rebase current branch with default branch</span></p>
+<p><code>{{ context.codeblock127 }}</code><span translate="" [translate-t]="t">  =&gt; rebase current branch with changes from branch-to-rebase</span></p>
 <h3 id="stash" translate="" [translate-t]="t">Stash</h3>
-<p><code>{{ context.codeblock133 }}</code><span translate="" [translate-t]="t">  =&gt; stash only staged files</span></p>
-<p><code>{{ context.codeblock134 }}</code><span translate="" [translate-t]="t">  =&gt; stash all files</span></p>
+<p><code>{{ context.codeblock128 }}</code><span translate="" [translate-t]="t">  =&gt; stash only staged files</span></p>
+<p><code>{{ context.codeblock129 }}</code><span translate="" [translate-t]="t">  =&gt; stash all files</span></p>
 <h3 id="reset-change-branch" translate="" [translate-t]="t">Reset + change branch</h3>
-<p><code>{{ context.codeblock135 }}</code><span translate="" [translate-t]="t">  =&gt; git fetch / display menu with branches to select / select branch</span></p>
-<p><code>{{ context.codeblock136 }}</code><span translate="" [translate-t]="t">  =&gt; </span><code>{{ context.codeblock137 }}</code><span translate="" [translate-t]="t"> + remove tmp files for project + </span><code>{{ context.codeblock138 }}</code><span translate="" [translate-t]="t"> (include children)</span></p>
-<p><code>{{ context.codeblock139 }}</code><span translate="" [translate-t]="t">  =&gt; same as </span><code>{{ context.codeblock140 }}</code><span translate="" [translate-t]="t"> but specific branch</span></p>
-<p><code>{{ context.codeblock141 }}</code><span translate="" [translate-t]="t">  =&gt; reset hard and pull (recrusively)</span></p>
+<p><code>{{ context.codeblock130 }}</code><span translate="" [translate-t]="t">  =&gt; git fetch / display menu with branches to select / select branch</span></p>
+<p><code>{{ context.codeblock131 }}</code><span translate="" [translate-t]="t">  =&gt; </span><code>{{ context.codeblock132 }}</code><span translate="" [translate-t]="t"> + remove tmp files for project + </span><code>{{ context.codeblock133 }}</code><span translate="" [translate-t]="t"> (include children)</span></p>
+<p><code>{{ context.codeblock134 }}</code><span translate="" [translate-t]="t">  =&gt; same as </span><code>{{ context.codeblock135 }}</code><span translate="" [translate-t]="t"> but specific branch</span></p>
+<p><code>{{ context.codeblock136 }}</code><span translate="" [translate-t]="t">  =&gt; reset hard and pull (recrusively)</span></p>
 <h3 id="pull-pull" translate="" [translate-t]="t">Pull &amp; Pull</h3>
-<p><code>{{ context.codeblock142 }}</code><span translate="" [translate-t]="t">  =&gt; pull current branch or current workspace projects one after another</span></p>
-<p><code>{{ context.codeblock143 }}</code><span translate="" [translate-t]="t">  =&gt; pull current repo branch and first level of children projects</span></p>
-<p><code>{{ context.codeblock144 }}</code><span translate="" [translate-t]="t">  =&gt; pull current repo branch and all projects deep</span></p>
-<p><code>{{ context.codeblock145 }}</code><span translate="" [translate-t]="t"> =&gt; </span><code>{{ context.codeblock146 }}</code></p>
-<p><code>{{ context.codeblock147 }}</code><span translate="" [translate-t]="t"> =&gt; </span><code>{{ context.codeblock148 }}</code></p>
-<p><code>{{ context.codeblock149 }}</code><span translate="" [translate-t]="t">  =&gt;  push current project repo with temp message</span></p>
-<p><code>{{ context.codeblock150 }}</code><span translate="" [translate-t]="t">  =&gt;  push current project (+ first level children) repo with temp message</span></p>
-<p><code>{{ context.codeblock151 }}</code><span translate="" [translate-t]="t">  =&gt; push current project (+ deep children repos) repo with temp message</span></p>
-<p><code>{{ context.codeblock152 }}</code><span translate="" [translate-t]="t"> =&gt; push code to all remotes(origins) defined in .git/config</span></p>
+<p><code>{{ context.codeblock137 }}</code><span translate="" [translate-t]="t">  =&gt; pull current branch or current workspace projects one after another</span></p>
+<p><code>{{ context.codeblock138 }}</code><span translate="" [translate-t]="t">  =&gt; pull current repo branch and first level of children projects</span></p>
+<p><code>{{ context.codeblock139 }}</code><span translate="" [translate-t]="t">  =&gt; pull current repo branch and all projects deep</span></p>
+<p><code>{{ context.codeblock140 }}</code><span translate="" [translate-t]="t"> =&gt; </span><code>{{ context.codeblock141 }}</code></p>
+<p><code>{{ context.codeblock142 }}</code><span translate="" [translate-t]="t"> =&gt; </span><code>{{ context.codeblock143 }}</code></p>
+<p><code>{{ context.codeblock144 }}</code><span translate="" [translate-t]="t">  =&gt;  push current project repo with temp message</span></p>
+<p><code>{{ context.codeblock145 }}</code><span translate="" [translate-t]="t">  =&gt;  push current project (+ first level children) repo with temp message</span></p>
+<p><code>{{ context.codeblock146 }}</code><span translate="" [translate-t]="t">  =&gt; push current project (+ deep children repos) repo with temp message</span></p>
+<p><code>{{ context.codeblock147 }}</code><span translate="" [translate-t]="t"> =&gt; push code to all remotes(origins) defined in .git/config</span></p>
 <h3 id="smart-conventional-commits-branching" translate="" [translate-t]="t">Smart Conventional Commits Branching</h3>
 <p translate="" [translate-t]="t" translate-html=""><strong>Checkout branch + add changes + commit message + push branch</strong></p>
 <p><span translate="" [translate-t]="t">Create special branches (with metadata inside name) that can be use later with command
-</span><code>{{ context.codeblock153 }}</code><span translate="" [translate-t]="t" translate-html=""><br> to "re-push" changes and use matadata from branch name
+</span><code>{{ context.codeblock148 }}</code><span translate="" [translate-t]="t" translate-html=""><br> to "re-push" changes and use matadata from branch name
 as commit message.</span></p>
 <h4>fix</h4>
 <p><span translate="" [translate-t]="t" translate-html="">Quick commit and push bugfix<br>
-</span><code>{{ context.codeblock154 }}</code><span translate="" [translate-t]="t" translate-html=""> <br>
+</span><code>{{ context.codeblock149 }}</code><span translate="" [translate-t]="t" translate-html=""> <br>
 &lt;=&gt;<br>
+</span><code>{{ context.codeblock150 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
+</span><code>{{ context.codeblock151 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
+</span><code>{{ context.codeblock152 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
+</span><code>{{ context.codeblock153 }}</code></p>
+<p translate="" [translate-t]="t">taon pfix &lt;=&gt; taon pushfix &lt;=&gt; taon push:fix</p>
+<h4>feature</h4>
+<p><span translate="" [translate-t]="t" translate-html="">Quick commit and push feature<br>
+</span><code>{{ context.codeblock154 }}</code><span translate="" [translate-t]="t" translate-html="">  <br>
+&lt;&gt;=&gt;<br>
 </span><code>{{ context.codeblock155 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock156 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock157 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock158 }}</code></p>
-<p translate="" [translate-t]="t">taon pfix &lt;=&gt; taon pushfix &lt;=&gt; taon push:fix</p>
-<h4>feature</h4>
-<p><span translate="" [translate-t]="t" translate-html="">Quick commit and push feature<br>
-</span><code>{{ context.codeblock159 }}</code><span translate="" [translate-t]="t" translate-html="">  <br>
-&lt;&gt;=&gt;<br>
+<p translate="" [translate-t]="t">taon pf &lt;=&gt; taon pushfeature &lt;=&gt; taon push:feature</p>
+<h4>chore</h4>
+<p><span translate="" [translate-t]="t" translate-html="">Quick commit and push chore <br>
+</span><code>{{ context.codeblock159 }}</code><span translate="" [translate-t]="t" translate-html=""><br>
+&lt;=&gt;  <br>
 </span><code>{{ context.codeblock160 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock161 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock162 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock163 }}</code></p>
-<p translate="" [translate-t]="t">taon pf &lt;=&gt; taon pushfeature &lt;=&gt; taon push:feature</p>
-<h4>chore</h4>
-<p><span translate="" [translate-t]="t" translate-html="">Quick commit and push chore <br>
+<p translate="" [translate-t]="t">taon pc &lt;=&gt; taon chore &lt;=&gt; taon pchore</p>
+<h4>docs</h4>
+<p><span translate="" [translate-t]="t" translate-html="">Quick commit and push docs update <br>
 </span><code>{{ context.codeblock164 }}</code><span translate="" [translate-t]="t" translate-html=""><br>
-&lt;=&gt;  <br>
+&lt;=&gt; <br>
 </span><code>{{ context.codeblock165 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock166 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock167 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock168 }}</code></p>
-<p translate="" [translate-t]="t">taon pc &lt;=&gt; taon chore &lt;=&gt; taon pchore</p>
-<h4>docs</h4>
-<p><span translate="" [translate-t]="t" translate-html="">Quick commit and push docs update <br>
+<p translate="" [translate-t]="t">taon pd &lt;=&gt; taon pdocs</p>
+<h4>test</h4>
+<p><span translate="" [translate-t]="t" translate-html="">Quick commit and push tests update <br>
 </span><code>{{ context.codeblock169 }}</code><span translate="" [translate-t]="t" translate-html=""><br>
 &lt;=&gt; <br>
 </span><code>{{ context.codeblock170 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock171 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock172 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock173 }}</code></p>
-<p translate="" [translate-t]="t">taon pd &lt;=&gt; taon pdocs</p>
-<h4>test</h4>
-<p><span translate="" [translate-t]="t" translate-html="">Quick commit and push tests update <br>
+<p translate="" [translate-t]="t">taon push:test &lt;=&gt; taon ptest  &lt;=&gt; taon ptests</p>
+<h4>styl</h4>
+<p><span translate="" [translate-t]="t" translate-html="">Quick commit and push style update (formatting, linting etc.) <br>
 </span><code>{{ context.codeblock174 }}</code><span translate="" [translate-t]="t" translate-html=""><br>
 &lt;=&gt; <br>
 </span><code>{{ context.codeblock175 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock176 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock177 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock178 }}</code></p>
-<p translate="" [translate-t]="t">taon push:test &lt;=&gt; taon ptest  &lt;=&gt; taon ptests</p>
-<h4>styl</h4>
-<p><span translate="" [translate-t]="t" translate-html="">Quick commit and push style update (formatting, linting etc.) <br>
+<p translate="" [translate-t]="t">taon pstyl &lt;=&gt; taon pstyle</p>
+<h4>refactor</h4>
+<p><span translate="" [translate-t]="t" translate-html="">Quick commit and push code refactor <br>
 </span><code>{{ context.codeblock179 }}</code><span translate="" [translate-t]="t" translate-html=""><br>
 &lt;=&gt; <br>
 </span><code>{{ context.codeblock180 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock181 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock182 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock183 }}</code></p>
-<p translate="" [translate-t]="t">taon pstyl &lt;=&gt; taon pstyle</p>
-<h4>refactor</h4>
-<p><span translate="" [translate-t]="t" translate-html="">Quick commit and push code refactor <br>
+<p translate="" [translate-t]="t">taon pref &lt;=&gt; taon prefactor</p>
+<h4>release</h4>
+<p><span translate="" [translate-t]="t" translate-html="">Quick commit and push release commit <br>
 </span><code>{{ context.codeblock184 }}</code><span translate="" [translate-t]="t" translate-html=""><br>
 &lt;=&gt; <br>
 </span><code>{{ context.codeblock185 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock186 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock187 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
 </span><code>{{ context.codeblock188 }}</code></p>
-<p translate="" [translate-t]="t">taon pref &lt;=&gt; taon prefactor</p>
-<h4>release</h4>
-<p><span translate="" [translate-t]="t" translate-html="">Quick commit and push release commit <br>
-</span><code>{{ context.codeblock189 }}</code><span translate="" [translate-t]="t" translate-html=""><br>
-&lt;=&gt; <br>
-</span><code>{{ context.codeblock190 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
-</span><code>{{ context.codeblock191 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
-</span><code>{{ context.codeblock192 }}</code><span translate="" [translate-t]="t" translate-html=""> + <br>
-</span><code>{{ context.codeblock193 }}</code></p>
 <p translate="" [translate-t]="t">taon prel &lt;=&gt; taon prelase</p>
 </article>

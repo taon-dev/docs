@@ -1342,14 +1342,14 @@ export const TaonDev__DocsDocsIndexData = [
     "filePath": "@taon-dev/docs/docs/CLI.md",
     "headingId": "scenario-2-electron-application-and-npm-library",
     "headingTitle": "Scenario 2: Electron Application and NPM Library",
-    "text": "Scenario 2: Electron Application and NPM Library Use two terminals. Terminal 1 — Start the library-only watch build taon bwl Wait for the initial library build to complete. Terminal 2 — Start Electron taon ae This workflow allows library changes to be rebuilt while developing the Electron application.",
+    "text": "Scenario 2: Electron Application and NPM Library Use two terminals. Terminal 1 — Start the library-only watch build taon bw Wait for the initial library build to complete. Terminal 2 — Start Electron taon ae This workflow allows library changes to be rebuilt while developing the Electron application.",
     "api": false
   },
   {
     "filePath": "@taon-dev/docs/docs/CLI.md",
     "headingId": "scenario-3-vs-code-extension-and-npm-library",
     "headingTitle": "Scenario 3: VS Code Extension and NPM Library",
-    "text": "Scenario 3: VS Code Extension and NPM Library Terminal 1 — Start the library-only watch build taon bwl Wait for the initial library build to complete. Then start the VS Code debugger using the project's launch configuration. Each debugger start recreates the extension's menu options.",
+    "text": "Scenario 3: VS Code Extension and NPM Library Terminal 1 — Start the library-only watch build taon bw Wait for the initial library build to complete. Then start the VS Code debugger using the project's launch configuration. Each debugger start recreates the extension's menu options.",
     "api": false
   },
   {
@@ -1398,28 +1398,14 @@ export const TaonDev__DocsDocsIndexData = [
     "filePath": "@taon-dev/docs/docs/CLI.md",
     "headingId": "interactive-linking",
     "headingTitle": "Interactive Linking",
-    "text": "Interactive Linking taon link Opens the linking workflow.",
-    "api": false
-  },
-  {
-    "filePath": "@taon-dev/docs/docs/CLI.md",
-    "headingId": "local-linking",
-    "headingTitle": "Local Linking",
-    "text": "Local Linking taon link:local Links the CLI created in the current repository.",
+    "text": "Interactive Linking Linking menu taon link Links the CLI created in the current repository.",
     "api": false
   },
   {
     "filePath": "@taon-dev/docs/docs/CLI.md",
     "headingId": "global-development-linking",
     "headingTitle": "Global Development Linking",
-    "text": "Global Development Linking taon link:global Creates a global NPM link for the current project in development mode. Useful when testing changes to a CLI tool directly from its source repository.",
-    "api": false
-  },
-  {
-    "filePath": "@taon-dev/docs/docs/CLI.md",
-    "headingId": "release-branch-linking",
-    "headingTitle": "Release Branch Linking",
-    "text": "Release Branch Linking taon link:release Links the CLI built from a separate release branch. This can be useful when testing a released version without replacing the active development version.",
+    "text": "Global Development Linking taon link:global",
     "api": false
   },
   {
@@ -1482,7 +1468,7 @@ export const TaonDev__DocsDocsIndexData = [
     "filePath": "@taon-dev/docs/docs/CLI.md",
     "headingId": "11-quick-command-reference",
     "headingTitle": "11. Quick Command Reference",
-    "text": "11. Quick Command Reference Category Command Alias New project taon new — Development build taon build taon b Clean build taon clear:build taon cb Production build taon build:prod taon bp Watch build taon build:watch taon bw Library watch taon build:watch:lib taon bwl Application menu taon app — Web application taon app:normal taon an Cloudflare application taon app:cloudflare taon ac WebSQL application taon app:websql taon aw Electron application taon app:electron taon ae Release menu taon release taon r Automated release taon auto:release taon ar Project linking taon link — Global development link taon link:global — Branding taon branding — Code refactoring taon refactor — Add Cloudflare subproject taon sub add — Deploy Cloudflare subproject taon sub deploy — Local Cloudflare Worker taon sub dev —",
+    "text": "11. Quick Command Reference Category Command Alias New project taon new — Development build taon build taon b Clean build taon clear:build taon cb Production build taon build:prod taon bp Watch build taon build:watch taon bw Application menu taon app — Web application taon app:normal taon an Cloudflare application taon app:cloudflare taon ac WebSQL application taon app:websql taon aw Electron application taon app:electron taon ae Release menu taon release taon r Automated release taon auto:release taon ar Global development link taon link:global — Branding taon branding — Code refactoring taon refactor — Add Cloudflare subproject taon sub add — Deploy Cloudflare subproject taon sub deploy — Local Cloudflare Worker taon sub dev —",
     "api": false
   },
   {
@@ -4394,14 +4380,14 @@ export const TaonDev__DocsDocsIndexData = [
     "filePath": "tnp/docs/COMMANDS.md",
     "headingId": "scenario-2-electron-application-and-npm-library",
     "headingTitle": "Scenario 2: Electron Application and NPM Library",
-    "text": "Scenario 2: Electron Application and NPM Library Use two terminals. Terminal 1 — Start the library-only watch build taon bwl Wait for the initial library build to complete. Terminal 2 — Start Electron taon ae This workflow allows library changes to be rebuilt while developing the Electron application.",
+    "text": "Scenario 2: Electron Application and NPM Library Use two terminals. Terminal 1 — Start the library-only watch build taon bw Wait for the initial library build to complete. Terminal 2 — Start Electron taon ae This workflow allows library changes to be rebuilt while developing the Electron application.",
     "api": false
   },
   {
     "filePath": "tnp/docs/COMMANDS.md",
     "headingId": "scenario-3-vs-code-extension-and-npm-library",
     "headingTitle": "Scenario 3: VS Code Extension and NPM Library",
-    "text": "Scenario 3: VS Code Extension and NPM Library Terminal 1 — Start the library-only watch build taon bwl Wait for the initial library build to complete. Then start the VS Code debugger using the project's launch configuration. Each debugger start recreates the extension's menu options.",
+    "text": "Scenario 3: VS Code Extension and NPM Library Terminal 1 — Start the library-only watch build taon bw Wait for the initial library build to complete. Then start the VS Code debugger using the project's launch configuration. Each debugger start recreates the extension's menu options.",
     "api": false
   },
   {
@@ -4450,28 +4436,14 @@ export const TaonDev__DocsDocsIndexData = [
     "filePath": "tnp/docs/COMMANDS.md",
     "headingId": "interactive-linking",
     "headingTitle": "Interactive Linking",
-    "text": "Interactive Linking taon link Opens the linking workflow.",
-    "api": false
-  },
-  {
-    "filePath": "tnp/docs/COMMANDS.md",
-    "headingId": "local-linking",
-    "headingTitle": "Local Linking",
-    "text": "Local Linking taon link:local Links the CLI created in the current repository.",
+    "text": "Interactive Linking Linking menu taon link Links the CLI created in the current repository.",
     "api": false
   },
   {
     "filePath": "tnp/docs/COMMANDS.md",
     "headingId": "global-development-linking",
     "headingTitle": "Global Development Linking",
-    "text": "Global Development Linking taon link:global Creates a global NPM link for the current project in development mode. Useful when testing changes to a CLI tool directly from its source repository.",
-    "api": false
-  },
-  {
-    "filePath": "tnp/docs/COMMANDS.md",
-    "headingId": "release-branch-linking",
-    "headingTitle": "Release Branch Linking",
-    "text": "Release Branch Linking taon link:release Links the CLI built from a separate release branch. This can be useful when testing a released version without replacing the active development version.",
+    "text": "Global Development Linking taon link:global",
     "api": false
   },
   {
@@ -4534,7 +4506,7 @@ export const TaonDev__DocsDocsIndexData = [
     "filePath": "tnp/docs/COMMANDS.md",
     "headingId": "11-quick-command-reference",
     "headingTitle": "11. Quick Command Reference",
-    "text": "11. Quick Command Reference Category Command Alias New project taon new — Development build taon build taon b Clean build taon clear:build taon cb Production build taon build:prod taon bp Watch build taon build:watch taon bw Library watch taon build:watch:lib taon bwl Application menu taon app — Web application taon app:normal taon an Cloudflare application taon app:cloudflare taon ac WebSQL application taon app:websql taon aw Electron application taon app:electron taon ae Release menu taon release taon r Automated release taon auto:release taon ar Project linking taon link — Global development link taon link:global — Branding taon branding — Code refactoring taon refactor — Add Cloudflare subproject taon sub add — Deploy Cloudflare subproject taon sub deploy — Local Cloudflare Worker taon sub dev —",
+    "text": "11. Quick Command Reference Category Command Alias New project taon new — Development build taon build taon b Clean build taon clear:build taon cb Production build taon build:prod taon bp Watch build taon build:watch taon bw Application menu taon app — Web application taon app:normal taon an Cloudflare application taon app:cloudflare taon ac WebSQL application taon app:websql taon aw Electron application taon app:electron taon ae Release menu taon release taon r Automated release taon auto:release taon ar Global development link taon link:global — Branding taon branding — Code refactoring taon refactor — Add Cloudflare subproject taon sub add — Deploy Cloudflare subproject taon sub deploy — Local Cloudflare Worker taon sub dev —",
     "api": false
   },
   {

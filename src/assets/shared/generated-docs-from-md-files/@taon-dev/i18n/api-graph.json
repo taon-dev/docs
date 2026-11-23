@@ -25,26 +25,6 @@
         "src/lib/build-info._auto-generated_.ts#CURRENT_PACKAGE_VERSION"
       ]
     },
-    "src/lib/i18n/translation.ts.en-US.i18n.data.ts": {
-      "id": "src/lib/i18n/translation.ts.en-US.i18n.data.ts",
-      "imports": [],
-      "exports": [
-        "EnUsTraslationOverrideSrcLibTranslationTs"
-      ],
-      "symbolIds": [
-        "src/lib/i18n/translation.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTranslationTs"
-      ]
-    },
-    "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts": {
-      "id": "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts",
-      "imports": [],
-      "exports": [
-        "PlPlTraslationOverrideSrcLibTranslationTs"
-      ],
-      "symbolIds": [
-        "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTranslationTs"
-      ]
-    },
     "src/lib/local-translation.ts": {
       "id": "src/lib/local-translation.ts",
       "imports": [
@@ -781,74 +761,10 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "\"21.0.69\"",
+        "text": "\"21.0.70\"",
         "symbolIds": []
       },
-      "value": "'21.0.69'",
-      "taonCategory": "other"
-    },
-    "src/lib/i18n/translation.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTranslationTs": {
-      "id": "src/lib/i18n/translation.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTranslationTs",
-      "name": "EnUsTraslationOverrideSrcLibTranslationTs",
-      "kind": "interface",
-      "fileId": "src/lib/i18n/translation.ts.en-US.i18n.data.ts",
-      "locations": [
-        {
-          "fileId": "src/lib/i18n/translation.ts.en-US.i18n.data.ts",
-          "line": 3,
-          "column": 1
-        }
-      ],
-      "exported": true,
-      "exportPaths": [
-        "src/lib/i18n/translation.ts.en-US.i18n.data.ts"
-      ],
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "modifiers": [
-        "export"
-      ],
-      "typeParameters": [],
-      "heritage": [],
-      "members": [
-        "src/lib/i18n/translation.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTranslationTs::property:\"en-US\""
-      ],
-      "signatures": [],
-      "taonCategory": "other"
-    },
-    "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTranslationTs": {
-      "id": "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTranslationTs",
-      "name": "PlPlTraslationOverrideSrcLibTranslationTs",
-      "kind": "interface",
-      "fileId": "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts",
-      "locations": [
-        {
-          "fileId": "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts",
-          "line": 3,
-          "column": 1
-        }
-      ],
-      "exported": true,
-      "exportPaths": [
-        "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts"
-      ],
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "modifiers": [
-        "export"
-      ],
-      "typeParameters": [],
-      "heritage": [],
-      "members": [
-        "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTranslationTs::property:\"pl-PL\""
-      ],
-      "signatures": [],
+      "value": "'21.0.70'",
       "taonCategory": "other"
     },
     "src/lib/local-translation.ts#TranslationOptions": {
@@ -3797,7 +3713,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/compiler/cjs/types/compiler\").ParsedTemplate",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/compiler/cjs/types/compiler\").ParsedTemplate",
         "symbolIds": []
       },
       "value": "parseTemplate(html, fileName, {\n      preserveWhitespaces: true,\n    })",
@@ -7213,7 +7129,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/typescript/lib/typescript\").SourceFile",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/typescript/lib/typescript\").SourceFile",
         "symbolIds": []
       },
       "value": "createSourceFile(\n      'inline-component.ts',\n      content,\n      ScriptTarget.Latest,\n      true,\n      ScriptKind.TS,\n    )",
@@ -7513,7 +7429,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/typescript/lib/typescript\").LeftHandSideExpression",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/typescript/lib/typescript\").LeftHandSideExpression",
         "symbolIds": []
       },
       "value": "decorator.expression",
@@ -7625,7 +7541,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/typescript/lib/typescript\").ObjectLiteralElementLike",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/typescript/lib/typescript\").ObjectLiteralElementLike",
         "symbolIds": []
       },
       "value": "firstArg.properties.find(prop => {\n      return (\n        isPropertyAssignment(prop) &&\n        isIdentifier(prop.name) &&\n        prop.name.text === 'template'\n      );\n    })",
@@ -7943,7 +7859,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/compiler/cjs/types/compiler\").ParsedTemplate",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/compiler/cjs/types/compiler\").ParsedTemplate",
         "symbolIds": []
       },
       "value": "parseTemplate(html, 'template.html', {\n        preserveWhitespaces: true,\n      })",
@@ -11174,62 +11090,6 @@
     }
   },
   "members": {
-    "src/lib/i18n/translation.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTranslationTs::property:\"en-US\"": {
-      "id": "src/lib/i18n/translation.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTranslationTs::property:\"en-US\"",
-      "ownerId": "src/lib/i18n/translation.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTranslationTs",
-      "name": "\"en-US\"",
-      "kind": "property",
-      "visibility": "public",
-      "static": false,
-      "readonly": false,
-      "optional": false,
-      "abstract": false,
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "location": {
-        "fileId": "src/lib/i18n/translation.ts.en-US.i18n.data.ts",
-        "line": 4,
-        "column": 3
-      },
-      "signatures": [],
-      "type": {
-        "text": "{ \"\": { \"amazing better place\"?: string; \"asdasd\"?: string; \"hello\"?: string; }; }",
-        "symbolIds": [
-          "src/lib/i18n/translation.ts.en-US.i18n.data.ts#__type"
-        ]
-      }
-    },
-    "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTranslationTs::property:\"pl-PL\"": {
-      "id": "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTranslationTs::property:\"pl-PL\"",
-      "ownerId": "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTranslationTs",
-      "name": "\"pl-PL\"",
-      "kind": "property",
-      "visibility": "public",
-      "static": false,
-      "readonly": false,
-      "optional": false,
-      "abstract": false,
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "location": {
-        "fileId": "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts",
-        "line": 4,
-        "column": 3
-      },
-      "signatures": [],
-      "type": {
-        "text": "{ \"\": { \"amazing better place\"?: string; \"asdasd\"?: string; \"hello\"?: string; }; }",
-        "symbolIds": [
-          "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts#__type"
-        ]
-      }
-    },
     "src/lib/local-translation.ts#TranslationOptions::property:text": {
       "id": "src/lib/local-translation.ts#TranslationOptions::property:text",
       "ownerId": "src/lib/local-translation.ts#TranslationOptions",
@@ -12364,7 +12224,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<\"pl-PL\" | \"en-US\" | \"en-GB\" | \"de-DE\" | \"fr-FR\" | \"es-ES\" | \"zh-CN\">",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<\"pl-PL\" | \"en-US\" | \"en-GB\" | \"de-DE\" | \"fr-FR\" | \"es-ES\" | \"zh-CN\">",
         "symbolIds": []
       }
     },
@@ -12442,7 +12302,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<UtilsI18n.LangOption[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<UtilsI18n.LangOption[]>",
         "symbolIds": []
       }
     },
@@ -12606,7 +12466,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<(\"pl-PL\" | \"en-US\" | \"en-GB\" | \"de-DE\" | \"fr-FR\" | \"es-ES\" | \"zh-CN\")[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<(\"pl-PL\" | \"en-US\" | \"en-GB\" | \"de-DE\" | \"fr-FR\" | \"es-ES\" | \"zh-CN\")[]>",
         "symbolIds": []
       }
     },
@@ -12658,7 +12518,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<boolean>",
         "symbolIds": []
       }
     },
@@ -15640,16 +15500,6 @@
   },
   "relations": [
     {
-      "fromId": "src/lib/i18n/translation.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTranslationTs::property:\"en-US\"",
-      "toId": "src/lib/i18n/translation.ts.en-US.i18n.data.ts#__type",
-      "kind": "property-type"
-    },
-    {
-      "fromId": "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTranslationTs::property:\"pl-PL\"",
-      "toId": "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts#__type",
-      "kind": "property-type"
-    },
-    {
       "fromId": "src/lib/local-translation.ts#MakeSureAiDownloadedOptions::property:onProgress",
       "toId": "src/lib/local-translation.ts#__type",
       "kind": "property-type"
@@ -16015,16 +15865,6 @@
       "moduleId": "src/lib/build-info._auto-generated_.ts",
       "name": "CURRENT_PACKAGE_VERSION",
       "symbolId": "src/lib/build-info._auto-generated_.ts#CURRENT_PACKAGE_VERSION"
-    },
-    {
-      "moduleId": "src/lib/i18n/translation.ts.en-US.i18n.data.ts",
-      "name": "EnUsTraslationOverrideSrcLibTranslationTs",
-      "symbolId": "src/lib/i18n/translation.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTranslationTs"
-    },
-    {
-      "moduleId": "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts",
-      "name": "PlPlTraslationOverrideSrcLibTranslationTs",
-      "symbolId": "src/lib/i18n/translation.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTranslationTs"
     },
     {
       "moduleId": "src/lib/local-translation.ts",

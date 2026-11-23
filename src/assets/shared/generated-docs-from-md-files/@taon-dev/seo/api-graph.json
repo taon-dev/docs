@@ -45,6 +45,26 @@
         "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs"
       ]
     },
+    "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts": {
+      "id": "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts",
+      "imports": [],
+      "exports": [
+        "EnUsTraslationOverrideSrcLibTaonSeoProviderTs"
+      ],
+      "symbolIds": [
+        "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonSeoProviderTs"
+      ]
+    },
+    "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts": {
+      "id": "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts",
+      "imports": [],
+      "exports": [
+        "PlPlTraslationOverrideSrcLibTaonSeoProviderTs"
+      ],
+      "symbolIds": [
+        "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonSeoProviderTs"
+      ]
+    },
     "src/lib/i18n/lib.translation.ts": {
       "id": "src/lib/i18n/lib.translation.ts",
       "imports": [
@@ -1418,10 +1438,10 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "\"21.0.5\"",
+        "text": "\"21.0.25\"",
         "symbolIds": []
       },
-      "value": "'21.0.5'",
+      "value": "'21.0.25'",
       "taonCategory": "other"
     },
     "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs": {
@@ -1488,6 +1508,70 @@
       "signatures": [],
       "taonCategory": "other"
     },
+    "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonSeoProviderTs": {
+      "id": "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonSeoProviderTs",
+      "name": "EnUsTraslationOverrideSrcLibTaonSeoProviderTs",
+      "kind": "interface",
+      "fileId": "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts",
+          "line": 3,
+          "column": 1
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts"
+      ],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [
+        "export"
+      ],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [
+        "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonSeoProviderTs::property:\"en-US\""
+      ],
+      "signatures": [],
+      "taonCategory": "other"
+    },
+    "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonSeoProviderTs": {
+      "id": "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonSeoProviderTs",
+      "name": "PlPlTraslationOverrideSrcLibTaonSeoProviderTs",
+      "kind": "interface",
+      "fileId": "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts",
+          "line": 3,
+          "column": 1
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts"
+      ],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [
+        "export"
+      ],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [
+        "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonSeoProviderTs::property:\"pl-PL\""
+      ],
+      "signatures": [],
+      "taonCategory": "other"
+    },
     "src/lib/i18n/lib.translation.ts#LibOverride": {
       "id": "src/lib/i18n/lib.translation.ts#LibOverride",
       "name": "LibOverride",
@@ -1517,8 +1601,14 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "any",
-        "symbolIds": []
+        "text": "LibOverride",
+        "symbolIds": [
+          "src/lib/i18n/lib.translation.ts#LibOverride",
+          "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
+          "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
+          "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonSeoProviderTs",
+          "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonSeoProviderTs"
+        ]
       },
       "taonCategory": "other"
     },
@@ -1620,7 +1710,7 @@
         {
           "kind": "extends",
           "type": {
-            "text": "BaseCommandLineFeature<{}, BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-helpers/src\").BaseProjectResolver<BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>>",
+            "text": "BaseCommandLineFeature<{}, BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-helpers/src\").BaseProjectResolver<BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>>",
             "symbolIds": [
               "src/lib/start-cli.ts#$Global"
             ]
@@ -1659,7 +1749,7 @@
         {
           "kind": "extends",
           "type": {
-            "text": "BaseCommandLineFeature<{ anyCLIparamsHere: string; }, BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-helpers/src\").BaseProjectResolver<BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>>",
+            "text": "BaseCommandLineFeature<{ anyCLIparamsHere: string; }, BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-helpers/src\").BaseProjectResolver<BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>>",
             "symbolIds": [
               "src/lib/start-cli.ts#__type",
               "src/lib/start-cli.ts#$Version"
@@ -3212,7 +3302,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthContextEntity<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthContextEntity<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema>",
         "symbolIds": []
       },
       "value": "await this.authorization.getContext(\n      Number(req.userId),\n      req.sessionId,\n    )",
@@ -3328,7 +3418,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "string | import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/qs/index\").ParsedQs | (string | import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/qs/index\").ParsedQs)[]",
+        "text": "string | import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/qs/index\").ParsedQs | (string | import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/qs/index\").ParsedQs)[]",
         "symbolIds": []
       },
       "value": "params.req.query.key",
@@ -3544,7 +3634,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").TaonStorageObject[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").TaonStorageObject[]>",
         "symbolIds": []
       },
       "value": "await this.images.uploadFormDataToServer(data).request!()",
@@ -3575,7 +3665,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").TaonStorageObject[]",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").TaonStorageObject[]",
         "symbolIds": []
       },
       "value": "response.body.json",
@@ -3724,7 +3814,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonSeoPageEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonSeoPageEntity>",
         "symbolIds": [
           "src/lib/taon-seo-page/taon-seo-page.entity.ts#TaonSeoPageEntity"
         ]
@@ -4019,7 +4109,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonSeoPageAbstractContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  entities: { TaonSeoPageEntity },\n  controllers: { TaonSeoPageController },\n  repositories: {\n    // TaonSeoPageKvRepository\n    TaonSeoPageRepository,\n  },\n  providers: { TaonSeoPageProvider },\n  // middlewares: { TaonSeoPageMiddleware },\n  // subscribers: { TaonSeoPageSubscriber },\n}))",
@@ -4250,7 +4340,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonSeoSettingsEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonSeoSettingsEntity>",
         "symbolIds": [
           "src/lib/taon-seo-settings/taon-seo-settings.entity.ts#TaonSeoSettingsEntity"
         ]
@@ -4505,7 +4595,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonSeoSettingsAbstractContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  entities: { TaonSeoSettingsEntity },\n  controllers: { TaonSeoSettingsController },\n  repositories: {\n    // TaonSeoSettingsKvRepository\n    TaonSeoSettingsRepository,\n  },\n  providers: { TaonSeoSettingsProvider },\n  // middlewares: { TaonSeoSettingsMiddleware },\n  // subscribers: { TaonSeoSettingsSubscriber },\n}))",
@@ -4540,7 +4630,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonSeoAbstractContext',\n  abstract: true,\n  contexts: {\n    TaonSessionAbstractContext,\n\n    // local\n    TaonSeoPageAbstractContext,\n    TaonSeoSettingsAbstractContext,\n  },\n  controllers: { TaonSeoImageController },\n  providers: { TaonSeoProvider },\n}))",
@@ -4763,7 +4853,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/router/types/_router_module-chunk\", { with: { \"resolution-mode\": \"import\" } }).ActivatedRouteSnapshot",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/router/types/_router_module-chunk\", { with: { \"resolution-mode\": \"import\" } }).ActivatedRouteSnapshot",
         "symbolIds": []
       },
       "value": "this.router.routerState.snapshot.root",
@@ -4794,7 +4884,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/router/types/_router_module-chunk\", { with: { \"resolution-mode\": \"import\" } }).ActivatedRouteSnapshot",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/router/types/_router_module-chunk\", { with: { \"resolution-mode\": \"import\" } }).ActivatedRouteSnapshot",
         "symbolIds": []
       },
       "value": "route.children.find(\n        candidate => candidate.outlet === PRIMARY_OUTLET,\n      )",
@@ -5359,7 +5449,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<TaonSeoPageEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<TaonSeoPageEntity>",
         "symbolIds": [
           "src/lib/taon-seo-page/taon-seo-page.entity.ts#TaonSeoPageEntity"
         ]
@@ -6782,7 +6872,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").EntityMetadata",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").EntityMetadata",
         "symbolIds": []
       },
       "value": "queryRunner.connection.getMetadata(entity)",
@@ -6968,7 +7058,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonSeoSettingsEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonSeoSettingsEntity>",
         "symbolIds": [
           "src/lib/taon-seo-settings/taon-seo-settings.entity.ts#TaonSeoSettingsEntity"
         ]
@@ -7447,6 +7537,62 @@
         "text": "{ \"\": { \"My Translated Company Name!\"?: string; }; }",
         "symbolIds": [
           "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#__type"
+        ]
+      }
+    },
+    "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonSeoProviderTs::property:\"en-US\"": {
+      "id": "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonSeoProviderTs::property:\"en-US\"",
+      "ownerId": "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonSeoProviderTs",
+      "name": "\"en-US\"",
+      "kind": "property",
+      "visibility": "public",
+      "static": false,
+      "readonly": false,
+      "optional": false,
+      "abstract": false,
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "location": {
+        "fileId": "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts",
+        "line": 4,
+        "column": 3
+      },
+      "signatures": [],
+      "type": {
+        "text": "{ \"\": { \"Administrator access is required for seo management.\"?: string; }; }",
+        "symbolIds": [
+          "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts#__type"
+        ]
+      }
+    },
+    "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonSeoProviderTs::property:\"pl-PL\"": {
+      "id": "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonSeoProviderTs::property:\"pl-PL\"",
+      "ownerId": "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonSeoProviderTs",
+      "name": "\"pl-PL\"",
+      "kind": "property",
+      "visibility": "public",
+      "static": false,
+      "readonly": false,
+      "optional": false,
+      "abstract": false,
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "location": {
+        "fileId": "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts",
+        "line": 4,
+        "column": 3
+      },
+      "signatures": [],
+      "type": {
+        "text": "{ \"\": { \"Administrator access is required for seo management.\"?: string; }; }",
+        "symbolIds": [
+          "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts#__type"
         ]
       }
     },
@@ -8420,7 +8566,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "TaonAuthContextRepository<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthContextEntity<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema>>",
+        "text": "TaonAuthContextRepository<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthContextEntity<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema>>",
         "symbolIds": []
       }
     },
@@ -8837,7 +8983,7 @@
       },
       "signatures": [
         {
-          "text": "(key: string): import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<string>",
+          "text": "(key: string): import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<string>",
           "parameters": [
             {
               "name": "key",
@@ -8854,7 +9000,7 @@
             }
           ],
           "returnType": {
-            "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<string>",
+            "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<string>",
             "symbolIds": []
           },
           "typeParameters": []
@@ -10059,7 +10205,7 @@
       },
       "signatures": [
         {
-          "text": "(path: string): import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/Users/dfilipiak/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageEntity>",
+          "text": "(path: string): import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/home/dfilipiak/projects/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageEntity>",
           "parameters": [
             {
               "name": "path",
@@ -10076,7 +10222,7 @@
             }
           ],
           "returnType": {
-            "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/Users/dfilipiak/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageEntity>",
+            "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/home/dfilipiak/projects/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageEntity>",
             "symbolIds": [
               "src/lib/taon-seo-page/taon-seo-page.entity.ts#TaonSeoPageEntity"
             ]
@@ -10107,7 +10253,7 @@
       },
       "signatures": [
         {
-          "text": "(input: TaonSeoPageInput): import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/Users/dfilipiak/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageEntity>",
+          "text": "(input: TaonSeoPageInput): import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/home/dfilipiak/projects/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageEntity>",
           "parameters": [
             {
               "name": "input",
@@ -10126,7 +10272,7 @@
             }
           ],
           "returnType": {
-            "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/Users/dfilipiak/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageEntity>",
+            "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/home/dfilipiak/projects/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageEntity>",
             "symbolIds": [
               "src/lib/taon-seo-page/taon-seo-page.entity.ts#TaonSeoPageEntity"
             ]
@@ -10157,7 +10303,7 @@
       },
       "signatures": [
         {
-          "text": "(id: number, input: TaonSeoPageInput): import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/Users/dfilipiak/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageEntity>",
+          "text": "(id: number, input: TaonSeoPageInput): import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/home/dfilipiak/projects/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageEntity>",
           "parameters": [
             {
               "name": "id",
@@ -10189,7 +10335,7 @@
             }
           ],
           "returnType": {
-            "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/Users/dfilipiak/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageEntity>",
+            "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/home/dfilipiak/projects/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageEntity>",
             "symbolIds": [
               "src/lib/taon-seo-page/taon-seo-page.entity.ts#TaonSeoPageEntity"
             ]
@@ -10220,7 +10366,7 @@
       },
       "signatures": [
         {
-          "text": "(id: number): import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/Users/dfilipiak/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageEntity>",
+          "text": "(id: number): import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/home/dfilipiak/projects/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageEntity>",
           "parameters": [
             {
               "name": "id",
@@ -10237,7 +10383,7 @@
             }
           ],
           "returnType": {
-            "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/Users/dfilipiak/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageEntity>",
+            "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/home/dfilipiak/projects/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageEntity>",
             "symbolIds": [
               "src/lib/taon-seo-page/taon-seo-page.entity.ts#TaonSeoPageEntity"
             ]
@@ -10296,10 +10442,10 @@
       },
       "signatures": [
         {
-          "text": "(): import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/Users/dfilipiak/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoSettingsEntity>",
+          "text": "(): import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/home/dfilipiak/projects/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoSettingsEntity>",
           "parameters": [],
           "returnType": {
-            "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/Users/dfilipiak/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoSettingsEntity>",
+            "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/home/dfilipiak/projects/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoSettingsEntity>",
             "symbolIds": [
               "src/lib/taon-seo-settings/taon-seo-settings.entity.ts#TaonSeoSettingsEntity"
             ]
@@ -10330,7 +10476,7 @@
       },
       "signatures": [
         {
-          "text": "(input: TaonSeoSettingsInput): import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/Users/dfilipiak/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoSettingsEntity>",
+          "text": "(input: TaonSeoSettingsInput): import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/home/dfilipiak/projects/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoSettingsEntity>",
           "parameters": [
             {
               "name": "input",
@@ -10349,7 +10495,7 @@
             }
           ],
           "returnType": {
-            "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/Users/dfilipiak/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoSettingsEntity>",
+            "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/rxjs/dist/types/index\").Observable<import(\"/home/dfilipiak/projects/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoSettingsEntity>",
             "symbolIds": [
               "src/lib/taon-seo-settings/taon-seo-settings.entity.ts#TaonSeoSettingsEntity"
             ]
@@ -10380,7 +10526,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -10947,7 +11093,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).ModelSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).ModelSignal<string>",
         "symbolIds": []
       }
     },
@@ -10973,7 +11119,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).ModelSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).ModelSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -10999,7 +11145,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).ModelSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).ModelSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -11025,7 +11171,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -11153,7 +11299,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -11179,7 +11325,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -11205,7 +11351,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -11231,7 +11377,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -11257,7 +11403,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -11461,7 +11607,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -11487,7 +11633,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -11513,7 +11659,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -11770,7 +11916,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -11796,7 +11942,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<number>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<number>",
         "symbolIds": []
       }
     },
@@ -11874,10 +12020,10 @@
       },
       "signatures": [
         {
-          "text": "(): import(\"/Users/dfilipiak/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageController",
+          "text": "(): import(\"/home/dfilipiak/projects/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageController",
           "parameters": [],
           "returnType": {
-            "text": "import(\"/Users/dfilipiak/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageController",
+            "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageController",
             "symbolIds": [
               "src/lib/taon-seo-page/taon-seo-page.controller.ts#TaonSeoPageController"
             ]
@@ -11886,7 +12032,7 @@
         }
       ],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageController",
+        "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/seo/src/lib/index._auto-generated_\").TaonSeoPageController",
         "symbolIds": [
           "src/lib/taon-seo-page/taon-seo-page.controller.ts#TaonSeoPageController"
         ]
@@ -12512,7 +12658,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "TaonAuthContextRepository<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthContextEntity<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema>>",
+        "text": "TaonAuthContextRepository<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthContextEntity<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema>>",
         "symbolIds": []
       }
     },
@@ -12823,6 +12969,36 @@
       "fromId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs::property:\"pl-PL\"",
       "toId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#__type",
       "kind": "property-type"
+    },
+    {
+      "fromId": "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonSeoProviderTs::property:\"en-US\"",
+      "toId": "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts#__type",
+      "kind": "property-type"
+    },
+    {
+      "fromId": "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonSeoProviderTs::property:\"pl-PL\"",
+      "toId": "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts#__type",
+      "kind": "property-type"
+    },
+    {
+      "fromId": "src/lib/i18n/lib.translation.ts#LibOverride",
+      "toId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
+      "kind": "references"
+    },
+    {
+      "fromId": "src/lib/i18n/lib.translation.ts#LibOverride",
+      "toId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
+      "kind": "references"
+    },
+    {
+      "fromId": "src/lib/i18n/lib.translation.ts#LibOverride",
+      "toId": "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonSeoProviderTs",
+      "kind": "references"
+    },
+    {
+      "fromId": "src/lib/i18n/lib.translation.ts#LibOverride",
+      "toId": "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonSeoProviderTs",
+      "kind": "references"
     },
     {
       "fromId": "src/lib/start-cli.ts#$Version",
@@ -13395,6 +13571,16 @@
       "moduleId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts",
       "name": "PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
       "symbolId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs"
+    },
+    {
+      "moduleId": "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts",
+      "name": "EnUsTraslationOverrideSrcLibTaonSeoProviderTs",
+      "symbolId": "src/lib/i18n/taon-seo.provider.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonSeoProviderTs"
+    },
+    {
+      "moduleId": "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts",
+      "name": "PlPlTraslationOverrideSrcLibTaonSeoProviderTs",
+      "symbolId": "src/lib/i18n/taon-seo.provider.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonSeoProviderTs"
     },
     {
       "moduleId": "src/lib/i18n/lib.translation.ts",

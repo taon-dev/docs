@@ -7484,7 +7484,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "CoreProject<BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>",
+        "text": "CoreProject<BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>",
         "symbolIds": [
           "src/lib/base/core-project.ts#CoreProject",
           "src/lib/base/classes/base-project.ts#BaseProject"
@@ -7553,7 +7553,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "CoreProject<BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>",
+        "text": "CoreProject<BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>",
         "symbolIds": [
           "src/lib/base/core-project.ts#CoreProject",
           "src/lib/base/classes/base-project.ts#BaseProject"
@@ -8120,10 +8120,10 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "\"21.0.144\"",
+        "text": "\"21.0.148\"",
         "symbolIds": []
       },
-      "value": "'21.0.144'",
+      "value": "'21.0.148'",
       "taonCategory": "other"
     },
     "src/lib/base/classes/base-db.ts#BaseDb": {
@@ -8362,7 +8362,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").Low<{ config: { [key: string]: string | number | boolean | null; }; }>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").Low<{ config: { [key: string]: string | number | boolean | null; }; }>",
         "symbolIds": [
           "src/lib/base/config-database.ts#defaultDb"
         ]
@@ -8689,7 +8689,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").Low<{ projects: { location: string; }[]; }>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").Low<{ projects: { location: string; }[]; }>",
         "symbolIds": [
           "src/lib/base/project-database.ts#defaultDb"
         ]
@@ -9159,7 +9159,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<Port>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<Port>",
         "symbolIds": [
           "src/lib/base/tcp-udp-ports/ports.entity.ts#Port"
         ]
@@ -9281,7 +9281,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<Port>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<Port>",
         "symbolIds": [
           "src/lib/base/tcp-udp-ports/ports.entity.ts#Port"
         ]
@@ -9601,7 +9601,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<Port>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<Port>",
         "symbolIds": [
           "src/lib/base/tcp-udp-ports/ports.entity.ts#Port"
         ]
@@ -9787,7 +9787,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<Port>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<Port>",
         "symbolIds": [
           "src/lib/base/tcp-udp-ports/ports.entity.ts#Port"
         ]
@@ -9952,7 +9952,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<Port>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<Port>",
         "symbolIds": [
           "src/lib/base/tcp-udp-ports/ports.entity.ts#Port"
         ]
@@ -10092,7 +10092,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "() => { readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "() => { readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "Taon.createContextTemplate(() => ({\n  contextName: 'TaonPortsContext',\n  appId: 'dev.taon.taon-ports-worker',\n  contexts: { TaonBaseContext },\n  controllers: { TaonPortsController },\n  entities: { Port },\n  migrations: { ...MIGRATIONS_CLASSES_FOR_TaonPortsContext },\n  skipWritingServerRoutes: true,\n  ...getBaseCliWorkerDatabaseConfig('ports-worker', 'DROP_DB__RUN_MIGRATIONS'),\n  logs: {\n    migrations: true,\n  },\n}))",
@@ -10191,7 +10191,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/tnp-helpers/src/lib/index\").TaonPortsController",
+        "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/tnp-helpers/src/lib/index\").TaonPortsController",
         "symbolIds": [
           "src/lib/base/tcp-udp-ports/ports.controller.ts#TaonPortsController"
         ]
@@ -10578,7 +10578,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/tnp-helpers/src/lib/index\").TaonPortsController",
+        "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/tnp-helpers/src/lib/index\").TaonPortsController",
         "symbolIds": [
           "src/lib/base/tcp-udp-ports/ports.controller.ts#TaonPortsController"
         ]
@@ -10611,7 +10611,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<Port[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<Port[]>",
         "symbolIds": [
           "src/lib/base/tcp-udp-ports/ports.entity.ts#Port"
         ]
@@ -10905,7 +10905,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>",
+        "text": "BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>",
         "symbolIds": [
           "src/lib/base/classes/base-project.ts#BaseProject"
         ]
@@ -11043,7 +11043,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>",
+        "text": "BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>",
         "symbolIds": [
           "src/lib/base/classes/base-project.ts#BaseProject"
         ]
@@ -11107,7 +11107,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "PROJECT & BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>",
+        "text": "PROJECT & BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>",
         "symbolIds": [
           "src/lib/base/classes/base-project-resolver.ts#BaseProjectResolver.PROJECT",
           "src/lib/base/classes/base-project.ts#BaseProject"
@@ -11295,7 +11295,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>",
+        "text": "BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>",
         "symbolIds": [
           "src/lib/base/classes/base-project.ts#BaseProject"
         ]
@@ -11923,7 +11923,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "(() => void) & import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/lodash/index\").Cancelable",
+        "text": "(() => void) & import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/lodash/index\").Cancelable",
         "symbolIds": [
           "src/lib/base/classes/base-library-build.ts#(Anonymous function)"
         ]
@@ -28294,7 +28294,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").Low<{ projects: { location: string; }[]; }>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").Low<{ projects: { location: string; }[]; }>",
         "symbolIds": [
           "src/lib/base/project-database.ts#defaultDb"
         ]
@@ -32768,7 +32768,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>[]",
+        "text": "BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>[]",
         "symbolIds": [
           "src/lib/base/classes/base-project.ts#BaseProject"
         ]
@@ -32971,7 +32971,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>[]",
+        "text": "BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>[]",
         "symbolIds": [
           "src/lib/base/classes/base-project.ts#BaseProject"
         ]
@@ -39022,7 +39022,7 @@
         },
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4754,
+          "line": 4756,
           "column": 13
         }
       ],
@@ -41428,7 +41428,7 @@
         },
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4278,
+          "line": 4280,
           "column": 9
         }
       ],
@@ -41473,7 +41473,7 @@
         },
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4720,
+          "line": 4722,
           "column": 13
         }
       ],
@@ -41845,7 +41845,7 @@
         },
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4580,
+          "line": 4582,
           "column": 9
         }
       ],
@@ -41881,7 +41881,7 @@
         },
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4186,
+          "line": 4188,
           "column": 11
         }
       ],
@@ -45183,7 +45183,7 @@
         },
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4294,
+          "line": 4296,
           "column": 14
         }
       ],
@@ -50942,7 +50942,7 @@
         },
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4210,
+          "line": 4212,
           "column": 9
         }
       ],
@@ -51626,7 +51626,7 @@
         "text": "RegExp[]",
         "symbolIds": []
       },
-      "value": "[\n      '^.vscode$',\n      '^node_modules$',\n      ...Helpers.values(config.tempFolders).map(v => `^${v}$`),\n      '^e2e$',\n      '^tmp.*',\n      '^dist.*',\n      '^tests$',\n      '^module$',\n      '^browser',\n      'bundle*',\n      '^components$',\n      '.git',\n      '^bin$',\n      '^custom$',\n      '^linked-repos$',\n    ].map(s => new RegExp(s))",
+      "value": "[\n      '^.vscode$',\n      '^node_modules$',\n      ...Helpers.values(config.tempFolders)\n        .filter(f => f !== 'docs')\n        .map(v => `^${v}$`),\n      '^e2e$',\n      '^tmp.*',\n      '^dist.*',\n      '^tests$',\n      '^module$',\n      '^browser',\n      'bundle*',\n      '^components$',\n      '.git',\n      '^bin$',\n      '^custom$',\n      '^linked-repos$',\n    ].map(s => new RegExp(s))",
       "taonCategory": "other"
     },
     "src/lib/helpers/helpers.ts#getDirectories": {
@@ -51954,7 +51954,7 @@
           "src/lib/helpers/helpers.ts#checkIfNameAllowedForTaonProj"
         ]
       },
-      "value": "(\n    folderName: string,\n  ): boolean => {\n    //#region @backendFunc\n    const notAllowed: RegExp[] = [\n      '^.vscode$',\n      '^node_modules$',\n      ...Helpers.values(config.tempFolders).map(v => `^${v}$`),\n      '^e2e$',\n      '^tmp.*',\n      '^dist.*',\n      '^tests$',\n      '^module$',\n      '^browser',\n      'bundle*',\n      '^components$',\n      '.git',\n      '^bin$',\n      '^custom$',\n      '^linked-repos$',\n    ].map(s => new RegExp(s));\n    return notAllowed.filter(p => p.test(folderName)).length === 0;\n    //#endregion\n  }",
+      "value": "(\n    folderName: string,\n  ): boolean => {\n    //#region @backendFunc\n    const notAllowed: RegExp[] = [\n      '^.vscode$',\n      '^node_modules$',\n      ...Helpers.values(config.tempFolders)\n        .filter(f => f !== 'docs')\n        .map(v => `^${v}$`),\n      '^e2e$',\n      '^tmp.*',\n      '^dist.*',\n      '^tests$',\n      '^module$',\n      '^browser',\n      'bundle*',\n      '^components$',\n      '.git',\n      '^bin$',\n      '^custom$',\n      '^linked-repos$',\n    ].map(s => new RegExp(s));\n    return notAllowed.filter(p => p.test(folderName)).length === 0;\n    //#endregion\n  }",
       "taonCategory": "other"
     },
     "src/lib/helpers/helpers.ts#HelpersTaon.getLinesFromFiles": {
@@ -51965,7 +51965,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4172,
+          "line": 4174,
           "column": 16
         }
       ],
@@ -51998,7 +51998,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4178,
+          "line": 4180,
           "column": 11
         }
       ],
@@ -52029,12 +52029,12 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4185,
+          "line": 4187,
           "column": 11
         },
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4552,
+          "line": 4554,
           "column": 11
         }
       ],
@@ -52065,7 +52065,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4208,
+          "line": 4210,
           "column": 16
         }
       ],
@@ -52098,7 +52098,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4211,
+          "line": 4213,
           "column": 11
         }
       ],
@@ -52129,7 +52129,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4225,
+          "line": 4227,
           "column": 16
         }
       ],
@@ -52162,7 +52162,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4227,
+          "line": 4229,
           "column": 11
         }
       ],
@@ -52193,7 +52193,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4228,
+          "line": 4230,
           "column": 11
         }
       ],
@@ -52224,7 +52224,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4229,
+          "line": 4231,
           "column": 11
         }
       ],
@@ -52255,7 +52255,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4231,
+          "line": 4233,
           "column": 13
         }
       ],
@@ -52286,7 +52286,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4238,
+          "line": 4240,
           "column": 16
         }
       ],
@@ -52319,7 +52319,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4260,
+          "line": 4262,
           "column": 16
         }
       ],
@@ -52352,7 +52352,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4273,
+          "line": 4275,
           "column": 11
         }
       ],
@@ -52383,7 +52383,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4274,
+          "line": 4276,
           "column": 11
         }
       ],
@@ -52416,7 +52416,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4276,
+          "line": 4278,
           "column": 11
         }
       ],
@@ -52447,7 +52447,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4277,
+          "line": 4279,
           "column": 11
         }
       ],
@@ -52478,7 +52478,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4289,
+          "line": 4291,
           "column": 11
         }
       ],
@@ -52509,7 +52509,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4303,
+          "line": 4305,
           "column": 16
         }
       ],
@@ -52542,7 +52542,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4333,
+          "line": 4335,
           "column": 16
         }
       ],
@@ -52575,7 +52575,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4344,
+          "line": 4346,
           "column": 16
         }
       ],
@@ -52608,7 +52608,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4355,
+          "line": 4357,
           "column": 16
         }
       ],
@@ -52641,7 +52641,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4374,
+          "line": 4376,
           "column": 16
         }
       ],
@@ -52679,7 +52679,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4379,
+          "line": 4381,
           "column": 16
         }
       ],
@@ -52712,7 +52712,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4393,
+          "line": 4395,
           "column": 16
         }
       ],
@@ -52745,7 +52745,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4408,
+          "line": 4410,
           "column": 16
         }
       ],
@@ -52783,7 +52783,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4459,
+          "line": 4461,
           "column": 16
         }
       ],
@@ -52816,7 +52816,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4513,
+          "line": 4515,
           "column": 9
         }
       ],
@@ -52847,7 +52847,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4517,
+          "line": 4519,
           "column": 9
         }
       ],
@@ -52878,7 +52878,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4550,
+          "line": 4552,
           "column": 11
         }
       ],
@@ -52909,7 +52909,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4551,
+          "line": 4553,
           "column": 11
         }
       ],
@@ -52940,7 +52940,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4620,
+          "line": 4622,
           "column": 21
         }
       ],
@@ -52971,7 +52971,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4640,
+          "line": 4642,
           "column": 16
         }
       ],
@@ -53004,7 +53004,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4651,
+          "line": 4653,
           "column": 16
         }
       ],
@@ -53037,7 +53037,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4658,
+          "line": 4660,
           "column": 16
         }
       ],
@@ -53070,7 +53070,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4671,
+          "line": 4673,
           "column": 16
         }
       ],
@@ -53103,12 +53103,12 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4676,
+          "line": 4678,
           "column": 9
         },
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4699,
+          "line": 4701,
           "column": 9
         }
       ],
@@ -53139,12 +53139,12 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4682,
+          "line": 4684,
           "column": 9
         },
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4702,
+          "line": 4704,
           "column": 9
         }
       ],
@@ -53175,7 +53175,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4695,
+          "line": 4697,
           "column": 16
         }
       ],
@@ -53208,7 +53208,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4715,
+          "line": 4717,
           "column": 16
         }
       ],
@@ -53241,7 +53241,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4734,
+          "line": 4736,
           "column": 16
         }
       ],
@@ -53274,7 +53274,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4735,
+          "line": 4737,
           "column": 9
         }
       ],
@@ -53305,7 +53305,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4744,
+          "line": 4746,
           "column": 9
         }
       ],
@@ -53336,7 +53336,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4752,
+          "line": 4754,
           "column": 16
         }
       ],
@@ -53369,7 +53369,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4761,
+          "line": 4763,
           "column": 16
         }
       ],
@@ -53402,7 +53402,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4803,
+          "line": 4805,
           "column": 11
         }
       ],
@@ -53433,7 +53433,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4812,
+          "line": 4814,
           "column": 9
         }
       ],
@@ -53464,7 +53464,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4814,
+          "line": 4816,
           "column": 13
         }
       ],
@@ -53495,7 +53495,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4815,
+          "line": 4817,
           "column": 16
         }
       ],
@@ -53526,7 +53526,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4830,
+          "line": 4832,
           "column": 11
         }
       ],
@@ -53557,7 +53557,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4831,
+          "line": 4833,
           "column": 14
         }
       ],
@@ -53588,7 +53588,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4833,
+          "line": 4835,
           "column": 15
         }
       ],
@@ -53619,7 +53619,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4835,
+          "line": 4837,
           "column": 15
         }
       ],
@@ -53650,7 +53650,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4837,
+          "line": 4839,
           "column": 13
         }
       ],
@@ -53681,7 +53681,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4854,
+          "line": 4856,
           "column": 16
         }
       ],
@@ -53714,7 +53714,7 @@
       "locations": [
         {
           "fileId": "src/lib/helpers/helpers.ts",
-          "line": 4875,
+          "line": 4877,
           "column": 3
         }
       ],
@@ -54954,7 +54954,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "BaseCommandLineFeature<any, BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, import(\"/Users/dfilipiak/npm/taon-dev/tnp-helpers/src/lib/index\").BaseProjectResolver<BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>>",
+        "text": "BaseCommandLineFeature<any, BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, import(\"/home/dfilipiak/projects/npm/taon-dev/tnp-helpers/src/lib/index\").BaseProjectResolver<BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>>",
         "symbolIds": [
           "src/lib/base/classes/base-command-line-feature.ts#BaseCommandLineFeature",
           "src/lib/base/classes/base-project.ts#BaseProject",
@@ -55129,7 +55129,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "typeof import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/sharp/lib/index\")",
+        "text": "typeof import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/sharp/lib/index\")",
         "symbolIds": []
       },
       "value": "require(sharePackageName) as typeof import('sharp')",
@@ -55160,7 +55160,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/sharp/lib/index\").Sharp",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/sharp/lib/index\").Sharp",
         "symbolIds": []
       },
       "value": "sharp(inputPath)",
@@ -55191,7 +55191,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/sharp/lib/index\").Metadata",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/sharp/lib/index\").Metadata",
         "symbolIds": []
       },
       "value": "await image.metadata()",
@@ -55346,7 +55346,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/sharp/lib/index\").Stats",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/sharp/lib/index\").Stats",
         "symbolIds": []
       },
       "value": "await sharp(inputPath)\n      .extract({\n        left,\n        top,\n        width: sampleWidth,\n        height: sampleHeight,\n      })\n      .stats()",
@@ -59549,7 +59549,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/tnp-helpers/src/lib/index\").TaonPortsController",
+        "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/tnp-helpers/src/lib/index\").TaonPortsController",
         "symbolIds": [
           "src/lib/base/tcp-udp-ports/ports.controller.ts#TaonPortsController"
         ]
@@ -59582,7 +59582,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<import(\"/Users/dfilipiak/npm/taon-dev/tnp-helpers/src/lib/index\").Port>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<import(\"/home/dfilipiak/projects/npm/taon-dev/tnp-helpers/src/lib/index\").Port>",
         "symbolIds": [
           "src/lib/base/tcp-udp-ports/ports.entity.ts#Port"
         ]
@@ -63555,7 +63555,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/tnp-helpers/src/lib/index\").TaonPortsController",
+        "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/tnp-helpers/src/lib/index\").TaonPortsController",
         "symbolIds": [
           "src/lib/base/tcp-udp-ports/ports.controller.ts#TaonPortsController"
         ]
@@ -63650,7 +63650,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<import(\"/Users/dfilipiak/npm/taon-dev/tnp-helpers/src/lib/index\").Port>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<import(\"/home/dfilipiak/projects/npm/taon-dev/tnp-helpers/src/lib/index\").Port>",
         "symbolIds": [
           "src/lib/base/tcp-udp-ports/ports.entity.ts#Port"
         ]
@@ -66561,7 +66561,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ default: typeof import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\"); open(path: string, options: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").Options, callback?: (err: Error | null, zipfile: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile) => void): void; open(path: string, callback?: (err: Error | null, zipfile: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile) => void): void; fromFd(fd: number, options: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").Options, callback?: (err: Error | null, zipfile: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile) => void): void; fromFd(fd: number, callback?: (err: Error | null, zipfile: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile) => void): void; fromBuffer(buffer: Buffer, options: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").Options, callback?: (err: Error | null, zipfile: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile) => void): void; fromBuffer(buffer: Buffer, callback?: (err: Error | null, zipfile: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile) => void): void; fromRandomAccessReader(reader: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").RandomAccessReader, totalSize: number, options: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").Options, callback: (err: Error | null, zipfile: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile) => void): void; fromRandomAccessReader(reader: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").RandomAccessReader, totalSize: number, callback: (err: Error | null, zipfile: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile) => void): void; dosDateTimeToDate(date: number, time: number): Date; validateFileName(fileName: string): string | null; RandomAccessReader: typeof import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").RandomAccessReader; Entry: typeof import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").Entry; ZipFile: typeof import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile; }",
+        "text": "{ default: typeof import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\"); open(path: string, options: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").Options, callback?: (err: Error | null, zipfile: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile) => void): void; open(path: string, callback?: (err: Error | null, zipfile: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile) => void): void; fromFd(fd: number, options: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").Options, callback?: (err: Error | null, zipfile: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile) => void): void; fromFd(fd: number, callback?: (err: Error | null, zipfile: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile) => void): void; fromBuffer(buffer: Buffer, options: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").Options, callback?: (err: Error | null, zipfile: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile) => void): void; fromBuffer(buffer: Buffer, callback?: (err: Error | null, zipfile: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile) => void): void; fromRandomAccessReader(reader: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").RandomAccessReader, totalSize: number, options: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").Options, callback: (err: Error | null, zipfile: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile) => void): void; fromRandomAccessReader(reader: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").RandomAccessReader, totalSize: number, callback: (err: Error | null, zipfile: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile) => void): void; dosDateTimeToDate(date: number, time: number): Date; validateFileName(fileName: string): string | null; RandomAccessReader: typeof import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").RandomAccessReader; Entry: typeof import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").Entry; ZipFile: typeof import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/yauzl/index\").ZipFile; }",
         "symbolIds": []
       },
       "value": "await import('yauzl')",
@@ -76524,7 +76524,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "any",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<EndpointContext>; readonly __refSync: EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "this.workerContextTemplate().cloneAsRemote({\n      overrideRemoteHost,\n    })",
@@ -76555,7 +76555,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "any",
+        "text": "EndpointContext",
         "symbolIds": []
       },
       "value": "await remoteCtx.initialize()",
@@ -76617,7 +76617,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "any",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<EndpointContext>; readonly __refSync: EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "this.workerContextTemplate().cloneAsNormal({\n      overrideHost: `http://localhost:${port}`,\n    })",
@@ -76689,7 +76689,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<boolean>",
         "symbolIds": []
       },
       "value": "await ctrl\n          .baseCLiWorkerCommand_isHealthy(this.processLocalInfoObj)\n          .request({\n            // timeout: 1000,\n          })",
@@ -79899,10 +79899,10 @@
       },
       "signatures": [
         {
-          "text": "(): import(\"/Users/dfilipiak/npm/taon-dev/tnp-helpers/src/lib/index\").BaseProjectResolver<any>",
+          "text": "(): import(\"/home/dfilipiak/projects/npm/taon-dev/tnp-helpers/src/lib/index\").BaseProjectResolver<any>",
           "parameters": [],
           "returnType": {
-            "text": "import(\"/Users/dfilipiak/npm/taon-dev/tnp-helpers/src/lib/index\").BaseProjectResolver<any>",
+            "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/tnp-helpers/src/lib/index\").BaseProjectResolver<any>",
             "symbolIds": [
               "src/lib/base/classes/base-project-resolver.ts#BaseProjectResolver"
             ]
@@ -79911,7 +79911,7 @@
         }
       ],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/tnp-helpers/src/lib/index\").BaseProjectResolver<any>",
+        "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/tnp-helpers/src/lib/index\").BaseProjectResolver<any>",
         "symbolIds": [
           "src/lib/base/classes/base-project-resolver.ts#BaseProjectResolver"
         ]
@@ -80493,14 +80493,14 @@
           "text": "(): PackageJson[\"contributes\"]",
           "parameters": [],
           "returnType": {
-            "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/type-fest/index\").JsonValue",
+            "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/type-fest/index\").JsonValue",
             "symbolIds": []
           },
           "typeParameters": []
         }
       ],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/type-fest/index\").JsonValue",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/type-fest/index\").JsonValue",
         "symbolIds": []
       }
     },
@@ -81212,14 +81212,14 @@
           "text": "(): PackageJson[\"homepage\"]",
           "parameters": [],
           "returnType": {
-            "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/type-fest/index\").LiteralUnion<\".\", string>",
+            "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/type-fest/index\").LiteralUnion<\".\", string>",
             "symbolIds": []
           },
           "typeParameters": []
         }
       ],
       "type": {
-        "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/type-fest/index\").LiteralUnion<\".\", string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/type-fest/index\").LiteralUnion<\".\", string>",
         "symbolIds": []
       }
     },
@@ -81250,7 +81250,7 @@
             {
               "name": "homepage",
               "type": {
-                "text": "import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/type-fest/index\").LiteralUnion<\".\", string>",
+                "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/type-fest/index\").LiteralUnion<\".\", string>",
                 "symbolIds": []
               },
               "optional": false,
@@ -84199,7 +84199,7 @@
       },
       "signatures": [
         {
-          "text": "<PROJECT extends BaseProject = BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>(): CoreProject<PROJECT>",
+          "text": "<PROJECT extends BaseProject = BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>(): CoreProject<PROJECT>",
           "parameters": [],
           "returnType": {
             "text": "CoreProject<PROJECT>",
@@ -89269,7 +89269,7 @@
       },
       "signatures": [
         {
-          "text": "<T extends { location?: string; name?: string; } = BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>(projects: T[], resoveDepsArray: (proj: T) => string[], projNameToCompare: (proj: T) => string, projUniqueKeyToCompare?: (proj: T) => string, overridePackagesOrder?: string[]): T[]",
+          "text": "<T extends { location?: string; name?: string; } = BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>(projects: T[], resoveDepsArray: (proj: T) => string[], projNameToCompare: (proj: T) => string, projUniqueKeyToCompare?: (proj: T) => string, overridePackagesOrder?: string[]): T[]",
           "parameters": [
             {
               "name": "projects",
@@ -99777,7 +99777,7 @@
       },
       "signatures": [
         {
-          "text": "<ADDITIONAL_DATA = any, PROJECT extends BaseProject = BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>(project: PROJECT, options?: BaseClientCompilerOptions, allowFolderOutSideProject?: boolean): BaseCompilerForProject<ADDITIONAL_DATA, PROJECT>",
+          "text": "<ADDITIONAL_DATA = any, PROJECT extends BaseProject = BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>(project: PROJECT, options?: BaseClientCompilerOptions, allowFolderOutSideProject?: boolean): BaseCompilerForProject<ADDITIONAL_DATA, PROJECT>",
           "parameters": [
             {
               "name": "project",
@@ -100079,7 +100079,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "(() => void) & import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/lodash/index\").Cancelable",
+        "text": "(() => void) & import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/lodash/index\").Cancelable",
         "symbolIds": [
           "src/lib/base/classes/base-debounce-compiler-for-project.ts#(Anonymous function)"
         ]
@@ -100850,7 +100850,7 @@
       },
       "signatures": [
         {
-          "text": "<PARAMS extends {} = any, PROJECT extends BaseProject<any, any> = BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, PROJECT_RESOLVER extends BaseProjectResolver<PROJECT> = BaseProjectResolver<PROJECT>>(argsWithParams: string, methodNameToCall: string, project: PROJECT, cwd: string, ins: PROJECT_RESOLVER): BaseCommandLineFeature<PARAMS, PROJECT, PROJECT_RESOLVER>",
+          "text": "<PARAMS extends {} = any, PROJECT extends BaseProject<any, any> = BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, PROJECT_RESOLVER extends BaseProjectResolver<PROJECT> = BaseProjectResolver<PROJECT>>(argsWithParams: string, methodNameToCall: string, project: PROJECT, cwd: string, ins: PROJECT_RESOLVER): BaseCommandLineFeature<PARAMS, PROJECT, PROJECT_RESOLVER>",
           "parameters": [
             {
               "name": "argsWithParams",
@@ -101636,7 +101636,7 @@
             {
               "name": "project",
               "type": {
-                "text": "BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>",
+                "text": "BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>",
                 "symbolIds": [
                   "src/lib/base/classes/base-project.ts#BaseProject"
                 ]
@@ -119488,7 +119488,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "() => { readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<EndpointContext>; readonly __refSync: EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "() => { readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<EndpointContext>; readonly __refSync: EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       }
     },

@@ -340,53 +340,37 @@ Taon will automatically find project if it is linked inside package (source is a
 <h2 id="7-linking-projects-and-cli-tools" translate="" [translate-t]="t">7. Linking Projects and CLI Tools</h2>
 <p><span translate="" [translate-t]="t">Taon provides linking commands similar to </span><code>{{ context.codeblock58 }}</code><span translate="" [translate-t]="t">, allowing locally developed CLI tools and libraries to be used without publishing them first.</span></p>
 <h3 id="interactive-linking" translate="" [translate-t]="t">Interactive Linking</h3>
+<p translate="" [translate-t]="t">Linking menu</p>
 <div class="docs-code-block"><span translate="" [translate-t]="t">
           <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock59, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>
           </button>
         </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock59Html"></code></pre></div>
-<p translate="" [translate-t]="t">Opens the linking workflow.</p>
-<h3 id="local-linking" translate="" [translate-t]="t">Local Linking</h3>
+<p translate="" [translate-t]="t">Links the CLI created in the current repository.</p>
+<h3 id="global-development-linking" translate="" [translate-t]="t">Global Development Linking</h3>
 <div class="docs-code-block"><span translate="" [translate-t]="t">
           <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock60, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>
           </button>
         </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock60Html"></code></pre></div>
-<p translate="" [translate-t]="t">Links the CLI created in the current repository.</p>
-<h3 id="global-development-linking" translate="" [translate-t]="t">Global Development Linking</h3>
-<div class="docs-code-block"><span translate="" [translate-t]="t">
-          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock61, $event)">
-            <span class="material-icons" aria-hidden="true">content_copy</span>
-          </button>
-        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock61Html"></code></pre></div>
-<p translate="" [translate-t]="t">Creates a global NPM link for the current project in development mode.</p>
-<p translate="" [translate-t]="t">Useful when testing changes to a CLI tool directly from its source repository.</p>
-<h3 id="release-branch-linking" translate="" [translate-t]="t">Release Branch Linking</h3>
+<hr>
+<h2 id="8-branding-and-pwa-assets" translate="" [translate-t]="t">8. Branding and PWA Assets</h2>
+<p><span translate="" [translate-t]="t">Taon can generate branding assets from a project's </span><code>{{ context.codeblock61 }}</code><span translate="" [translate-t]="t">.</span></p>
 <div class="docs-code-block"><span translate="" [translate-t]="t">
           <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock62, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>
           </button>
         </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock62Html"></code></pre></div>
-<p translate="" [translate-t]="t">Links the CLI built from a separate release branch.</p>
-<p translate="" [translate-t]="t">This can be useful when testing a released version without replacing the active development version.</p>
-<hr>
-<h2 id="8-branding-and-pwa-assets" translate="" [translate-t]="t">8. Branding and PWA Assets</h2>
-<p><span translate="" [translate-t]="t">Taon can generate branding assets from a project's </span><code>{{ context.codeblock63 }}</code><span translate="" [translate-t]="t">.</span></p>
-<div class="docs-code-block"><span translate="" [translate-t]="t">
-          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock64, $event)">
-            <span class="material-icons" aria-hidden="true">content_copy</span>
-          </button>
-        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock64Html"></code></pre></div>
 <p translate="" [translate-t]="t">This recreates assets such as favicons and Progressive Web App icons.</p>
 <p translate="" [translate-t]="t">It helps keep branding consistent across supported application targets.</p>
 <hr>
 <h2 id="9-automated-code-refactoring" translate="" [translate-t]="t">9. Automated Code Refactoring</h2>
 <p translate="" [translate-t]="t">Taon provides a project-wide refactoring command.</p>
 <div class="docs-code-block"><span translate="" [translate-t]="t">
-          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock65, $event)">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock63, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>
           </button>
-        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock65Html"></code></pre></div>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock63Html"></code></pre></div>
 <p translate="" [translate-t]="t">The command processes project files to:</p>
 <ul>
 <li>Apply Prettier formatting.</li>
@@ -400,47 +384,47 @@ Taon will automatically find project if it is linked inside package (source is a
 <p translate="" [translate-t]="t">These can be used to extend a Taon application with additional Cloudflare-specific functionality.</p>
 <h3 id="add-a-subproject" translate="" [translate-t]="t">Add a Subproject</h3>
 <div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock64, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock64Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">Creates a subproject inside the project's </span><code>{{ context.codeblock65 }}</code><span translate="" [translate-t]="t"> directory.</span></p>
+<h3 id="example-structure" translate="" [translate-t]="t">Example Structure</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
           <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock66, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>
           </button>
-        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock66Html"></code></pre></div>
-<p><span translate="" [translate-t]="t">Creates a subproject inside the project's </span><code>{{ context.codeblock67 }}</code><span translate="" [translate-t]="t"> directory.</span></p>
-<h3 id="example-structure" translate="" [translate-t]="t">Example Structure</h3>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock66Html"></code></pre></div>
+<h3 id="remove-a-subproject" translate="" [translate-t]="t">Remove a Subproject</h3>
+<p translate="" [translate-t]="t">To remove a subproject, delete its directory.</p>
+<p translate="" [translate-t]="t">For example:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock67, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock67Html"></code></pre></div>
+<h3 id="deploy-subprojects-manually" translate="" [translate-t]="t">Deploy Subprojects Manually</h3>
 <div class="docs-code-block"><span translate="" [translate-t]="t">
           <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock68, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>
           </button>
-        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock68Html"></code></pre></div>
-<h3 id="remove-a-subproject" translate="" [translate-t]="t">Remove a Subproject</h3>
-<p translate="" [translate-t]="t">To remove a subproject, delete its directory.</p>
-<p translate="" [translate-t]="t">For example:</p>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock68Html"></code></pre></div>
+<p translate="" [translate-t]="t">Deploys the configured Cloudflare subproject.</p>
+<p translate="" [translate-t]="t">Manual deployment is usually unnecessary because the main Taon release workflow can handle deployment.</p>
+<h3 id="local-cloudflare-worker-development" translate="" [translate-t]="t">Local Cloudflare Worker Development</h3>
 <div class="docs-code-block"><span translate="" [translate-t]="t">
           <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock69, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>
           </button>
         </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock69Html"></code></pre></div>
-<h3 id="deploy-subprojects-manually" translate="" [translate-t]="t">Deploy Subprojects Manually</h3>
+<p translate="" [translate-t]="t">Starts the local development environment for Cloudflare subprojects.</p>
+<p translate="" [translate-t]="t">When developing an Angular application connected to a local Cloudflare Worker, start the Worker development environment first.</p>
+<p translate="" [translate-t]="t">Then start the Angular application in a separate terminal:</p>
 <div class="docs-code-block"><span translate="" [translate-t]="t">
           <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock70, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>
           </button>
         </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock70Html"></code></pre></div>
-<p translate="" [translate-t]="t">Deploys the configured Cloudflare subproject.</p>
-<p translate="" [translate-t]="t">Manual deployment is usually unnecessary because the main Taon release workflow can handle deployment.</p>
-<h3 id="local-cloudflare-worker-development" translate="" [translate-t]="t">Local Cloudflare Worker Development</h3>
-<div class="docs-code-block"><span translate="" [translate-t]="t">
-          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock71, $event)">
-            <span class="material-icons" aria-hidden="true">content_copy</span>
-          </button>
-        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock71Html"></code></pre></div>
-<p translate="" [translate-t]="t">Starts the local development environment for Cloudflare subprojects.</p>
-<p translate="" [translate-t]="t">When developing an Angular application connected to a local Cloudflare Worker, start the Worker development environment first.</p>
-<p translate="" [translate-t]="t">Then start the Angular application in a separate terminal:</p>
-<div class="docs-code-block"><span translate="" [translate-t]="t">
-          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock72, $event)">
-            <span class="material-icons" aria-hidden="true">content_copy</span>
-          </button>
-        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock72Html"></code></pre></div>
 <p translate="" [translate-t]="t">This allows the Angular application to communicate with the locally running Cloudflare backend.</p>
 <hr>
 <h2 id="11-quick-command-reference" translate="" [translate-t]="t">11. Quick Command Reference</h2>
@@ -455,102 +439,92 @@ Taon will automatically find project if it is linked inside package (source is a
 <tbody>
 <tr>
 <td>New project</td>
-<td><code>{{ context.codeblock73 }}</code></td>
+<td><code>{{ context.codeblock71 }}</code></td>
 <td>—</td>
 </tr>
 <tr>
 <td>Development build</td>
+<td><code>{{ context.codeblock72 }}</code></td>
+<td><code>{{ context.codeblock73 }}</code></td>
+</tr>
+<tr>
+<td>Clean build</td>
 <td><code>{{ context.codeblock74 }}</code></td>
 <td><code>{{ context.codeblock75 }}</code></td>
 </tr>
 <tr>
-<td>Clean build</td>
+<td>Production build</td>
 <td><code>{{ context.codeblock76 }}</code></td>
 <td><code>{{ context.codeblock77 }}</code></td>
 </tr>
 <tr>
-<td>Production build</td>
+<td>Watch build</td>
 <td><code>{{ context.codeblock78 }}</code></td>
 <td><code>{{ context.codeblock79 }}</code></td>
 </tr>
 <tr>
-<td>Watch build</td>
-<td><code>{{ context.codeblock80 }}</code></td>
-<td><code>{{ context.codeblock81 }}</code></td>
-</tr>
-<tr>
-<td>Library watch</td>
-<td><code>{{ context.codeblock82 }}</code></td>
-<td><code>{{ context.codeblock83 }}</code></td>
-</tr>
-<tr>
 <td>Application menu</td>
-<td><code>{{ context.codeblock84 }}</code></td>
+<td><code>{{ context.codeblock80 }}</code></td>
 <td>—</td>
 </tr>
 <tr>
 <td>Web application</td>
+<td><code>{{ context.codeblock81 }}</code></td>
+<td><code>{{ context.codeblock82 }}</code></td>
+</tr>
+<tr>
+<td>Cloudflare application</td>
+<td><code>{{ context.codeblock83 }}</code></td>
+<td><code>{{ context.codeblock84 }}</code></td>
+</tr>
+<tr>
+<td>WebSQL application</td>
 <td><code>{{ context.codeblock85 }}</code></td>
 <td><code>{{ context.codeblock86 }}</code></td>
 </tr>
 <tr>
-<td>Cloudflare application</td>
+<td>Electron application</td>
 <td><code>{{ context.codeblock87 }}</code></td>
 <td><code>{{ context.codeblock88 }}</code></td>
 </tr>
 <tr>
-<td>WebSQL application</td>
+<td>Release menu</td>
 <td><code>{{ context.codeblock89 }}</code></td>
 <td><code>{{ context.codeblock90 }}</code></td>
 </tr>
 <tr>
-<td>Electron application</td>
+<td>Automated release</td>
 <td><code>{{ context.codeblock91 }}</code></td>
 <td><code>{{ context.codeblock92 }}</code></td>
 </tr>
 <tr>
-<td>Release menu</td>
-<td><code>{{ context.codeblock93 }}</code></td>
-<td><code>{{ context.codeblock94 }}</code></td>
-</tr>
-<tr>
-<td>Automated release</td>
-<td><code>{{ context.codeblock95 }}</code></td>
-<td><code>{{ context.codeblock96 }}</code></td>
-</tr>
-<tr>
-<td>Project linking</td>
-<td><code>{{ context.codeblock97 }}</code></td>
-<td>—</td>
-</tr>
-<tr>
 <td>Global development link</td>
-<td><code>{{ context.codeblock98 }}</code></td>
+<td><code>{{ context.codeblock93 }}</code></td>
 <td>—</td>
 </tr>
 <tr>
 <td>Branding</td>
-<td><code>{{ context.codeblock99 }}</code></td>
+<td><code>{{ context.codeblock94 }}</code></td>
 <td>—</td>
 </tr>
 <tr>
 <td>Code refactoring</td>
-<td><code>{{ context.codeblock100 }}</code></td>
+<td><code>{{ context.codeblock95 }}</code></td>
 <td>—</td>
 </tr>
 <tr>
 <td>Add Cloudflare subproject</td>
-<td><code>{{ context.codeblock101 }}</code></td>
+<td><code>{{ context.codeblock96 }}</code></td>
 <td>—</td>
 </tr>
 <tr>
 <td>Deploy Cloudflare subproject</td>
-<td><code>{{ context.codeblock102 }}</code></td>
+<td><code>{{ context.codeblock97 }}</code></td>
 <td>—</td>
 </tr>
 <tr>
 <td>Local Cloudflare Worker</td>
-<td><code>{{ context.codeblock103 }}</code></td>
+<td><code>{{ context.codeblock98 }}</code></td>
 <td>—</td>
 </tr>
 </tbody>

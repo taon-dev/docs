@@ -127,7 +127,7 @@ msgstr ""
 
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:95
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:316
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:374
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:358
 msgid "."
 msgstr ""
 
@@ -534,151 +534,151 @@ msgid "Interactive Linking"
 msgstr ""
 
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:343
+msgid "Linking menu"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:344
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock59, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:348
-msgid "Opens the linking workflow."
-msgstr ""
-
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:349
-msgid "Local Linking"
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:350
-msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock60, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:355
 msgid "Links the CLI created in the current repository."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:356
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:350
 msgid "Global Development Linking"
 msgstr ""
 
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:351
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock60, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:357
-msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock61, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:362
-msgid "Creates a global NPM link for the current project in development mode."
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:363
-msgid "Useful when testing changes to a CLI tool directly from its source repository."
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:364
-msgid "Release Branch Linking"
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:365
-msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock62, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:370
-msgid "Links the CLI built from a separate release branch."
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:371
-msgid "This can be useful when testing a released version without replacing the active development version."
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:373
 msgid "8. Branding and PWA Assets"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:374
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:358
 msgid "Taon can generate branding assets from a project's"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:375
-msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock64, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:359
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock62, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:380
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:364
 msgid "This recreates assets such as favicons and Progressive Web App icons."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:381
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:365
 msgid "It helps keep branding consistent across supported application targets."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:383
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:367
 msgid "9. Automated Code Refactoring"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:384
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:368
 msgid "Taon provides a project-wide refactoring command."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:385
-msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock65, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:369
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock63, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:390
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:374
 msgid "The command processes project files to:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:396
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:380
 msgid "This helps maintain consistent code formatting across projects and reduces repetitive maintenance work."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:398
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:382
 msgid "10. Cloudflare Subprojects"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:399
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:383
 msgid "Taon supports managing Cloudflare Worker subprojects."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:400
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:384
 msgid "These can be used to extend a Taon application with additional Cloudflare-specific functionality."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:401
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:385
 msgid "Add a Subproject"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:402
-msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock66, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:386
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock64, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:407
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:391
 msgid "Creates a subproject inside the project's"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:407
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:391
 msgid "directory."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:408
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:392
 msgid "Example Structure"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:409
-msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock68, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:393
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock66, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:414
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:398
 msgid "Remove a Subproject"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:415
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:399
 msgid "To remove a subproject, delete its directory."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:416
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:400
 msgid "For example:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:417
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:401
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock67, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:406
+msgid "Deploy Subprojects Manually"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:407
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock68, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:412
+msgid "Deploys the configured Cloudflare subproject."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:413
+msgid "Manual deployment is usually unnecessary because the main Taon release workflow can handle deployment."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:414
+msgid "Local Cloudflare Worker Development"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:415
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock69, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:420
+msgid "Starts the local development environment for Cloudflare subprojects."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:421
+msgid "When developing an Angular application connected to a local Cloudflare Worker, start the Worker development environment first."
+msgstr ""
+
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:422
-msgid "Deploy Subprojects Manually"
+msgid "Then start the Angular application in a separate terminal:"
 msgstr ""
 
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:423
@@ -686,383 +686,351 @@ msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\"
 msgstr ""
 
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:428
-msgid "Deploys the configured Cloudflare subproject."
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:429
-msgid "Manual deployment is usually unnecessary because the main Taon release workflow can handle deployment."
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:430
-msgid "Local Cloudflare Worker Development"
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:431
-msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock71, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:436
-msgid "Starts the local development environment for Cloudflare subprojects."
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:437
-msgid "When developing an Angular application connected to a local Cloudflare Worker, start the Worker development environment first."
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:438
-msgid "Then start the Angular application in a separate terminal:"
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:439
-msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock72, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:444
 msgid "This allows the Angular application to communicate with the locally running Cloudflare backend."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:446
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:430
 msgid "11. Quick Command Reference"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:559
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:533
 msgid "Summary"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:560
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:534
 msgid "Taon CLI provides a consistent workflow for managing the entire development lifecycle:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:561
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:535
 msgid "<strong>Create → Build → Develop → Test → Release</strong>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:562
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:536
 msgid "Its app-library architecture allows projects to combine reusable libraries, backend functionality, frontend applications, and multiple deployment targets."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:563
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:537
 msgid "Developers can work with a single project or coordinate entire containers of interconnected applications without manually maintaining separate build and release systems for each project."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:564
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:538
 msgid "Os"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:565
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:539
 msgid "=> check if port(s) are taken"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:566
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:540
 msgid "=> copy file or folder"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:567
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:541
 msgid "=> link file or folder"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:568
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:542
 msgid "=> refresh linked projects configuration (after deleting or adding new repo)"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:570
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:544
 msgid "=> set random nice colors for you vscode window"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:571
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:545
 msgid "java & tomcat"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:572
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:546
 msgid "=> select java for $JAVA_HOME"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:573
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:547
 msgid "=> select tomcat for $TOMCAT_HOME"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:574
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:548
 msgid "/etc/host"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:575
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:549
 msgid "=> modify /etc/host in a nice way"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:576
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:550
 msgid "=> open /etc/hosts files in VSCode"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:577
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:551
 msgid "Git"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:578
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:552
 msgid "Handy shortcuts"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:579
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:588
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:590
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:603
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:610
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:611
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:553
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:562
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:564
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:577
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:584
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:585
 msgid "=>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:580
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:587
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:554
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:561
 msgid "=> show origin of project"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:581
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:555
 msgid "=> remove all submodules from repo"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:582
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:556
 msgid "=> remove submodule by folder name"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:583
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:557
 msgid "=> remove git tag (if not provided name - select menu appears)"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:584
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:585
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:558
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:559
 msgid "=> display info aboutlast tag"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:586
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:560
 msgid "Remotes"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:589
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:563
 msgid "=> show all origins of project"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:591
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:565
 msgid "=> replaces default origin new provided"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:592
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:566
 msgid "=> alias to rename:origin"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:593
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:567
 msgid "=> changes http remote to ssh remote"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:594
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:568
 msgid "=> changes ssh remote to https remote"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:595
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:569
 msgid "Rebase"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:596
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:570
 msgid "=> rebase current branch with default branch"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:597
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:571
 msgid "=> rebase current branch with changes from branch-to-rebase"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:598
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:572
 msgid "Stash"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:599
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:573
 msgid "=> stash only staged files"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:600
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:574
 msgid "=> stash all files"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:601
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:575
 msgid "Reset + change branch"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:602
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:576
 msgid "=> git fetch / display menu with branches to select / select branch"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:603
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:577
 msgid "+ remove tmp files for project +"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:603
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:577
 msgid "(include children)"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:604
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:578
 msgid "=> same as"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:604
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:578
 msgid "but specific branch"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:605
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:579
 msgid "=> reset hard and pull (recrusively)"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:606
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:580
 msgid "Pull & Pull"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:607
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:581
 msgid "=> pull current branch or current workspace projects one after another"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:608
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:582
 msgid "=> pull current repo branch and first level of children projects"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:609
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:583
 msgid "=> pull current repo branch and all projects deep"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:612
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:586
 msgid "=> push current project repo with temp message"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:613
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:587
 msgid "=> push current project (+ first level children) repo with temp message"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:614
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:588
 msgid "=> push current project (+ deep children repos) repo with temp message"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:615
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:589
 msgid "=> push code to all remotes(origins) defined in .git/config"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:616
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:590
 msgid "Smart Conventional Commits Branching"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:617
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:591
 msgid "<strong>Checkout branch + add changes + commit message + push branch</strong>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:618
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:592
 msgid "Create special branches (with metadata inside name) that can be use later with command"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:619
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:593
 msgid "<br> to \"re-push\" changes and use matadata from branch name\nas commit message."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:622
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:596
 msgid "Quick commit and push bugfix<br>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:623
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:597
 msgid "<br>\n&lt;=&gt;<br>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:625
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:599
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:600
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:601
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:608
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:609
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:610
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:617
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:618
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:619
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:626
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:627
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:634
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:628
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:635
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:636
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:643
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:637
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:644
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:645
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:652
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:646
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:653
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:654
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:661
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:655
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:662
 #: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:663
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:670
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:671
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:672
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:679
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:680
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:681
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:688
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:689
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:690
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:664
 msgid "+ <br>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:629
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:603
 msgid "taon pfix <=> taon pushfix <=> taon push:fix"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:631
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:605
 msgid "Quick commit and push feature<br>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:632
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:606
 msgid "<br>\n&lt;&gt;=&gt;<br>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:638
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:612
 msgid "taon pf <=> taon pushfeature <=> taon push:feature"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:640
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:614
 msgid "Quick commit and push chore <br>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:641
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:615
 msgid "<br>\n&lt;=&gt;  <br>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:647
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:621
 msgid "taon pc <=> taon chore <=> taon pchore"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:649
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:623
 msgid "Quick commit and push docs update <br>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:650
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:659
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:668
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:677
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:686
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:624
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:633
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:642
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:651
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:660
 msgid "<br>\n&lt;=&gt; <br>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:656
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:630
 msgid "taon pd <=> taon pdocs"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:658
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:632
 msgid "Quick commit and push tests update <br>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:665
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:639
 msgid "taon push:test <=> taon ptest <=> taon ptests"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:667
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:641
 msgid "Quick commit and push style update (formatting, linting etc.) <br>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:674
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:648
 msgid "taon pstyl <=> taon pstyle"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:676
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:650
 msgid "Quick commit and push code refactor <br>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:683
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:657
 msgid "taon pref <=> taon prefactor"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:685
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:659
 msgid "Quick commit and push release commit <br>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:692
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/docs/CLI.component.html:666
 msgid "taon prel <=> taon prelase"
 msgstr ""

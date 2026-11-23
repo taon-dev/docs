@@ -1566,6 +1566,26 @@
         "src/lib/taon-analytics-event/i18n/taon-analytics-event.constants.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventConstantsTs"
       ]
     },
+    "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts": {
+      "id": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts",
+      "imports": [],
+      "exports": [
+        "EnUsTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs"
+      ],
+      "symbolIds": [
+        "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs"
+      ]
+    },
+    "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts": {
+      "id": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts",
+      "imports": [],
+      "exports": [
+        "PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs"
+      ],
+      "symbolIds": [
+        "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs"
+      ]
+    },
     "src/lib/taon-analytics-event/i18n/taon-analytics-event.translation.ts": {
       "id": "src/lib/taon-analytics-event/i18n/taon-analytics-event.translation.ts",
       "imports": [
@@ -1757,6 +1777,26 @@
       ],
       "symbolIds": [
         "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.constants.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorConstantsTs"
+      ]
+    },
+    "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts": {
+      "id": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts",
+      "imports": [],
+      "exports": [
+        "EnUsTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs"
+      ],
+      "symbolIds": [
+        "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs"
+      ]
+    },
+    "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts": {
+      "id": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts",
+      "imports": [],
+      "exports": [
+        "PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs"
+      ],
+      "symbolIds": [
+        "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs"
       ]
     },
     "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.translation.ts": {
@@ -2011,10 +2051,10 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "\"21.0.1\"",
+        "text": "\"21.0.25\"",
         "symbolIds": []
       },
-      "value": "'21.0.1'",
+      "value": "'21.0.25'",
       "taonCategory": "other"
     },
     "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs": {
@@ -2217,7 +2257,7 @@
         {
           "kind": "extends",
           "type": {
-            "text": "BaseCommandLineFeature<{}, BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-helpers/src\").BaseProjectResolver<BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>>",
+            "text": "BaseCommandLineFeature<{}, BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-helpers/src\").BaseProjectResolver<BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>>",
             "symbolIds": [
               "src/lib/start-cli.ts#$Global"
             ]
@@ -2256,7 +2296,7 @@
         {
           "kind": "extends",
           "type": {
-            "text": "BaseCommandLineFeature<{ anyCLIparamsHere: string; }, BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-helpers/src\").BaseProjectResolver<BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>>",
+            "text": "BaseCommandLineFeature<{ anyCLIparamsHere: string; }, BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-helpers/src\").BaseProjectResolver<BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>>",
             "symbolIds": [
               "src/lib/start-cli.ts#__type",
               "src/lib/start-cli.ts#$Version"
@@ -3249,7 +3289,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonAnalyticsEventEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonAnalyticsEventEntity>",
         "symbolIds": [
           "src/lib/taon-analytics-event/taon-analytics-event.entity.ts#TaonAnalyticsEventEntity"
         ]
@@ -3369,7 +3409,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/e-commerce/src\").TaonAuthContextEntity",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/e-commerce/src\").TaonAuthContextEntity",
         "symbolIds": []
       },
       "value": "await this.taonAuthContextRepository.getContext(\n      req.userId,\n      req.sessionId,\n    )",
@@ -3951,7 +3991,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/e-commerce/src\").TaonAuthContextEntity",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/e-commerce/src\").TaonAuthContextEntity",
         "symbolIds": []
       },
       "value": "await this.taonAuthContextRepository.getContext(\n      req.userId,\n      req.sessionId,\n    )",
@@ -4393,7 +4433,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<import(\"/Users/dfilipiak/npm/taon-dev/analytics/src/lib/taon-analytics.models\").TaonAnalyticsActivityResult>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<import(\"/home/dfilipiak/projects/npm/taon-dev/analytics/src/lib/taon-analytics.models\").TaonAnalyticsActivityResult>",
         "symbolIds": [
           "src/lib/taon-analytics.models.ts#TaonAnalyticsActivityResult"
         ]
@@ -4426,7 +4466,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/analytics/src/lib/taon-analytics.models\").TaonAnalyticsActivityResult",
+        "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/analytics/src/lib/taon-analytics.models\").TaonAnalyticsActivityResult",
         "symbolIds": [
           "src/lib/taon-analytics.models.ts#TaonAnalyticsActivityResult"
         ]
@@ -4514,7 +4554,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonAnalyticsEventAbstractContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  entities: { TaonAnalyticsEventEntity },\n  controllers: { TaonAnalyticsEventController },\n  repositories: {\n    // TaonAnalyticsEventKvRepository\n    TaonAnalyticsEventRepository,\n  },\n  providers: { TaonAnalyticsEventProvider },\n  middlewares: { TaonAnalyticsMiddleware },\n  // subscribers: { TaonAnalyticsEventSubscriber },\n}))",
@@ -4647,7 +4687,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonAnalyticsVisitorAbstractContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  entities: { TaonAnalyticsVisitorEntity },\n  controllers: { TaonAnalyticsVisitorController },\n  repositories: {\n    // TaonAnalyticsVisitorKvRepository\n    TaonAnalyticsVisitorRepository,\n  },\n  providers: { TaonAnalyticsVisitorProvider },\n  middlewares: { TaonAnalyticsMiddleware },\n  // subscribers: { TaonAnalyticsVisitorSubscriber },\n}))",
@@ -4978,7 +5018,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonAnalyticsSessionAbstractContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  entities: { TaonAnalyticsSessionEntity },\n  controllers: { TaonAnalyticsSessionController },\n  repositories: {\n    // TaonAnalyticsSessionKvRepository\n    TaonAnalyticsSessionRepository,\n  },\n  providers: { TaonAnalyticsSessionProvider },\n  // middlewares: { TaonAnalyticsSessionMiddleware },\n  // subscribers: { TaonAnalyticsSessionSubscriber },\n}))",
@@ -5214,7 +5254,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonAnalyticsPageViewAbstractContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  entities: { TaonAnalyticsPageViewEntity },\n  controllers: { TaonAnalyticsPageViewController },\n  repositories: {\n    // TaonAnalyticsPageViewKvRepository\n    TaonAnalyticsPageViewRepository,\n  },\n  providers: { TaonAnalyticsPageViewProvider },\n  // middlewares: { TaonAnalyticsPageViewMiddleware },\n  // subscribers: { TaonAnalyticsPageViewSubscriber },\n}))",
@@ -5249,7 +5289,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonAnalyticsAbstractContext',\n  abstract: true,\n  contexts: {\n    TaonSessionAbstractContext,\n    TaonAnalyticsEventAbstractContext,\n    TaonAnalyticsVisitorAbstractContext,\n    TaonAnalyticsSessionAbstractContext,\n    TaonAnalyticsPageViewAbstractContext,\n  },\n}))",
@@ -8966,6 +9006,70 @@
       "signatures": [],
       "taonCategory": "other"
     },
+    "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs": {
+      "id": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs",
+      "name": "EnUsTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs",
+      "kind": "interface",
+      "fileId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts",
+          "line": 3,
+          "column": 1
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts"
+      ],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [
+        "export"
+      ],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [
+        "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs::property:\"en-US\""
+      ],
+      "signatures": [],
+      "taonCategory": "other"
+    },
+    "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs": {
+      "id": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs",
+      "name": "PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs",
+      "kind": "interface",
+      "fileId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts",
+          "line": 3,
+          "column": 1
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts"
+      ],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [
+        "export"
+      ],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [
+        "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs::property:\"pl-PL\""
+      ],
+      "signatures": [],
+      "taonCategory": "other"
+    },
     "src/lib/taon-analytics-event/i18n/taon-analytics-event.translation.ts#TaonAnalyticsEventOverride": {
       "id": "src/lib/taon-analytics-event/i18n/taon-analytics-event.translation.ts#TaonAnalyticsEventOverride",
       "name": "TaonAnalyticsEventOverride",
@@ -8995,8 +9099,14 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "any",
-        "symbolIds": []
+        "text": "TaonAnalyticsEventOverride",
+        "symbolIds": [
+          "src/lib/taon-analytics-event/i18n/taon-analytics-event.translation.ts#TaonAnalyticsEventOverride",
+          "src/lib/taon-analytics-event/i18n/taon-analytics-event.constants.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventConstantsTs",
+          "src/lib/taon-analytics-event/i18n/taon-analytics-event.constants.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventConstantsTs",
+          "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs",
+          "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs"
+        ]
       },
       "taonCategory": "other"
     },
@@ -9268,6 +9378,70 @@
       "signatures": [],
       "taonCategory": "other"
     },
+    "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs": {
+      "id": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs",
+      "name": "EnUsTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs",
+      "kind": "interface",
+      "fileId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts",
+          "line": 3,
+          "column": 1
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts"
+      ],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [
+        "export"
+      ],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [
+        "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs::property:\"en-US\""
+      ],
+      "signatures": [],
+      "taonCategory": "other"
+    },
+    "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs": {
+      "id": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs",
+      "name": "PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs",
+      "kind": "interface",
+      "fileId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts",
+          "line": 3,
+          "column": 1
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts"
+      ],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [
+        "export"
+      ],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [
+        "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs::property:\"pl-PL\""
+      ],
+      "signatures": [],
+      "taonCategory": "other"
+    },
     "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.translation.ts#TaonAnalyticsVisitorOverride": {
       "id": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.translation.ts#TaonAnalyticsVisitorOverride",
       "name": "TaonAnalyticsVisitorOverride",
@@ -9297,8 +9471,14 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "any",
-        "symbolIds": []
+        "text": "TaonAnalyticsVisitorOverride",
+        "symbolIds": [
+          "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.translation.ts#TaonAnalyticsVisitorOverride",
+          "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.constants.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorConstantsTs",
+          "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.constants.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorConstantsTs",
+          "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs",
+          "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs"
+        ]
       },
       "taonCategory": "other"
     }
@@ -13221,7 +13401,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonAnalyticsOverview>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonAnalyticsOverview>",
         "symbolIds": [
           "src/lib/taon-analytics.models.ts#TaonAnalyticsOverview"
         ]
@@ -13249,7 +13429,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -14785,7 +14965,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "TaonAuthContextRepository<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthContextEntity<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema>>",
+        "text": "TaonAuthContextRepository<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthContextEntity<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema>>",
         "symbolIds": []
       }
     },
@@ -14934,6 +15114,62 @@
         "text": "{ \"\": { \"Invalid Password\"?: string; }; }",
         "symbolIds": [
           "src/lib/taon-analytics-event/i18n/taon-analytics-event.constants.ts.pl-PL.i18n.data.ts#__type"
+        ]
+      }
+    },
+    "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs::property:\"en-US\"": {
+      "id": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs::property:\"en-US\"",
+      "ownerId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs",
+      "name": "\"en-US\"",
+      "kind": "property",
+      "visibility": "public",
+      "static": false,
+      "readonly": false,
+      "optional": false,
+      "abstract": false,
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "location": {
+        "fileId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts",
+        "line": 4,
+        "column": 3
+      },
+      "signatures": [],
+      "type": {
+        "text": "{ \"\": { \"Administrator access is required for analytics management.\"?: string; }; }",
+        "symbolIds": [
+          "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts#__type"
+        ]
+      }
+    },
+    "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs::property:\"pl-PL\"": {
+      "id": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs::property:\"pl-PL\"",
+      "ownerId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs",
+      "name": "\"pl-PL\"",
+      "kind": "property",
+      "visibility": "public",
+      "static": false,
+      "readonly": false,
+      "optional": false,
+      "abstract": false,
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "location": {
+        "fileId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts",
+        "line": 4,
+        "column": 3
+      },
+      "signatures": [],
+      "type": {
+        "text": "{ \"\": { \"Administrator access is required for analytics management.\"?: string; }; }",
+        "symbolIds": [
+          "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts#__type"
         ]
       }
     },
@@ -15102,6 +15338,62 @@
         "text": "{ \"\": { \"Invalid Password\"?: string; }; }",
         "symbolIds": [
           "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.constants.ts.pl-PL.i18n.data.ts#__type"
+        ]
+      }
+    },
+    "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs::property:\"en-US\"": {
+      "id": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs::property:\"en-US\"",
+      "ownerId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs",
+      "name": "\"en-US\"",
+      "kind": "property",
+      "visibility": "public",
+      "static": false,
+      "readonly": false,
+      "optional": false,
+      "abstract": false,
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "location": {
+        "fileId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts",
+        "line": 4,
+        "column": 3
+      },
+      "signatures": [],
+      "type": {
+        "text": "{ \"\": { \"Administrator access is required for analytics management.\"?: string; }; }",
+        "symbolIds": [
+          "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts#__type"
+        ]
+      }
+    },
+    "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs::property:\"pl-PL\"": {
+      "id": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs::property:\"pl-PL\"",
+      "ownerId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs",
+      "name": "\"pl-PL\"",
+      "kind": "property",
+      "visibility": "public",
+      "static": false,
+      "readonly": false,
+      "optional": false,
+      "abstract": false,
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "location": {
+        "fileId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts",
+        "line": 4,
+        "column": 3
+      },
+      "signatures": [],
+      "type": {
+        "text": "{ \"\": { \"Administrator access is required for analytics management.\"?: string; }; }",
+        "symbolIds": [
+          "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts#__type"
         ]
       }
     }
@@ -15643,6 +15935,36 @@
       "kind": "property-type"
     },
     {
+      "fromId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs::property:\"en-US\"",
+      "toId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts#__type",
+      "kind": "property-type"
+    },
+    {
+      "fromId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs::property:\"pl-PL\"",
+      "toId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts#__type",
+      "kind": "property-type"
+    },
+    {
+      "fromId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.translation.ts#TaonAnalyticsEventOverride",
+      "toId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.constants.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventConstantsTs",
+      "kind": "references"
+    },
+    {
+      "fromId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.translation.ts#TaonAnalyticsEventOverride",
+      "toId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.constants.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventConstantsTs",
+      "kind": "references"
+    },
+    {
+      "fromId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.translation.ts#TaonAnalyticsEventOverride",
+      "toId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs",
+      "kind": "references"
+    },
+    {
+      "fromId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.translation.ts#TaonAnalyticsEventOverride",
+      "toId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs",
+      "kind": "references"
+    },
+    {
       "fromId": "src/lib/taon-analytics-page-view/i18n/taon-analytics-page-view.constants.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsPageViewTaonAnalyticsPageViewConstantsTs::property:\"en-US\"",
       "toId": "src/lib/taon-analytics-page-view/i18n/taon-analytics-page-view.constants.ts.en-US.i18n.data.ts#__type",
       "kind": "property-type"
@@ -15691,6 +16013,36 @@
       "fromId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.constants.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorConstantsTs::property:\"pl-PL\"",
       "toId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.constants.ts.pl-PL.i18n.data.ts#__type",
       "kind": "property-type"
+    },
+    {
+      "fromId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs::property:\"en-US\"",
+      "toId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts#__type",
+      "kind": "property-type"
+    },
+    {
+      "fromId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs::property:\"pl-PL\"",
+      "toId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts#__type",
+      "kind": "property-type"
+    },
+    {
+      "fromId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.translation.ts#TaonAnalyticsVisitorOverride",
+      "toId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.constants.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorConstantsTs",
+      "kind": "references"
+    },
+    {
+      "fromId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.translation.ts#TaonAnalyticsVisitorOverride",
+      "toId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.constants.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorConstantsTs",
+      "kind": "references"
+    },
+    {
+      "fromId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.translation.ts#TaonAnalyticsVisitorOverride",
+      "toId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs",
+      "kind": "references"
+    },
+    {
+      "fromId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.translation.ts#TaonAnalyticsVisitorOverride",
+      "toId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs",
+      "kind": "references"
     }
   ],
   "exports": [
@@ -17415,6 +17767,16 @@
       "symbolId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.constants.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventConstantsTs"
     },
     {
+      "moduleId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts",
+      "name": "EnUsTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs",
+      "symbolId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs"
+    },
+    {
+      "moduleId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts",
+      "name": "PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs",
+      "symbolId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsEventTaonAnalyticsEventControllerTs"
+    },
+    {
       "moduleId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.translation.ts",
       "name": "TaonAnalyticsEventOverride",
       "symbolId": "src/lib/taon-analytics-event/i18n/taon-analytics-event.translation.ts#TaonAnalyticsEventOverride"
@@ -17693,6 +18055,16 @@
       "moduleId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.constants.ts.pl-PL.i18n.data.ts",
       "name": "PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorConstantsTs",
       "symbolId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.constants.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorConstantsTs"
+    },
+    {
+      "moduleId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts",
+      "name": "EnUsTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs",
+      "symbolId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs"
+    },
+    {
+      "moduleId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts",
+      "name": "PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs",
+      "symbolId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.controller.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonAnalyticsVisitorTaonAnalyticsVisitorControllerTs"
     },
     {
       "moduleId": "src/lib/taon-analytics-visitor/i18n/taon-analytics-visitor.translation.ts",

@@ -6097,36 +6097,6 @@
         "TaonECommerceProductPermissionUtils"
       ],
       "symbolIds": []
-    },
-    "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts": {
-      "id": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts",
-      "imports": [],
-      "exports": [
-        "DeDeTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs"
-      ],
-      "symbolIds": [
-        "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts#DeDeTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs"
-      ]
-    },
-    "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts": {
-      "id": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts",
-      "imports": [],
-      "exports": [
-        "EnUsTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs"
-      ],
-      "symbolIds": [
-        "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs"
-      ]
-    },
-    "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts": {
-      "id": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts",
-      "imports": [],
-      "exports": [
-        "PlPlTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs"
-      ],
-      "symbolIds": [
-        "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs"
-      ]
     }
   },
   "symbols": {
@@ -6334,10 +6304,10 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "\"21.0.38\"",
+        "text": "\"21.0.46\"",
         "symbolIds": []
       },
-      "value": "'21.0.38'",
+      "value": "'21.0.46'",
       "taonCategory": "other"
     },
     "src/lib/build-info._auto-generated_.ts#TAON_CLOUDFLARE_WORKERS_URLS": {
@@ -8111,7 +8081,7 @@
         {
           "kind": "extends",
           "type": {
-            "text": "TaonAuthContextEntityBase<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema>",
+            "text": "TaonAuthContextEntityBase<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema>",
             "symbolIds": [
               "src/lib/decorators/taon-cms-authorization.ts#TaonAuthContextEntity"
             ]
@@ -8355,7 +8325,7 @@
         {
           "kind": "extends",
           "type": {
-            "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/session/src\").SessionContext_1791132517216_initial",
+            "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/session/src\").SessionContext_1791132517216_initial",
             "symbolIds": [
               "src/lib/decorators/taon-cms-authorization.ts#EcommerceContext_1791132517217_initial"
             ]
@@ -8601,7 +8571,7 @@
         {
           "kind": "extends",
           "type": {
-            "text": "BaseCommandLineFeature<{}, BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-helpers/src\").BaseProjectResolver<BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>>",
+            "text": "BaseCommandLineFeature<{}, BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-helpers/src\").BaseProjectResolver<BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>>",
             "symbolIds": [
               "src/lib/start-cli.ts#$Global"
             ]
@@ -8640,7 +8610,7 @@
         {
           "kind": "extends",
           "type": {
-            "text": "BaseCommandLineFeature<{ anyCLIparamsHere: string; }, BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-helpers/src\").BaseProjectResolver<BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>>",
+            "text": "BaseCommandLineFeature<{ anyCLIparamsHere: string; }, BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-helpers/src\").BaseProjectResolver<BaseProject<BaseProject<any, any>, import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>>",
             "symbolIds": [
               "src/lib/start-cli.ts#__type",
               "src/lib/start-cli.ts#$Version"
@@ -9309,7 +9279,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonECommerceBackofficeSettingsContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  controllers: { TaonECommerceBackofficeSettingsController },\n  repositories: { TaonECommerceSettingsKvRepository },\n}))",
@@ -10086,7 +10056,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceProductEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceProductEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-product/taon-e-commerce-product.entity.ts#TaonECommerceProductEntity"
         ]
@@ -10699,7 +10669,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/cms/src\").TaonCmsContentEntity",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/cms/src\").TaonCmsContentEntity",
         "symbolIds": []
       },
       "value": "product.cmsContent",
@@ -11066,7 +11036,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceCartItemEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceCartItemEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-cart-item/taon-e-commerce-cart-item.entity.ts#TaonECommerceCartItemEntity"
         ]
@@ -11228,7 +11198,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceEntitlementEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceEntitlementEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-entitlement/taon-e-commerce-entitlement.entity.ts#TaonECommerceEntitlementEntity"
         ]
@@ -11261,7 +11231,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceProductEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceProductEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-product/taon-e-commerce-product.entity.ts#TaonECommerceProductEntity"
         ]
@@ -11508,7 +11478,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceOrderEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceOrderEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-order/taon-e-commerce-order.entity.ts#TaonECommerceOrderEntity"
         ]
@@ -11541,7 +11511,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceOrderItemEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceOrderItemEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-order-item/taon-e-commerce-order-item.entity.ts#TaonECommerceOrderItemEntity"
         ]
@@ -11713,7 +11683,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceOrderEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceOrderEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-order/taon-e-commerce-order.entity.ts#TaonECommerceOrderEntity"
         ]
@@ -12076,7 +12046,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").StripeDispute",
+        "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").StripeDispute",
         "symbolIds": [
           "src/lib/taon-stripe/taon-stripe.models.ts#StripeDispute"
         ]
@@ -12155,7 +12125,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceEntitlementEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceEntitlementEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-entitlement/taon-e-commerce-entitlement.entity.ts#TaonECommerceEntitlementEntity"
         ]
@@ -12317,7 +12287,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommercePaymentTransactionEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommercePaymentTransactionEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-payment-transaction/taon-e-commerce-payment-transaction.entity.ts#TaonECommercePaymentTransactionEntity"
         ]
@@ -12477,7 +12447,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").UpdateResult",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").UpdateResult",
         "symbolIds": []
       },
       "value": "await orderRepository.update(\n      { id: order.id, status: 'pending', stripeCheckoutSessionId: session.id },\n      { status, updatedAt: new Date() },\n    )",
@@ -12508,7 +12478,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceCartItemEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceCartItemEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-cart-item/taon-e-commerce-cart-item.entity.ts#TaonECommerceCartItemEntity"
         ]
@@ -12636,7 +12606,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceEntitlementEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceEntitlementEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-entitlement/taon-e-commerce-entitlement.entity.ts#TaonECommerceEntitlementEntity"
         ]
@@ -12895,7 +12865,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommercePaymentTransactionEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommercePaymentTransactionEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-payment-transaction/taon-e-commerce-payment-transaction.entity.ts#TaonECommercePaymentTransactionEntity"
         ]
@@ -13256,7 +13226,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/cms/src\").TaonCmsContentEntity",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/cms/src\").TaonCmsContentEntity",
         "symbolIds": []
       },
       "value": "product?.cmsContent",
@@ -13494,7 +13464,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonECommerceCartAbstractContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  entities: { TaonECommerceCartEntity },\n  repositories: {\n    // TaonECommerceCartKvRepository\n    TaonECommerceCartRepository,\n    TaonECommerceCustomerRepository,\n  },\n  controllers: { TaonECommerceCartController, TaonECommerceCustomerController },\n  providers: { TaonECommerceCartProvider },\n  // middlewares: { TaonECommerceCartMiddleware },\n  // subscribers: { TaonECommerceCartSubscriber },\n}))",
@@ -13778,7 +13748,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonECommerceCartItemAbstractContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  entities: { TaonECommerceCartItemEntity },\n  controllers: { TaonECommerceCartItemController },\n  repositories: {\n    // TaonECommerceCartItemKvRepository\n    TaonECommerceCartItemRepository,\n  },\n  providers: { TaonECommerceCartItemProvider },\n  // middlewares: { TaonECommerceCartItemMiddleware },\n  // subscribers: { TaonECommerceCartItemSubscriber },\n}))",
@@ -13814,7 +13784,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonECommerceCustomerAbstractContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  controllers: { TaonECommerceCustomerController },\n  repositories: { TaonECommerceCustomerRepository },\n}))",
@@ -14208,7 +14178,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonECommerceCustomerAddressAbstractContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  entities: { TaonECommerceCustomerAddressEntity },\n  controllers: { TaonECommerceCustomerAddressController },\n  repositories: {\n    // TaonECommerceCustomerAddressKvRepository\n    TaonECommerceCustomerAddressRepository,\n  },\n  providers: { TaonECommerceCustomerAddressProvider },\n  // middlewares: { TaonECommerceCustomerAddressMiddleware },\n  // subscribers: { TaonECommerceCustomerAddressSubscriber },\n}))",
@@ -14243,7 +14213,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonECommerceEntitlementAbstractContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  entities: { TaonECommerceEntitlementEntity },\n}))",
@@ -14574,7 +14544,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonECommerceOrderAbstractContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  entities: { TaonECommerceOrderEntity },\n  controllers: { TaonECommerceOrderController },\n  repositories: {\n    // TaonECommerceOrderKvRepository\n    TaonECommerceOrderRepository,\n  },\n  providers: { TaonECommerceOrderProvider },\n  // middlewares: { TaonECommerceOrderMiddleware },\n  // subscribers: { TaonECommerceOrderSubscriber },\n}))",
@@ -14905,7 +14875,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonECommerceOrderItemAbstractContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  entities: { TaonECommerceOrderItemEntity },\n  controllers: { TaonECommerceOrderItemController },\n  repositories: {\n    // TaonECommerceOrderItemKvRepository\n    TaonECommerceOrderItemRepository,\n  },\n  providers: { TaonECommerceOrderItemProvider },\n  // middlewares: { TaonECommerceOrderItemMiddleware },\n  // subscribers: { TaonECommerceOrderItemSubscriber },\n}))",
@@ -15236,7 +15206,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonECommercePaymentTransactionAbstractContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  entities: { TaonECommercePaymentTransactionEntity },\n  controllers: { TaonECommercePaymentTransactionController },\n  repositories: {\n    // TaonECommercePaymentTransactionKvRepository\n    TaonECommercePaymentTransactionRepository,\n  },\n  providers: { TaonECommercePaymentTransactionProvider },\n  // middlewares: { TaonECommercePaymentTransactionMiddleware },\n  // subscribers: { TaonECommercePaymentTransactionSubscriber },\n}))",
@@ -15354,7 +15324,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceProductEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceProductEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-product/taon-e-commerce-product.entity.ts#TaonECommerceProductEntity"
         ]
@@ -15641,7 +15611,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceProductPermissionEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonECommerceProductPermissionEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-product-permission/taon-e-commerce-product-permission.entity.ts#TaonECommerceProductPermissionEntity"
         ]
@@ -15850,7 +15820,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonAuthContextEntity",
+        "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonAuthContextEntity",
         "symbolIds": [
           "src/lib/decorators/taon-cms-authorization.ts#TaonAuthContextEntity"
         ]
@@ -16150,7 +16120,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonECommerceProductAbstractContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  entities: { TaonECommerceProductEntity },\n  controllers: { TaonECommerceProductController },\n  repositories: {\n    // TaonECommerceProductKvRepository\n    TaonECommerceProductRepository,\n  },\n  providers: { TaonECommerceProductProvider },\n  // middlewares: { TaonECommerceProductMiddleware },\n  // subscribers: { TaonECommerceProductSubscriber },\n}))",
@@ -16481,7 +16451,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonECommerceProductPermissionAbstractContext',\n  abstract: true,\n  contexts: { TaonBaseContext },\n  entities: { TaonECommerceProductPermissionEntity },\n  controllers: { TaonECommerceProductPermissionController },\n  repositories: {\n    // TaonECommerceProductPermissionKvRepository\n    TaonECommerceProductPermissionRepository,\n  },\n  providers: { TaonECommerceProductPermissionProvider },\n  // middlewares: { TaonECommerceProductPermissionMiddleware },\n  // subscribers: { TaonECommerceProductPermissionSubscriber },\n}))",
@@ -16516,7 +16486,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ readonly contextName: string; readonly expressApp: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
+        "text": "{ readonly contextName: string; readonly expressApp: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@types/express/index\").Application; readonly appId: string; cloneAsRemote: (cloneOpt?: Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideRemoteHost\" | \"overrideContextName\" | \"overrideUseSession\">) => any; cloneAsNormal: (cloneOpt?: Partial<Pick<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonCtxCloneParams, \"overrideHost\" | \"overrideContextName\" | \"overrideUseSession\">>) => any; __ref(): Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly __refSync: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext; getClassInstance<T>(ctor: new (...args: any[]) => T): T; getClass<T>(ctor: new (...args: any[]) => T): new (...args: any[]) => T; initialize: (overrideOptions?: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").Models.TaonInitializeParams) => Promise<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").EndpointContext>; readonly realtime: { readonly client: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeClient; readonly server: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon/src\").RealtimeServer; }; }",
         "symbolIds": []
       },
       "value": "createContext(() => ({\n  contextName: 'TaonECommerceAbstractContext',\n  abstract: true,\n  controllers: { TaonCourseController },\n  repositories: { TaonECommerceStripeRepository },\n  contexts: {\n    TaonCmsAbstractContext,\n    TaonECommerceCartAbstractContext,\n    TaonECommerceCartItemAbstractContext,\n    TaonECommerceCustomerAddressAbstractContext,\n    TaonECommerceCustomerAbstractContext,\n    TaonECommerceEntitlementAbstractContext,\n    TaonECommerceOrderAbstractContext,\n    TaonECommerceOrderItemAbstractContext,\n    TaonECommercePaymentTransactionAbstractContext,\n    TaonECommerceProductAbstractContext,\n    TaonECommerceProductPermissionAbstractContext,\n    TaonECommerceBackofficeSettingsContext,\n  },\n}))",
@@ -16835,7 +16805,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/cms/src\").TaonCmsContentEntity",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/cms/src\").TaonCmsContentEntity",
         "symbolIds": []
       },
       "value": "product.cmsContent",
@@ -17627,7 +17597,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonCmsApplicationHookEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/taon-typeorm/src\").Repository<TaonCmsApplicationHookEntity>",
         "symbolIds": []
       },
       "value": "queryRunner.manager.getRepository(\n      TaonCmsApplicationHookEntity,\n    )",
@@ -18746,7 +18716,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/material/types/_dialog-chunk\", { with: { \"resolution-mode\": \"import\" } }).MatDialogRef<TaonCartComponent, any>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/material/types/_dialog-chunk\", { with: { \"resolution-mode\": \"import\" } }).MatDialogRef<TaonCartComponent, any>",
         "symbolIds": [
           "src/lib/taon-cart/taon-cart.component.ts#TaonCartComponent"
         ]
@@ -18779,7 +18749,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceCartEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceCartEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-cart/taon-e-commerce-cart.entity.ts#TaonECommerceCartEntity"
         ]
@@ -18812,7 +18782,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceCartEntity",
+        "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceCartEntity",
         "symbolIds": [
           "src/lib/taon-e-commerce-cart/taon-e-commerce-cart.entity.ts#TaonECommerceCartEntity"
         ]
@@ -18992,7 +18962,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<TaonCourseResponse>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<TaonCourseResponse>",
         "symbolIds": [
           "src/lib/taon-course/taon-course.controller.ts#TaonCourseResponse"
         ]
@@ -19972,7 +19942,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "{ publicSlug: string; privateSlug: string; context: TaonAuthContextEntity<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema>; productId: number; reload: number; }",
+        "text": "{ publicSlug: string; privateSlug: string; context: TaonAuthContextEntity<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema>; productId: number; reload: number; }",
         "symbolIds": [
           "src/lib/taon-course/taon-course.component.ts#__object"
         ]
@@ -20072,7 +20042,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceCartEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceCartEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-cart/taon-e-commerce-cart.entity.ts#TaonECommerceCartEntity"
         ]
@@ -21529,7 +21499,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<TaonECommerceProductEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<TaonECommerceProductEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-product/taon-e-commerce-product.entity.ts#TaonECommerceProductEntity"
         ]
@@ -21927,7 +21897,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<TaonECommerceProductPermissionEntity[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<TaonECommerceProductPermissionEntity[]>",
         "symbolIds": [
           "src/lib/taon-e-commerce-product-permission/taon-e-commerce-product-permission.entity.ts#TaonECommerceProductPermissionEntity"
         ]
@@ -22063,7 +22033,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<TaonECommerceProductPermissionEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<TaonECommerceProductPermissionEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-product-permission/taon-e-commerce-product-permission.entity.ts#TaonECommerceProductPermissionEntity"
         ]
@@ -22157,7 +22127,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<TaonECommerceProductPermissionEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<TaonECommerceProductPermissionEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-product-permission/taon-e-commerce-product-permission.entity.ts#TaonECommerceProductPermissionEntity"
         ]
@@ -22997,7 +22967,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<TaonECommercePaymentTransactionEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<TaonECommercePaymentTransactionEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-payment-transaction/taon-e-commerce-payment-transaction.entity.ts#TaonECommercePaymentTransactionEntity"
         ]
@@ -23063,7 +23033,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<TaonECommerceOrderEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<TaonECommerceOrderEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-order/taon-e-commerce-order.entity.ts#TaonECommerceOrderEntity"
         ]
@@ -23249,7 +23219,7 @@
       "members": [],
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/ng2-rest/src\").HttpResponse<boolean>",
         "symbolIds": []
       },
       "value": "await this.controller.setSellingEnabled(enabled).request!()",
@@ -35454,102 +35424,6 @@
         ]
       },
       "taonCategory": "other"
-    },
-    "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts#DeDeTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs": {
-      "id": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts#DeDeTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs",
-      "name": "DeDeTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs",
-      "kind": "interface",
-      "fileId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts",
-      "locations": [
-        {
-          "fileId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts",
-          "line": 3,
-          "column": 1
-        }
-      ],
-      "exported": true,
-      "exportPaths": [
-        "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts"
-      ],
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "modifiers": [
-        "export"
-      ],
-      "typeParameters": [],
-      "heritage": [],
-      "members": [
-        "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts#DeDeTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs::property:\"de-DE\""
-      ],
-      "signatures": [],
-      "taonCategory": "other"
-    },
-    "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs": {
-      "id": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs",
-      "name": "EnUsTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs",
-      "kind": "interface",
-      "fileId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts",
-      "locations": [
-        {
-          "fileId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts",
-          "line": 3,
-          "column": 1
-        }
-      ],
-      "exported": true,
-      "exportPaths": [
-        "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts"
-      ],
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "modifiers": [
-        "export"
-      ],
-      "typeParameters": [],
-      "heritage": [],
-      "members": [
-        "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs::property:\"en-US\""
-      ],
-      "signatures": [],
-      "taonCategory": "other"
-    },
-    "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs": {
-      "id": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs",
-      "name": "PlPlTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs",
-      "kind": "interface",
-      "fileId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts",
-      "locations": [
-        {
-          "fileId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts",
-          "line": 3,
-          "column": 1
-        }
-      ],
-      "exported": true,
-      "exportPaths": [
-        "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts"
-      ],
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "modifiers": [
-        "export"
-      ],
-      "typeParameters": [],
-      "heritage": [],
-      "members": [
-        "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs::property:\"pl-PL\""
-      ],
-      "signatures": [],
-      "taonCategory": "other"
     }
   },
   "members": {
@@ -47527,7 +47401,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<TaonECommerceProductEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<TaonECommerceProductEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-product/taon-e-commerce-product.entity.ts#TaonECommerceProductEntity"
         ]
@@ -47555,7 +47429,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<number>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<number>",
         "symbolIds": []
       }
     },
@@ -47581,7 +47455,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -47607,7 +47481,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -47921,7 +47795,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -47947,7 +47821,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -48267,7 +48141,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommerceCartEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommerceCartEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-cart/taon-e-commerce-cart.entity.ts#TaonECommerceCartEntity"
         ]
@@ -48295,7 +48169,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommerceOrderEntity[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommerceOrderEntity[]>",
         "symbolIds": [
           "src/lib/taon-e-commerce-order/taon-e-commerce-order.entity.ts#TaonECommerceOrderEntity"
         ]
@@ -48323,7 +48197,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommerceEntitlementEntity[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommerceEntitlementEntity[]>",
         "symbolIds": [
           "src/lib/taon-e-commerce-entitlement/taon-e-commerce-entitlement.entity.ts#TaonECommerceEntitlementEntity"
         ]
@@ -48351,7 +48225,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommerceProductEntity[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommerceProductEntity[]>",
         "symbolIds": [
           "src/lib/taon-e-commerce-product/taon-e-commerce-product.entity.ts#TaonECommerceProductEntity"
         ]
@@ -48379,7 +48253,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -48405,7 +48279,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<number>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<number>",
         "symbolIds": []
       }
     },
@@ -48431,7 +48305,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<number>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<number>",
         "symbolIds": []
       }
     },
@@ -48457,7 +48331,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -48483,7 +48357,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -48509,7 +48383,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -48535,7 +48409,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -48561,7 +48435,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -48641,7 +48515,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -48801,7 +48675,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "{ id: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; status: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; total: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; currency: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; created: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; }",
+        "text": "{ id: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; status: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; total: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; currency: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; created: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; }",
         "symbolIds": [
           "src/lib/taon-cart/taon-cart.component.ts#__object"
         ]
@@ -48829,7 +48703,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<MtxGridColumn<any>[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<MtxGridColumn<any>[]>",
         "symbolIds": []
       }
     },
@@ -48931,10 +48805,10 @@
       },
       "signatures": [
         {
-          "text": "(): import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceCartItemEntity[]",
+          "text": "(): import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceCartItemEntity[]",
           "parameters": [],
           "returnType": {
-            "text": "import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceCartItemEntity[]",
+            "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceCartItemEntity[]",
             "symbolIds": [
               "src/lib/taon-e-commerce-cart-item/taon-e-commerce-cart-item.entity.ts#TaonECommerceCartItemEntity"
             ]
@@ -48943,7 +48817,7 @@
         }
       ],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceCartItemEntity[]",
+        "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceCartItemEntity[]",
         "symbolIds": [
           "src/lib/taon-e-commerce-cart-item/taon-e-commerce-cart-item.entity.ts#TaonECommerceCartItemEntity"
         ]
@@ -49185,7 +49059,7 @@
       },
       "signatures": [
         {
-          "text": "(product: TaonECommerceProductEntity): import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonProductEligibility",
+          "text": "(product: TaonECommerceProductEntity): import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonProductEligibility",
           "parameters": [
             {
               "name": "product",
@@ -49204,7 +49078,7 @@
             }
           ],
           "returnType": {
-            "text": "import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonProductEligibility",
+            "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonProductEligibility",
             "symbolIds": [
               "src/lib/taon-e-commerce-product/taon-e-commerce-product-eligibility.ts#TaonProductEligibility"
             ]
@@ -51053,7 +50927,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<number>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<number>",
         "symbolIds": []
       }
     },
@@ -51079,7 +50953,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<number>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<number>",
         "symbolIds": []
       }
     },
@@ -51105,7 +50979,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -51433,7 +51307,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_api-chunk\", { with: { \"resolution-mode\": \"import\" } }).OutputEmitterRef<void>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_api-chunk\", { with: { \"resolution-mode\": \"import\" } }).OutputEmitterRef<void>",
         "symbolIds": []
       }
     },
@@ -51519,7 +51393,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<string>",
         "symbolIds": []
       }
     },
@@ -51571,7 +51445,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonCmsContentEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonCmsContentEntity>",
         "symbolIds": []
       }
     },
@@ -51597,7 +51471,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -51623,7 +51497,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -51735,7 +51609,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -51839,7 +51713,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<TaonCmsContentEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<TaonCmsContentEntity>",
         "symbolIds": []
       }
     },
@@ -51865,7 +51739,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -51891,7 +51765,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -52035,7 +51909,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<TaonCmsContentEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<TaonCmsContentEntity>",
         "symbolIds": []
       }
     },
@@ -52061,7 +51935,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<\"accordion\" | \"dialog\">",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<\"accordion\" | \"dialog\">",
         "symbolIds": []
       }
     },
@@ -52087,7 +51961,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -52113,7 +51987,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -52139,7 +52013,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -52447,7 +52321,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<string>",
         "symbolIds": []
       }
     },
@@ -52473,7 +52347,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<string>",
         "symbolIds": []
       }
     },
@@ -52499,7 +52373,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<\"accordion\" | \"dialog\">",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<\"accordion\" | \"dialog\">",
         "symbolIds": []
       }
     },
@@ -52525,7 +52399,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<TaonAuthContextEntity<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema>>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<TaonAuthContextEntity<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema>>",
         "symbolIds": []
       }
     },
@@ -52551,7 +52425,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<number>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/core\", { with: { \"resolution-mode\": \"import\" } }).InputSignal<number>",
         "symbolIds": []
       }
     },
@@ -52577,7 +52451,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_api-chunk\", { with: { \"resolution-mode\": \"import\" } }).OutputEmitterRef<void>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_api-chunk\", { with: { \"resolution-mode\": \"import\" } }).OutputEmitterRef<void>",
         "symbolIds": []
       }
     },
@@ -52629,7 +52503,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<TemplateRef<unknown>>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<TemplateRef<unknown>>",
         "symbolIds": []
       }
     },
@@ -52655,7 +52529,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -52681,7 +52555,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -52707,7 +52581,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -52733,7 +52607,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -52843,7 +52717,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<number>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<number>",
         "symbolIds": []
       }
     },
@@ -52869,7 +52743,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<{ publicSlug: string; privateSlug: string; context: TaonAuthContextEntity<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema>; productId: number; reload: number; }>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<{ publicSlug: string; privateSlug: string; context: TaonAuthContextEntity<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/session/src\").TaonAuthorizationSchema>; productId: number; reload: number; }>",
         "symbolIds": [
           "src/lib/taon-course/taon-course.component.ts#__object"
         ]
@@ -52897,7 +52771,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<{ key: ReturnType<any>; data?: Awaited<ReturnType<TaonCourseApiService[\"load\"]>>; error?: string; }>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<{ key: ReturnType<any>; data?: Awaited<ReturnType<TaonCourseApiService[\"load\"]>>; error?: string; }>",
         "symbolIds": [
           "src/lib/taon-course/taon-course.component.ts#__type"
         ]
@@ -52925,7 +52799,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<{ key: ReturnType<any>; data?: Awaited<ReturnType<TaonCourseApiService[\"load\"]>>; error?: string; }>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<{ key: ReturnType<any>; data?: Awaited<ReturnType<TaonCourseApiService[\"load\"]>>; error?: string; }>",
         "symbolIds": [
           "src/lib/taon-course/taon-course.component.ts#__type"
         ]
@@ -52953,7 +52827,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@taon-dev/cms/src\").TaonCmsContentEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@taon-dev/cms/src\").TaonCmsContentEntity>",
         "symbolIds": []
       }
     },
@@ -53103,7 +52977,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<readonly TaonCourseComponent[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<readonly TaonCourseComponent[]>",
         "symbolIds": [
           "src/lib/taon-course/taon-course.component.ts#TaonCourseComponent"
         ]
@@ -53665,7 +53539,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<DashboardSummary>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<DashboardSummary>",
         "symbolIds": [
           "src/lib/taon-e-commerce-backoffice-dashboard/taon-e-commerce-backoffice-dashboard.component.ts#DashboardSummary"
         ]
@@ -53693,7 +53567,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -53719,7 +53593,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -53891,7 +53765,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -53917,7 +53791,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -53943,7 +53817,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommerceStripeConfiguration>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommerceStripeConfiguration>",
         "symbolIds": [
           "src/lib/taon-e-commerce-product/taon-e-commerce-product.api.service.ts#TaonECommerceStripeConfiguration"
         ]
@@ -53971,7 +53845,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonStripeSyncResult[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonStripeSyncResult[]>",
         "symbolIds": [
           "src/lib/taon-stripe/taon-stripe.models.ts#TaonStripeSyncResult"
         ]
@@ -53999,7 +53873,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -54304,7 +54178,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "{ id: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; name: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; type: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; price: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; currency: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; active: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; synchronized: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; actions: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; edit: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; duplicate: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; }",
+        "text": "{ id: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; name: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; type: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; price: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; currency: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; active: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; synchronized: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; actions: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; edit: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; duplicate: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; }",
         "symbolIds": [
           "src/lib/taon-e-commerce-product/taon-e-commerce-products-backoffice/taon-e-commerce-products-backoffice.component.ts#__object"
         ]
@@ -54332,7 +54206,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "{ lifetime: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; item: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; subscription: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; digital: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; physical: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; service: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; }",
+        "text": "{ lifetime: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; item: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; subscription: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; digital: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; physical: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; service: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; }",
         "symbolIds": [
           "src/lib/taon-e-commerce-product/taon-e-commerce-products-backoffice/taon-e-commerce-products-backoffice.component.ts#__object"
         ]
@@ -54360,7 +54234,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<MtxGridColumn<any>[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<MtxGridColumn<any>[]>",
         "symbolIds": []
       }
     },
@@ -54464,7 +54338,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -54490,7 +54364,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -54516,7 +54390,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -54734,10 +54608,10 @@
       },
       "signatures": [
         {
-          "text": "(): import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceProductController",
+          "text": "(): import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceProductController",
           "parameters": [],
           "returnType": {
-            "text": "import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceProductController",
+            "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceProductController",
             "symbolIds": [
               "src/lib/taon-e-commerce-product/taon-e-commerce-product.controller.ts#TaonECommerceProductController"
             ]
@@ -54746,7 +54620,7 @@
         }
       ],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceProductController",
+        "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceProductController",
         "symbolIds": [
           "src/lib/taon-e-commerce-product/taon-e-commerce-product.controller.ts#TaonECommerceProductController"
         ]
@@ -55532,7 +55406,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "{ lifetime: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; item: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; subscription: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; }",
+        "text": "{ lifetime: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; item: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; subscription: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; }",
         "symbolIds": [
           "src/lib/taon-e-commerce-product/taon-e-commerce-product-edit-dialog.component.ts#__object"
         ]
@@ -55560,7 +55434,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "{ seconds: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; minutes: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; hours: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; days: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; }",
+        "text": "{ seconds: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; minutes: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; hours: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; days: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; }",
         "symbolIds": [
           "src/lib/taon-e-commerce-product/taon-e-commerce-product-edit-dialog.component.ts#__object"
         ]
@@ -55616,7 +55490,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<ProductDraft>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<ProductDraft>",
         "symbolIds": [
           "src/lib/taon-e-commerce-product/taon-e-commerce-product-edit-dialog.component.ts#ProductDraft"
         ]
@@ -55644,7 +55518,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonPermissionEntity[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonPermissionEntity[]>",
         "symbolIds": []
       }
     },
@@ -55670,7 +55544,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonGroupEntity[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonGroupEntity[]>",
         "symbolIds": []
       }
     },
@@ -55696,7 +55570,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonCmsContentEntity[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonCmsContentEntity[]>",
         "symbolIds": []
       }
     },
@@ -55722,7 +55596,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<TaonCmsContentEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<TaonCmsContentEntity>",
         "symbolIds": []
       }
     },
@@ -55748,7 +55622,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<number[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<number[]>",
         "symbolIds": []
       }
     },
@@ -55774,7 +55648,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<number[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<number[]>",
         "symbolIds": []
       }
     },
@@ -55800,7 +55674,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -55826,7 +55700,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -55852,7 +55726,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -55878,7 +55752,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -55904,7 +55778,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -56972,7 +56846,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "{ id: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; user: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; status: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; total: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; currency: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; created: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; actions: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; view: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; }",
+        "text": "{ id: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; user: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; status: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; total: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; currency: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; created: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; actions: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; view: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; }",
         "symbolIds": [
           "src/lib/taon-e-commerce-order/taon-e-commerce-orders-backoffice/taon-e-commerce-orders-backoffice.component.ts#__object"
         ]
@@ -57000,7 +56874,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<MtxGridColumn<any>[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<MtxGridColumn<any>[]>",
         "symbolIds": []
       }
     },
@@ -57106,10 +56980,10 @@
       },
       "signatures": [
         {
-          "text": "(): import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceOrderController",
+          "text": "(): import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceOrderController",
           "parameters": [],
           "returnType": {
-            "text": "import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceOrderController",
+            "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceOrderController",
             "symbolIds": [
               "src/lib/taon-e-commerce-order/taon-e-commerce-order.controller.ts#TaonECommerceOrderController"
             ]
@@ -57118,7 +56992,7 @@
         }
       ],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceOrderController",
+        "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonECommerceOrderController",
         "symbolIds": [
           "src/lib/taon-e-commerce-order/taon-e-commerce-order.controller.ts#TaonECommerceOrderController"
         ]
@@ -57480,7 +57354,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommerceOrderEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommerceOrderEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-order/taon-e-commerce-order.entity.ts#TaonECommerceOrderEntity"
         ]
@@ -57508,7 +57382,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommerceOrderItemEntity[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommerceOrderItemEntity[]>",
         "symbolIds": [
           "src/lib/taon-e-commerce-order-item/taon-e-commerce-order-item.entity.ts#TaonECommerceOrderItemEntity"
         ]
@@ -57536,7 +57410,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommercePaymentTransactionEntity[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommercePaymentTransactionEntity[]>",
         "symbolIds": [
           "src/lib/taon-e-commerce-payment-transaction/taon-e-commerce-payment-transaction.entity.ts#TaonECommercePaymentTransactionEntity"
         ]
@@ -57564,7 +57438,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -57590,7 +57464,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -57875,7 +57749,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "{ id: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; orderId: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; provider: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; providerTransactionId: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; status: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; amount: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; currency: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; created: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; actions: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; view: import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; }",
+        "text": "{ id: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; orderId: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; provider: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; providerTransactionId: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; status: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; amount: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; currency: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; created: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; actions: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; view: import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>; }",
         "symbolIds": [
           "src/lib/taon-e-commerce-payment-transaction/taon-e-commerce-payment-transactions-backoffice/taon-e-commerce-payment-transactions-backoffice.component.ts#__object"
         ]
@@ -57903,7 +57777,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<MtxGridColumn<any>[]>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).Signal<MtxGridColumn<any>[]>",
         "symbolIds": []
       }
     },
@@ -58009,10 +57883,10 @@
       },
       "signatures": [
         {
-          "text": "(): import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonECommercePaymentTransactionController",
+          "text": "(): import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonECommercePaymentTransactionController",
           "parameters": [],
           "returnType": {
-            "text": "import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonECommercePaymentTransactionController",
+            "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonECommercePaymentTransactionController",
             "symbolIds": [
               "src/lib/taon-e-commerce-payment-transaction/taon-e-commerce-payment-transaction.controller.ts#TaonECommercePaymentTransactionController"
             ]
@@ -58021,7 +57895,7 @@
         }
       ],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/e-commerce/src/lib/index\").TaonECommercePaymentTransactionController",
+        "text": "import(\"/home/dfilipiak/projects/npm/taon-dev/e-commerce/src/lib/index\").TaonECommercePaymentTransactionController",
         "symbolIds": [
           "src/lib/taon-e-commerce-payment-transaction/taon-e-commerce-payment-transaction.controller.ts#TaonECommercePaymentTransactionController"
         ]
@@ -58241,7 +58115,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommercePaymentTransactionEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommercePaymentTransactionEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-payment-transaction/taon-e-commerce-payment-transaction.entity.ts#TaonECommercePaymentTransactionEntity"
         ]
@@ -58269,7 +58143,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommerceOrderEntity>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<TaonECommerceOrderEntity>",
         "symbolIds": [
           "src/lib/taon-e-commerce-order/taon-e-commerce-order.entity.ts#TaonECommerceOrderEntity"
         ]
@@ -58297,7 +58171,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -58323,7 +58197,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -58601,7 +58475,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -58627,7 +58501,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -58653,7 +58527,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<boolean>",
         "symbolIds": []
       }
     },
@@ -58679,7 +58553,7 @@
       },
       "signatures": [],
       "type": {
-        "text": "import(\"/Users/dfilipiak/npm/taon-dev/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
+        "text": "import(\"/home/dfilipiak/.taon/taon-containers/container-v21/node_modules/@angular/core/types/_chrome_dev_tools_performance-chunk\", { with: { \"resolution-mode\": \"import\" } }).WritableSignal<string>",
         "symbolIds": []
       }
     },
@@ -66196,90 +66070,6 @@
           "src/lib/taon-e-commerce-product-permission/i18n/taon-e-commerce-product-permission.constants.ts.pl-PL.i18n.data.ts#__type"
         ]
       }
-    },
-    "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts#DeDeTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs::property:\"de-DE\"": {
-      "id": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts#DeDeTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs::property:\"de-DE\"",
-      "ownerId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts#DeDeTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs",
-      "name": "\"de-DE\"",
-      "kind": "property",
-      "visibility": "public",
-      "static": false,
-      "readonly": false,
-      "optional": false,
-      "abstract": false,
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "location": {
-        "fileId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts",
-        "line": 4,
-        "column": 3
-      },
-      "signatures": [],
-      "type": {
-        "text": "{ \"\": { \"Connected to Stripe\"?: string; \"Unable to connect to Stripe.\"?: string; }; }",
-        "symbolIds": [
-          "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts#__type"
-        ]
-      }
-    },
-    "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs::property:\"en-US\"": {
-      "id": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs::property:\"en-US\"",
-      "ownerId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs",
-      "name": "\"en-US\"",
-      "kind": "property",
-      "visibility": "public",
-      "static": false,
-      "readonly": false,
-      "optional": false,
-      "abstract": false,
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "location": {
-        "fileId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts",
-        "line": 4,
-        "column": 3
-      },
-      "signatures": [],
-      "type": {
-        "text": "{ \"\": { \"Connected to Stripe\"?: string; \"Unable to connect to Stripe.\"?: string; }; }",
-        "symbolIds": [
-          "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts#__type"
-        ]
-      }
-    },
-    "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs::property:\"pl-PL\"": {
-      "id": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs::property:\"pl-PL\"",
-      "ownerId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs",
-      "name": "\"pl-PL\"",
-      "kind": "property",
-      "visibility": "public",
-      "static": false,
-      "readonly": false,
-      "optional": false,
-      "abstract": false,
-      "docs": {
-        "description": "",
-        "tags": []
-      },
-      "decorators": [],
-      "location": {
-        "fileId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts",
-        "line": 4,
-        "column": 3
-      },
-      "signatures": [],
-      "type": {
-        "text": "{ \"\": { \"Connected to Stripe\"?: string; \"Unable to connect to Stripe.\"?: string; }; }",
-        "symbolIds": [
-          "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts#__type"
-        ]
-      }
     }
   },
   "relations": [
@@ -70607,21 +70397,6 @@
       "fromId": "src/lib/taon-e-commerce-product-permission/i18n/taon-e-commerce-product-permission.translation.ts#TaonECommerceProductPermissionOverride",
       "toId": "src/lib/taon-e-commerce-product-permission/i18n/taon-e-commerce-product-permission.constants.ts.de-DE.i18n.data.ts#DeDeTraslationOverrideSrcLibTaonECommerceProductPermissionTaonECommerceProductPermissionConstantsTs",
       "kind": "references"
-    },
-    {
-      "fromId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts#DeDeTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs::property:\"de-DE\"",
-      "toId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts#__type",
-      "kind": "property-type"
-    },
-    {
-      "fromId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs::property:\"en-US\"",
-      "toId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts#__type",
-      "kind": "property-type"
-    },
-    {
-      "fromId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs::property:\"pl-PL\"",
-      "toId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts#__type",
-      "kind": "property-type"
     }
   ],
   "exports": [
@@ -76104,21 +75879,6 @@
       "moduleId": "src/lib/taon-e-commerce-product-permission/index.ts",
       "name": "TaonECommerceProductPermissionUtils",
       "symbolId": "src/lib/taon-e-commerce-product-permission/taon-e-commerce-product-permission.utils.ts#TaonECommerceProductPermissionUtils"
-    },
-    {
-      "moduleId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts",
-      "name": "DeDeTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs",
-      "symbolId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.de-DE.i18n.data.ts#DeDeTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs"
-    },
-    {
-      "moduleId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts",
-      "name": "EnUsTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs",
-      "symbolId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs"
-    },
-    {
-      "moduleId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts",
-      "name": "PlPlTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs",
-      "symbolId": "src/lib/taon-stripe/i18n/taon-stripe.repository.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibTaonStripeTaonStripeRepositoryTs"
     }
   ],
   "diagnostics": []

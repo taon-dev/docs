@@ -166,17 +166,17 @@ codeblock46: "taon an\n",
 // @taonSkipNextLineCut
 codeblock46Html: "taon an\n",
 // @taonSkipNextLineCut
-codeblock47: "taon bwl\n",
+codeblock47: "taon bw\n",
 // @taonSkipNextLineCut
-codeblock47Html: "taon bwl\n",
+codeblock47Html: "taon bw\n",
 // @taonSkipNextLineCut
 codeblock48: "taon ae\n",
 // @taonSkipNextLineCut
 codeblock48Html: "taon ae\n",
 // @taonSkipNextLineCut
-codeblock49: "taon bwl\n",
+codeblock49: "taon bw\n",
 // @taonSkipNextLineCut
-codeblock49Html: "taon bwl\n",
+codeblock49Html: "taon bw\n",
 // @taonSkipNextLineCut
 codeblock50: "taon release\n",
 // @taonSkipNextLineCut
@@ -212,115 +212,101 @@ codeblock59: "taon link\n",
 // @taonSkipNextLineCut
 codeblock59Html: "taon link\n",
 // @taonSkipNextLineCut
-codeblock60: "taon link:local\n",
+codeblock60: "taon link:global\n",
 // @taonSkipNextLineCut
-codeblock60Html: "taon link:<span class=\"hljs-built_in\">local</span>\n",
+codeblock60Html: "taon link:global\n",
 // @taonSkipNextLineCut
-codeblock61: "taon link:global\n",
+codeblock61: "logo.png",
 // @taonSkipNextLineCut
-codeblock61Html: "taon link:global\n",
+codeblock62: "taon branding\n",
 // @taonSkipNextLineCut
-codeblock62: "taon link:release\n",
+codeblock62Html: "taon branding\n",
 // @taonSkipNextLineCut
-codeblock62Html: "taon link:release\n",
+codeblock63: "taon refactor\n",
 // @taonSkipNextLineCut
-codeblock63: "logo.png",
+codeblock63Html: "taon refactor\n",
 // @taonSkipNextLineCut
-codeblock64: "taon branding\n",
+codeblock64: "taon sub add\n",
 // @taonSkipNextLineCut
-codeblock64Html: "taon branding\n",
+codeblock64Html: "taon sub add\n",
 // @taonSkipNextLineCut
-codeblock65: "taon refactor\n",
+codeblock65: "sub-projects",
 // @taonSkipNextLineCut
-codeblock65Html: "taon refactor\n",
+codeblock66: "my-taon-project/\n│\n├── src/\n│\n├── sub-projects/\n│   └── custom-workers/\n│       └── my-worker/\n│\n└── taon.jsonc\n",
 // @taonSkipNextLineCut
-codeblock66: "taon sub add\n",
+codeblock66Html: "my-taon-project/\n│\n├── src/\n│\n├── sub-projects/\n│   └── custom-workers/\n│       └── my-worker/\n│\n└── taon.jsonc\n",
 // @taonSkipNextLineCut
-codeblock66Html: "taon sub add\n",
+codeblock67: "rimraf ./sub-projects/custom-workers/my-worker\n",
 // @taonSkipNextLineCut
-codeblock67: "sub-projects",
+codeblock67Html: "rimraf ./sub-projects/custom-workers/my-worker\n",
 // @taonSkipNextLineCut
-codeblock68: "my-taon-project/\n│\n├── src/\n│\n├── sub-projects/\n│   └── custom-workers/\n│       └── my-worker/\n│\n└── taon.jsonc\n",
+codeblock68: "taon sub deploy\n",
 // @taonSkipNextLineCut
-codeblock68Html: "my-taon-project/\n│\n├── src/\n│\n├── sub-projects/\n│   └── custom-workers/\n│       └── my-worker/\n│\n└── taon.jsonc\n",
+codeblock68Html: "taon sub deploy\n",
 // @taonSkipNextLineCut
-codeblock69: "rimraf ./sub-projects/custom-workers/my-worker\n",
+codeblock69: "taon sub dev\n",
 // @taonSkipNextLineCut
-codeblock69Html: "rimraf ./sub-projects/custom-workers/my-worker\n",
+codeblock69Html: "taon sub dev\n",
 // @taonSkipNextLineCut
-codeblock70: "taon sub deploy\n",
+codeblock70: "taon ac\n",
 // @taonSkipNextLineCut
-codeblock70Html: "taon sub deploy\n",
+codeblock70Html: "taon ac\n",
 // @taonSkipNextLineCut
-codeblock71: "taon sub dev\n",
+codeblock71: "taon new",
 // @taonSkipNextLineCut
-codeblock71Html: "taon sub dev\n",
+codeblock72: "taon build",
 // @taonSkipNextLineCut
-codeblock72: "taon ac\n",
+codeblock73: "taon b",
 // @taonSkipNextLineCut
-codeblock72Html: "taon ac\n",
+codeblock74: "taon clear:build",
 // @taonSkipNextLineCut
-codeblock73: "taon new",
+codeblock75: "taon cb",
 // @taonSkipNextLineCut
-codeblock74: "taon build",
+codeblock76: "taon build:prod",
 // @taonSkipNextLineCut
-codeblock75: "taon b",
+codeblock77: "taon bp",
 // @taonSkipNextLineCut
-codeblock76: "taon clear:build",
+codeblock78: "taon build:watch",
 // @taonSkipNextLineCut
-codeblock77: "taon cb",
+codeblock79: "taon bw",
 // @taonSkipNextLineCut
-codeblock78: "taon build:prod",
+codeblock80: "taon app",
 // @taonSkipNextLineCut
-codeblock79: "taon bp",
+codeblock81: "taon app:normal",
 // @taonSkipNextLineCut
-codeblock80: "taon build:watch",
+codeblock82: "taon an",
 // @taonSkipNextLineCut
-codeblock81: "taon bw",
+codeblock83: "taon app:cloudflare",
 // @taonSkipNextLineCut
-codeblock82: "taon build:watch:lib",
+codeblock84: "taon ac",
 // @taonSkipNextLineCut
-codeblock83: "taon bwl",
+codeblock85: "taon app:websql",
 // @taonSkipNextLineCut
-codeblock84: "taon app",
+codeblock86: "taon aw",
 // @taonSkipNextLineCut
-codeblock85: "taon app:normal",
+codeblock87: "taon app:electron",
 // @taonSkipNextLineCut
-codeblock86: "taon an",
+codeblock88: "taon ae",
 // @taonSkipNextLineCut
-codeblock87: "taon app:cloudflare",
+codeblock89: "taon release",
 // @taonSkipNextLineCut
-codeblock88: "taon ac",
+codeblock90: "taon r",
 // @taonSkipNextLineCut
-codeblock89: "taon app:websql",
+codeblock91: "taon auto:release",
 // @taonSkipNextLineCut
-codeblock90: "taon aw",
+codeblock92: "taon ar",
 // @taonSkipNextLineCut
-codeblock91: "taon app:electron",
+codeblock93: "taon link:global",
 // @taonSkipNextLineCut
-codeblock92: "taon ae",
+codeblock94: "taon branding",
 // @taonSkipNextLineCut
-codeblock93: "taon release",
+codeblock95: "taon refactor",
 // @taonSkipNextLineCut
-codeblock94: "taon r",
+codeblock96: "taon sub add",
 // @taonSkipNextLineCut
-codeblock95: "taon auto:release",
+codeblock97: "taon sub deploy",
 // @taonSkipNextLineCut
-codeblock96: "taon ar",
-// @taonSkipNextLineCut
-codeblock97: "taon link",
-// @taonSkipNextLineCut
-codeblock98: "taon link:global",
-// @taonSkipNextLineCut
-codeblock99: "taon branding",
-// @taonSkipNextLineCut
-codeblock100: "taon refactor",
-// @taonSkipNextLineCut
-codeblock101: "taon sub add",
-// @taonSkipNextLineCut
-codeblock102: "taon sub deploy",
-// @taonSkipNextLineCut
-codeblock103: "taon sub dev"
+codeblock98: "taon sub dev"
   };
 
   headings: DocsHeading[] = [
@@ -480,18 +466,8 @@ codeblock103: "taon sub dev"
     "level": 3
   },
   {
-    "id": "local-linking",
-    "title": "Local Linking",
-    "level": 3
-  },
-  {
     "id": "global-development-linking",
     "title": "Global Development Linking",
-    "level": 3
-  },
-  {
-    "id": "release-branch-linking",
-    "title": "Release Branch Linking",
     "level": 3
   },
   {

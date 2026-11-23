@@ -43,7 +43,3 @@ msgstr ""
 #: src/lib/generated-docs-from-md-files/@taon-dev/session/src/app.auto-gen-docs.component.html:61
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock7, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
-
-#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/app.auto-gen-docs.component.html:69
-msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock8, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
-msgstr ""

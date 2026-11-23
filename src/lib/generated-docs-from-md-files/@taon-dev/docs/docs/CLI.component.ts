@@ -166,17 +166,17 @@ codeblock46: "taon an\n",
 // @taonSkipNextLineCut
 codeblock46Html: "taon an\n",
 // @taonSkipNextLineCut
-codeblock47: "taon bwl\n",
+codeblock47: "taon bw\n",
 // @taonSkipNextLineCut
-codeblock47Html: "taon bwl\n",
+codeblock47Html: "taon bw\n",
 // @taonSkipNextLineCut
 codeblock48: "taon ae\n",
 // @taonSkipNextLineCut
 codeblock48Html: "taon ae\n",
 // @taonSkipNextLineCut
-codeblock49: "taon bwl\n",
+codeblock49: "taon bw\n",
 // @taonSkipNextLineCut
-codeblock49Html: "taon bwl\n",
+codeblock49Html: "taon bw\n",
 // @taonSkipNextLineCut
 codeblock50: "taon release\n",
 // @taonSkipNextLineCut
@@ -212,295 +212,281 @@ codeblock59: "taon link\n",
 // @taonSkipNextLineCut
 codeblock59Html: "taon link\n",
 // @taonSkipNextLineCut
-codeblock60: "taon link:local\n",
+codeblock60: "taon link:global\n",
 // @taonSkipNextLineCut
-codeblock60Html: "taon link:<span class=\"hljs-built_in\">local</span>\n",
+codeblock60Html: "taon link:global\n",
 // @taonSkipNextLineCut
-codeblock61: "taon link:global\n",
+codeblock61: "logo.png",
 // @taonSkipNextLineCut
-codeblock61Html: "taon link:global\n",
+codeblock62: "taon branding\n",
 // @taonSkipNextLineCut
-codeblock62: "taon link:release\n",
+codeblock62Html: "taon branding\n",
 // @taonSkipNextLineCut
-codeblock62Html: "taon link:release\n",
+codeblock63: "taon refactor\n",
 // @taonSkipNextLineCut
-codeblock63: "logo.png",
+codeblock63Html: "taon refactor\n",
 // @taonSkipNextLineCut
-codeblock64: "taon branding\n",
+codeblock64: "taon sub add\n",
 // @taonSkipNextLineCut
-codeblock64Html: "taon branding\n",
+codeblock64Html: "taon sub add\n",
 // @taonSkipNextLineCut
-codeblock65: "taon refactor\n",
+codeblock65: "sub-projects",
 // @taonSkipNextLineCut
-codeblock65Html: "taon refactor\n",
+codeblock66: "my-taon-project/\n│\n├── src/\n│\n├── sub-projects/\n│   └── custom-workers/\n│       └── my-worker/\n│\n└── taon.jsonc\n",
 // @taonSkipNextLineCut
-codeblock66: "taon sub add\n",
+codeblock66Html: "my-taon-project/\n│\n├── src/\n│\n├── sub-projects/\n│   └── custom-workers/\n│       └── my-worker/\n│\n└── taon.jsonc\n",
 // @taonSkipNextLineCut
-codeblock66Html: "taon sub add\n",
+codeblock67: "rimraf ./sub-projects/custom-workers/my-worker\n",
 // @taonSkipNextLineCut
-codeblock67: "sub-projects",
+codeblock67Html: "rimraf ./sub-projects/custom-workers/my-worker\n",
 // @taonSkipNextLineCut
-codeblock68: "my-taon-project/\n│\n├── src/\n│\n├── sub-projects/\n│   └── custom-workers/\n│       └── my-worker/\n│\n└── taon.jsonc\n",
+codeblock68: "taon sub deploy\n",
 // @taonSkipNextLineCut
-codeblock68Html: "my-taon-project/\n│\n├── src/\n│\n├── sub-projects/\n│   └── custom-workers/\n│       └── my-worker/\n│\n└── taon.jsonc\n",
+codeblock68Html: "taon sub deploy\n",
 // @taonSkipNextLineCut
-codeblock69: "rimraf ./sub-projects/custom-workers/my-worker\n",
+codeblock69: "taon sub dev\n",
 // @taonSkipNextLineCut
-codeblock69Html: "rimraf ./sub-projects/custom-workers/my-worker\n",
+codeblock69Html: "taon sub dev\n",
 // @taonSkipNextLineCut
-codeblock70: "taon sub deploy\n",
+codeblock70: "taon ac\n",
 // @taonSkipNextLineCut
-codeblock70Html: "taon sub deploy\n",
+codeblock70Html: "taon ac\n",
 // @taonSkipNextLineCut
-codeblock71: "taon sub dev\n",
+codeblock71: "taon new",
 // @taonSkipNextLineCut
-codeblock71Html: "taon sub dev\n",
+codeblock72: "taon build",
 // @taonSkipNextLineCut
-codeblock72: "taon ac\n",
+codeblock73: "taon b",
 // @taonSkipNextLineCut
-codeblock72Html: "taon ac\n",
+codeblock74: "taon clear:build",
 // @taonSkipNextLineCut
-codeblock73: "taon new",
+codeblock75: "taon cb",
 // @taonSkipNextLineCut
-codeblock74: "taon build",
+codeblock76: "taon build:prod",
 // @taonSkipNextLineCut
-codeblock75: "taon b",
+codeblock77: "taon bp",
 // @taonSkipNextLineCut
-codeblock76: "taon clear:build",
+codeblock78: "taon build:watch",
 // @taonSkipNextLineCut
-codeblock77: "taon cb",
+codeblock79: "taon bw",
 // @taonSkipNextLineCut
-codeblock78: "taon build:prod",
+codeblock80: "taon app",
 // @taonSkipNextLineCut
-codeblock79: "taon bp",
+codeblock81: "taon app:normal",
 // @taonSkipNextLineCut
-codeblock80: "taon build:watch",
+codeblock82: "taon an",
 // @taonSkipNextLineCut
-codeblock81: "taon bw",
+codeblock83: "taon app:cloudflare",
 // @taonSkipNextLineCut
-codeblock82: "taon build:watch:lib",
+codeblock84: "taon ac",
 // @taonSkipNextLineCut
-codeblock83: "taon bwl",
+codeblock85: "taon app:websql",
 // @taonSkipNextLineCut
-codeblock84: "taon app",
+codeblock86: "taon aw",
 // @taonSkipNextLineCut
-codeblock85: "taon app:normal",
+codeblock87: "taon app:electron",
 // @taonSkipNextLineCut
-codeblock86: "taon an",
+codeblock88: "taon ae",
 // @taonSkipNextLineCut
-codeblock87: "taon app:cloudflare",
+codeblock89: "taon release",
 // @taonSkipNextLineCut
-codeblock88: "taon ac",
+codeblock90: "taon r",
 // @taonSkipNextLineCut
-codeblock89: "taon app:websql",
+codeblock91: "taon auto:release",
 // @taonSkipNextLineCut
-codeblock90: "taon aw",
+codeblock92: "taon ar",
 // @taonSkipNextLineCut
-codeblock91: "taon app:electron",
+codeblock93: "taon link:global",
 // @taonSkipNextLineCut
-codeblock92: "taon ae",
+codeblock94: "taon branding",
 // @taonSkipNextLineCut
-codeblock93: "taon release",
+codeblock95: "taon refactor",
 // @taonSkipNextLineCut
-codeblock94: "taon r",
+codeblock96: "taon sub add",
 // @taonSkipNextLineCut
-codeblock95: "taon auto:release",
+codeblock97: "taon sub deploy",
 // @taonSkipNextLineCut
-codeblock96: "taon ar",
+codeblock98: "taon sub dev",
 // @taonSkipNextLineCut
-codeblock97: "taon link",
+codeblock99: "taon check:port 80 443 8080",
 // @taonSkipNextLineCut
-codeblock98: "taon link:global",
+codeblock100: "taon copy from-path to-path",
 // @taonSkipNextLineCut
-codeblock99: "taon branding",
+codeblock101: "taon ln from-path to-path",
 // @taonSkipNextLineCut
-codeblock100: "taon refactor",
+codeblock102: "taon refresh",
 // @taonSkipNextLineCut
-codeblock101: "taon sub add",
+codeblock103: "taon settings:vscode",
 // @taonSkipNextLineCut
-codeblock102: "taon sub deploy",
+codeblock104: "taon select:java",
 // @taonSkipNextLineCut
-codeblock103: "taon sub dev",
+codeblock105: "taon select:tomcat",
 // @taonSkipNextLineCut
-codeblock104: "taon check:port 80 443 8080",
+codeblock106: "taon simulateDomain my-test-domain.com",
 // @taonSkipNextLineCut
-codeblock105: "taon copy from-path to-path",
+codeblock107: "taon hosts",
 // @taonSkipNextLineCut
-codeblock106: "taon ln from-path to-path",
+codeblock108: "taon soft",
 // @taonSkipNextLineCut
-codeblock107: "taon refresh",
+codeblock109: "git reset --soft HEAD~1",
 // @taonSkipNextLineCut
-codeblock108: "taon settings:vscode",
+codeblock110: "taon count:commits",
 // @taonSkipNextLineCut
-codeblock109: "taon select:java",
+codeblock111: "taon remove:submodules",
 // @taonSkipNextLineCut
-codeblock110: "taon select:tomcat",
+codeblock112: "taon remove:submodule my-not-wanted-git-submodules",
 // @taonSkipNextLineCut
-codeblock111: "taon simulateDomain my-test-domain.com",
+codeblock113: "taon remove:tag git-tag-name-optionally",
 // @taonSkipNextLineCut
-codeblock112: "taon hosts",
+codeblock114: "taon last:tag",
 // @taonSkipNextLineCut
-codeblock113: "taon soft",
+codeblock115: "taon clone git-repo-address-to-clone",
 // @taonSkipNextLineCut
-codeblock114: "git reset --soft HEAD~1",
+codeblock116: "taon origin",
 // @taonSkipNextLineCut
-codeblock115: "taon count:commits",
+codeblock117: "taon remote",
 // @taonSkipNextLineCut
-codeblock116: "taon remove:submodules",
+codeblock118: "taon origin",
 // @taonSkipNextLineCut
-codeblock117: "taon remove:submodule my-not-wanted-git-submodules",
+codeblock119: "taon origins",
 // @taonSkipNextLineCut
-codeblock118: "taon remove:tag git-tag-name-optionally",
+codeblock120: "taon remotes",
 // @taonSkipNextLineCut
-codeblock119: "taon last:tag",
+codeblock121: "taon origins",
 // @taonSkipNextLineCut
-codeblock120: "taon clone git-repo-address-to-clone",
+codeblock122: "taon rename:origin http://my-new-origin",
 // @taonSkipNextLineCut
-codeblock121: "taon origin",
+codeblock123: "taon set:origin http://my-new-origin",
 // @taonSkipNextLineCut
-codeblock122: "taon remote",
+codeblock124: "taon set:remote:ssh",
 // @taonSkipNextLineCut
-codeblock123: "taon origin",
+codeblock125: "taon set:remote:http",
 // @taonSkipNextLineCut
-codeblock124: "taon origins",
+codeblock126: "taon rebase",
 // @taonSkipNextLineCut
-codeblock125: "taon remotes",
+codeblock127: "taon rebase branch-to-rebase",
 // @taonSkipNextLineCut
-codeblock126: "taon origins",
+codeblock128: "taon stash",
 // @taonSkipNextLineCut
-codeblock127: "taon rename:origin http://my-new-origin",
+codeblock129: "taon stashall",
 // @taonSkipNextLineCut
-codeblock128: "taon set:origin http://my-new-origin",
+codeblock130: "taon branch",
 // @taonSkipNextLineCut
-codeblock129: "taon set:remote:ssh",
+codeblock131: "taon reset",
 // @taonSkipNextLineCut
-codeblock130: "taon set:remote:http",
+codeblock132: "git fetch",
 // @taonSkipNextLineCut
-codeblock131: "taon rebase",
+codeblock133: "taon branch",
 // @taonSkipNextLineCut
-codeblock132: "taon rebase branch-to-rebase",
+codeblock134: "taon reset my-branch",
 // @taonSkipNextLineCut
-codeblock133: "taon stash",
-// @taonSkipNextLineCut
-codeblock134: "taon stashall",
-// @taonSkipNextLineCut
-codeblock135: "taon branch",
+codeblock135: "taon reset",
 // @taonSkipNextLineCut
 codeblock136: "taon reset",
 // @taonSkipNextLineCut
-codeblock137: "git fetch",
+codeblock137: "taon pull",
 // @taonSkipNextLineCut
-codeblock138: "taon branch",
+codeblock138: "taon pull:all",
 // @taonSkipNextLineCut
-codeblock139: "taon reset my-branch",
+codeblock139: "taon pull:deep",
 // @taonSkipNextLineCut
-codeblock140: "taon reset",
+codeblock140: "taon pul",
 // @taonSkipNextLineCut
-codeblock141: "taon reset",
+codeblock141: "taon pushall",
 // @taonSkipNextLineCut
-codeblock142: "taon pull",
+codeblock142: "taon pall",
 // @taonSkipNextLineCut
-codeblock143: "taon pull:all",
+codeblock143: "taon pushall",
 // @taonSkipNextLineCut
-codeblock144: "taon pull:deep",
+codeblock144: "taon push",
 // @taonSkipNextLineCut
-codeblock145: "taon pul",
+codeblock145: "taon push",
 // @taonSkipNextLineCut
-codeblock146: "taon pushall",
+codeblock146: "taon push:deep",
 // @taonSkipNextLineCut
-codeblock147: "taon pall",
+codeblock147: "taon pushallorigins",
 // @taonSkipNextLineCut
-codeblock148: "taon pushall",
+codeblock148: "taon push",
 // @taonSkipNextLineCut
-codeblock149: "taon push",
+codeblock149: "taon pfix JIRA-379089 JIRA-380320 proper counter message [my-lib]",
 // @taonSkipNextLineCut
-codeblock150: "taon push",
+codeblock150: "git checkout -b bugfix/JIRA-379089-JIRA-380320--my-lib--proper-counter-message",
 // @taonSkipNextLineCut
-codeblock151: "taon push:deep",
+codeblock151: "git add",
 // @taonSkipNextLineCut
-codeblock152: "taon pushallorigins",
+codeblock152: "git commit -m \"fix(my-lib): proper counter message JIRA-379089 JIRA-380320\"",
 // @taonSkipNextLineCut
-codeblock153: "taon push",
+codeblock153: "git push origin bugfix/JIRA-379089-JIRA-380320--my-lib--proper-counter-message",
 // @taonSkipNextLineCut
-codeblock154: "taon pfix JIRA-379089 JIRA-380320 proper counter message [my-lib]",
+codeblock154: "taon pf JIRA-379089 JIRA-380320 admin notification [my-lib]",
 // @taonSkipNextLineCut
-codeblock155: "git checkout -b bugfix/JIRA-379089-JIRA-380320--my-lib--proper-counter-message",
+codeblock155: "git checkout -b feature/JIRA-379089-JIRA-380320--my-lib--admin-notification",
 // @taonSkipNextLineCut
 codeblock156: "git add",
 // @taonSkipNextLineCut
-codeblock157: "git commit -m \"fix(my-lib): proper counter message JIRA-379089 JIRA-380320\"",
+codeblock157: "git commit -m \"feat(my-lib): admin notification JIRA-379089 JIRA-380320\"",
 // @taonSkipNextLineCut
-codeblock158: "git push origin bugfix/JIRA-379089-JIRA-380320--my-lib--proper-counter-message",
+codeblock158: "git push origin feature/JIRA-379089-JIRA-380320--my-lib--admin-notification",
 // @taonSkipNextLineCut
-codeblock159: "taon pf JIRA-379089 JIRA-380320 admin notification [my-lib]",
+codeblock159: "taon pc JIRA-379089 update deps",
 // @taonSkipNextLineCut
-codeblock160: "git checkout -b feature/JIRA-379089-JIRA-380320--my-lib--admin-notification",
+codeblock160: "git checkout -b chore/JIRA-379089-update-deps",
 // @taonSkipNextLineCut
 codeblock161: "git add",
 // @taonSkipNextLineCut
-codeblock162: "git commit -m \"feat(my-lib): admin notification JIRA-379089 JIRA-380320\"",
+codeblock162: "git commit -m \"chore: update deps JIRA-379089\"",
 // @taonSkipNextLineCut
-codeblock163: "git push origin feature/JIRA-379089-JIRA-380320--my-lib--admin-notification",
+codeblock163: "git push origin  chore/JIRA-379089-update-deps",
 // @taonSkipNextLineCut
-codeblock164: "taon pc JIRA-379089 update deps",
+codeblock164: "taon pd explained installation",
 // @taonSkipNextLineCut
-codeblock165: "git checkout -b chore/JIRA-379089-update-deps",
+codeblock165: "git checkout -b docs/explained-installation",
 // @taonSkipNextLineCut
 codeblock166: "git add",
 // @taonSkipNextLineCut
-codeblock167: "git commit -m \"chore: update deps JIRA-379089\"",
+codeblock167: "git commit -m \"docs:explained installation\"",
 // @taonSkipNextLineCut
-codeblock168: "git push origin  chore/JIRA-379089-update-deps",
+codeblock168: "git push origin docs/explained-installation",
 // @taonSkipNextLineCut
-codeblock169: "taon pd explained installation",
+codeblock169: "taon ptest admin permission new use case",
 // @taonSkipNextLineCut
-codeblock170: "git checkout -b docs/explained-installation",
+codeblock170: "git checkout -b test/admin-permission-new-use-case",
 // @taonSkipNextLineCut
 codeblock171: "git add",
 // @taonSkipNextLineCut
-codeblock172: "git commit -m \"docs:explained installation\"",
+codeblock172: "git commit -m \"test: admin permission new use case\"",
 // @taonSkipNextLineCut
-codeblock173: "git push origin docs/explained-installation",
+codeblock173: "git push origin test/admin-permission-new-use-case",
 // @taonSkipNextLineCut
-codeblock174: "taon ptest admin permission new use case",
+codeblock174: "taon pstyle proper project methods",
 // @taonSkipNextLineCut
-codeblock175: "git checkout -b test/admin-permission-new-use-case",
+codeblock175: "git checkout -b style/proper-project-methods",
 // @taonSkipNextLineCut
 codeblock176: "git add",
 // @taonSkipNextLineCut
-codeblock177: "git commit -m \"test: admin permission new use case\"",
+codeblock177: "git commit -m \"style: proper project methods\"",
 // @taonSkipNextLineCut
-codeblock178: "git push origin test/admin-permission-new-use-case",
+codeblock178: "git push origin style/proper-project-methods",
 // @taonSkipNextLineCut
-codeblock179: "taon pstyle proper project methods",
+codeblock179: "taon pref new permission module",
 // @taonSkipNextLineCut
-codeblock180: "git checkout -b style/proper-project-methods",
+codeblock180: "git checkout -b refactor/new-permission-module",
 // @taonSkipNextLineCut
 codeblock181: "git add",
 // @taonSkipNextLineCut
-codeblock182: "git commit -m \"style: proper project methods\"",
+codeblock182: "git commit -m \"refactor: new permission module\"",
 // @taonSkipNextLineCut
-codeblock183: "git push origin style/proper-project-methods",
+codeblock183: "git push origin refactor/new-permission-module",
 // @taonSkipNextLineCut
-codeblock184: "taon pref new permission module",
+codeblock184: "taon prelease",
 // @taonSkipNextLineCut
-codeblock185: "git checkout -b refactor/new-permission-module",
+codeblock185: "git checkout -b release/version-v1-2-3",
 // @taonSkipNextLineCut
 codeblock186: "git add",
 // @taonSkipNextLineCut
-codeblock187: "git commit -m \"refactor: new permission module\"",
+codeblock187: "git commit -m \"release: version v1.2.3\"",
 // @taonSkipNextLineCut
-codeblock188: "git push origin refactor/new-permission-module",
-// @taonSkipNextLineCut
-codeblock189: "taon prelease",
-// @taonSkipNextLineCut
-codeblock190: "git checkout -b release/version-v1-2-3",
-// @taonSkipNextLineCut
-codeblock191: "git add",
-// @taonSkipNextLineCut
-codeblock192: "git commit -m \"release: version v1.2.3\"",
-// @taonSkipNextLineCut
-codeblock193: "git push origin release/version-1-2-3"
+codeblock188: "git push origin release/version-1-2-3"
   };
 
   headings: DocsHeading[] = [
@@ -660,18 +646,8 @@ codeblock193: "git push origin release/version-1-2-3"
     "level": 3
   },
   {
-    "id": "local-linking",
-    "title": "Local Linking",
-    "level": 3
-  },
-  {
     "id": "global-development-linking",
     "title": "Global Development Linking",
-    "level": 3
-  },
-  {
-    "id": "release-branch-linking",
-    "title": "Release Branch Linking",
     "level": 3
   },
   {

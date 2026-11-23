@@ -68,9 +68,9 @@ codeblock17: "taon",
 // @taonSkipNextLineCut
 codeblock18: "tnp",
 // @taonSkipNextLineCut
-codeblock19: "tnp bwl\n",
+codeblock19: "tnp bw\n",
 // @taonSkipNextLineCut
-codeblock19Html: "tnp bwl\n",
+codeblock19Html: "tnp bw\n",
 // @taonSkipNextLineCut
 codeblock20: "taon-dev",
 // @taonSkipNextLineCut
@@ -88,41 +88,41 @@ codeblock26: "tnp",
 // @taonSkipNextLineCut
 codeblock27: "taon",
 // @taonSkipNextLineCut
-codeblock28: "cd taon-dev/tnp\ntnp bwl\n",
+codeblock28: "cd taon-dev/tnp\ntnp bw\n",
 // @taonSkipNextLineCut
-codeblock28Html: "<span class=\"hljs-built_in\">cd</span> taon-dev/tnp\ntnp bwl\n",
+codeblock28Html: "<span class=\"hljs-built_in\">cd</span> taon-dev/tnp\ntnp bw\n",
 // @taonSkipNextLineCut
 codeblock29: "tnp",
 // @taonSkipNextLineCut
 codeblock30: "taon",
 // @taonSkipNextLineCut
-codeblock31: "cd taon-dev/taon\ntnp bwl\n",
+codeblock31: "cd taon-dev/taon\ntnp bw\n",
 // @taonSkipNextLineCut
-codeblock31Html: "<span class=\"hljs-built_in\">cd</span> taon-dev/taon\ntnp bwl\n",
+codeblock31Html: "<span class=\"hljs-built_in\">cd</span> taon-dev/taon\ntnp bw\n",
 // @taonSkipNextLineCut
 codeblock32: "tnp-core",
 // @taonSkipNextLineCut
-codeblock33: "cd taon-dev/tnp-core\ntnp bwl\n",
+codeblock33: "cd taon-dev/tnp-core\ntnp bw\n",
 // @taonSkipNextLineCut
-codeblock33Html: "<span class=\"hljs-built_in\">cd</span> taon-dev/tnp-core\ntnp bwl\n",
+codeblock33Html: "<span class=\"hljs-built_in\">cd</span> taon-dev/tnp-core\ntnp bw\n",
 // @taonSkipNextLineCut
 codeblock34: "ng2-rest",
 // @taonSkipNextLineCut
-codeblock35: "cd taon-dev/ng2-rest\ntnp bwl\n",
+codeblock35: "cd taon-dev/ng2-rest\ntnp bw\n",
 // @taonSkipNextLineCut
-codeblock35Html: "<span class=\"hljs-built_in\">cd</span> taon-dev/ng2-rest\ntnp bwl\n",
+codeblock35Html: "<span class=\"hljs-built_in\">cd</span> taon-dev/ng2-rest\ntnp bw\n",
 // @taonSkipNextLineCut
 codeblock36: "tnp-helpers",
 // @taonSkipNextLineCut
-codeblock37: "cd taon-dev/tnp-helpers\ntnp bwl\n",
+codeblock37: "cd taon-dev/tnp-helpers\ntnp bw\n",
 // @taonSkipNextLineCut
-codeblock37Html: "<span class=\"hljs-built_in\">cd</span> taon-dev/tnp-helpers\ntnp bwl\n",
+codeblock37Html: "<span class=\"hljs-built_in\">cd</span> taon-dev/tnp-helpers\ntnp bw\n",
 // @taonSkipNextLineCut
 codeblock38: "taon-typeorm",
 // @taonSkipNextLineCut
-codeblock39: "cd taon-dev/taon-typeorm\ntnp bwl\n",
+codeblock39: "cd taon-dev/taon-typeorm\ntnp bw\n",
 // @taonSkipNextLineCut
-codeblock39Html: "<span class=\"hljs-built_in\">cd</span> taon-dev/taon-typeorm\ntnp bwl\n",
+codeblock39Html: "<span class=\"hljs-built_in\">cd</span> taon-dev/taon-typeorm\ntnp bw\n",
 // @taonSkipNextLineCut
 codeblock40: "ui",
 // @taonSkipNextLineCut
@@ -130,9 +130,9 @@ codeblock41: "taon-ui",
 // @taonSkipNextLineCut
 codeblock42: "ui",
 // @taonSkipNextLineCut
-codeblock43: "cd taon-dev/ui\ntnp bwl\n",
+codeblock43: "cd taon-dev/ui\ntnp bw\n",
 // @taonSkipNextLineCut
-codeblock43Html: "<span class=\"hljs-built_in\">cd</span> taon-dev/ui\ntnp bwl\n",
+codeblock43Html: "<span class=\"hljs-built_in\">cd</span> taon-dev/ui\ntnp bw\n",
 // @taonSkipNextLineCut
 codeblock44: "session",
 // @taonSkipNextLineCut
@@ -144,9 +144,9 @@ codeblock47: "analytic",
 // @taonSkipNextLineCut
 codeblock48: "seo",
 // @taonSkipNextLineCut
-codeblock49: "cd taon-dev/session\ntnp bwl\n",
+codeblock49: "cd taon-dev/session\ntnp bw\n",
 // @taonSkipNextLineCut
-codeblock49Html: "<span class=\"hljs-built_in\">cd</span> taon-dev/session\ntnp bwl\n",
+codeblock49Html: "<span class=\"hljs-built_in\">cd</span> taon-dev/session\ntnp bw\n",
 // @taonSkipNextLineCut
 codeblock50: "tnp an\n",
 // @taonSkipNextLineCut

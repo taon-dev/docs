@@ -8,285 +8,281 @@ msgstr ""
 msgid "Where environment variables are stored"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:2
-msgid "Each Taon Project stores its environment variables — both secret and public — in:"
-msgstr ""
-
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:3
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:11
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock0, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:8
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:16
 msgid "Example content of an"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:8
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:16
 msgid "file"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:9
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:17
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock2, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:14
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:22
 msgid "Starting an environment configuration from scratch"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:15
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:23
 msgid "You can initially define your environment file with a plain-text secret:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:16
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:24
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock3, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:22
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:30
 msgid "<strong>Important:</strong> Do not commit the file while secret values are still stored in plain text. Run"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:22
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:30
 msgid "first."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:24
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:32
 msgid "How to access environment variables"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:25
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:33
 msgid "Use the generated environment variables from:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:26
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:34
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock5, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:31
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:39
 msgid "Secret variables"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:32
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:40
 msgid "Secret variables are generated as functions returning promises and must be awaited:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:33
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:41
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock6, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:38
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:46
 msgid "Public variables"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:39
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:47
 msgid "Public variables are usually regular strings, numbers, or booleans:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:40
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:48
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock7, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:45
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:53
 msgid "Preferred way of using environment variables"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:46
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:54
 msgid "1. Create a provider"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:47
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:55
 msgid "Use a provider as the central place where generated environment variables are resolved and assigned."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:48
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:56
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock8, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:53
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:61
 msgid "2. Inject the provider into controllers, repositories, etc."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:54
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:62
 msgid "<strong>This is the preferred way to access environment variables on the backend: inject the provider.</strong>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:55
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:63
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock9, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:60
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:68
 msgid "3. Create"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:60
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:68
 msgid "to access public variables on the frontend"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:61
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:69
 msgid "<strong>This is the preferred way to access public environment variables on the frontend: inject a config service.</strong>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:62
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:70
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock11, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:67
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:75
 msgid "What NOT to do"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:70
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:78
 msgid ", such as:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:71
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:79
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock13, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:76
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:84
 msgid "You will be asked for the <strong>master password</strong> when necessary."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:77
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:85
 msgid "During the build, Taon automatically creates a decoded copy of:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:78
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:86
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock14, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:83
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:91
 msgid "inside the"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:83
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:91
 msgid "folder."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:87
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:95
 msgid "For example:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:88
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:96
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock17, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:93
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:101
 msgid "The encrypted representation may change. This is normal. The encryption mechanism can rotate the encrypted representation while the <strong>master password remains the same</strong>."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:96
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:104
 msgid "<strong>Never commit unencrypted secret variables.</strong>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:97
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:105
 msgid "Do NOT commit:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:98
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:106
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock18, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:103
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:111
 msgid "Always use:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:104
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:112
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock19, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:109
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:117
 msgid "before committing files containing secrets."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:110
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:118
 msgid "Secret values inside"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:110
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:118
 msgid "and"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:110
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:118
 msgid "should be encrypted:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:111
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:119
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock22, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:118
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:126
 msgid "Additional rules for AI agents"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:119
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:127
 msgid "When working with Taon environment variables, an AI agent must:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:122
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:130
 msgid "Use only generated environment variables from:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:123
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:131
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock23, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:130
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:138
 msgid "Never attempt to encrypt or decrypt environment variables."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:133
 #: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:141
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:149
 msgid "Never run:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:134
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:142
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock24, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:142
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:150
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock25, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:149
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:157
 msgid "Never access or expose the master password."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:152
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:160
 msgid "Never replace generated environment variables with hardcoded secret values."
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:155
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:163
 msgid "How to generate a master password"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:156
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:175
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:164
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:183
 msgid "Use:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:157
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:165
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock26, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:162
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:181
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:170
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:189
 msgid "Alternatively, use the interactive environment menu:"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:163
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:171
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock27, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:168
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:176
 msgid "How the master password is preserved locally"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:174
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:182
 msgid "How to remove the master password from the worker"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:176
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:184
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock28, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""
 
-#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:182
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/environment-variables.component.html:190
 msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock29, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
 msgstr ""

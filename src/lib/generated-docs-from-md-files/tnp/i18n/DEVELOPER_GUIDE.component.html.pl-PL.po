@@ -39,7 +39,7 @@ msgid "1. Install Taon"
 msgstr ""
 
 #: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:11
-msgid "Follow the installation instructions in the <a href=\"https://github.com/darekf77/taon\">Taon repository</a>."
+msgid "Follow the installation instructions in the <a [href]=\"baseHref + &quot;/taon/README.md&quot;\">Taon repository</a>."
 msgstr ""
 
 #: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:12

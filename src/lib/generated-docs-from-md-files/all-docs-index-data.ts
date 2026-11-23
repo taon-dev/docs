@@ -901,7 +901,7 @@ export const TaonDev__DocsDocsIndexData = [
     "filePath": "@taon-dev/docs/.ai/rules/environment-variables.md",
     "headingId": "where-environment-variables-are-stored",
     "headingTitle": "Where environment variables are stored",
-    "text": "Where environment variables are stored Each Taon Project stores its environment variables — both secret and public — in: /env.ts # Main root file with environment variables /environments/**/env.*.ts # Environment files for specific build artifacts/environments",
+    "text": "Where environment variables are stored Important: When deploying to Cloudflare, Taon securely passes the master password to your Worker as an environment secret. Managing environment variables and secrets works similarly to a standard Node.js process (no additional work required). /env.ts # Main root file with environment variables /environments/**/env.*.ts # Environment files for specific build artifacts/environments",
     "api": false
   },
   {
@@ -2770,7 +2770,7 @@ export const TaonDev__DocsDocsIndexData = [
     "filePath": "isomorphic-lib-v21/.ai/rules/environment-variables.md",
     "headingId": "where-environment-variables-are-stored",
     "headingTitle": "Where environment variables are stored",
-    "text": "Where environment variables are stored Each Taon Project stores its environment variables — both secret and public — in: /env.ts # Main root file with environment variables /environments/**/env.*.ts # Environment files for specific build artifacts/environments",
+    "text": "Where environment variables are stored Important: When deploying to Cloudflare, Taon securely passes the master password to your Worker as an environment secret. Managing environment variables and secrets works similarly to a standard Node.js process (no additional work required). /env.ts # Main root file with environment variables /environments/**/env.*.ts # Environment files for specific build artifacts/environments",
     "api": false
   },
   {
@@ -3624,7 +3624,7 @@ export const TaonDev__DocsDocsIndexData = [
     "filePath": "tnp/DEVELOPER_GUIDE.md",
     "headingId": "5-verify-the-tnp-installation",
     "headingTitle": "5. Verify the tnp Installation",
-    "text": "5. Verify the tnp Installation tnp version You can now use the tnp command wherever you would normally use the taon command. As a first test, try building tnp using its own CLI in watch mode: tnp bwl",
+    "text": "5. Verify the tnp Installation tnp version You can now use the tnp command wherever you would normally use the taon command. As a first test, try building tnp using its own CLI in watch mode: tnp bw",
     "api": false
   },
   {
@@ -3638,56 +3638,56 @@ export const TaonDev__DocsDocsIndexData = [
     "filePath": "tnp/DEVELOPER_GUIDE.md",
     "headingId": "cli-main-repository-tnp",
     "headingTitle": "CLI — Main Repository (tnp)",
-    "text": "CLI — Main Repository (tnp) Use this repository to: Add or modify tnp and taon CLI commands. Extend or modify the build system. cd taon-dev/tnp tnp bwl You will see changes immediately in you tnp tool.",
+    "text": "CLI — Main Repository (tnp) Use this repository to: Add or modify tnp and taon CLI commands. Extend or modify the build system. cd taon-dev/tnp tnp bw You will see changes immediately in you tnp tool.",
     "api": false
   },
   {
     "filePath": "tnp/DEVELOPER_GUIDE.md",
     "headingId": "framework-main-repository-taon",
     "headingTitle": "Framework — Main Repository (taon)",
-    "text": "Framework — Main Repository (taon) Use this repository to: Develop and modify Taon framework building blocks. Work with controllers, contexts, providers, repositories, and other framework components. cd taon-dev/taon tnp bwl",
+    "text": "Framework — Main Repository (taon) Use this repository to: Develop and modify Taon framework building blocks. Work with controllers, contexts, providers, repositories, and other framework components. cd taon-dev/taon tnp bw",
     "api": false
   },
   {
     "filePath": "tnp/DEVELOPER_GUIDE.md",
     "headingId": "core-helpers-and-utilities-tnp-core",
     "headingTitle": "Core Helpers and Utilities (tnp-core)",
-    "text": "Core Helpers and Utilities (tnp-core) Use this repository to: Add, modify, and test core utilities and helper functions. cd taon-dev/tnp-core tnp bwl",
+    "text": "Core Helpers and Utilities (tnp-core) Use this repository to: Add, modify, and test core utilities and helper functions. cd taon-dev/tnp-core tnp bw",
     "api": false
   },
   {
     "filePath": "tnp/DEVELOPER_GUIDE.md",
     "headingId": "http-fetch-wrapper-ng2-rest",
     "headingTitle": "HTTP Fetch Wrapper (ng2-rest)",
-    "text": "HTTP Fetch Wrapper (ng2-rest) Use this repository to: Develop and maintain Taon's HTTP communication abstractions. Modify the HTTP request and response handling mechanisms. cd taon-dev/ng2-rest tnp bwl",
+    "text": "HTTP Fetch Wrapper (ng2-rest) Use this repository to: Develop and maintain Taon's HTTP communication abstractions. Modify the HTTP request and response handling mechanisms. cd taon-dev/ng2-rest tnp bw",
     "api": false
   },
   {
     "filePath": "tnp/DEVELOPER_GUIDE.md",
     "headingId": "advanced-helpers-utilities-and-types-tnp-helpers",
     "headingTitle": "Advanced Helpers, Utilities, and Types (tnp-helpers)",
-    "text": "Advanced Helpers, Utilities, and Types (tnp-helpers) Use this repository to: Develop and maintain higher-level utilities, classes, types, and reusable abstractions. cd taon-dev/tnp-helpers tnp bwl",
+    "text": "Advanced Helpers, Utilities, and Types (tnp-helpers) Use this repository to: Develop and maintain higher-level utilities, classes, types, and reusable abstractions. cd taon-dev/tnp-helpers tnp bw",
     "api": false
   },
   {
     "filePath": "tnp/DEVELOPER_GUIDE.md",
     "headingId": "typeorm-fork-taon-typeorm",
     "headingTitle": "TypeORM Fork (taon-typeorm)",
-    "text": "TypeORM Fork (taon-typeorm) Use this repository to: Maintain and update Taon's TypeORM fork. Apply framework-specific changes to TypeORM. cd taon-dev/taon-typeorm tnp bwl",
+    "text": "TypeORM Fork (taon-typeorm) Use this repository to: Maintain and update Taon's TypeORM fork. Apply framework-specific changes to TypeORM. cd taon-dev/taon-typeorm tnp bw",
     "api": false
   },
   {
     "filePath": "tnp/DEVELOPER_GUIDE.md",
     "headingId": "taon-ui-ui",
     "headingTitle": "Taon UI (ui)",
-    "text": "Taon UI (ui) Use this repository to: Develop and maintain reusable UI components. Work on Taon's shared frontend components and abstractions. Note: UI functionality is gradually being migrated from the legacy taon-ui repository to the newer ui repository. cd taon-dev/ui tnp bwl",
+    "text": "Taon UI (ui) Use this repository to: Develop and maintain reusable UI components. Work on Taon's shared frontend components and abstractions. Note: UI functionality is gradually being migrated from the legacy taon-ui repository to the newer ui repository. cd taon-dev/ui tnp bw",
     "api": false
   },
   {
     "filePath": "tnp/DEVELOPER_GUIDE.md",
     "headingId": "taon-admin-modules-session-cms-e-commerce-analytic-seo",
     "headingTitle": "Taon Admin Modules (session, cms, e-commerce, analytic, seo)",
-    "text": "Taon Admin Modules (session, cms, e-commerce, analytic, seo) These repositories provide feature-rich backend and frontend administration tools for Taon applications. Use them to: Extend existing administration features. Develop new backend and frontend functionality. Improve Taon's back-office tools and interfaces. For example, to work on the Session module: cd taon-dev/session tnp bwl The same development workflow applies to the CMS, E-Commerce, Analytics, and SEO modules.",
+    "text": "Taon Admin Modules (session, cms, e-commerce, analytic, seo) These repositories provide feature-rich backend and frontend administration tools for Taon applications. Use them to: Extend existing administration features. Develop new backend and frontend functionality. Improve Taon's back-office tools and interfaces. For example, to work on the Session module: cd taon-dev/session tnp bw The same development workflow applies to the CMS, E-Commerce, Analytics, and SEO modules.",
     "api": false
   },
   {

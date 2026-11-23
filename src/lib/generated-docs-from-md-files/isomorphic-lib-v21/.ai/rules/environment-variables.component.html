@@ -1,5 +1,13 @@
 <article  class="taon-md-doc"><h1 id="where-environment-variables-are-stored" translate="" [translate-t]="t">Where environment variables are stored</h1>
-<p translate="" [translate-t]="t">Each Taon Project stores its environment variables — both secret and public — in:</p>
+<span style="color: red">
+  Important: When deploying to Cloudflare, Taon securely passes the master
+  password to your Worker as an environment secret. Managing environment
+  variables and secrets works similarly to a standard Node.js process (no additional work required).
+</span>
+<br>
+<br>
+<br>
+Each Taon Project stores its environment variables — both secret and public — in:
 <div class="docs-code-block"><span translate="" [translate-t]="t">
           <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock0, $event)">
             <span class="material-icons" aria-hidden="true">content_copy</span>

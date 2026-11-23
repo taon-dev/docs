@@ -1,0 +1,328 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:1
+msgid "General Rules"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:2
+msgid "Taon Project Structure"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:3
+msgid "You are operating inside a <strong>Taon workspace</strong>. Taon projects do not necessarily follow a standard npm repository structure."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:4
+msgid "Before making any changes, identify the relevant Taon project(s) and inspect their root"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:4
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:14
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:29
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:41
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:67
+msgid "."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:5
+msgid "Project Types"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:6
+msgid "Taon has two project types."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:8
+msgid "A standalone project has:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:9
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock1, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:14
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:29
+msgid "in its root"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:15
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:30
+msgid "Characteristics:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:23
+msgid "A container project has:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:24
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock4, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:37
+msgid "When working from a high-level workspace containing multiple Taon projects, do not assume that the workspace root itself is the project being modified. Locate the appropriate standalone project first."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:39
+msgid "Allowed Modification Scope"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:40
+msgid "Source files only"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:41
+msgid "Unless the user explicitly instructs otherwise in the current prompt, you may"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:42
+msgid "For example, if a task affects:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:43
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock7, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:48
+msgid "the allowed modification scope is:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:49
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock8, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:54
+msgid "You may inspect files outside"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:54
+msgid "when necessary to understand the project, dependencies, architecture, configuration, or existing conventions."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:55
+msgid "However, <strong>inspection does not grant permission to modify those files</strong>."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:56
+msgid "Allowed"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:57
+msgid "You may:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:66
+msgid "Forbidden"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:67
+msgid "Do not create, modify, move, or delete files outside the relevant project's"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:68
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:135
+msgid "This includes, but is not limited to:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:69
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock15, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:74
+msgid "If completing part of the requested task would require changing a file outside"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:74
+msgid ", <strong>do not make that change</strong>."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:75
+msgid "Implement everything that can correctly be implemented within the allowed scope and leave the out-of-scope part unchanged."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:76
+msgid "Do not silently work around this restriction by modifying another configuration or generated file."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:78
+msgid "Multi-Project Tasks"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:79
+msgid "A single task may involve multiple Taon projects."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:80
+msgid "For example:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:81
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock17, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:86
+msgid "When this happens:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:96
+msgid "Do not assume that a task must be contained within a single Git repository merely because the agent was started from a common parent directory."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:98
+msgid "Project and Artifact Management"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:99
+msgid "Project and artifact management is the user's responsibility."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:100
+msgid "Do <strong>not</strong>:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:114
+msgid "Your responsibility normally ends after making the requested production source-code changes inside the appropriate"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:114
+msgid "directories."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:116
+msgid "Taon CLI Commands"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:117
+msgid "Do <strong>not</strong> run"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:117
+msgid "commands."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:118
+msgid "The only exception is migration creation:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:119
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock21, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:124
+msgid "and language extractor"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:125
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock22, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:130
+msgid "Do not run any other"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:130
+msgid "command unless the user explicitly requests it in the current prompt."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:132
+msgid "ABSOLUTE RULE: Never Create or Modify Tests"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:133
+msgid "Testing is <strong>not part of your responsibility</strong> unless explicitly requested by the user in the current prompt."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:134
+msgid "You MUST NOT create, generate, modify, move, or delete test files or test directories."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:136
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock24, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:141
+msgid "It also includes:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:150
+msgid "Do NOT add or modify tests merely because:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:159
+msgid "Do not create temporary tests and delete them afterward."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:160
+msgid "If a requested task would normally include test changes, <strong>skip the test portion and implement only the production source code</strong>."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:161
+msgid "Explicit User Override"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:162
+msgid "Tests may be created or modified <strong>only when the user explicitly requests test work in the current prompt</strong>."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:163
+msgid "Do not infer permission from:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:174
+msgid "Configuration and Dependencies"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:175
+msgid "Unless explicitly requested otherwise, never modify project, package, build, or workspace configuration."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:176
+msgid "In particular, never modify:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:177
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock25, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:182
+msgid "Do not:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:190
+msgid "If a requested implementation appears to require a new dependency, do not install or add it automatically. Prefer functionality already available in the workspace when appropriate, or leave the dependency/configuration portion unchanged."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:192
+msgid "Task Boundaries"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:193
+msgid "Implement the requested task and avoid unrelated cleanup."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:194
+msgid "Do not perform additional:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:207
+msgid "Existing code in sibling Taon projects may be inspected and reused as a reference when useful."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:209
+msgid "Highest-Priority Working Rule"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:210
+msgid "Unless the user explicitly overrides these rules in the <strong>current prompt</strong>:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:214
+msgid "You may inspect the wider Taon workspace, including containers and sibling projects, to understand architecture and existing implementations."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/general.component.html:215
+msgid "<strong>Read broadly when necessary. Modify narrowly.</strong>"
+msgstr ""

@@ -1,31 +1,80 @@
 {
   "type": "isomorphic-lib",
+  "overrideNpmName": "@taon-dev/docs",
   "packageJsonOverride": {
     "author": "Dfilipiak",
     "description": "Description for docs. Hello world!",
     "private": true,
-    "scripts": {}
+    "scripts": {},
   },
   "version": "v21",
-  "shouldGenerateAutogenIndexFile": true,
-  "generateTranslationsFor": [
-    "en-US",
-    "pl-PL"
+  "shouldGenerateAutogenIndexFile": false,
+  "shouldGenerateDocsComponents": true,
+  "genTsDocsInclude": [
+    "taon",
+    "tnp",
+    "tnp-helpers",
+    "isomorphic-lib-v21",
+    "ng2-rest",
+    "@taon-dev/ui",
+    "@taon-dev/session",
+    "@taon-dev/sudo",
+    "@taon-dev/cms",
+    "@taon-dev/e-commerce",
+    "@taon-dev/seo",
+    "@taon-dev/analytics",
+    "@taon-dev/marketing",
+    "@taon-dev/i18n",
   ],
+  "genTsDocsExcludePaths": [
+    "www-taon-dev/.ai",
+    "www-taon-dev/AGENTS.md",
+    "taon/.ai",
+    "taon/AGENTS.md",
+    "tnp/.ai",
+    "tnp/AGENTS.md",
+    "ng2-rest/.ai",
+    "ng2-rest/AGENTS.md",
+
+    "tnp-helpers/.ai",
+    "tnp-helpers/AGENTS.md",
+
+    "@taon-dev/ui/.ai",
+    "@taon-dev/ui/AGENTS.md",
+
+    "@taon-dev/session/.ai",
+    "@taon-dev/sudo/.ai",
+    "@taon-dev/cms/.ai",
+    "@taon-dev/e-commerce/.ai",
+    "@taon-dev/seo/.ai",
+    "@taon-dev/analytics/.ai",
+    "@taon-dev/marketing/.ai",
+    "@taon-dev/i18n/.ai",
+
+    "@taon-dev/session/AGENTS.md",
+    "@taon-dev/sudo/AGENTS.md",
+    "@taon-dev/cms/AGENTS.md",
+    "@taon-dev/e-commerce/AGENTS.md",
+    "@taon-dev/seo/AGENTS.md",
+    "@taon-dev/analytics/AGENTS.md",
+    "@taon-dev/marketing/AGENTS.md",
+    "@taon-dev/i18n/AGENTS.md",
+  ],
+  "generateTranslationsFor": ["en-US", "pl-PL", "de-DE"],
   "shouldGenerateTranslationFiles": true,
   "shouldGenerateAutogenAppRoutesFile": true,
   "autoReleaseConfigAllowedItems": [
     {
       "artifactName": "npm-lib-and-cli-tool",
       "releaseType": "manual-taon",
-      "taskName": "npm"
+      "taskName": "npm",
     },
     {
       "artifactName": "angular-node-app",
       "askUserBeforeFinalAction": true,
       "envName": "static-pages",
       "releaseType": "manual-static-pages",
-      "taskName": "static-pages"
+      "taskName": "static-pages",
     },
     {
       "artifactName": "angular-node-app",
@@ -33,15 +82,15 @@
       "envName": "localhost",
       "releaseType": "manual-taon",
       "taonInstanceIp": "127.0.0.1",
-      "taskName": "localhost"
+      "taskName": "localhost",
     },
     {
       "artifactName": "angular-node-app",
       "askUserBeforeFinalAction": false,
       "envName": "cloudflare",
       "releaseType": "manual-cloudflare",
-      "taskName": "cloudflare"
-    }
+      "taskName": "cloudflare",
+    },
   ],
-  "appId": "com.domain.example.docs"
+  "appId": "com.domain.example.docs",
 }

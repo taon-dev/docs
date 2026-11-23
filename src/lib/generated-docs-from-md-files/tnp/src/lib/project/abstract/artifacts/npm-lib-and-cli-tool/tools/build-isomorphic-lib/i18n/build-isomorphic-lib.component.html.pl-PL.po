@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp/src/lib/project/abstract/artifacts/npm-lib-and-cli-tool/tools/build-isomorphic-lib/build-isomorphic-lib.component.html:1
+msgid "Build isomorphi lib:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/src/lib/project/abstract/artifacts/npm-lib-and-cli-tool/tools/build-isomorphic-lib/build-isomorphic-lib.component.html:2
+msgid "Usage of region <strong>@backend</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/src/lib/project/abstract/artifacts/npm-lib-and-cli-tool/tools/build-isomorphic-lib/build-isomorphic-lib.component.html:3
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock0, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/src/lib/project/abstract/artifacts/npm-lib-and-cli-tool/tools/build-isomorphic-lib/build-isomorphic-lib.component.html:8
+msgid "Usage of region <strong>@backendFunc</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/src/lib/project/abstract/artifacts/npm-lib-and-cli-tool/tools/build-isomorphic-lib/build-isomorphic-lib.component.html:9
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock1, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""

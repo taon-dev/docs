@@ -1,0 +1,13 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/TODO.component.html:1
+msgid "TODO"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/TODO.component.html:16
+msgid "Future:"
+msgstr ""

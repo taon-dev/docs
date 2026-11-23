@@ -1,0 +1,713 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:1
+msgid "CI/CD & Architecture"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:2
+msgid "Overview"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:3
+msgid "<strong>Taon Cloud CI/CD is under development.</strong> Centralized build execution, automated validation, deployment orchestration, and team-oriented release management are part of the planned Taon Cloud workflow."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:4
+msgid "However, <strong>you do not need to wait for Taon Cloud to benefit from much of this architecture</strong>. The Taon CLI already provides a practical, lightweight approach to coordinating development, synchronizing multiple repositories, building interconnected projects directly from source, and releasing applications."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:5
+msgid "For solo developers, small teams, and AI-assisted development, this can be an effective alternative to introducing a full CI/CD platform immediately."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:6
+msgid "The idea is simple:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:8
+msgid "<strong>Design your architecture with Taon standalone projects and containers, build directly from source, synchronize Git repositories with Taon commands, and run releases locally today. Move the orchestration to Taon Cloud when you need it.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:10
+msgid "This is <strong>not a claim that manual releases provide every guarantee of Continuous Integration and Continuous Delivery</strong>. Automated tests, independent build environments, branch protection, security checks, and approvals remain important. Rather, Taon reduces the amount of additional infrastructure needed to get started."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:12
+msgid "1. Source-First Builds: No Intermediate NPM Releases"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:13
+msgid "In a conventional multi-package workflow, an application build may depend on publishing internal libraries first:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:14
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock0, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:19
+msgid "<strong>Taon builds internal dependencies directly from source.</strong> Internal libraries do not need intermediate NPM releases simply to be consumed by an application in the same Taon development environment."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:20
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock1, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:25
+msgid "This reduces dependency-version synchronization and avoids repetitive publishing steps during integrated development. Public library distribution and external consumers can still require ordinary package releases."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:27
+msgid "2. The Core Concept: Isomorphic App-Library Projects"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:28
+msgid "In Taon, a project does not have to be exclusively a backend project or a frontend project. <strong>A standalone project can be both an application and a reusable library — an app-lib.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:29
+msgid "A project can contain backend controllers, repositories, database entities, frontend Angular components, shared models, validation logic, utilities, and functionality reusable across runtimes."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:30
+msgid "Backend and frontend are not fixed project categories"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:31
+msgid "Different app-libraries naturally contain different proportions of backend and frontend code:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:32
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock2, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:37
+msgid "These percentages are illustrative, not Taon configuration values. A backend-heavy project might include a small diagnostics interface; a frontend-heavy UI library might include backend controllers to support demos, examples, or tests. A project may also have no meaningful server-side component."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:38
+msgid "<strong>Isomorphic does not mean every line of code runs everywhere.</strong> Node.js database APIs are not automatically available in browsers, and browser APIs are not automatically available in Node.js. The goal is to keep shared logic reusable while allowing runtime-specific implementations to coexist in one project."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:39
+msgid "One project can be both a library and its demonstration application"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:40
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock3, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:45
+msgid "This project can be a reusable UI library, a standalone demonstration application, a testing environment, and a full-stack application when required. The directory names are illustrative, not a mandatory Taon layout."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:47
+msgid "<strong>Separate projects by responsibility, not automatically by runtime.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:50
+msgid "3. Design an Entire Company's Software Architecture"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:51
+msgid "Taon standalone projects and containers can represent much more than one application. They can organize the software architecture of an entire company: products, shared libraries, internal tools, documentation, and platform-specific applications."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:52
+msgid "Example company structure"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:53
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock4, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:58
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:102
+msgid "Here"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:58
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:102
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:369
+msgid "and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:58
+msgid "indicate <em>responsibilities</em>, not a requirement to split each into a separate Taon project. In practice, the company can organize them into isomorphic app-libraries instead."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:59
+msgid "Containers as organizational boundaries"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:60
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock7, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:65
+msgid "Arrows illustrate conceptual dependencies, not automatic dependency resolution. Teams can own independent areas, share app-libraries, and coordinate work from higher-level containers. AI coding agents can likewise work within well-defined project boundaries."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:66
+msgid "A more Taon-native, isomorphic company structure"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:67
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock8, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:72
+msgid "Each app-library is an independent, reusable unit that may contain both backend and frontend functionality. The labels describe the project's emphasis, not a restriction on what it may contain."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:74
+msgid "4. Standalone Projects, Containers, and Git Repositories"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:75
+msgid "A <strong>standalone project</strong> can be developed, built, and maintained independently, including in its own Git repository."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:76
+msgid "A <strong>container project</strong> groups related Taon projects into one development workspace. A container can also be a Git repository itself."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:77
+msgid "The"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:77
+msgid "setting in"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:77
+msgid "controls the repository organization of container children."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:96
+msgid "Multi-repository container"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:97
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock13, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:102
+msgid "are illustrative names only. They could instead be"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:102
+msgid ", each still containing isomorphic functionality."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:103
+msgid "Monorepo container"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:104
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock18, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:109
+msgid "Combining both approaches"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:110
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock19, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:115
+msgid "These are conceptual organization examples: repository boundaries can follow product ownership, team responsibility, and reuse requirements rather than a universal backend/frontend split."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:117
+msgid "5. Synchronize Multiple Git Repositories"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:118
+msgid "When projects live in separate repositories, Taon provides commands to coordinate them from the container."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:119
+msgid "Pull across the container"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:120
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock20, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:125
+msgid "Push across the container"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:126
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock21, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:131
+msgid "When working on a shared branch such as"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:131
+msgid ", these commands help synchronize the group of projects without manually entering each repository."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:132
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock23, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:137
+msgid "This is especially useful when a feature spans several app-libraries or multiple developers and AI agents contribute to the same container. Coordinate branches and review changes as appropriate for your team; multi-repository synchronization does not replace atomic transactions across repositories."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:139
+msgid "6. Build the Container Directly from Source"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:140
+msgid "Taon can build a container's <strong>first-level child projects</strong> together."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:141
+msgid "Development build"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:142
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock24, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:147
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:159
+msgid "Short alias:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:148
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock25, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:153
+msgid "Production build"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:154
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock26, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:160
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock27, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:165
+msgid "These commands rebuild first-level children in the selected mode, without requiring intermediate NPM publishing for internal source dependencies."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:166
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock28, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:171
+msgid "A successful build is not the same as a successful test suite. Run the relevant unit, integration, and end-to-end tests before release."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:173
+msgid "7. Release Strategies: Five Types"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:174
+msgid "Taon supports five release strategies for different artifacts and destinations."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:205
+msgid "The best strategy depends on the project type, target artifacts, team size, codebase complexity, security requirements, and hosting environment."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:206
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock29, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:211
+msgid "These categories describe release strategies and common destinations; the diagram is conceptual rather than a claim that all targets are interchangeable."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:212
+msgid "Cloudflare release example"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:213
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock30, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:218
+msgid "Alias:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:219
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock31, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:224
+msgid "The configured release workflow can deploy frontend and backend functionality to Cloudflare. Cloudflare Workers provide backend execution; D1, KV, and R2 can provide database, key-value, and object storage capabilities when used by the application."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:226
+msgid "8. Supported and Planned Release Artifacts"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:227
+msgid "Taon can build different outputs from its project architecture."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:264
+msgid "Documentation websites generated from Markdown are also a supported output. Shared library code can be reused across applicable artifacts, while documentation websites follow their own build process."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:265
+msgid "Artifact composition"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:266
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock32, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:271
+msgid "The diagram illustrates potential code reuse, not a requirement that every project produce all artifacts."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:272
+msgid "Backend/frontend execution depends on the artifact"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:314
+msgid "<strong>Everything can be designed around the same backend/frontend app-library model, but not every API is available in every runtime.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:315
+msgid "WebSQL mode: backend inside the browser"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:316
+msgid "A conventional Angular / Node.js application typically separates execution environments:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:317
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock33, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:322
+msgid "In Taon WebSQL mode, compatible backend functionality can run in the browser itself:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:323
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock34, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:328
+msgid "This can simplify standalone demos and end-to-end testing. Browser security, API availability, persistence, and runtime limitations still apply; WebSQL mode does not make arbitrary Node.js code browser-compatible."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:330
+msgid "9. Automated Local Releases Before Taon Cloud"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:331
+msgid "For now, a trusted developer's machine can serve as a lightweight release coordinator."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:332
+msgid "A typical workflow:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:341
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock35, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:346
+msgid "These commands are the build/release skeleton, <strong>not a substitute for a testing step</strong>. Add your project's test commands and approvals between the build and release as needed."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:347
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock36, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:352
+msgid "This works especially well for solo developers and small teams where release responsibility is centralized. It is not equivalent to independent, reproducible CI runners or mandatory pull-request gates."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:354
+msgid "10. Keep Taon's Core Containers Updated"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:355
+msgid "Update the globally installed Taon CLI:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:356
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock37, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:361
+msgid "Then synchronize Taon's core containers:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:362
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock38, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:367
+msgid "Taon uses core containers to centralize NPM installations required by Taon projects. Synchronization keeps that local environment aligned with the latest available Taon changes, fixes, and patches. As with any dependency update, validate the resulting environment before production release."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:369
+msgid "11. Rapid Git Checkpoints:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:370
+msgid "During active development, especially with AI coding agents, it can be useful to save frequent Git checkpoints without stopping to write polished commit messages."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:371
+msgid "Step 1: Quick checkpoint commits"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:372
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock41, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:377
+msgid "Taon creates a quick commit with the message:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:378
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock42, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:383
+msgid "Repeated checkpoints might produce this history:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:384
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock43, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:389
+msgid "Step 2: Melt temporary commits into staged changes"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:390
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock44, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:395
+msgid "Taon converts the latest temporary update commits back into staged changes:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:396
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock45, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:401
+msgid "The temporary commits are removed from the current branch history and their combined changes are staged. Review them and create a meaningful commit:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:402
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock46, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:407
+msgid "Step 3: Clean final history"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:408
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock47, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:413
+msgid "Example checkpoint workflow"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:414
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock48, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:419
+msgid "Release protection"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:420
+msgid "Taon automatically prevents a release when the latest commit message is:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:421
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock49, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:426
+msgid "This prevents an unfinished checkpoint from being treated as a finalized release commit."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:428
+msgid "<strong>Git history warning:</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:428
+msgid "rewrites the latest temporary commits. Coordinate with collaborators before rewriting checkpoints that have already been pushed to a shared branch. Review the staging area before creating the final commit."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:431
+msgid "12. Why This Works Well with AI Coding Agents"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:432
+msgid "A container can give different developers or AI agents independent areas of responsibility:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:440
+msgid "The projects can remain independently versioned while being built from source in one workspace."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:441
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock51, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:446
+msgid "can save lightweight development checkpoints;"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:446
+msgid "can consolidate them for review;"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:446
+msgid "can synchronize repositories; and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:446
+msgid "can build the integrated source tree."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:447
+msgid "<strong>AI agents should not bypass code review, tests, access controls, or release approval merely because the workflow is convenient.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:449
+msgid "13. One Project Architecture, Multiple Build Artifacts"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:450
+msgid "Taon is designed so a project does not have to be permanently tied to one deployment format. The same source architecture can support web applications, desktop applications, reusable libraries, documentation, and — in the future — additional native targets."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:451
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock56, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:456
+msgid "This is a conceptual view of reuse and possible targets, not a promise that every project currently supports every output type."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:457
+msgid "Design the architecture now, even if the target arrives later"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:458
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock57, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:463
+msgid "A company may start with a website, then need Electron, mobile, or other native applications. Keeping business logic, shared models, and platform-specific functionality in appropriate app-libraries can reduce future restructuring."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:464
+msgid "Native targets will still require platform-specific code, compatible dependencies, and testing. <strong>The architectural advantage is reuse, not automatic universal runtime compatibility.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:466
+msgid "14. From Local CLI Orchestration to Taon Cloud"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:467
+msgid "Today, Taon CLI coordinates local development and releases:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:468
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock58, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:473
+msgid "Taon Cloud is intended to add centralized orchestration to the same underlying project model:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:474
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock59, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:479
+msgid "Potential cloud capabilities include remote builds, Git-triggered workflows, automated tests, deployment logs, managed environments, monitoring, and team-based permissions or approvals. These are future-oriented goals rather than claims that every feature is available today."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:480
+msgid "The key principle is to <strong>reuse the existing Taon project structure and CLI commands instead of inventing a separate cloud-only build system</strong>."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:482
+msgid "15. What Traditional CI/CD Still Provides"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:483
+msgid "The local approach is useful, but it does not automatically provide:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:493
+msgid "Use conventional CI/CD infrastructure when your risk profile, team size, or compliance requirements justify it. Taon's CLI can also be invoked <em>inside</em> external CI/CD systems; it does not have to replace them."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:495
+msgid "16. Command Reference"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:552
+msgid "Typical local release sequence"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:553
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock73, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:558
+msgid "Run the project's relevant tests and validation checks, review and finalize commits, and then release:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:559
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock74, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:564
+msgid "Typical rapid-development sequence"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:565
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock75, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:571
+msgid "Conclusion"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:572
+msgid "<strong>Taon Cloud CI/CD is coming, but the foundations are useful already.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:573
+msgid "Taon standalone projects and containers can model an entire company's software architecture. Isomorphic app-libraries keep backend and frontend functionality together when that makes sense. Source-first builds remove unnecessary internal NPM publishing. Deep Git commands synchronize multi-repository workspaces. Temporary checkpoint commits make fast-moving development more convenient. Build and release commands coordinate delivery from a local machine."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:574
+msgid "For solo developers and small teams, that can be enough to start shipping without a dedicated CI/CD server. For larger teams and higher-risk systems, the same commands can participate in conventional CI/CD pipelines today and eventually be orchestrated through Taon Cloud."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CI-CD.component.html:576
+msgid "<strong>Design the architecture once. Build directly from source. Release locally today. Automate centrally when you're ready.</strong>"
+msgstr ""

@@ -1,0 +1,56 @@
+<article  class="taon-md-doc"><h1 id="marketing" translate="" [translate-t]="t">Marketing</h1>
+<p translate="" [translate-t]="t" translate-html="">A small Taon module for configurable website popups. Marketing backoffice has
+<strong>Popups</strong>, <strong>Promotions</strong>, <strong>Newsletter</strong>, and <strong>AB</strong> navigation. Only Popups is
+functional; the other pages are placeholders. Coupon/discount business logic
+belongs to ecommerce, and newsletter sending and experimentation are not included.</p>
+<h2 id="popup-management" translate="" [translate-t]="t">Popup management</h2>
+<p><span translate="" [translate-t]="t">Include </span><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> in the application context and mount
+</span><code>{{ context.codeblock1 }}</code><span translate="" [translate-t]="t"> through the standard Taon admin navigation (as in
+the example app). Popups can be created, edited, deleted, enabled, and disabled.
+New popups are disabled by default.</span></p>
+<p><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t"> uses the existing Taon TypeORM entity registration
+(</span><code>{{ context.codeblock3 }}</code><span translate="" [translate-t]="t">), with inherited ID/version and automatic creation/update
+timestamps. The registered </span><code>{{ context.codeblock4 }}</code><span translate="" [translate-t]="t">
+migration creates a missing popup table or adds the configuration columns to the
+old scaffold table, preserving legacy descriptions as names where available.
+It also supports contexts where schema synchronization has already run. Hosts
+with a different concrete context should register this migration in that context.
+Reverting removes popup configuration fields and retains names in the legacy
+description column; back up the database before reverting.</span></p>
+<p><span translate="" [translate-t]="t">The popup controller restricts exposed methods to
+reads, pagination, validated writes, and active-popup loading. Configure access to
+administrative controller methods using the host application's authorization policy;
+</span><code>{{ context.codeblock5 }}</code><span translate="" [translate-t]="t"> is the website read endpoint.</span></p>
+<h2 id="website-rendering" translate="" [translate-t]="t">Website rendering</h2>
+<p><span translate="" [translate-t]="t">Import </span><code>{{ context.codeblock6 }}</code><span translate="" [translate-t]="t"> from </span><code>{{ context.codeblock7 }}</code><span translate="" [translate-t]="t"> into a standalone
+Angular component and place one host in the public website layout:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock8, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-html hljs" [innerHTML]="context.codeblock8Html"></code></pre></div>
+<p translate="" [translate-t]="t">The image resolver and event/error handlers are optional. Image keys default to
+HTTP(S) URLs or root-relative asset paths. For object-storage keys, provide a
+synchronous resolver returning the public image URL. CTA URLs must also be HTTP(S)
+or root-relative. Content is plain text, not executable HTML.</p>
+<p><span translate="" [translate-t]="t">The renderer loads enabled, date-active popups initially and after Angular router
+navigation. Date boundaries are inclusive. Empty display paths means every path;
+exclusions take precedence. Path rules match the pathname (ignoring query/fragment)
+exactly, or by prefix when ending in </span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t">, e.g. </span><code>{{ context.codeblock10 }}</code><span translate="" [translate-t]="t">.</span></p>
+<p translate="" [translate-t]="t">Each delay starts when the page's popup response arrives. Eligible popups display
+one at a time, in delay/ID order. Navigation cancels pending displays and closes
+visible popups; eligibility is checked again before display. End dates also close
+visible popups. Dialog popups support an optional image; bottom banners do not.
+Popups scheduled to start later become eligible on a subsequent page load/navigation.</p>
+<p translate="" [translate-t]="t">Visitor display counts use localStorage; once-per-session uses sessionStorage
+(a browser-tab session). Counts are incremented on display, not on fetch.
+These are browser-local limits, not authenticated-user or cross-device limits;
+clearing storage resets them. If storage is unavailable or corrupt, rendering
+fails closed and reports an error rather than ignoring restrictions.</p>
+<h2 id="analytics-extension-point" translate="" [translate-t]="t">Analytics extension point</h2>
+<p><span translate="" [translate-t]="t">The </span><code>{{ context.codeblock11 }}</code><span translate="" [translate-t]="t"> output emits </span><code>{{ context.codeblock12 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock13 }}</code><span translate="" [translate-t]="t">, and </span><code>{{ context.codeblock14 }}</code><span translate="" [translate-t]="t">
+with category </span><code>{{ context.codeblock15 }}</code><span translate="" [translate-t]="t">, path, creation date, and data containing popup ID/type.
+Connect this output to the host's generic AnalyticsEvent ingestion when available.
+No statistics columns or analytics dependency are added. The analytics package's
+event API is currently scaffold-only, so this module does not force integration.</span></p>
+</article>

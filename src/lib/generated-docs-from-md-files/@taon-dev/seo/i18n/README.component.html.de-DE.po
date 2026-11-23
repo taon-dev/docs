@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:1
+msgid "SEO"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:2
+msgid "Basic website SEO configuration for Taon applications. This module does not analyze keywords, score pages, generate content, or duplicate CMS metadata."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:4
+msgid "Backoffice"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:5
+msgid "Navigation: <strong>SEO &gt; General (Settings)</strong> and <strong>SEO &gt; Pages</strong>."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:17
+msgid "Application integration"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:18
+msgid "Include"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:18
+msgid "in the application's backend context and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:19
+msgid "in its backoffice navigation. Add the frontend providers:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:20
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock7, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:25
+msgid "The service starts after Angular bootstrap, when the application's existing Taon initialization has completed. It loads settings and the matching override on initial navigation and each primary path change. Query strings, fragments, matrix parameters and auxiliary/backoffice outlets do not identify SEO pages. Trailing slashes are normalized ("
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:29
+msgid "matches"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:29
+msgid ")."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:30
+msgid "Metadata includes document title, description, keywords, canonical URL, robots,"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:31
+msgid ","
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:31
+msgid ", and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:31
+msgid ". Open Graph text falls back to the resolved page title and description; its image falls back to the global image. Global indexing/follow restrictions remain in force; page flags can further restrict them."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:35
+msgid "Canonical URLs must be absolute HTTP(S) URLs without query strings or fragments. When no page canonical URL exists, the canonical base URL (including an optional deployment subpath) is combined with the current application path. Without either value, the canonical tag is removed."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:39
+msgid "Metadata is replaced rather than accumulated between routes. Superseded route requests cannot overwrite newer metadata. Failures are logged and exposed via"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:41
+msgid "; failed image resolution leaves text metadata intact. The backend host must be externally reachable so social crawlers can fetch public image URLs. Client-side navigation does not replace server-rendered SEO for crawlers that do not execute JavaScript."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:45
+msgid "is the shared resolution function for future CMS adapters. CMS content is not automatically registered as an application/static page."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:47
+msgid "Migration"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:48
+msgid "The SEO configuration migration creates both tables in data-preserving mode and seeds the singleton settings record without overwriting existing settings. It also works when Taon has already synchronized the entity schema. Empty old demo tables are replaced; populated legacy demo tables cause an explicit error so their data can be mapped deliberately rather than discarded or assigned invented application routes. Reverting this migration drops the two SEO tables."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/seo/README.component.html:54
+msgid "Builds, tests and migration execution have not been run. Further initialization was skipped as requested."
+msgstr ""

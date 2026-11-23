@@ -1,0 +1,184 @@
+<article  class="taon-md-doc"><h1 id="taon-architecture" translate="" [translate-t]="t">Taon architecture</h1>
+<p><span translate="" [translate-t]="t">Taon is a TypeScript framework and CLI for building applications and reusable libraries. A standalone Taon project keeps its source in one </span><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> tree. The CLI uses that source to build the library or application artifacts configured for the project.</span></p>
+<p><span translate="" [translate-t]="t">Taon workspaces can contain several projects. Each project has a root </span><code>{{ context.codeblock1 }}</code><span translate="" [translate-t]="t"> that identifies its type and defines its project-specific configuration.</span></p>
+<h2 id="identify-a-taon-project" translate="" [translate-t]="t">Identify a Taon project</h2>
+<p><span translate="" [translate-t]="t">Open </span><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t"> in the directory you are inspecting. Its </span><code>{{ context.codeblock3 }}</code><span translate="" [translate-t]="t"> field tells you how to navigate the project.</span></p>
+<table>
+<thead>
+<tr>
+<th><code>{{ context.codeblock4 }}</code></th>
+<th>Project kind</th>
+<th>Where to look next</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>{{ context.codeblock5 }}</code></td>
+<td>Standalone project</td>
+<td>Open <code>{{ context.codeblock6 }}</code> for the application and library source.</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock7 }}</code></td>
+<td>Container project</td>
+<td>Look for child directories with their own <code>{{ context.codeblock8 }}</code>.</td>
+</tr>
+</tbody>
+</table>
+<p><span translate="" [translate-t]="t">The snippets below show only the field that identifies the project type. An existing </span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t"> can contain additional settings.</span></p>
+<h3 id="standalone-projects" translate="" [translate-t]="t">Standalone projects</h3>
+<p><span translate="" [translate-t]="t">A standalone project declares </span><code>{{ context.codeblock10 }}</code><span translate="" [translate-t]="t"> in its root </span><code>{{ context.codeblock11 }}</code><span translate="" [translate-t]="t">.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock12, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-jsonc">{{ context.codeblock12 }}</code></pre></div>
+<p><span translate="" [translate-t]="t">A standalone project owns its </span><code>{{ context.codeblock13 }}</code><span translate="" [translate-t]="t"> tree. It can expose reusable code through its library entry point and use the same code in its application entry points. For example, a project can export a context and its building blocks for other Taon projects to use, while also providing an application that runs them.</span></p>
+<p><span translate="" [translate-t]="t">A standalone project can live on its own or inside a Taon container. It may have its own Git repository. The </span><code>{{ context.codeblock14 }}</code><span translate="" [translate-t]="t"> field describes the Taon project structure. Check the Git root separately when working across projects.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock15, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock15Html"></code></pre></div>
+<h3 id="container-projects" translate="" [translate-t]="t">Container projects</h3>
+<p><span translate="" [translate-t]="t">A container declares </span><code>{{ context.codeblock16 }}</code><span translate="" [translate-t]="t"> in its root </span><code>{{ context.codeblock17 }}</code><span translate="" [translate-t]="t">.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock18, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-jsonc">{{ context.codeblock18 }}</code></pre></div>
+<p translate="" [translate-t]="t">A container groups standalone projects and can also contain nested containers. Each child project has its own root configuration. A workspace can therefore contain reusable libraries, consuming applications, and groups of related projects at different levels.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock19, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock19Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">In this layout, </span><code>{{ context.codeblock20 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock21 }}</code><span translate="" [translate-t]="t"> are containers. </span><code>{{ context.codeblock22 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock23 }}</code><span translate="" [translate-t]="t"> are standalone projects. If </span><code>{{ context.codeblock24 }}</code><span translate="" [translate-t]="t"> consumes a feature exported by </span><code>{{ context.codeblock25 }}</code><span translate="" [translate-t]="t">, follow the import to find the implementation. Reusable behavior belongs in the project that provides it. Website-specific configuration and integration belong in </span><code>{{ context.codeblock26 }}</code><span translate="" [translate-t]="t">.</span></p>
+<h3 id="navigate-a-workspace" translate="" [translate-t]="t">Navigate a workspace</h3>
+<ol>
+<li>Start with the <code>{{ context.codeblock27 }}</code> in the directory you are inspecting.</li>
+<li>In a container, look for child directories with their own <code>{{ context.codeblock28 }}</code>. Apply the same check when you encounter a nested container.</li>
+<li>In a standalone project, open <code>{{ context.codeblock29 }}</code> and identify the entry point or module relevant to your task.</li>
+<li>If the task spans projects, trace imports from the consuming application to the standalone project that exports the feature.</li>
+</ol>
+<h2 id="standalone-project-entry-points" translate="" [translate-t]="t">Standalone project entry points</h2>
+<p><span translate="" [translate-t]="t">The files below are common entry points. Check the project's </span><code>{{ context.codeblock30 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock31 }}</code><span translate="" [translate-t]="t"> tree to see which artifacts it supports.</span></p>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>{{ context.codeblock32 }}</code></td>
+<td>Exports the project's reusable library code.</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock33 }}</code></td>
+<td>Application entry point for the Angular frontend and Node.js backend.</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock34 }}</code></td>
+<td>Entry point for an Electron application.</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock35 }}</code></td>
+<td>Entry point for a VS Code extension.</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock36 }}</code></td>
+<td>Entry point when the project produces a CLI tool.</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock37 }}</code></td>
+<td>Global application styles.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="how-an-application-is-assembled" translate="" [translate-t]="t">How an application is assembled</h2>
+<p translate="" [translate-t]="t" translate-html="">A <strong>project</strong> owns source code and build configuration. A <strong>context</strong> assembles runtime building blocks such as controllers, entities, repositories, and providers. A reusable project can export a context through its library entry point so a consuming application can compose it with its own contexts.</p>
+<p translate="" [translate-t]="t">See <a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/taon-building-blocks/contexts.md&quot;">Contexts</a> and <a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/dependency-injection.md&quot;">Dependency injection</a> for registration, inheritance, and injection patterns.</p>
+<h2 id="isomorphic-source-and-runtime-targets" translate="" [translate-t]="t">Isomorphic source and runtime targets</h2>
+<p translate="" [translate-t]="t">Taon can build browser and backend versions of the same TypeScript source. Code regions determine which parts of a file are included in each output. Check the target before choosing a dependency, accessing a secret, or using a runtime-specific API.</p>
+<table>
+<thead>
+<tr>
+<th>Target</th>
+<th>Where backend logic runs</th>
+<th>What to account for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Node.js</td>
+<td>In a Node.js process.</td>
+<td>Keep server credentials and server-only integrations in the backend.</td>
+</tr>
+<tr>
+<td>WebSQL</td>
+<td>In the browser, with a browser-local database.</td>
+<td>Browser code and storage are accessible to the user. Public webhooks require a separately reachable backend.</td>
+</tr>
+<tr>
+<td>Cloudflare Worker</td>
+<td>In a Cloudflare Worker.</td>
+<td>Use Worker-compatible dependencies, bindings, and storage adapters. Check compatibility before using Node.js APIs.</td>
+</tr>
+<tr>
+<td>Electron</td>
+<td>In the Electron backend, with an Angular UI that communicates over IPC.</td>
+<td>Keep backend and renderer code in the appropriate build regions.</td>
+</tr>
+</tbody>
+</table>
+<p translate="" [translate-t]="t">A project's supported targets depend on its configuration and dependencies. See <a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/isomorphic-code-regions.md&quot;">Isomorphic code regions</a> for how to write code that builds for the intended runtime.</p>
+<h2 id="build-and-run-a-standalone-project" translate="" [translate-t]="t">Build and run a standalone project</h2>
+<p translate="" [translate-t]="t">The Taon framework README lists Node.js 22 or later as a prerequisite. From the standalone project root, start the library watch build in one terminal.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock38, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-sh hljs" [innerHTML]="context.codeblock38Html"></code></pre></div>
+<p translate="" [translate-t]="t" translate-html="">Start the Node.js application in a second terminal (ng server).
+Taon watch build lib mode is needed when we want to see <em>ng serve</em> changes.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock39, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-sh hljs" [innerHTML]="context.codeblock39Html"></code></pre></div>
+<p translate="" [translate-t]="t">For projects that support other runtime targets, the CLI also provides the following development commands.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>{{ context.codeblock40 }}</code></td>
+<td>Browser-local WebSQL backend</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock41 }}</code></td>
+<td>Cloudflare Worker</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock42 }}</code></td>
+<td>Electron</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock43 }}</code></td>
+<td>Normal NodeJS</td>
+</tr>
+</tbody>
+</table>
+<p translate="" [translate-t]="t">See the <a [href]="baseHref + &quot;/tnp/docs/COMMANDS.md&quot;">CLI command guide</a>.</p>
+<h2 id="further-reading" translate="" [translate-t]="t">Further reading</h2>
+<ul>
+<li><a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/taon-building-blocks/controllers.md&quot;">Controllers</a></li>
+<li><a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/taon-building-blocks/entities.md&quot;">Entities</a></li>
+<li><a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/taon-building-blocks/migrations.md&quot;">Migrations</a></li>
+</ul>
+</article>

@@ -1,0 +1,9 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/i18n/api.component.ts:13
+msgid "Loading API documentation for @taon-dev/i18n..."
+msgstr ""

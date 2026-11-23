@@ -8,8 +8,8 @@
     }
   ],
   "workbench.colorCustomizations": {
-    "activityBar.background": "#5998c5",
-    "statusBar.background": "#bd7e61",
+    "activityBar.background": "#6dc06e",
+    "statusBar.background": "#6dc06e",
     "statusBar.debuggingBackground": "#15d8ff"
   },
   "files.watcherExclude": {
@@ -102,7 +102,6 @@
     "**/node_modules": true,
     "**/.build": true,
     "**/.vscode": true,
-    "**/.ai": true,
     "**/databases": true,
     "**/browser": true,
     "**/dist": true,

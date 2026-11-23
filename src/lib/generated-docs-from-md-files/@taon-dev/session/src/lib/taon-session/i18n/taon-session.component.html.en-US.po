@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:1
+msgid "Session account linking and backoffice"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:2
+msgid "Verified-email linking"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:3
+msgid "Set"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:3
+msgid "in the application's provider configuration to enable automatic linking. The default is"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:4
+msgid ". Emails are normalized using the existing identity repository."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:6
+msgid "An existing provider identity remains the primary sign-in key. For a new social identity, a strictly verified provider email can resolve the User through its password identity or another verified identity. The provider still gets its own UserIdentity. Ambiguous emails belonging to multiple existing Users are rejected rather than silently merging accounts."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:11
+msgid "For a social-first account, sign in using the existing provider and select Email in the profile's Connect tab to set a password for its verified email. Subsequent email/password logins use that same User. Unauthenticated signup cannot set a password on an existing social account merely by knowing its email."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:16
+msgid "Profile username"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:17
+msgid "The Change Username tab follows Change Password. Saving first checks availability, and the server repeats the check and relies on the existing unique username index to prevent concurrent duplicate updates. Usernames are trimmed and must contain 1 to 255 characters."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:21
+msgid "Session metadata and lifecycle"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:22
+msgid "New sessions capture the initiating request's user agent, resolved client IP, a browser/OS device label where recognizable, login time, last activity, expiry, identity ID, and authentication provider."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:25
+msgid "Client IP resolution uses"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:25
+msgid "from Taon's runtime adapter, falling back to the connection's remote address. Session code does not independently trust forwarding headers. Configure the deployment's trusted proxy boundary correctly; Express and the Cloudflare adapter remain responsible for that boundary. Device labels and user agents are descriptive, not authentication evidence."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:31
+msgid "Access tokens and refresh-token records reference the Session. Authenticated requests update activity, refresh extends expiry, and logout revokes the Session. Refresh cookies use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:33
+msgid "so logout receives them. Older tokens without a session reference remain supported until expiry."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:35
+msgid "Backoffice"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:36
+msgid "The Sessions section lists unrevoked, unexpired sessions. Expanded rows and the routed Session page use the same details component and preserve the Admin outlet. Session APIs require a super user and return explicit safe fields; token hashes and password hashes are not exposed."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/src/lib/taon-session/taon-session.component.html:40
+msgid "The entity changes include nullable Session identity/provider columns, a larger user-agent column, and a unique provider/provider-user-ID identity index. Apply these through the application's normal Taon schema management before deployment. Existing duplicate provider identities must be resolved before applying the unique index. Older sessions are not backfilled with request metadata that is no longer available."
+msgstr ""

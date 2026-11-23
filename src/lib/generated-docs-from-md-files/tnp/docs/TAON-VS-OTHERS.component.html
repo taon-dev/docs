@@ -1,0 +1,199 @@
+<article  class="taon-md-doc"><h1 id="taon-vs-other-frameworks-clis-and-platforms" translate="" [translate-t]="t">Taon vs. Other Frameworks, CLIs, and Platforms</h1>
+<p translate="" [translate-t]="t">Taon is a TypeScript framework and CLI for building applications with Angular frontends and REST APIs. Its isomorphic build model lets browser and backend code live in the same TypeScript file. The build produces target-specific versions of that file, so backend-only code can be excluded from browser output.</p>
+<p translate="" [translate-t]="t">Taon also offers composable admin modules for content, commerce, and other application features. The comparisons below cover three decisions: how to build your application, how to organize and package your projects, and how much of a website or store you want to assemble yourself.</p>
+<h2 id="taon-vs-nestjs" translate="" [translate-t]="t">Taon vs. NestJS</h2>
+<p translate="" [translate-t]="t">NestJS gives teams a structured Node.js backend with modules, providers, and decorator-based controllers. Taon centers its architecture on contexts, generated REST APIs, and code shared across browser and backend targets.</p>
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>NestJS</th>
+<th>Taon</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>API design</td>
+<td>Supports REST and GraphQL. Decorators define controller routes and handlers.</td>
+<td>Focuses on REST. Taon derives routes and generates client calls from context and controller definitions.</td>
+</tr>
+<tr>
+<td>Browser and backend builds</td>
+<td>A NestJS application runs on the server. A separate frontend build can consume shared packages.</td>
+<td>The build can produce browser and backend versions of the same TypeScript source file.</td>
+</tr>
+<tr>
+<td>Dependency injection</td>
+<td>Providers are singleton-scoped by default. Request and transient scopes are available.</td>
+<td>Taon-managed classes are singletons within their context.</td>
+</tr>
+<tr>
+<td>Composition and inheritance</td>
+<td>Modules expose providers, and injection tokens identify dependencies. Route paths are configured through decorators.</td>
+<td>Contexts, controllers, and repositories can be extended. Context and class names participate in route generation and class replacement during context inheritance.</td>
+</tr>
+<tr>
+<td>Database integration</td>
+<td>The application selects its database and integration library.</td>
+<td>Taon provides database workflows for its supported targets, including SQL.js-based browser development.</td>
+</tr>
+</tbody>
+</table>
+<p translate="" [translate-t]="t">Choose NestJS when the backend is a separate application and you want its module and provider model. Choose Taon when context inheritance, generated REST calls, and a shared browser/backend source model are central to the application.</p>
+<h2 id="taon-vs-express" translate="" [translate-t]="t">Taon vs. Express</h2>
+<p translate="" [translate-t]="t">Express provides routing and middleware for Node.js. Taon adds conventions for defining REST APIs in classes and generating the browser calls that consume them.</p>
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Express</th>
+<th>Taon</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Route definition</td>
+<td>Register handler functions on an application or router.</td>
+<td>Define endpoints as decorated controller methods inside a context.</td>
+</tr>
+<tr>
+<td>Reuse</td>
+<td>Compose routers, middleware, and handler functions.</td>
+<td>Compose contexts and extend controllers and repositories.</td>
+</tr>
+<tr>
+<td>REST client calls</td>
+<td>The application supplies its own client or adds client generation.</td>
+<td>Taon generates REST client calls from controller definitions.</td>
+</tr>
+<tr>
+<td>Middleware</td>
+<td>Middleware runs in the Node.js application.</td>
+<td>Taon supports isomorphic middleware for its browser and backend workflows.</td>
+</tr>
+<tr>
+<td>Browser execution</td>
+<td>Express runs on Node.js.</td>
+<td>Taon's WebSQL mode can run the backend in the browser.</td>
+</tr>
+</tbody>
+</table>
+<p translate="" [translate-t]="t">Choose Express when you want direct control over routing and middleware with few framework conventions. Choose Taon when you want the framework to connect controller methods, generated client calls, and browser-based backend development.</p>
+<h2 id="taon-cli-vs-angular-cli" translate="" [translate-t]="t">Taon CLI vs. Angular CLI</h2>
+<p translate="" [translate-t]="t">Angular CLI manages Angular workspaces, applications, and libraries. Taon CLI manages Taon projects and their build targets, including projects with Angular frontends.</p>
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Angular CLI</th>
+<th>Taon CLI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Project structure</td>
+<td>An Angular workspace can contain multiple applications and libraries.</td>
+<td>Taon projects can be organized under a container, with individual projects also usable as libraries.</td>
+</tr>
+<tr>
+<td>Dependency management</td>
+<td>The workspace uses its package manager and dependency configuration.</td>
+<td>Taon containers provide a shared package baseline for projects in the container.</td>
+</tr>
+<tr>
+<td>Library assets and styles</td>
+<td>Angular libraries can package assets and Sass entry points through library packaging configuration.</td>
+<td>Taon provides project conventions for sharing assets and SCSS entry points such as <code>{{ context.codeblock0 }}</code>.</td>
+</tr>
+<tr>
+<td>Build scope</td>
+<td>Builds Angular applications and libraries.</td>
+<td>Builds Taon projects for their configured application and library targets.</td>
+</tr>
+</tbody>
+</table>
+<p translate="" [translate-t]="t">Choose Angular CLI for a conventional Angular workspace. Choose Taon CLI when your Angular frontend is part of a Taon application or when several Taon projects need a shared package baseline and build conventions.</p>
+<h2 id="taon-vs-next-js" translate="" [translate-t]="t">Taon vs. Next.js</h2>
+<p translate="" [translate-t]="t">Next.js and Taon both support full-stack TypeScript development. They organize the browser/server boundary differently.</p>
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Next.js</th>
+<th>Taon</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UI framework</td>
+<td>React</td>
+<td>Angular</td>
+</tr>
+<tr>
+<td>Browser/server boundary</td>
+<td>Uses React Server and Client Components, route handlers, and framework conventions to define where code runs.</td>
+<td>Uses target-specific code splitting to produce browser and backend versions of the same source file.</td>
+</tr>
+<tr>
+<td>Application APIs</td>
+<td>Route handlers expose HTTP endpoints. Server Components can access server-side data directly.</td>
+<td>Contexts and decorated controllers define REST endpoints, with generated client calls for consumers.</td>
+</tr>
+</tbody>
+</table>
+<p translate="" [translate-t]="t">Choose Next.js when you want a React application built around its routing and rendering model. Choose Taon when you want Angular, context-based REST APIs, and Taon's approach to sharing TypeScript source across targets.</p>
+<h2 id="taon-vs-wordpress-and-prestashop" translate="" [translate-t]="t">Taon vs. WordPress and PrestaShop</h2>
+<p translate="" [translate-t]="t">WordPress starts with a content management system. WooCommerce adds store features as a separate plugin. PrestaShop starts with a store application and includes tools for managing content pages. Taon starts with a framework, CLI, and modules that developers assemble into a custom application.</p>
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Taon</th>
+<th>WordPress with WooCommerce</th>
+<th>PrestaShop</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content</td>
+<td><code>{{ context.codeblock1 }}</code> provides content and media management. The application defines how content appears on the public site.</td>
+<td>WordPress provides posts, pages, a block editor, and themes. Block themes support site-wide editing through the Site Editor.</td>
+<td>The backoffice manages content pages alongside the product catalog.</td>
+</tr>
+<tr>
+<td>Commerce</td>
+<td><code>{{ context.codeblock2 }}</code> provides products, carts, orders, Stripe checkout, and entitlements. Developers integrate the storefront and configure payments.</td>
+<td>WooCommerce adds products, checkout, orders, taxes, and shipping. Payment options and integrations depend on configuration and installed extensions.</td>
+<td>Store management centers on products, variants, stock, pricing, shipping, and orders. Payment modules connect the store to payment providers.</td>
+</tr>
+<tr>
+<td>Backoffice</td>
+<td><code>{{ context.codeblock3 }}</code> brings together admin modules such as Session, CMS, and E-commerce. Developers register the contexts and routes and configure access.</td>
+<td>WordPress provides the site admin. WooCommerce adds store management screens.</td>
+<td>PrestaShop provides a store backoffice with catalog, order, and shop management screens.</td>
+</tr>
+<tr>
+<td>Customization</td>
+<td>Extend the application with TypeScript, Angular components, Taon contexts, and packages.</td>
+<td>Customize the site with themes, WordPress plugins, WooCommerce extensions, and custom code.</td>
+<td>Customize the store with themes, modules, and custom code.</td>
+</tr>
+<tr>
+<td>Deployment and maintenance</td>
+<td>The team builds and deploys the application for its chosen target and maintains its code, integrations, and data.</td>
+<td>The operator maintains WordPress, WooCommerce, the theme, and plugins. Managed hosting can handle some of this work.</td>
+<td>The operator maintains PrestaShop, the theme, and modules. Managed hosting can handle some of this work.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="what-building-with-taon-involves" translate="" [translate-t]="t">What building with Taon involves</h3>
+<p translate="" [translate-t]="t">For a combined website and store, a developer can use Baseline for the backoffice, CMS for content, and E-commerce for products and checkout. The developer connects these modules to the public site, configures permissions and payments, and deploys the application. Once the application is running, the site owner can manage content and products through the configured backoffice.</p>
+<p translate="" [translate-t]="t">Taon's Node.js, WebSQL browser, and Cloudflare Worker workflows serve different deployment needs. For example, WebSQL mode can run the backend locally in the browser. Production Stripe credentials and public webhook handling require a server-side deployment.</p>
+<p translate="" [translate-t]="t">See the <a href="https://github.com/darekf77/taon-containers/tree/master/container-v21/isomorphic-lib-v21/.ai/taon-admin">Taon Admin module guides</a> and the <a href="https://github.com/darekf77/taon-containers/blob/master/container-v21/isomorphic-lib-v21/.ai/tutorial/add-taon-admin-to-existing-project.md">Taon Admin setup tutorial</a>.</p>
+<h3 id="which-platform-fits-your-project" translate="" [translate-t]="t">Which platform fits your project?</h3>
+<ul>
+<li><strong>Choose Taon</strong> when a development team needs a custom TypeScript application with control over the public site, APIs, permissions, and workflows. The team owns the integration, deployment, and maintenance.</li>
+<li><strong>Choose WordPress</strong> when publishing is the main job and editors need an established CMS and theme ecosystem. Add WooCommerce when the site also needs a store.</li>
+<li><strong>Choose PrestaShop</strong> when running a store is the main job and its built-in catalog, stock, and order workflows cover most of your requirements.</li>
+</ul>
+</article>

@@ -1,0 +1,19 @@
+// THIS FILE IS GENERATED - DO NOT MODIFY
+import { CoreModels } from 'tnp-core/src';
+
+// join interface type here
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsCopyManagerCopyManagerComponentHtml } from './COPY-MANAGER.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsCopyManagerCopyManagerComponentHtml } from './COPY-MANAGER.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsCopyManagerCopyManagerComponentHtml } from './COPY-MANAGER.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsCopyManagerCopyManagerComponentTs } from './COPY-MANAGER.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsCopyManagerCopyManagerComponentTs } from './COPY-MANAGER.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsCopyManagerCopyManagerComponentTs } from './COPY-MANAGER.component.ts.de-DE.i18n.data';;
+export type CopyManagerOverride = CoreModels.DeepPartial<EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsCopyManagerCopyManagerComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsCopyManagerCopyManagerComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsCopyManagerCopyManagerComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsCopyManagerCopyManagerComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsCopyManagerCopyManagerComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsCopyManagerCopyManagerComponentTs>;
+
+ // THIS FILE IS GENERATED - DO NOT MODIFY
+        

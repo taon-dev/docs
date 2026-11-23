@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/sudo/README.component.html:1
+msgid "Sudo"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/sudo/README.component.html:3
+msgid "Sudo gives you access to Taon Admin’s tools for managing application data, restoring snapshots, and troubleshooting HTTP errors. To use these tools, Sudo must be enabled for your account’s email address."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/sudo/README.component.html:4
+msgid "Data"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/sudo/README.component.html:6
+msgid "The Data tab works like phpMyAdmin. You can browse SQL tables and edit or delete records directly from Taon Admin."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/sudo/README.component.html:7
+msgid "Raw Migrations"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/sudo/README.component.html:9
+msgid "Use the Raw Migrations tab to create, export, import, and restore snapshots of your application data. You can use snapshots to back up data or move it between environments."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/sudo/README.component.html:10
+msgid "Every restore opens the Raw Migration Restore Editor. It analyzes the snapshot against the current SQL schema, lets you map renamed tables and columns, and requires you to choose the SQL tables and bucket controllers that may be modified. The preview validates required columns, primary keys, types, and schema fingerprints before execution. Mapping presets can be imported or downloaded as JSON for reuse. Tables and buckets excluded from the plan are not cleared or restored."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/sudo/README.component.html:17
+msgid "App State"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/sudo/README.component.html:18
+#: src/lib/generated-docs-from-md-files/@taon-dev/sudo/README.component.html:29
+msgid "<strong>Work in progress</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/sudo/README.component.html:19
+msgid "The App State tab is designed to control when users can interact with your application and when it accepts API requests. Planned features include:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/sudo/README.component.html:25
+msgid "HTTP Errors"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/sudo/README.component.html:27
+msgid "Use the HTTP Errors tab to mute HTTP errors, which can be useful when testing your application locally."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/sudo/README.component.html:28
+msgid "SQL Scripts"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/sudo/README.component.html:30
+msgid "The SQL Scripts tab will let you save reusable SQL snippets and run them against your application database."
+msgstr ""

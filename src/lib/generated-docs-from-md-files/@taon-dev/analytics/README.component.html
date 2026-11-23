@@ -1,0 +1,32 @@
+<article  class="taon-md-doc"><h1 id="analytics" translate="" [translate-t]="t">Analytics</h1>
+<p><span translate="" [translate-t]="t">Small, anonymous visitor/session/page-view collection for Taon applications.
+Include </span><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> in your application context. Provide
+</span><code>{{ context.codeblock1 }}</code><span translate="" [translate-t]="t"> on the root Angular component and call </span><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t">
+once after the Taon context has initialized. The example application does this
+in its root component.</span></p>
+<p translate="" [translate-t]="t">The random browser UUID is stored in localStorage; the current session ID is
+stored in sessionStorage. Reloads reuse the session; 30 minutes without recorded
+activity starts a new one. Navigation completions record page views. Basic
+pointer/keyboard activity updates are throttled to once per minute. No
+fingerprinting or user-agent parsing is performed; device/browser/OS fields
+are reserved and nullable. Authenticated user IDs are taken from verified Taon
+session tokens, never from the collection payload.</p>
+<p translate="" [translate-t]="t">Overview shows all-time visitor, session and page-view counts. Visitors uses
+the standard Taon datatable. Pages View, Events and Traffic Sources are
+placeholders; their underlying data can be extended later.</p>
+<p translate="" [translate-t]="t">Other Angular packages can inject the same tracking service and call:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock3, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock3Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">Backend packages can inject </span><code>{{ context.codeblock4 }}</code><span translate="" [translate-t]="t"> and use </span><code>{{ context.codeblock5 }}</code><span translate="" [translate-t]="t">.
+All event names use the same generic table. Session/visitor/user associations
+are optional for backend events.</span></p>
+<p translate="" [translate-t]="t">Timestamps come from the backend. Page durations end at the next navigation
+or the last observed activity when an expired session is next collected.
+There is no unload beacon or background session-expiry job; durations are
+approximate, not a measure of active attention.</p>
+<p><span translate="" [translate-t]="t">Tables follow the project's </span><code>{{ context.codeblock6 }}</code><span translate="" [translate-t]="t">/TypeORM synchronization convention.
+No event-specific tables or reporting charts are added.</span></p>
+</article>

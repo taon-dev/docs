@@ -1,0 +1,564 @@
+<article  class="taon-md-doc"><h1 id="taon-cli-developer-guide" translate="" [translate-t]="t">Taon CLI — Developer Guide</h1>
+<p translate="" [translate-t]="t">Taon CLI provides a unified development workflow for creating, building, running, and releasing full-stack applications and libraries.</p>
+<p translate="" [translate-t]="t" translate-html="">A Taon project can be both an <strong>application and a library</strong>, with shared TypeScript code across frontend and backend environments.</p>
+<h2 id="1-creating-projects" translate="" [translate-t]="t">1. Creating Projects</h2>
+<p><span translate="" [translate-t]="t">Use </span><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> to create standalone projects, containers, and organization-level project structures.</span></p>
+<h3 id="standalone-project" translate="" [translate-t]="t">Standalone Project</h3>
+<p translate="" [translate-t]="t">Create a standalone project with a basic CRUD application:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock1, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock1Html"></code></pre></div>
+<h3 id="standalone-project-with-admin-backoffice" translate="" [translate-t]="t">Standalone Project with Admin Backoffice</h3>
+<p translate="" [translate-t]="t">Create a standalone project using the Taon baseline, which includes the full Taon Admin backoffice:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock2, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock2Html"></code></pre></div>
+<h3 id="documentation-project" translate="" [translate-t]="t">Documentation Project</h3>
+<p translate="" [translate-t]="t">Create a documentation application that collects Markdown files distributed across projects:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock3, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock3Html"></code></pre></div>
+<h3 id="container-with-a-child-project" translate="" [translate-t]="t">Container with a Child Project</h3>
+<p translate="" [translate-t]="t">Create a container and a standalone child project inside it:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock4, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock4Html"></code></pre></div>
+<p translate="" [translate-t]="t">Resulting structure:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock5, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock5Html"></code></pre></div>
+<h3 id="organization-container" translate="" [translate-t]="t">Organization Container</h3>
+<p><span translate="" [translate-t]="t">Create a container named </span><code>{{ context.codeblock6 }}</code><span translate="" [translate-t]="t">, mark it as an organization, and create a child project:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock7, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock7Html"></code></pre></div>
+<p translate="" [translate-t]="t">Resulting structure:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock8, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock8Html"></code></pre></div>
+<p translate="" [translate-t]="t">Organization containers allow related Taon projects to be managed together.</p>
+<hr>
+<h2 id="2-supported-build-artifacts" translate="" [translate-t]="t">2. Supported Build Artifacts</h2>
+<p translate="" [translate-t]="t">Taon can produce multiple artifact types from a shared project architecture.</p>
+<table>
+<thead>
+<tr>
+<th>Artifact</th>
+<th>Entry point</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NPM library</td>
+<td><code>{{ context.codeblock9 }}</code></td>
+</tr>
+<tr>
+<td>CLI tool</td>
+<td><code>{{ context.codeblock10 }}</code></td>
+</tr>
+<tr>
+<td>Angular / Node.js application</td>
+<td><code>{{ context.codeblock11 }}</code></td>
+</tr>
+<tr>
+<td>Electron desktop application</td>
+<td><code>{{ context.codeblock12 }}</code></td>
+</tr>
+<tr>
+<td>VS Code extension</td>
+<td><code>{{ context.codeblock13 }}</code></td>
+</tr>
+<tr>
+<td>Mobile application (planned)</td>
+<td><code>{{ context.codeblock14 }}</code></td>
+</tr>
+<tr>
+<td>Documentation (MkDocs, Storybook, Compodoc)</td>
+<td>Markdown and Storybook files</td>
+</tr>
+</tbody>
+</table>
+<p><span translate="" [translate-t]="t">Documentation sources include files matching </span><code>{{ context.codeblock15 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock16 }}</code><span translate="" [translate-t]="t">.</span></p>
+<p translate="" [translate-t]="t">A single Taon project may contain multiple entry points, allowing it to serve as both a reusable library and an application.</p>
+<hr>
+<h2 id="3-building-projects" translate="" [translate-t]="t">3. Building Projects</h2>
+<p translate="" [translate-t]="t">Taon provides a consistent set of commands for development, production, and watch builds.</p>
+<h3 id="development-build" translate="" [translate-t]="t">Development Build</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock17, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock17Html"></code></pre></div>
+<p translate="" [translate-t]="t">Alias:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock18, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock18Html"></code></pre></div>
+<p translate="" [translate-t]="t">Builds the NPM library and application source code, including Angular-compatible code.</p>
+<p translate="" [translate-t]="t">The build process updates the corresponding bundled output used by dependent projects.</p>
+<h3 id="clean-development-build" translate="" [translate-t]="t">Clean Development Build</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock19, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock19Html"></code></pre></div>
+<p translate="" [translate-t]="t">Alias:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock20, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock20Html"></code></pre></div>
+<p translate="" [translate-t]="t">Removes temporary and distribution build output before rebuilding the project.</p>
+<p translate="" [translate-t]="t">Useful when generated files or cached build artifacts become inconsistent.</p>
+<h3 id="production-build" translate="" [translate-t]="t">Production Build</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock21, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock21Html"></code></pre></div>
+<p translate="" [translate-t]="t">Alias:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock22, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock22Html"></code></pre></div>
+<p translate="" [translate-t]="t">Performs a clean production-oriented build (same as in release).</p>
+<p translate="" [translate-t]="t">This may take longer than a development build because production optimizations and additional processing are applied.</p>
+<h3 id="watch-build" translate="" [translate-t]="t">Watch Build</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock23, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock23Html"></code></pre></div>
+<p translate="" [translate-t]="t">Alias:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock24, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock24Html"></code></pre></div>
+<p translate="" [translate-t]="t">Watches project source files and rebuilds the library when changes are detected.</p>
+<p translate="" [translate-t]="t">This is useful when developing an application and its reusable library functionality simultaneously.</p>
+<h3 id="docs-extract" translate="" [translate-t]="t">Docs extract</h3>
+<p><span translate="" [translate-t]="t">Extract docs of projects from </span><code>{{ context.codeblock25 }}</code><span translate="" [translate-t]="t"> property inside </span><code>{{ context.codeblock26 }}</code><span translate="" [translate-t]="t">.
+Taon will automatically find project if it is linked inside package (source is a symlink to real project location after </span><code>{{ context.codeblock27 }}</code><span translate="" [translate-t]="t">)</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock28, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock28Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">To Generate documentation Angular components (inside </span><code>{{ context.codeblock29 }}</code><span translate="" [translate-t]="t">)</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock30, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock30Html"></code></pre></div>
+<p translate="" [translate-t]="t">Alias:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock31, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock31Html"></code></pre></div>
+<p translate="" [translate-t]="t">Watches and rebuilds library code without running the complete application build workflow.</p>
+<p translate="" [translate-t]="t">This is particularly useful for Electron and VS Code extension development.</p>
+<hr>
+<h2 id="4-running-applications" translate="" [translate-t]="t">4. Running Applications</h2>
+<p translate="" [translate-t]="t">Taon provides commands for running applications in different development environments.</p>
+<p translate="" [translate-t]="t">The interactive application menu is available through:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock32, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock32Html"></code></pre></div>
+<h3 id="application-commands" translate="" [translate-t]="t">Application Commands</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Alias</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>{{ context.codeblock33 }}</code></td>
+<td><code>{{ context.codeblock34 }}</code></td>
+<td>Run Angular development server with Node.js backend</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock35 }}</code></td>
+<td><code>{{ context.codeblock36 }}</code></td>
+<td>Run application with local Cloudflare backend development</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock37 }}</code></td>
+<td><code>{{ context.codeblock38 }}</code></td>
+<td>Run application in browser-based WebSQL mode</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock39 }}</code></td>
+<td><code>{{ context.codeblock40 }}</code></td>
+<td>Run Electron desktop application</td>
+</tr>
+</tbody>
+</table>
+<h3 id="normal-web-application" translate="" [translate-t]="t">Normal Web Application</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock41, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock41Html"></code></pre></div>
+<p translate="" [translate-t]="t">Starts the application development environment using Angular and the Node.js backend.</p>
+<h3 id="cloudflare-development" translate="" [translate-t]="t">Cloudflare Development</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock42, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock42Html"></code></pre></div>
+<p translate="" [translate-t]="t">Starts the Angular development environment configured for local Cloudflare backend development.</p>
+<h3 id="websql-development" translate="" [translate-t]="t">WebSQL Development</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock43, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock43Html"></code></pre></div>
+<p translate="" [translate-t]="t">Starts the Angular application in WebSQL mode.</p>
+<p translate="" [translate-t]="t">In this mode, compatible backend and database functionality runs directly in the browser without requiring a separately running Node.js backend.</p>
+<h3 id="electron-development" translate="" [translate-t]="t">Electron Development</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock44, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock44Html"></code></pre></div>
+<p translate="" [translate-t]="t">Starts the Electron application development workflow.</p>
+<hr>
+<h2 id="5-recommended-development-workflows" translate="" [translate-t]="t">5. Recommended Development Workflows</h2>
+<p translate="" [translate-t]="t">For workflows involving both an application and a reusable library, build the library before starting the application.</p>
+<h3 id="scenario-1-web-application-and-npm-library" translate="" [translate-t]="t">Scenario 1: Web Application and NPM Library</h3>
+<p translate="" [translate-t]="t">Use two terminals.</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>Terminal 1 — Start the library watch build</strong></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock45, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock45Html"></code></pre></div>
+<p translate="" [translate-t]="t">Wait for the initial library build to complete.</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>Terminal 2 — Start the web application</strong></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock46, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock46Html"></code></pre></div>
+<p translate="" [translate-t]="t">This allows you to develop library functionality and the web application together.</p>
+<h3 id="scenario-2-electron-application-and-npm-library" translate="" [translate-t]="t">Scenario 2: Electron Application and NPM Library</h3>
+<p translate="" [translate-t]="t">Use two terminals.</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>Terminal 1 — Start the library-only watch build</strong></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock47, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock47Html"></code></pre></div>
+<p translate="" [translate-t]="t">Wait for the initial library build to complete.</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>Terminal 2 — Start Electron</strong></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock48, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock48Html"></code></pre></div>
+<p translate="" [translate-t]="t">This workflow allows library changes to be rebuilt while developing the Electron application.</p>
+<h3 id="scenario-3-vs-code-extension-and-npm-library" translate="" [translate-t]="t">Scenario 3: VS Code Extension and NPM Library</h3>
+<p translate="" [translate-t]="t" translate-html=""><strong>Terminal 1 — Start the library-only watch build</strong></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock49, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock49Html"></code></pre></div>
+<p translate="" [translate-t]="t">Wait for the initial library build to complete.</p>
+<p translate="" [translate-t]="t">Then start the VS Code debugger using the project's launch configuration.</p>
+<p translate="" [translate-t]="t">Each debugger start recreates the extension's menu options.</p>
+<hr>
+<h2 id="6-releasing-projects" translate="" [translate-t]="t">6. Releasing Projects</h2>
+<p translate="" [translate-t]="t">Taon provides both interactive and automated release workflows.</p>
+<h3 id="interactive-release-menu" translate="" [translate-t]="t">Interactive Release Menu</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock50, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock50Html"></code></pre></div>
+<p translate="" [translate-t]="t">Alias:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock51, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock51Html"></code></pre></div>
+<p translate="" [translate-t]="t">Opens the terminal interface for selecting a release operation.</p>
+<h3 id="automated-releases" translate="" [translate-t]="t">Automated Releases</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock52, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock52Html"></code></pre></div>
+<p translate="" [translate-t]="t">Runs the configured automatic release workflow.</p>
+<p><span translate="" [translate-t]="t">Release tasks are defined in </span><code>{{ context.codeblock53 }}</code><span translate="" [translate-t]="t"> using </span><code>{{ context.codeblock54 }}</code><span translate="" [translate-t]="t">.</span></p>
+<p translate="" [translate-t]="t">To execute a specific task:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock55, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock55Html"></code></pre></div>
+<h3 id="npm-release" translate="" [translate-t]="t">NPM Release</h3>
+<p translate="" [translate-t]="t">The default automated release configuration includes an NPM release task.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock56, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock56Html"></code></pre></div>
+<p translate="" [translate-t]="t">This works with standalone projects and container organizations.</p>
+<h3 id="cloudflare-production-release" translate="" [translate-t]="t">Cloudflare Production Release</h3>
+<p translate="" [translate-t]="t">For projects configured for Cloudflare deployment:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock57, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock57Html"></code></pre></div>
+<p translate="" [translate-t]="t">Taon executes the corresponding configured release task.</p>
+<hr>
+<h2 id="7-linking-projects-and-cli-tools" translate="" [translate-t]="t">7. Linking Projects and CLI Tools</h2>
+<p><span translate="" [translate-t]="t">Taon provides linking commands similar to </span><code>{{ context.codeblock58 }}</code><span translate="" [translate-t]="t">, allowing locally developed CLI tools and libraries to be used without publishing them first.</span></p>
+<h3 id="interactive-linking" translate="" [translate-t]="t">Interactive Linking</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock59, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock59Html"></code></pre></div>
+<p translate="" [translate-t]="t">Opens the linking workflow.</p>
+<h3 id="local-linking" translate="" [translate-t]="t">Local Linking</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock60, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock60Html"></code></pre></div>
+<p translate="" [translate-t]="t">Links the CLI created in the current repository.</p>
+<h3 id="global-development-linking" translate="" [translate-t]="t">Global Development Linking</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock61, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock61Html"></code></pre></div>
+<p translate="" [translate-t]="t">Creates a global NPM link for the current project in development mode.</p>
+<p translate="" [translate-t]="t">Useful when testing changes to a CLI tool directly from its source repository.</p>
+<h3 id="release-branch-linking" translate="" [translate-t]="t">Release Branch Linking</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock62, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock62Html"></code></pre></div>
+<p translate="" [translate-t]="t">Links the CLI built from a separate release branch.</p>
+<p translate="" [translate-t]="t">This can be useful when testing a released version without replacing the active development version.</p>
+<hr>
+<h2 id="8-branding-and-pwa-assets" translate="" [translate-t]="t">8. Branding and PWA Assets</h2>
+<p><span translate="" [translate-t]="t">Taon can generate branding assets from a project's </span><code>{{ context.codeblock63 }}</code><span translate="" [translate-t]="t">.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock64, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock64Html"></code></pre></div>
+<p translate="" [translate-t]="t">This recreates assets such as favicons and Progressive Web App icons.</p>
+<p translate="" [translate-t]="t">It helps keep branding consistent across supported application targets.</p>
+<hr>
+<h2 id="9-automated-code-refactoring" translate="" [translate-t]="t">9. Automated Code Refactoring</h2>
+<p translate="" [translate-t]="t">Taon provides a project-wide refactoring command.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock65, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock65Html"></code></pre></div>
+<p translate="" [translate-t]="t">The command processes project files to:</p>
+<ul>
+<li>Apply Prettier formatting.</li>
+<li>Apply ESLint fixes.</li>
+<li>Organize imports into regions.</li>
+</ul>
+<p translate="" [translate-t]="t">This helps maintain consistent code formatting across projects and reduces repetitive maintenance work.</p>
+<hr>
+<h2 id="10-cloudflare-subprojects" translate="" [translate-t]="t">10. Cloudflare Subprojects</h2>
+<p translate="" [translate-t]="t">Taon supports managing Cloudflare Worker subprojects.</p>
+<p translate="" [translate-t]="t">These can be used to extend a Taon application with additional Cloudflare-specific functionality.</p>
+<h3 id="add-a-subproject" translate="" [translate-t]="t">Add a Subproject</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock66, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock66Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">Creates a subproject inside the project's </span><code>{{ context.codeblock67 }}</code><span translate="" [translate-t]="t"> directory.</span></p>
+<h3 id="example-structure" translate="" [translate-t]="t">Example Structure</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock68, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock68Html"></code></pre></div>
+<h3 id="remove-a-subproject" translate="" [translate-t]="t">Remove a Subproject</h3>
+<p translate="" [translate-t]="t">To remove a subproject, delete its directory.</p>
+<p translate="" [translate-t]="t">For example:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock69, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock69Html"></code></pre></div>
+<h3 id="deploy-subprojects-manually" translate="" [translate-t]="t">Deploy Subprojects Manually</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock70, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock70Html"></code></pre></div>
+<p translate="" [translate-t]="t">Deploys the configured Cloudflare subproject.</p>
+<p translate="" [translate-t]="t">Manual deployment is usually unnecessary because the main Taon release workflow can handle deployment.</p>
+<h3 id="local-cloudflare-worker-development" translate="" [translate-t]="t">Local Cloudflare Worker Development</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock71, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock71Html"></code></pre></div>
+<p translate="" [translate-t]="t">Starts the local development environment for Cloudflare subprojects.</p>
+<p translate="" [translate-t]="t">When developing an Angular application connected to a local Cloudflare Worker, start the Worker development environment first.</p>
+<p translate="" [translate-t]="t">Then start the Angular application in a separate terminal:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock72, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock72Html"></code></pre></div>
+<p translate="" [translate-t]="t">This allows the Angular application to communicate with the locally running Cloudflare backend.</p>
+<hr>
+<h2 id="11-quick-command-reference" translate="" [translate-t]="t">11. Quick Command Reference</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Command</th>
+<th>Alias</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>New project</td>
+<td><code>{{ context.codeblock73 }}</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Development build</td>
+<td><code>{{ context.codeblock74 }}</code></td>
+<td><code>{{ context.codeblock75 }}</code></td>
+</tr>
+<tr>
+<td>Clean build</td>
+<td><code>{{ context.codeblock76 }}</code></td>
+<td><code>{{ context.codeblock77 }}</code></td>
+</tr>
+<tr>
+<td>Production build</td>
+<td><code>{{ context.codeblock78 }}</code></td>
+<td><code>{{ context.codeblock79 }}</code></td>
+</tr>
+<tr>
+<td>Watch build</td>
+<td><code>{{ context.codeblock80 }}</code></td>
+<td><code>{{ context.codeblock81 }}</code></td>
+</tr>
+<tr>
+<td>Library watch</td>
+<td><code>{{ context.codeblock82 }}</code></td>
+<td><code>{{ context.codeblock83 }}</code></td>
+</tr>
+<tr>
+<td>Application menu</td>
+<td><code>{{ context.codeblock84 }}</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Web application</td>
+<td><code>{{ context.codeblock85 }}</code></td>
+<td><code>{{ context.codeblock86 }}</code></td>
+</tr>
+<tr>
+<td>Cloudflare application</td>
+<td><code>{{ context.codeblock87 }}</code></td>
+<td><code>{{ context.codeblock88 }}</code></td>
+</tr>
+<tr>
+<td>WebSQL application</td>
+<td><code>{{ context.codeblock89 }}</code></td>
+<td><code>{{ context.codeblock90 }}</code></td>
+</tr>
+<tr>
+<td>Electron application</td>
+<td><code>{{ context.codeblock91 }}</code></td>
+<td><code>{{ context.codeblock92 }}</code></td>
+</tr>
+<tr>
+<td>Release menu</td>
+<td><code>{{ context.codeblock93 }}</code></td>
+<td><code>{{ context.codeblock94 }}</code></td>
+</tr>
+<tr>
+<td>Automated release</td>
+<td><code>{{ context.codeblock95 }}</code></td>
+<td><code>{{ context.codeblock96 }}</code></td>
+</tr>
+<tr>
+<td>Project linking</td>
+<td><code>{{ context.codeblock97 }}</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Global development link</td>
+<td><code>{{ context.codeblock98 }}</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Branding</td>
+<td><code>{{ context.codeblock99 }}</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Code refactoring</td>
+<td><code>{{ context.codeblock100 }}</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Add Cloudflare subproject</td>
+<td><code>{{ context.codeblock101 }}</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Deploy Cloudflare subproject</td>
+<td><code>{{ context.codeblock102 }}</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Local Cloudflare Worker</td>
+<td><code>{{ context.codeblock103 }}</code></td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="summary" translate="" [translate-t]="t">Summary</h2>
+<p translate="" [translate-t]="t">Taon CLI provides a consistent workflow for managing the entire development lifecycle:</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>Create → Build → Develop → Test → Release</strong></p>
+<p translate="" [translate-t]="t">Its app-library architecture allows projects to combine reusable libraries, backend functionality, frontend applications, and multiple deployment targets.</p>
+<p translate="" [translate-t]="t">Developers can work with a single project or coordinate entire containers of interconnected applications without manually maintaining separate build and release systems for each project.</p>
+</article>

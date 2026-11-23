@@ -1,0 +1,27 @@
+<article  class="taon-md-doc"><h1 id="taon-build" translate="" [translate-t]="t">taon build</h1>
+<p translate="" [translate-t]="t">There are 3 modes for taon buid:</p>
+<ul>
+<li>old build mode (obm) when everthing is being watch
+<ul>
+<li>3x tsc processes (esm, cjs,js.maps)</li>
+<li>2x ng build processe (browser,websql)</li>
+<li>build is heavy (on linux takes too much watchers)</li>
+</ul>
+</li>
+<li>lightweight build mode
+<ul>
+<li>everything goes through main worker that decides about builds</li>
+<li>last project that triggerd change (start lead build of all projects)</li>
+<li>build only uses no-watch tsc,ngbuild commands</li>
+<li>nothing is watching whole node_modules</li>
+<li>very fast and lightweight on linux (that does not like many file watchers)</li>
+</ul>
+</li>
+<li>partial lightweight build mode (DEFAULT MODE)
+<ul>
+<li>on win,macos -&gt; obm (cjs, esm), lightweight (js.maps, browser,websql)</li>
+<li>linux -&gt; always lightweight for everything</li>
+</ul>
+</li>
+</ul>
+<img src="/src/assets/shared/generated-docs-from-md-files/tnp/src/lib/project/abstract/artifacts/npm-lib-and-cli-tool/tools/taon-build.drawio.svg" style="height: 300px"></article>

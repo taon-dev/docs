@@ -1,0 +1,76 @@
+<article  class="taon-md-doc"><h1 id="taon-middleware-and-interceptors" translate="" [translate-t]="t">Taon middleware and interceptors</h1>
+<p translate="" [translate-t]="t">Taon middleware lets you intercept backend requests and frontend API calls. Server hooks follow the Express middleware pattern. Client hooks follow the Angular HTTP interceptor pattern and work with Axios responses and RxJS.</p>
+<p translate="" [translate-t]="t">Middleware classes are injectable singletons within their Taon context and can participate in inheritance.</p>
+<table>
+<thead>
+<tr>
+<th>Scope</th>
+<th>Server hook</th>
+<th>Client hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Entire context</td>
+<td><code>{{ context.codeblock0 }}</code></td>
+<td><code>{{ context.codeblock1 }}</code></td>
+</tr>
+<tr>
+<td>All methods of one controller</td>
+<td><code>{{ context.codeblock2 }}</code></td>
+<td><code>{{ context.codeblock3 }}</code></td>
+</tr>
+<tr>
+<td>One controller method</td>
+<td><code>{{ context.codeblock4 }}</code></td>
+<td><code>{{ context.codeblock5 }}</code></td>
+</tr>
+</tbody>
+</table>
+<p translate="" [translate-t]="t">Controller-wide and endpoint-specific middleware use the same hooks. Where you register the middleware determines which methods it applies to.</p>
+<h4>Intercept server requests across a context</h4>
+<p><span translate="" [translate-t]="t">Implement </span><code>{{ context.codeblock6 }}</code><span translate="" [translate-t]="t"> to handle server requests across the context. Call </span><code>{{ context.codeblock7 }}</code><span translate="" [translate-t]="t"> to continue processing the request.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock8, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock8Html"></code></pre></div>
+<h4>Intercept client requests across a context</h4>
+<p><span translate="" [translate-t]="t">Implement </span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t"> to handle client API calls across the context. Return </span><code>{{ context.codeblock10 }}</code><span translate="" [translate-t]="t"> to forward the request and pass its response back to the caller.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock11, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock11Html"></code></pre></div>
+<h4>Intercept a controller method on the server</h4>
+<p><span translate="" [translate-t]="t">Use </span><code>{{ context.codeblock12 }}</code><span translate="" [translate-t]="t"> for middleware attached to a controller or endpoint. The second argument provides information about the matched endpoint, including its method name, Express path, and HTTP request type. You can use </span><code>{{ context.codeblock13 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock14 }}</code><span translate="" [translate-t]="t"> before calling </span><code>{{ context.codeblock15 }}</code><span translate="" [translate-t]="t">.</span></p>
+<p><span translate="" [translate-t]="t">Set </span><code>{{ context.codeblock16 }}</code><span translate="" [translate-t]="t"> to keep this middleware scoped to the controller or endpoint on the server.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock17, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock17Html"></code></pre></div>
+<h4>Intercept a controller method on the client</h4>
+<p><span translate="" [translate-t]="t">Use </span><code>{{ context.codeblock18 }}</code><span translate="" [translate-t]="t"> to intercept client calls to the controller or endpoint where the middleware is registered. You can use RxJS operators on the response from </span><code>{{ context.codeblock19 }}</code><span translate="" [translate-t]="t">. This example uses </span><code>{{ context.codeblock20 }}</code><span translate="" [translate-t]="t"> to inspect the response status.</span></p>
+<p><span translate="" [translate-t]="t">Set </span><code>{{ context.codeblock21 }}</code><span translate="" [translate-t]="t"> to keep this middleware scoped to the controller or endpoint on the client.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock22, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock22Html"></code></pre></div>
+<h4>Apply middleware to every endpoint in a controller</h4>
+<p><span translate="" [translate-t]="t">Add the middleware to </span><code>{{ context.codeblock23 }}</code><span translate="" [translate-t]="t">. Spread </span><code>{{ context.codeblock24 }}</code><span translate="" [translate-t]="t"> to retain the middleware supplied by the parent.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock25, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock25Html"></code></pre></div>
+<h4>Apply middleware to one endpoint</h4>
+<p><span translate="" [translate-t]="t">Add the middleware to the endpoint decorator’s </span><code>{{ context.codeblock26 }}</code><span translate="" [translate-t]="t"> option. Here, </span><code>{{ context.codeblock27 }}</code><span translate="" [translate-t]="t"> applies only to </span><code>{{ context.codeblock28 }}</code><span translate="" [translate-t]="t">.</span></p>
+<p><span translate="" [translate-t]="t">The </span><code>{{ context.codeblock29 }}</code><span translate="" [translate-t]="t"> region markers in the controller examples are Taon build directives.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock30, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock30Html"></code></pre></div>
+</article>

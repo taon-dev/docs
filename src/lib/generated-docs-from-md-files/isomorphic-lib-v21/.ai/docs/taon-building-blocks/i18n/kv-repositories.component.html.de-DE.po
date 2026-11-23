@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:1
+msgid "Taon KV Repositories"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:2
+msgid "Taon KV repositories provide typed key-value storage through injectable repositories. The API is inspired by key-value systems such as Redis and Cloudflare Workers KV, with a document-oriented approach to storing structured values similar to MongoDB. These comparisons describe the design inspiration. The examples below use Taon’s repository API."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:3
+msgid "Use a KV repository when you read or replace a value by a known key, such as application settings or a cached snapshot. Call the repository from backend code. Browser UI code should access the data through a Taon API endpoint."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:4
+msgid "Define a repository"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:5
+msgid "Extend"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:5
+msgid "and declare the keys and value types in its type parameter. Decorate the class with"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:5
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:6
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:14
+msgid "."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:6
+msgid "In this example, the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:6
+msgid "key stores a"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:6
+msgid "replaces the array stored under that key, and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:6
+msgid "reads the array as a single value."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:7
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock6, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:12
+msgid "The"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:12
+msgid "region markers are Taon build directives. Keep them in the repository methods as shown."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:13
+msgid "Inject the repository into a context"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:14
+msgid "Add a field to your Taon context and initialize it with"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:15
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock9, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:20
+msgid "Choose the right storage model"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:21
+msgid "Use a KV repository when callers usually work with the whole value under a known key. For example,"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/kv-repositories.component.html:21
+msgid "can store a snapshot of a user list. If callers need to look up individual users, filter by fields, or update records independently, use an entity repository for those operations."
+msgstr ""

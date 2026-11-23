@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:1
+msgid "Taon SEO"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:2
+msgid "manages global SEO defaults and path-specific overrides for static application routes. It resolves browser document metadata; it does not analyze keywords, generate content, or automatically convert CMS posts into SEO pages."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:6
+msgid "Add and configure"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:7
+msgid "Register"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:7
+msgid "in the application's backend context and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:8
+msgid "in the admin route tree. Baseline does both when"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:9
+msgid "and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:9
+msgid "are used. The Angular app also needs the SEO provider:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:11
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock5, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:16
+msgid "Merge the provider into the app's existing providers; keep its Taon context,\nrouter, and startup providers. In the backoffice, set global defaults under\n<strong>SEO &gt; General (Settings)</strong> and add path overrides under <strong>SEO &gt; Pages</strong>.\nBlank optional page values inherit global defaults. Set"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:19
+msgid "in global settings and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:20
+msgid "on a page override as absolute HTTP(S) URLs without query strings or fragments."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:22
+msgid "Metadata behavior and permissions"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:23
+msgid "The SEO provider loads the global settings and matching page override after Angular starts and on primary route changes. It updates title, description, keywords, canonical URL, robots, and Open Graph metadata. Query strings, fragments, matrix parameters, and auxiliary outlets do not select a page override; trailing slashes are normalized."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:28
+msgid "Baseline shows SEO navigation to superusers or users with"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:28
+msgid ". Configuration writes, page listings, and image uploads require this access; public settings lookups and social-image downloads are available for rendering and crawlers. Store images through Taon storage; the database stores image keys, not temporary browser blob URLs."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:33
+msgid "Runtime notes"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:34
+msgid "is an Angular/browser provider, while SEO settings and image lookups are served by the registered Taon context. Client-side metadata updates do not replace server-rendered metadata for crawlers that do not execute JavaScript. Make the backend host and public social-image URLs reachable to crawlers. For SSR, verify that the server rendering path emits the metadata needed by the target crawler."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/seo.component.html:40
+msgid "See <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/baseline.md&quot;\">Baseline</a> and the\n<a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/tutorial/add-taon-admin-to-existing-project.md&quot;\">admin setup tutorial</a>."
+msgstr ""

@@ -1,0 +1,389 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:1
+msgid "Let AI Agents Build Your Full-Stack Applications"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:2
+msgid "One language. One architecture. Unlimited possibilities."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:3
+msgid "Modern AI coding agents can generate enormous amounts of code."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:4
+msgid "But generating code is only part of software development."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:5
+msgid "Agents still need to understand project structures, configure build tools, manage dependencies, synchronize frontend and backend interfaces, run tests, and prepare deployments."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:6
+msgid "<strong>Taon is designed to reduce that complexity.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:7
+msgid "Instead of making AI agents repeatedly solve infrastructure problems, Taon provides a consistent, strongly typed, isomorphic development environment."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:8
+msgid "You define the architecture. AI agents implement functionality. Taon handles much of the repetitive development infrastructure."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:9
+msgid "1. One Language for Frontend, Backend, and Database"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:10
+msgid "<strong>TypeScript everywhere.</strong> 🚀"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:11
+msgid "Use one language across Angular applications, Node.js services, database entities, shared models, and business logic."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:12
+msgid "Developers and AI agents can work across the entire stack without constantly switching programming languages or translating models between incompatible systems."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:13
+msgid "2. Rock-Solid Frameworks as the Foundation"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:14
+msgid "<strong>Built on proven technologies.</strong> ⭐"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:15
+msgid "Taon combines TypeScript, Angular, Node.js, RxJS, NgRx, TypeORM, and Express.js into a unified development experience."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:16
+msgid "Rather than inventing replacements for established technologies, Taon brings them together under a consistent architecture."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:17
+msgid "AI agents can use their existing knowledge of these widely adopted frameworks."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:18
+msgid "3. Never Repeat Code Unnecessarily"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:19
+msgid "<strong>Write once. Reuse across environments.</strong> ✅"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:20
+msgid "Taon's isomorphic architecture allows compatible functionality to be shared between frontend, backend, and libraries."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:21
+msgid "Shared models, validation rules, and business logic don't need to be independently recreated for each runtime."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:22
+msgid "The goal is to eliminate unnecessary duplication while keeping environment-specific implementations where they belong."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:23
+msgid "4. Strongly Typed Frontend, Backend, and Database"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:24
+msgid "<strong>Refactor across the stack with confidence.</strong> ✍️"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:25
+msgid "Imagine changing a property in a database entity and having TypeScript immediately identify the affected controllers, services, Angular components, and templates."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:26
+msgid "With shared types and proper tooling, a single refactoring can propagate through the entire application."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:27
+msgid "For AI coding agents, this is especially valuable: the compiler becomes an additional feedback mechanism for detecting incomplete changes."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:28
+msgid "5. Automatically Generated Configuration"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:29
+msgid "<strong>Less setup. More development.</strong> ✏️"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:30
+msgid "Taon manages and regenerates essential framework configuration files."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:31
+msgid "Developers and agents can focus on application functionality instead of repeatedly configuring build systems, development servers, and tooling."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:32
+msgid "6. Developer-Friendly Visual Studio Code Workflow"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:33
+msgid "<strong>Your editor becomes your development command center.</strong> 👨‍💻"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:34
+msgid "Taon is designed for a productive Visual Studio Code workflow, including debugging, building, testing, and running applications."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:35
+msgid "AI coding agents can operate within the same project structure and development tools used by human developers."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:36
+msgid "7. Stable, Shared NPM Dependencies"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:37
+msgid "<strong>One dependency foundation. Many projects.</strong> 🐳"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:38
+msgid "Taon uses shared core containers located under:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:39
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock0, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:44
+msgid "Instead of maintaining a complete independent"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:44
+msgid "installation for every project, Taon can link projects to centrally managed dependencies."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:45
+msgid "This can reduce disk usage, accelerate project setup, and simplify dependency maintenance."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:46
+msgid "Centralized dependencies also make updates and security patch management easier, although dependency vulnerabilities still require monitoring and updates."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:47
+msgid "8. Simplified Project Releases"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:48
+msgid "<strong>Complex release workflows. Simple commands.</strong> ⚡"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:49
+msgid "Taon supports standalone projects, organizational containers, and multiple release strategies."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:50
+msgid "For example:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:51
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock2, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:56
+msgid "A single command can execute a configured production release workflow."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:57
+msgid "Future Taon Cloud integration will extend this approach with centralized orchestration."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:58
+msgid "9. Develop Applications and Libraries Together"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:59
+msgid "<strong>Every project can be an app-library.</strong> 🌟"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:60
+msgid "A Taon project doesn't have to be exclusively an application or a library."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:61
+msgid "It can provide reusable functionality while also containing an application for developing, testing, and demonstrating that functionality."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:62
+msgid "This is especially useful for AI agents working on independent features or shared components."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:63
+msgid "10. Backend and Angular Libraries Together"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:64
+msgid "<strong>Full-stack packages without artificial separation.</strong> 🤝"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:65
+msgid "Taon supports project structures combining Node.js functionality with Angular-compatible libraries."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:66
+msgid "Backend controllers, shared models, and Angular components can coexist within the same project architecture."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:67
+msgid "A project might be 90% backend, 90% frontend, or anything in between."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:68
+msgid "<strong>Separate projects by responsibility, not automatically by runtime.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:69
+msgid "11. Shared Assets Inside Packages"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:70
+msgid "<strong>Reuse more than TypeScript code.</strong> 💾"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:71
+msgid "Taon supports shared package assets through:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:72
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock3, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:77
+msgid "Images and other shared resources can be distributed alongside reusable functionality."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:78
+msgid "12. WebSQL — Run Backend Functionality in the Browser"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:79
+msgid "<strong>Why require a separate backend server when the browser can run the application?</strong> 🌐"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:80
+msgid "Taon's WebSQL development mode allows compatible backend and database functionality to execute inside the browser."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:81
+msgid "Using technologies such as TypeORM and SQL.js, applications can work with SQL databases in a browser environment, with persistence through browser storage."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:82
+msgid "This creates interesting opportunities for:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:89
+msgid "For AI agents, this can significantly simplify the environment needed to run and test full-stack application behavior."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:90
+msgid "13. CI/CD Without Unnecessary Infrastructure"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:91
+msgid "<strong>Start locally. Automate progressively.</strong> ⚡"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:92
+msgid "Taon already provides commands for coordinating repositories, building projects, and executing releases."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:93
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock4, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:98
+msgid "You can begin with a static WebSQL application hosted on GitHub Pages or a similar platform."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:99
+msgid "When your requirements grow, you can move to a full-stack deployment strategy such as Cloudflare."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:100
+msgid "Taon Cloud is planned to provide centralized CI/CD orchestration, but you don't need to wait for it to start building and releasing applications."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:101
+msgid "14. A Development Process Designed for Humans and AI Agents"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:102
+msgid "<strong>Infrastructure should support developers, not dominate their work.</strong> 🧠"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:103
+msgid "Taon aims to minimize repetitive DevOps configuration through consistent project structures, generated configuration, shared dependencies, and CLI automation."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:104
+msgid "Human developers remain responsible for architecture, security, quality, and release decisions."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:105
+msgid "AI agents can focus on implementation, testing, refactoring, and maintenance within those boundaries."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:107
+msgid "15. Let AI Agents Build — Let Taon Keep Everything Together"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:108
+msgid "The real opportunity isn't simply generating more code."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:109
+msgid "It's enabling multiple AI agents to contribute to a coherent software architecture."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:110
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock5, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:115
+msgid "Each agent can work on a different project or feature."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:116
+msgid "Taon's containers provide a common workspace, source-first builds allow projects to be integrated without intermediate NPM releases, and TypeScript helps detect incompatible changes."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:117
+msgid "The developer controls the architecture and reviews the results."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:118
+msgid "<strong>AI agents write the code. Taon provides the structure to build, integrate, test, and release it.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:119
+msgid "The Philosophy"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:120
+msgid "Don't make developers and AI agents spend their time rebuilding the same infrastructure."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:121
+msgid "Give them a predictable architecture, powerful existing frameworks, shared source code, and simple commands."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/PHILOSOPHY.component.html:122
+msgid "<strong>Build the architecture once. Let humans and AI agents develop it together. Deploy wherever your application needs to run.</strong>"
+msgstr ""

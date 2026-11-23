@@ -1,0 +1,13 @@
+<article  class="taon-md-doc"><h1 id="taon-api-service" translate="" [translate-t]="t">Taon API service</h1>
+<p><span translate="" [translate-t]="t">An API service injects Taon controllers and provides an application-scoped
+place to adapt requests and responses or maintain state. Avoid </span><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> when the service must be scoped to an injected Taon context.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock1, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock1Html"></code></pre></div>
+<p><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t"> exposes the observable request path; awaiting
+</span><code>{{ context.codeblock3 }}</code><span translate="" [translate-t]="t"> uses the promise path. The response body provides parsed text or
+JSON and other response representations according to the controller's
+response type.</span></p>
+</article>

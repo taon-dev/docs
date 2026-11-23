@@ -1,0 +1,73 @@
+<article  class="taon-md-doc"><h1 id="isomorphic-code-regions" translate="" [translate-t]="t">Isomorphic code regions</h1>
+<p translate="" [translate-t]="t">Taon builds shared TypeScript source for different runtimes. The CLI processes
+the region markers below when it creates browser, WebSQL, CommonJS, or ESM
+output. Put explanatory prose outside code examples; keep the exact region
+markers in code because they are part of the build input.</p>
+<h2 id="backend-code" translate="" [translate-t]="t">Backend code</h2>
+<p><span translate="" [translate-t]="t">Use </span><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> for a block that belongs to a backend build and can be omitted
+from ordinary browser output. Use </span><code>{{ context.codeblock1 }}</code><span translate="" [translate-t]="t"> when a function body is
+backend-only and the browser build must retain a function that returns
+</span><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t">.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock3, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock3Html"></code></pre></div>
+<p><code>{{ context.codeblock4 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock5 }}</code><span translate="" [translate-t]="t"> are for code that belongs to Node.js and WebSQL
+backend builds. WebSQL mode runs backend logic in the browser; it is not the
+same as an ordinary browser build.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock6, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock6Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">Use a shared fallback after a </span><code>{{ context.codeblock7 }}</code><span translate="" [translate-t]="t"> region when the browser needs a
+different implementation:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock8, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock8Html"></code></pre></div>
+<h2 id="browser-only-and-websql-only-code" translate="" [translate-t]="t">Browser-only and WebSQL-only code</h2>
+<p><span translate="" [translate-t]="t">Use </span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t"> for code that should be emitted for the browser and omitted from
+backend output. Imports can also use an inline marker at the end of the import
+statement:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock10, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock10Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">Use </span><code>{{ context.codeblock11 }}</code><span translate="" [translate-t]="t"> for code that is specific to WebSQL browser mode and should
+not be emitted for Node.js:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock12, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock12Html"></code></pre></div>
+<h2 id="commonjs-and-esm-differences" translate="" [translate-t]="t">CommonJS and ESM differences</h2>
+<p><code>{{ context.codeblock13 }}</code><span translate="" [translate-t]="t"> marks code to remove from the ESM backend output, such as a
+Node.js API that is unavailable in a Cloudflare Worker. </span><code>{{ context.codeblock14 }}</code><span translate="" [translate-t]="t"> marks code
+to remove from the CommonJS backend output.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock15, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock15Html"></code></pre></div>
+<p translate="" [translate-t]="t">Cloudflare Workers use an ESM runtime and do not provide the full Node.js
+runtime. Keep Worker bindings and APIs in the ESM-compatible path and test the
+actual Worker artifact; a successful Node.js build does not verify Worker
+compatibility.</p>
+<h2 id="file-suffixes-and-imports" translate="" [translate-t]="t">File suffixes and imports</h2>
+<p><span translate="" [translate-t]="t">Use </span><code>{{ context.codeblock16 }}</code><span translate="" [translate-t]="t"> for files intended only for browser-side code and
+</span><code>{{ context.codeblock17 }}</code><span translate="" [translate-t]="t"> for Node.js-only code when the project's build recognizes those
+suffixes. Angular component files are browser UI. Do not infer runtime support
+from a generic </span><code>{{ context.codeblock18 }}</code><span translate="" [translate-t]="t"> or </span><code>{{ context.codeblock19 }}</code><span translate="" [translate-t]="t"> name; inspect the target project's
+build rules and examples.</span></p>
+<p><span translate="" [translate-t]="t">Inline import annotations such as </span><code>{{ context.codeblock20 }}</code><span translate="" [translate-t]="t"> are build markers and must
+remain at the end of the import statement. Do not place the marker above or
+below the import. Avoid unmarked Node.js built-ins in shared files; use a
+region or a runtime-neutral Taon API.</span></p>
+<p translate="" [translate-t]="t">For available targets and transport differences, see
+<a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/architecture.md&quot;">Architecture</a> and
+<a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/transport-layer.md&quot;">Transport layer</a>.</p>
+</article>

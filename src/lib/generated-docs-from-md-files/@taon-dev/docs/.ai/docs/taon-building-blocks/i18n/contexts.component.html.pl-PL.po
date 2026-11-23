@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/contexts.component.html:1
+msgid "Taon contexts"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/contexts.component.html:2
+msgid "A context is Taon's registration and runtime boundary for framework building blocks such as controllers, entities, repositories, providers, migrations, and subcontexts. Register a class in the context that owns its behavior rather than constructing it directly."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/contexts.component.html:6
+msgid "Abstract and active contexts"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/contexts.component.html:7
+msgid "An abstract context is reusable library configuration. An active context combines reusable contexts with application-specific host configuration and runtime settings. The CLI generates host configuration for deployable app contexts; keep application-specific configuration in the application's context."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/contexts.component.html:12
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock0, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/contexts.component.html:17
+msgid "An active app context can include the abstract context and use its registered building blocks:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/contexts.component.html:19
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock1, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/contexts.component.html:24
+msgid "Use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/contexts.component.html:24
+msgid "where the application needs Taon's standard base context. Add controllers, entities, repositories, providers, subscribers, migrations, and database settings to the context configuration that owns them. Keep class names and context names unique where Taon uses them for registration or generated API paths."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/contexts.component.html:29
+msgid "Initialization"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/contexts.component.html:30
+msgid "Initialize each active context before using its APIs or resolving its\nregistered services. Abstract contexts are included by active contexts rather\nthan initialized as application entry points. Database and migration behavior\ndepends on the active context's configuration; see\n<a [href]=\"baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/taon-building-blocks/migrations.md&quot;\">Migrations</a>."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/contexts.component.html:35
+msgid "Related building blocks"
+msgstr ""

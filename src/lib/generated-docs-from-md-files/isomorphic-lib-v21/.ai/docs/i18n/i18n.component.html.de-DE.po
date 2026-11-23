@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:1
+msgid "Internationalization (i18n)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:2
+msgid "All user-visible text that may need localization should use the Taon translation system."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:3
+msgid "Frontend"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:4
+msgid "Use the Taon translation system in Angular components, services, directives, and other frontend code."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:5
+msgid "Component setup"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:6
+msgid "Create the translation helper once at file level:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:7
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock0, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:12
+msgid "Choosing the translation API"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:13
+msgid "Choose the simplest API appropriate for the value."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:15
+msgid "Prefer Signal-based translations for values that should reactively update when the active language changes:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:16
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock1, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:21
+msgid "Parameters are supported:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:22
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock2, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:27
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:29
+msgid "Use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:27
+msgid "placeholders for dynamic translation parameters."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:29
+msgid "when a reactive value is not needed:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:30
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock5, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:35
+msgid "Use the optional context argument when identical source text may require different translations depending on its meaning:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:36
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock6, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:42
+msgid "Use the Observable API only when the translated value naturally belongs to an existing RxJS flow:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:43
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock7, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:48
+msgid "Do NOT introduce an Observable solely for translation when a normal or Signal-based translation is sufficient."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:49
+msgid "Template usage"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:50
+msgid "Translations may be consumed directly in Angular templates:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:51
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock8, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:56
+msgid "Frontend rules"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:69
+msgid "Backend"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:70
+msgid "Backend translation works differently from frontend translation."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:71
+msgid "Taon provides a request-specific translation instance through the third argument of the controller handler."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:72
+msgid "The language is associated with the current request and may be detected from request information such as cookies."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:73
+msgid "Important: do NOT create the frontend translation helper"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:74
+msgid "Do NOT do this in a Taon backend controller:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:75
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock14, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:80
+msgid "This pattern is intended for Angular/frontend classes such as components, services, and directives."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:81
+msgid "For controller request translation, always use the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:81
+msgid "supplied to the request handler:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:82
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock16, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:87
+msgid "Backend translations are synchronous"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:88
+msgid "Inside the request handler, use the synchronous translation API."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:89
+msgid "Do NOT use:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:96
+msgid "Use:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:97
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock19, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:102
+msgid "or, when translating arbitrary/dynamic text:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:103
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock20, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:108
+msgid "Translate using the request language"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:109
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock21, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:114
+msgid "Here,"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:114
+msgid "uses the language detected for the current request."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:115
+msgid "Force a specific language"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:116
+msgid "When a response must use a specific language regardless of the request language, explicitly change it:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:117
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock23, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:122
+msgid "Do not force a language unless the feature specifically requires it."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:123
+msgid "Translate arbitrary text"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:124
+msgid "For arbitrary text that is not a predefined"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:124
+msgid "translation entry, use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:124
+msgid ":"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:125
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock26, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:130
+msgid "Backend rules"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:141
+msgid "CLI"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:142
+msgid "Extracting translation from .ts, html to .po files"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.html:143
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock34, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""

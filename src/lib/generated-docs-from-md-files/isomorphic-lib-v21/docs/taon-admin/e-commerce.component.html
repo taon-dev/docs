@@ -1,0 +1,49 @@
+<article  class="taon-md-doc"><h1 id="taon-e-commerce" translate="" [translate-t]="t">Taon E-commerce</h1>
+<p><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> provides product catalog, cart, order, payment
+transaction, entitlement, and commerce backoffice features. It integrates with
+CMS for product descriptions and courses. Stripe checkout and subscription
+events are supported by the current implementation.</span></p>
+<h2 id="add-and-configure" translate="" [translate-t]="t">Add and configure</h2>
+<p><span translate="" [translate-t]="t">The recommended admin integration is
+<a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/baseline.md&quot;">Taon Baseline</a>. Its context includes
+</span><code>{{ context.codeblock1 }}</code><span translate="" [translate-t]="t">, which in turn includes the CMS context; its
+lazy route registers </span><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t">. For a standalone
+integration, register the e-commerce abstract context and route directly.</span></p>
+<p><span translate="" [translate-t]="t">The storefront exports </span><code>{{ context.codeblock3 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock4 }}</code><span translate="" [translate-t]="t">:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock5, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock5Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">The component's </span><code>{{ context.codeblock6 }}</code><span translate="" [translate-t]="t"> input accepts a </span><code>{{ context.codeblock7 }}</code><span translate="" [translate-t]="t">. A working
+application example also registers </span><code>{{ context.codeblock8 }}</code><span translate="" [translate-t]="t"> in its Taon
+context; use that example when overriding the default cart behavior.</span></p>
+<p><span translate="" [translate-t]="t">For Stripe, configure </span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock10 }}</code><span translate="" [translate-t]="t" translate-html=""> in the
+server-side Taon environment. Register the webhook URL shown by the Products
+page's <strong>Sync with Stripe</strong> flow with Stripe. Never place either secret in
+browser code. Payment completion and entitlements are finalized from verified
+webhook events, not from the browser's success redirect.</span></p>
+<h2 id="use-products-cart-and-courses" translate="" [translate-t]="t">Use products, cart, and courses</h2>
+<p translate="" [translate-t]="t" translate-html="">Create products in <strong>E-commerce &gt; Products</strong>, configure price and availability,
+and optionally use <strong>Link to post</strong> to use a CMS post for the product details.
+Customers add eligible products to the cart and complete checkout. Product
+eligibility is checked on the server for ownership, active subscriptions,
+stock, pending reservations, per-user limits, currency, and recurring
+checkout compatibility.</p>
+<p translate="" [translate-t]="t">The course components can display a public CMS root and its protected related
+lessons. The CMS post's related-post order is preserved. Purchased media is
+authorized by the server's session and entitlement-aware auth repository; a
+browser-provided authorization context is only a refresh trigger.</p>
+<h2 id="permissions-and-runtime" translate="" [translate-t]="t">Permissions and runtime</h2>
+<p><span translate="" [translate-t]="t">Baseline shows the e-commerce menu to superusers or users with the exact
+permission key </span><code>{{ context.codeblock11 }}</code><span translate="" [translate-t]="t">. Sensitive commerce operations are
+validated by their Taon controllers and repositories as well.</span></p>
+<p translate="" [translate-t]="t">The Stripe secret and webhook flow require a server-side runtime with a
+reachable webhook endpoint. WebSQL may be useful for browser-local development
+or UI testing, but it does not provide a place to keep Stripe secrets or
+receive external Stripe webhooks. Cloudflare Worker deployments must configure
+Worker bindings and a reachable webhook route; verify database and provider
+support for that target before deploying.</p>
+<p translate="" [translate-t]="t">See <a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/cms.md&quot;">CMS</a>, <a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/session.md&quot;">Session</a>, and
+<a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/baseline.md&quot;">Baseline</a> for related setup.</p>
+</article>

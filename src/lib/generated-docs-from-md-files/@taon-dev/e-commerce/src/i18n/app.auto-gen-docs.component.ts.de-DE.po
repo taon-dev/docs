@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/e-commerce/src/app.auto-gen-docs.component.ts:33
+msgid "Basic app info"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/e-commerce/src/app.auto-gen-docs.component.ts:33
+msgid "Name: [[ name ]]"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/e-commerce/src/app.auto-gen-docs.component.ts:33
+msgid "Angular version: [[ version ]]"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/e-commerce/src/app.auto-gen-docs.component.ts:33
+msgid "Taon backend: [[ mode ]]"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/e-commerce/src/app.auto-gen-docs.component.ts:33
+msgid "Please login to use Taon Admin"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/e-commerce/src/app.auto-gen-docs.component.ts:33
+msgid "Test"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/e-commerce/src/app.auto-gen-docs.component.ts:33
+msgid "Please login to see cart"
+msgstr ""

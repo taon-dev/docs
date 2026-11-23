@@ -1,0 +1,16 @@
+<article  class="taon-md-doc"><h1 id="realtime-communications" translate="" [translate-t]="t">Realtime communications</h1>
+<p translate="" [translate-t]="t">Depending on where you use you backend/frontend - taon framework uses different
+mechanism for realtime communication:</p>
+<ul>
+<li>normal NodeJs backend =&gt; TCP(upgrade) socket communication based on <a href="http://socket.io">socket.io</a> (UDP in future)</li>
+<li>electron backend =&gt; IPC for realtime communication</li>
+<li>websql browser backend =&gt; mock of realtime communication based on RxJS library</li>
+<li>cloudfalre (realtime not supported)</li>
+</ul>
+<p translate="" [translate-t]="t">You can listen/subscribe to custom events or entities events in every simple fashion.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock0, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock0Html"></code></pre></div>
+</article>

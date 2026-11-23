@@ -1,0 +1,31 @@
+// THIS FILE IS GENERATED - DO NOT MODIFY
+import { CoreModels } from 'tnp-core/src';
+
+// join interface type here
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialAddTaonAdminToExistingProjectComponentHtml } from './add-taon-admin-to-existing-project.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialAddTaonAdminToExistingProjectComponentHtml } from './add-taon-admin-to-existing-project.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialAddTaonAdminToExistingProjectComponentHtml } from './add-taon-admin-to-existing-project.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialAddTaonAdminToExistingProjectComponentTs } from './add-taon-admin-to-existing-project.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialAddTaonAdminToExistingProjectComponentTs } from './add-taon-admin-to-existing-project.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialAddTaonAdminToExistingProjectComponentTs } from './add-taon-admin-to-existing-project.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialTrackAnalyticsEventsComponentHtml } from './track-analytics-events.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialTrackAnalyticsEventsComponentHtml } from './track-analytics-events.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialTrackAnalyticsEventsComponentHtml } from './track-analytics-events.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialTrackAnalyticsEventsComponentTs } from './track-analytics-events.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialTrackAnalyticsEventsComponentTs } from './track-analytics-events.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialTrackAnalyticsEventsComponentTs } from './track-analytics-events.component.ts.de-DE.i18n.data';;
+export type TutorialOverride = CoreModels.DeepPartial<EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialAddTaonAdminToExistingProjectComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialAddTaonAdminToExistingProjectComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialAddTaonAdminToExistingProjectComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialAddTaonAdminToExistingProjectComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialAddTaonAdminToExistingProjectComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialAddTaonAdminToExistingProjectComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialTrackAnalyticsEventsComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialTrackAnalyticsEventsComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialTrackAnalyticsEventsComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialTrackAnalyticsEventsComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialTrackAnalyticsEventsComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsTutorialTrackAnalyticsEventsComponentTs>;
+
+ // THIS FILE IS GENERATED - DO NOT MODIFY
+        

@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/subscriber.component.html:1
+msgid "Taon subscribers"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/subscriber.component.html:2
+msgid "Injectable classes for subscribing to\nentity events base on <a href=\"https://typeorm.io/listeners-and-subscribers\">https://typeorm.io/listeners-and-subscribers</a>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/subscriber.component.html:4
+msgid "You should use Subscribers only inside server code."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/subscriber.component.html:5
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock0, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""

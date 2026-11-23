@@ -1,0 +1,91 @@
+// THIS FILE IS GENERATED - DO NOT MODIFY
+import { CoreModels } from 'tnp-core/src';
+
+// join interface type here
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesAngularComponentHtml } from './angular.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesAngularComponentHtml } from './angular.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesAngularComponentHtml } from './angular.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesAngularComponentTs } from './angular.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesAngularComponentTs } from './angular.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesAngularComponentTs } from './angular.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesBackendComponentHtml } from './backend.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesBackendComponentHtml } from './backend.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesBackendComponentHtml } from './backend.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesBackendComponentTs } from './backend.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesBackendComponentTs } from './backend.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesBackendComponentTs } from './backend.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesEnvironmentVariablesComponentHtml } from './environment-variables.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesEnvironmentVariablesComponentHtml } from './environment-variables.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesEnvironmentVariablesComponentHtml } from './environment-variables.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesEnvironmentVariablesComponentTs } from './environment-variables.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesEnvironmentVariablesComponentTs } from './environment-variables.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesEnvironmentVariablesComponentTs } from './environment-variables.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesFileNamingConventionsComponentHtml } from './file-naming-conventions.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesFileNamingConventionsComponentHtml } from './file-naming-conventions.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesFileNamingConventionsComponentHtml } from './file-naming-conventions.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesFileNamingConventionsComponentTs } from './file-naming-conventions.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesFileNamingConventionsComponentTs } from './file-naming-conventions.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesFileNamingConventionsComponentTs } from './file-naming-conventions.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesGeneralComponentHtml } from './general.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesGeneralComponentHtml } from './general.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesGeneralComponentHtml } from './general.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesGeneralComponentTs } from './general.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesGeneralComponentTs } from './general.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesGeneralComponentTs } from './general.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesNpmYarnPackagesComponentHtml } from './npm-yarn-packages.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesNpmYarnPackagesComponentHtml } from './npm-yarn-packages.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesNpmYarnPackagesComponentHtml } from './npm-yarn-packages.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesNpmYarnPackagesComponentTs } from './npm-yarn-packages.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesNpmYarnPackagesComponentTs } from './npm-yarn-packages.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesNpmYarnPackagesComponentTs } from './npm-yarn-packages.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesTypescriptComponentHtml } from './typescript.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesTypescriptComponentHtml } from './typescript.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesTypescriptComponentHtml } from './typescript.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesTypescriptComponentTs } from './typescript.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesTypescriptComponentTs } from './typescript.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesTypescriptComponentTs } from './typescript.component.ts.de-DE.i18n.data';;
+export type RulesOverride = CoreModels.DeepPartial<EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesAngularComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesAngularComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesAngularComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesAngularComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesAngularComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesAngularComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesBackendComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesBackendComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesBackendComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesBackendComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesBackendComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesBackendComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesEnvironmentVariablesComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesEnvironmentVariablesComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesEnvironmentVariablesComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesEnvironmentVariablesComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesEnvironmentVariablesComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesEnvironmentVariablesComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesFileNamingConventionsComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesFileNamingConventionsComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesFileNamingConventionsComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesFileNamingConventionsComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesFileNamingConventionsComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesFileNamingConventionsComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesGeneralComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesGeneralComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesGeneralComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesGeneralComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesGeneralComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesGeneralComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesNpmYarnPackagesComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesNpmYarnPackagesComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesNpmYarnPackagesComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesNpmYarnPackagesComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesNpmYarnPackagesComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesNpmYarnPackagesComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesTypescriptComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesTypescriptComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesTypescriptComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesTypescriptComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesTypescriptComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiRulesTypescriptComponentTs>;
+
+ // THIS FILE IS GENERATED - DO NOT MODIFY
+        

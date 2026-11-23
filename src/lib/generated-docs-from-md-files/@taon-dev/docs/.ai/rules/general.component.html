@@ -1,0 +1,216 @@
+<article  class="taon-md-doc"><h1 id="general-rules" translate="" [translate-t]="t">General Rules</h1>
+<h2 id="taon-project-structure" translate="" [translate-t]="t">Taon Project Structure</h2>
+<p translate="" [translate-t]="t" translate-html="">You are operating inside a <strong>Taon workspace</strong>. Taon projects do not necessarily follow a standard npm repository structure.</p>
+<p><span translate="" [translate-t]="t">Before making any changes, identify the relevant Taon project(s) and inspect their root </span><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t">.</span></p>
+<h3 id="project-types" translate="" [translate-t]="t">Project Types</h3>
+<p translate="" [translate-t]="t">Taon has two project types.</p>
+<h4>Standalone project</h4>
+<p translate="" [translate-t]="t">A standalone project has:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock1, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-json hljs" [innerHTML]="context.codeblock1Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">in its root </span><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t">.</span></p>
+<p translate="" [translate-t]="t">Characteristics:</p>
+<ul>
+<li>Application/library source code is located in <code>{{ context.codeblock3 }}</code>.</li>
+<li>It may be an independent Git repository.</li>
+<li>It may also exist inside a Taon container project.</li>
+<li>This is normally where production source-code changes should be made.</li>
+</ul>
+<h4>Container project</h4>
+<p translate="" [translate-t]="t">A container project has:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock4, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-json hljs" [innerHTML]="context.codeblock4Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">in its root </span><code>{{ context.codeblock5 }}</code><span translate="" [translate-t]="t">.</span></p>
+<p translate="" [translate-t]="t">Characteristics:</p>
+<ul>
+<li>It contains multiple <strong>standalone projects</strong> and/or other <strong>container projects</strong>.</li>
+<li>Treat child projects as separate Taon projects.</li>
+<li>A task may require inspecting or modifying multiple child projects.</li>
+<li><strong>Never create Git branches in a container project.</strong></li>
+</ul>
+<p translate="" [translate-t]="t">When working from a high-level workspace containing multiple Taon projects, do not assume that the workspace root itself is the project being modified. Locate the appropriate standalone project first.</p>
+<hr>
+<h1 id="allowed-modification-scope" translate="" [translate-t]="t">Allowed Modification Scope</h1>
+<h2 id="source-files-only" translate="" [translate-t]="t">Source files only</h2>
+<p><span translate="" [translate-t]="t">Unless the user explicitly instructs otherwise in the current prompt, you may </span><strong></strong><span translate="" [translate-t]="t">.</span></p>
+<p translate="" [translate-t]="t">For example, if a task affects:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock7, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock7Html"></code></pre></div>
+<p translate="" [translate-t]="t">the allowed modification scope is:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock8, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock8Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">You may inspect files outside </span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t"> when necessary to understand the project, dependencies, architecture, configuration, or existing conventions.</span></p>
+<p translate="" [translate-t]="t" translate-html="">However, <strong>inspection does not grant permission to modify those files</strong>.</p>
+<h3 id="allowed" translate="" [translate-t]="t">Allowed</h3>
+<p translate="" [translate-t]="t">You may:</p>
+<ul>
+<li>read files anywhere in the relevant workspace when needed for context</li>
+<li>create files inside the relevant project's <code>{{ context.codeblock10 }}</code></li>
+<li>modify files inside the relevant project's <code>{{ context.codeblock11 }}</code></li>
+<li>move files inside the relevant project's <code>{{ context.codeblock12 }}</code></li>
+<li>delete files inside the relevant project's <code>{{ context.codeblock13 }}</code> when required by the task</li>
+<li>inspect sibling projects to understand existing Taon patterns and implementations</li>
+</ul>
+<h3 id="forbidden" translate="" [translate-t]="t">Forbidden</h3>
+<p><span translate="" [translate-t]="t">Do not create, modify, move, or delete files outside the relevant project's </span><code>{{ context.codeblock14 }}</code><span translate="" [translate-t]="t">.</span></p>
+<p translate="" [translate-t]="t">This includes, but is not limited to:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock15, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock15Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">If completing part of the requested task would require changing a file outside </span><code>{{ context.codeblock16 }}</code><span translate="" [translate-t]="t" translate-html="">, <strong>do not make that change</strong>.</span></p>
+<p translate="" [translate-t]="t">Implement everything that can correctly be implemented within the allowed scope and leave the out-of-scope part unchanged.</p>
+<p translate="" [translate-t]="t">Do not silently work around this restriction by modifying another configuration or generated file.</p>
+<hr>
+<h1 id="multi-project-tasks" translate="" [translate-t]="t">Multi-Project Tasks</h1>
+<p translate="" [translate-t]="t">A single task may involve multiple Taon projects.</p>
+<p translate="" [translate-t]="t">For example:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock17, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock17Html"></code></pre></div>
+<p translate="" [translate-t]="t">When this happens:</p>
+<ol>
+<li>Identify every project involved in the task.</li>
+<li>Determine whether each project is a standalone project or a container.</li>
+<li>Inspect the relevant projects before implementing the change.</li>
+<li>Keep reusable/framework functionality in the appropriate reusable Taon project.</li>
+<li>Keep application-specific functionality in the consuming application.</li>
+<li>Modify only <code>{{ context.codeblock18 }}</code> within each affected standalone project.</li>
+<li>Do not duplicate reusable functionality in consuming projects when it belongs in a shared Taon project.</li>
+</ol>
+<p translate="" [translate-t]="t">Do not assume that a task must be contained within a single Git repository merely because the agent was started from a common parent directory.</p>
+<hr>
+<h1 id="project-and-artifact-management" translate="" [translate-t]="t">Project and Artifact Management</h1>
+<p translate="" [translate-t]="t">Project and artifact management is the user's responsibility.</p>
+<p translate="" [translate-t]="t" translate-html="">Do <strong>not</strong>:</p>
+<ul>
+<li>initialize Taon projects</li>
+<li>create Git branches in container projects</li>
+<li>build Taon projects or artifacts</li>
+<li>publish packages</li>
+<li>release packages or applications</li>
+<li>deploy applications</li>
+<li>install dependencies</li>
+<li>update dependencies</li>
+<li>run project setup commands</li>
+<li>run project initialization commands</li>
+<li>modify generated artifacts</li>
+</ul>
+<p><span translate="" [translate-t]="t">Your responsibility normally ends after making the requested production source-code changes inside the appropriate </span><code>{{ context.codeblock19 }}</code><span translate="" [translate-t]="t"> directories.</span></p>
+<hr>
+<h1 id="taon-cli-commands" translate="" [translate-t]="t">Taon CLI Commands</h1>
+<p><span translate="" [translate-t]="t" translate-html="">Do <strong>not</strong> run </span><code>{{ context.codeblock20 }}</code><span translate="" [translate-t]="t"> commands.</span></p>
+<p translate="" [translate-t]="t">The only exception is migration creation:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock21, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock21Html"></code></pre></div>
+<p translate="" [translate-t]="t">and language extractor</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock22, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock22Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">Do not run any other </span><code>{{ context.codeblock23 }}</code><span translate="" [translate-t]="t"> command unless the user explicitly requests it in the current prompt.</span></p>
+<hr>
+<h1 id="absolute-rule-never-create-or-modify-tests" translate="" [translate-t]="t">ABSOLUTE RULE: Never Create or Modify Tests</h1>
+<p translate="" [translate-t]="t" translate-html="">Testing is <strong>not part of your responsibility</strong> unless explicitly requested by the user in the current prompt.</p>
+<p translate="" [translate-t]="t">You MUST NOT create, generate, modify, move, or delete test files or test directories.</p>
+<p translate="" [translate-t]="t">This includes, but is not limited to:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock24, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock24Html"></code></pre></div>
+<p translate="" [translate-t]="t">It also includes:</p>
+<ul>
+<li>test fixtures</li>
+<li>test helpers</li>
+<li>temporary test files</li>
+<li>test configuration</li>
+<li>generated tests</li>
+<li>modifications to existing tests</li>
+</ul>
+<p translate="" [translate-t]="t">Do NOT add or modify tests merely because:</p>
+<ul>
+<li>the implementation would normally require tests</li>
+<li>existing code has tests</li>
+<li>repository conventions suggest tests</li>
+<li>tests would help verify the implementation</li>
+<li>adding tests is considered best practice</li>
+<li>acceptance criteria describe expected behavior</li>
+</ul>
+<p translate="" [translate-t]="t">Do not create temporary tests and delete them afterward.</p>
+<p translate="" [translate-t]="t" translate-html="">If a requested task would normally include test changes, <strong>skip the test portion and implement only the production source code</strong>.</p>
+<h2 id="explicit-user-override" translate="" [translate-t]="t">Explicit User Override</h2>
+<p translate="" [translate-t]="t" translate-html="">Tests may be created or modified <strong>only when the user explicitly requests test work in the current prompt</strong>.</p>
+<p translate="" [translate-t]="t">Do not infer permission from:</p>
+<ul>
+<li>previous prompts</li>
+<li>previous tasks</li>
+<li>existing tests</li>
+<li>repository conventions</li>
+<li>the nature of the feature</li>
+<li>acceptance criteria</li>
+<li>best practices</li>
+</ul>
+<hr>
+<h1 id="configuration-and-dependencies" translate="" [translate-t]="t">Configuration and Dependencies</h1>
+<p translate="" [translate-t]="t">Unless explicitly requested otherwise, never modify project, package, build, or workspace configuration.</p>
+<p translate="" [translate-t]="t">In particular, never modify:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock25, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock25Html"></code></pre></div>
+<p translate="" [translate-t]="t">Do not:</p>
+<ul>
+<li>modify <code>{{ context.codeblock26 }}</code></li>
+<li>install packages</li>
+<li>remove packages</li>
+<li>update package versions</li>
+<li>modify dependency declarations</li>
+</ul>
+<p translate="" [translate-t]="t">If a requested implementation appears to require a new dependency, do not install or add it automatically. Prefer functionality already available in the workspace when appropriate, or leave the dependency/configuration portion unchanged.</p>
+<hr>
+<h1 id="task-boundaries" translate="" [translate-t]="t">Task Boundaries</h1>
+<p translate="" [translate-t]="t">Implement the requested task and avoid unrelated cleanup.</p>
+<p translate="" [translate-t]="t">Do not perform additional:</p>
+<ul>
+<li>refactoring unrelated to the task</li>
+<li>project maintenance</li>
+<li>dependency maintenance</li>
+<li>configuration changes</li>
+<li>test work</li>
+<li>builds</li>
+<li>publishing</li>
+<li>releasing</li>
+<li>deployment</li>
+<li>repository restructuring</li>
+</ul>
+<p translate="" [translate-t]="t">Existing code in sibling Taon projects may be inspected and reused as a reference when useful.</p>
+<hr>
+<h1 id="highest-priority-working-rule" translate="" [translate-t]="t">Highest-Priority Working Rule</h1>
+<p translate="" [translate-t]="t" translate-html="">Unless the user explicitly overrides these rules in the <strong>current prompt</strong>:</p>
+<blockquote>
+<p><strong></strong></p>
+</blockquote>
+<p translate="" [translate-t]="t">You may inspect the wider Taon workspace, including containers and sibling projects, to understand architecture and existing implementations.</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>Read broadly when necessary. Modify narrowly.</strong></p>
+</article>

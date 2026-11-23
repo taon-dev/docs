@@ -1,0 +1,67 @@
+<article  class="taon-md-doc"><h1 id="taon-framework-building-blocks" translate="" [translate-t]="t">Taon framework building blocks</h1>
+<p translate="" [translate-t]="t">A Taon application is assembled from building blocks registered in a context. Controllers expose APIs, repositories handle backend data access, and Angular services connect the UI to those APIs and to context configuration.</p>
+<p translate="" [translate-t]="t">Start with <a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/architecture.md&quot;">Architecture</a> if you need to locate the right project or understand its runtime targets. Start with <a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/taon-building-blocks/contexts.md&quot;">Contexts</a> if you are adding a feature to an existing project.</p>
+<h2 id="find-the-right-building-block" translate="" [translate-t]="t">Find the right building block</h2>
+<table>
+<thead>
+<tr>
+<th>If you need to…</th>
+<th>Read</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Register building blocks, compose reusable contexts, or initialize an application context</td>
+<td><a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/taon-building-blocks/contexts.md&quot;">Contexts</a></td>
+</tr>
+<tr>
+<td>Expose a REST endpoint, add entity CRUD, or return a structured API error</td>
+<td><a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/taon-building-blocks/controllers.md&quot;">Controllers</a></td>
+</tr>
+<tr>
+<td>Call a Taon controller from an Angular application</td>
+<td><a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/taon-building-blocks/api-services.md&quot;">API services</a></td>
+</tr>
+<tr>
+<td>Map a TypeScript class to a database table</td>
+<td><a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/taon-building-blocks/entities.md&quot;">Entities</a></td>
+</tr>
+<tr>
+<td>Query entities or encapsulate custom backend operations</td>
+<td><a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/taon-building-blocks/repositories.md&quot;">Repositories</a></td>
+</tr>
+<tr>
+<td>Store and retrieve typed values by key</td>
+<td><a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/taon-building-blocks/kv-repositories.md&quot;">KV repositories</a></td>
+</tr>
+<tr>
+<td>Define context-scoped configuration or resolve environment values</td>
+<td><a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/taon-building-blocks/providers.md&quot;">Providers</a></td>
+</tr>
+<tr>
+<td>Expose context configuration to Angular components</td>
+<td><a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/taon-building-blocks/config-services.md&quot;">Configuration services</a></td>
+</tr>
+<tr>
+<td>Intercept requests across a context, a controller, or an individual endpoint</td>
+<td><a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/taon-building-blocks/middlewares.md&quot;">Middleware and interceptors</a></td>
+</tr>
+<tr>
+<td>React to entity lifecycle events</td>
+<td><a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/taon-building-blocks/subscriber.md&quot;">Subscribers</a></td>
+</tr>
+<tr>
+<td>Evolve a database schema or understand how database modes affect existing data</td>
+<td><a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/taon-building-blocks/migrations.md&quot;">Migrations</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="how-the-pieces-fit-together" translate="" [translate-t]="t">How the pieces fit together</h2>
+<p><span translate="" [translate-t]="t">For a feature such as listing users, an Angular component calls an API service. The service calls a Taon controller endpoint. The controller uses a repository to query the </span><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> entity and returns the result. The context registers the backend building blocks that the feature uses.</span></p>
+<p translate="" [translate-t]="t">Configuration follows its own path. A provider holds context-scoped configuration, and an Angular configuration service exposes the values the UI needs. Middleware can intercept the API request, while subscribers react to entity events and migrations evolve the database over time.</p>
+<h2 id="related-guides" translate="" [translate-t]="t">Related guides</h2>
+<ul>
+<li><a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/dependency-injection.md&quot;">Dependency injection</a> explains how to resolve classes from the appropriate context.</li>
+<li><a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/isomorphic-code-regions.md&quot;">Isomorphic code regions</a> explains which code is included in browser and backend builds.</li>
+</ul>
+</article>

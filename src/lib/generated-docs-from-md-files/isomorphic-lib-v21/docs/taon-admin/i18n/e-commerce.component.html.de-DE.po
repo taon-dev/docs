@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:1
+msgid "Taon E-commerce"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:2
+msgid "provides product catalog, cart, order, payment transaction, entitlement, and commerce backoffice features. It integrates with CMS for product descriptions and courses. Stripe checkout and subscription events are supported by the current implementation."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:6
+msgid "Add and configure"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:7
+msgid "The recommended admin integration is\n<a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/baseline.md&quot;\">Taon Baseline</a>. Its context includes"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:9
+msgid ", which in turn includes the CMS context; its lazy route registers"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:10
+msgid ". For a standalone integration, register the e-commerce abstract context and route directly."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:12
+msgid "The storefront exports"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:12
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:21
+msgid "and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:12
+msgid ":"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:13
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock5, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:18
+msgid "The component's"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:18
+msgid "input accepts a"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:18
+msgid ". A working application example also registers"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:19
+msgid "in its Taon context; use that example when overriding the default cart behavior."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:21
+msgid "For Stripe, configure"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:21
+msgid "in the\nserver-side Taon environment. Register the webhook URL shown by the Products\npage's <strong>Sync with Stripe</strong> flow with Stripe. Never place either secret in\nbrowser code. Payment completion and entitlements are finalized from verified\nwebhook events, not from the browser's success redirect."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:26
+msgid "Use products, cart, and courses"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:27
+msgid "Create products in <strong>E-commerce &gt; Products</strong>, configure price and availability,\nand optionally use <strong>Link to post</strong> to use a CMS post for the product details.\nCustomers add eligible products to the cart and complete checkout. Product\neligibility is checked on the server for ownership, active subscriptions,\nstock, pending reservations, per-user limits, currency, and recurring\ncheckout compatibility."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:33
+msgid "The course components can display a public CMS root and its protected related lessons. The CMS post's related-post order is preserved. Purchased media is authorized by the server's session and entitlement-aware auth repository; a browser-provided authorization context is only a refresh trigger."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:37
+msgid "Permissions and runtime"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:38
+msgid "Baseline shows the e-commerce menu to superusers or users with the exact permission key"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:39
+msgid ". Sensitive commerce operations are validated by their Taon controllers and repositories as well."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:41
+msgid "The Stripe secret and webhook flow require a server-side runtime with a reachable webhook endpoint. WebSQL may be useful for browser-local development or UI testing, but it does not provide a place to keep Stripe secrets or receive external Stripe webhooks. Cloudflare Worker deployments must configure Worker bindings and a reachable webhook route; verify database and provider support for that target before deploying."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/e-commerce.component.html:47
+msgid "See <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/cms.md&quot;\">CMS</a>, <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/session.md&quot;\">Session</a>, and\n<a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/baseline.md&quot;\">Baseline</a> for related setup."
+msgstr ""

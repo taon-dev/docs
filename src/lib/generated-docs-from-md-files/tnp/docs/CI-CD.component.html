@@ -1,0 +1,578 @@
+<article  class="taon-md-doc"><h1 id="ci-cd-architecture" translate="" [translate-t]="t">CI/CD &amp; Architecture</h1>
+<h2 id="overview" translate="" [translate-t]="t">Overview</h2>
+<p translate="" [translate-t]="t" translate-html=""><strong>Taon Cloud CI/CD is under development.</strong> Centralized build execution, automated validation, deployment orchestration, and team-oriented release management are part of the planned Taon Cloud workflow.</p>
+<p translate="" [translate-t]="t" translate-html="">However, <strong>you do not need to wait for Taon Cloud to benefit from much of this architecture</strong>. The Taon CLI already provides a practical, lightweight approach to coordinating development, synchronizing multiple repositories, building interconnected projects directly from source, and releasing applications.</p>
+<p translate="" [translate-t]="t">For solo developers, small teams, and AI-assisted development, this can be an effective alternative to introducing a full CI/CD platform immediately.</p>
+<p translate="" [translate-t]="t">The idea is simple:</p>
+<blockquote>
+<p translate="" [translate-t]="t" translate-html=""><strong>Design your architecture with Taon standalone projects and containers, build directly from source, synchronize Git repositories with Taon commands, and run releases locally today. Move the orchestration to Taon Cloud when you need it.</strong></p>
+</blockquote>
+<p translate="" [translate-t]="t" translate-html="">This is <strong>not a claim that manual releases provide every guarantee of Continuous Integration and Continuous Delivery</strong>. Automated tests, independent build environments, branch protection, security checks, and approvals remain important. Rather, Taon reduces the amount of additional infrastructure needed to get started.</p>
+<hr>
+<h2 id="1-source-first-builds-no-intermediate-npm-releases" translate="" [translate-t]="t">1. Source-First Builds: No Intermediate NPM Releases</h2>
+<p translate="" [translate-t]="t">In a conventional multi-package workflow, an application build may depend on publishing internal libraries first:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock0, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock0Html"></code></pre></div>
+<p translate="" [translate-t]="t" translate-html=""><strong>Taon builds internal dependencies directly from source.</strong> Internal libraries do not need intermediate NPM releases simply to be consumed by an application in the same Taon development environment.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock1, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock1Html"></code></pre></div>
+<p translate="" [translate-t]="t">This reduces dependency-version synchronization and avoids repetitive publishing steps during integrated development. Public library distribution and external consumers can still require ordinary package releases.</p>
+<hr>
+<h2 id="2-the-core-concept-isomorphic-app-library-projects" translate="" [translate-t]="t">2. The Core Concept: Isomorphic App-Library Projects</h2>
+<p translate="" [translate-t]="t" translate-html="">In Taon, a project does not have to be exclusively a backend project or a frontend project. <strong>A standalone project can be both an application and a reusable library — an app-lib.</strong></p>
+<p translate="" [translate-t]="t">A project can contain backend controllers, repositories, database entities, frontend Angular components, shared models, validation logic, utilities, and functionality reusable across runtimes.</p>
+<h3 id="backend-and-frontend-are-not-fixed-project-categories" translate="" [translate-t]="t">Backend and frontend are not fixed project categories</h3>
+<p translate="" [translate-t]="t">Different app-libraries naturally contain different proportions of backend and frontend code:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock2, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock2Html"></code></pre></div>
+<p translate="" [translate-t]="t">These percentages are illustrative, not Taon configuration values. A backend-heavy project might include a small diagnostics interface; a frontend-heavy UI library might include backend controllers to support demos, examples, or tests. A project may also have no meaningful server-side component.</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>Isomorphic does not mean every line of code runs everywhere.</strong> Node.js database APIs are not automatically available in browsers, and browser APIs are not automatically available in Node.js. The goal is to keep shared logic reusable while allowing runtime-specific implementations to coexist in one project.</p>
+<h3 id="one-project-can-be-both-a-library-and-its-demonstration-application" translate="" [translate-t]="t">One project can be both a library and its demonstration application</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock3, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock3Html"></code></pre></div>
+<p translate="" [translate-t]="t">This project can be a reusable UI library, a standalone demonstration application, a testing environment, and a full-stack application when required. The directory names are illustrative, not a mandatory Taon layout.</p>
+<blockquote>
+<p translate="" [translate-t]="t" translate-html=""><strong>Separate projects by responsibility, not automatically by runtime.</strong></p>
+</blockquote>
+<hr>
+<h2 id="3-design-an-entire-company-s-software-architecture" translate="" [translate-t]="t">3. Design an Entire Company's Software Architecture</h2>
+<p translate="" [translate-t]="t">Taon standalone projects and containers can represent much more than one application. They can organize the software architecture of an entire company: products, shared libraries, internal tools, documentation, and platform-specific applications.</p>
+<h3 id="example-company-structure" translate="" [translate-t]="t">Example company structure</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock4, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock4Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">Here </span><code>{{ context.codeblock5 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock6 }}</code><span translate="" [translate-t]="t" translate-html=""> indicate <em>responsibilities</em>, not a requirement to split each into a separate Taon project. In practice, the company can organize them into isomorphic app-libraries instead.</span></p>
+<h3 id="containers-as-organizational-boundaries" translate="" [translate-t]="t">Containers as organizational boundaries</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock7, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock7Html"></code></pre></div>
+<p translate="" [translate-t]="t">Arrows illustrate conceptual dependencies, not automatic dependency resolution. Teams can own independent areas, share app-libraries, and coordinate work from higher-level containers. AI coding agents can likewise work within well-defined project boundaries.</p>
+<h3 id="a-more-taon-native-isomorphic-company-structure" translate="" [translate-t]="t">A more Taon-native, isomorphic company structure</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock8, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock8Html"></code></pre></div>
+<p translate="" [translate-t]="t">Each app-library is an independent, reusable unit that may contain both backend and frontend functionality. The labels describe the project's emphasis, not a restriction on what it may contain.</p>
+<hr>
+<h2 id="4-standalone-projects-containers-and-git-repositories" translate="" [translate-t]="t">4. Standalone Projects, Containers, and Git Repositories</h2>
+<p translate="" [translate-t]="t" translate-html="">A <strong>standalone project</strong> can be developed, built, and maintained independently, including in its own Git repository.</p>
+<p translate="" [translate-t]="t" translate-html="">A <strong>container project</strong> groups related Taon projects into one development workspace. A container can also be a Git repository itself.</p>
+<p><span translate="" [translate-t]="t">The </span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t"> setting in </span><code>{{ context.codeblock10 }}</code><span translate="" [translate-t]="t"> controls the repository organization of container children.</span></p>
+<table>
+<thead>
+<tr>
+<th>Configuration</th>
+<th>Repository organization</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>{{ context.codeblock11 }}</code></td>
+<td>Child projects can be maintained in separate Git repositories.</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock12 }}</code></td>
+<td>Child projects are included in the container's Git repository.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="multi-repository-container" translate="" [translate-t]="t">Multi-repository container</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock13, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock13Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">Here </span><code>{{ context.codeblock14 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock15 }}</code><span translate="" [translate-t]="t"> are illustrative names only. They could instead be </span><code>{{ context.codeblock16 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock17 }}</code><span translate="" [translate-t]="t">, each still containing isomorphic functionality.</span></p>
+<h3 id="monorepo-container" translate="" [translate-t]="t">Monorepo container</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock18, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock18Html"></code></pre></div>
+<h3 id="combining-both-approaches" translate="" [translate-t]="t">Combining both approaches</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock19, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock19Html"></code></pre></div>
+<p translate="" [translate-t]="t">These are conceptual organization examples: repository boundaries can follow product ownership, team responsibility, and reuse requirements rather than a universal backend/frontend split.</p>
+<hr>
+<h2 id="5-synchronize-multiple-git-repositories" translate="" [translate-t]="t">5. Synchronize Multiple Git Repositories</h2>
+<p translate="" [translate-t]="t">When projects live in separate repositories, Taon provides commands to coordinate them from the container.</p>
+<h3 id="pull-across-the-container" translate="" [translate-t]="t">Pull across the container</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock20, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock20Html"></code></pre></div>
+<h3 id="push-across-the-container" translate="" [translate-t]="t">Push across the container</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock21, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock21Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">When working on a shared branch such as </span><code>{{ context.codeblock22 }}</code><span translate="" [translate-t]="t">, these commands help synchronize the group of projects without manually entering each repository.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock23, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock23Html"></code></pre></div>
+<p translate="" [translate-t]="t">This is especially useful when a feature spans several app-libraries or multiple developers and AI agents contribute to the same container. Coordinate branches and review changes as appropriate for your team; multi-repository synchronization does not replace atomic transactions across repositories.</p>
+<hr>
+<h2 id="6-build-the-container-directly-from-source" translate="" [translate-t]="t">6. Build the Container Directly from Source</h2>
+<p translate="" [translate-t]="t" translate-html="">Taon can build a container's <strong>first-level child projects</strong> together.</p>
+<h3 id="development-build" translate="" [translate-t]="t">Development build</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock24, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock24Html"></code></pre></div>
+<p translate="" [translate-t]="t">Short alias:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock25, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock25Html"></code></pre></div>
+<h3 id="production-build" translate="" [translate-t]="t">Production build</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock26, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock26Html"></code></pre></div>
+<p translate="" [translate-t]="t">Short alias:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock27, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock27Html"></code></pre></div>
+<p translate="" [translate-t]="t">These commands rebuild first-level children in the selected mode, without requiring intermediate NPM publishing for internal source dependencies.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock28, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock28Html"></code></pre></div>
+<p translate="" [translate-t]="t">A successful build is not the same as a successful test suite. Run the relevant unit, integration, and end-to-end tests before release.</p>
+<hr>
+<h2 id="7-release-strategies-five-types" translate="" [translate-t]="t">7. Release Strategies: Five Types</h2>
+<p translate="" [translate-t]="t">Taon supports five release strategies for different artifacts and destinations.</p>
+<table>
+<thead>
+<tr>
+<th>Release type</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Manual</strong></td>
+<td>Build and test locally, then publish to a remote destination such as NPM, an app store, or Taon Cloud.</td>
+</tr>
+<tr>
+<td><strong>Cloud</strong></td>
+<td>Perform the equivalent release workflow through remote Taon Cloud execution. Cloud-side orchestration is part of the developing Taon Cloud offering.</td>
+</tr>
+<tr>
+<td><strong>Local</strong></td>
+<td>Build and deploy to a local repository, dedicated repository, or special Git branch.</td>
+</tr>
+<tr>
+<td><strong>Static Pages</strong></td>
+<td>Publish static websites and Markdown-based documentation to GitHub Pages or similar hosting.</td>
+</tr>
+<tr>
+<td><strong>Cloudflare</strong></td>
+<td>Wrap Wrangler for full-stack frontend/backend deployment, with supported Cloudflare services such as KV, D1, and R2.</td>
+</tr>
+</tbody>
+</table>
+<p translate="" [translate-t]="t">The best strategy depends on the project type, target artifacts, team size, codebase complexity, security requirements, and hosting environment.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock29, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock29Html"></code></pre></div>
+<p translate="" [translate-t]="t">These categories describe release strategies and common destinations; the diagram is conceptual rather than a claim that all targets are interchangeable.</p>
+<h3 id="cloudflare-release-example" translate="" [translate-t]="t">Cloudflare release example</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock30, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock30Html"></code></pre></div>
+<p translate="" [translate-t]="t">Alias:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock31, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock31Html"></code></pre></div>
+<p translate="" [translate-t]="t">The configured release workflow can deploy frontend and backend functionality to Cloudflare. Cloudflare Workers provide backend execution; D1, KV, and R2 can provide database, key-value, and object storage capabilities when used by the application.</p>
+<hr>
+<h2 id="8-supported-and-planned-release-artifacts" translate="" [translate-t]="t">8. Supported and Planned Release Artifacts</h2>
+<p translate="" [translate-t]="t">Taon can build different outputs from its project architecture.</p>
+<table>
+<thead>
+<tr>
+<th>Artifact</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NPM library and CLI tool</strong></td>
+<td>✅ Supported</td>
+<td>Shared NPM library with an optional global CLI tool.</td>
+</tr>
+<tr>
+<td><strong>Angular / Node.js application</strong></td>
+<td>✅ Supported</td>
+<td>Full-stack backend/frontend application; WebSQL mode can run compatible backend functionality in the browser.</td>
+</tr>
+<tr>
+<td><strong>VS Code extension</strong></td>
+<td>✅ Supported</td>
+<td>Extension reusing functionality from the NPM library / CLI.</td>
+</tr>
+<tr>
+<td><strong>Electron application</strong></td>
+<td>✅ Supported</td>
+<td>Desktop application built around the Angular / Node.js app architecture and Electron IPC.</td>
+</tr>
+<tr>
+<td><strong>Mobile application</strong></td>
+<td>⌛ In progress</td>
+<td>Planned Capacitor-based application using compatible frontend and backend architecture.</td>
+</tr>
+</tbody>
+</table>
+<p translate="" [translate-t]="t">Documentation websites generated from Markdown are also a supported output. Shared library code can be reused across applicable artifacts, while documentation websites follow their own build process.</p>
+<h3 id="artifact-composition" translate="" [translate-t]="t">Artifact composition</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock32, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock32Html"></code></pre></div>
+<p translate="" [translate-t]="t">The diagram illustrates potential code reuse, not a requirement that every project produce all artifacts.</p>
+<h3 id="backend-frontend-execution-depends-on-the-artifact" translate="" [translate-t]="t">Backend/frontend execution depends on the artifact</h3>
+<table>
+<thead>
+<tr>
+<th>Artifact</th>
+<th>Backend execution</th>
+<th>Frontend execution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Angular / Node.js</td>
+<td>Node.js</td>
+<td>Browser</td>
+</tr>
+<tr>
+<td>Angular WebSQL mode</td>
+<td>Browser-compatible backend logic</td>
+<td>Browser</td>
+</tr>
+<tr>
+<td>Electron</td>
+<td>Electron / Node.js processes</td>
+<td>Electron renderer</td>
+</tr>
+<tr>
+<td>VS Code extension</td>
+<td>VS Code extension host</td>
+<td>Optional webview</td>
+</tr>
+<tr>
+<td>NPM library / CLI</td>
+<td>Node.js or compatible runtime</td>
+<td>Optional browser-compatible exports</td>
+</tr>
+<tr>
+<td>Capacitor mobile (planned)</td>
+<td>Platform-dependent compatible logic</td>
+<td>Mobile WebView</td>
+</tr>
+</tbody>
+</table>
+<p translate="" [translate-t]="t" translate-html=""><strong>Everything can be designed around the same backend/frontend app-library model, but not every API is available in every runtime.</strong></p>
+<h3 id="websql-mode-backend-inside-the-browser" translate="" [translate-t]="t">WebSQL mode: backend inside the browser</h3>
+<p translate="" [translate-t]="t">A conventional Angular / Node.js application typically separates execution environments:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock33, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock33Html"></code></pre></div>
+<p translate="" [translate-t]="t">In Taon WebSQL mode, compatible backend functionality can run in the browser itself:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock34, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock34Html"></code></pre></div>
+<p translate="" [translate-t]="t">This can simplify standalone demos and end-to-end testing. Browser security, API availability, persistence, and runtime limitations still apply; WebSQL mode does not make arbitrary Node.js code browser-compatible.</p>
+<hr>
+<h2 id="9-automated-local-releases-before-taon-cloud" translate="" [translate-t]="t">9. Automated Local Releases Before Taon Cloud</h2>
+<p translate="" [translate-t]="t">For now, a trusted developer's machine can serve as a lightweight release coordinator.</p>
+<p translate="" [translate-t]="t">A typical workflow:</p>
+<ol>
+<li>Developers or AI agents make changes in their assigned projects.</li>
+<li>Changes are reviewed and pushed to the appropriate Git repositories.</li>
+<li>Synchronize the container.</li>
+<li>Build the relevant projects in production mode.</li>
+<li>Run tests, validation, and security checks required by the project.</li>
+<li>Finalize Git history and execute the configured release.</li>
+</ol>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock35, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock35Html"></code></pre></div>
+<p translate="" [translate-t]="t" translate-html="">These commands are the build/release skeleton, <strong>not a substitute for a testing step</strong>. Add your project's test commands and approvals between the build and release as needed.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock36, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock36Html"></code></pre></div>
+<p translate="" [translate-t]="t">This works especially well for solo developers and small teams where release responsibility is centralized. It is not equivalent to independent, reproducible CI runners or mandatory pull-request gates.</p>
+<hr>
+<h2 id="10-keep-taon-s-core-containers-updated" translate="" [translate-t]="t">10. Keep Taon's Core Containers Updated</h2>
+<p translate="" [translate-t]="t">Update the globally installed Taon CLI:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock37, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock37Html"></code></pre></div>
+<p translate="" [translate-t]="t">Then synchronize Taon's core containers:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock38, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock38Html"></code></pre></div>
+<p translate="" [translate-t]="t">Taon uses core containers to centralize NPM installations required by Taon projects. Synchronization keeps that local environment aligned with the latest available Taon changes, fixes, and patches. As with any dependency update, validate the resulting environment before production release.</p>
+<hr>
+<h2 id="11-rapid-git-checkpoints-taon-push-and-taon-melt"><span translate="" [translate-t]="t">11. Rapid Git Checkpoints: </span><code>{{ context.codeblock39 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock40 }}</code></h2>
+<p translate="" [translate-t]="t">During active development, especially with AI coding agents, it can be useful to save frequent Git checkpoints without stopping to write polished commit messages.</p>
+<h3 id="step-1-quick-checkpoint-commits" translate="" [translate-t]="t">Step 1: Quick checkpoint commits</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock41, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock41Html"></code></pre></div>
+<p translate="" [translate-t]="t">Taon creates a quick commit with the message:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock42, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock42Html"></code></pre></div>
+<p translate="" [translate-t]="t">Repeated checkpoints might produce this history:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock43, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock43Html"></code></pre></div>
+<h3 id="step-2-melt-temporary-commits-into-staged-changes" translate="" [translate-t]="t">Step 2: Melt temporary commits into staged changes</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock44, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock44Html"></code></pre></div>
+<p translate="" [translate-t]="t">Taon converts the latest temporary update commits back into staged changes:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock45, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock45Html"></code></pre></div>
+<p translate="" [translate-t]="t">The temporary commits are removed from the current branch history and their combined changes are staged. Review them and create a meaningful commit:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock46, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock46Html"></code></pre></div>
+<h3 id="step-3-clean-final-history" translate="" [translate-t]="t">Step 3: Clean final history</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock47, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock47Html"></code></pre></div>
+<h3 id="example-checkpoint-workflow" translate="" [translate-t]="t">Example checkpoint workflow</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock48, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock48Html"></code></pre></div>
+<h3 id="release-protection" translate="" [translate-t]="t">Release protection</h3>
+<p translate="" [translate-t]="t">Taon automatically prevents a release when the latest commit message is:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock49, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock49Html"></code></pre></div>
+<p translate="" [translate-t]="t">This prevents an unfinished checkpoint from being treated as a finalized release commit.</p>
+<blockquote>
+<p><span translate="" [translate-t]="t" translate-html=""><strong>Git history warning:</strong> </span><code>{{ context.codeblock50 }}</code><span translate="" [translate-t]="t"> rewrites the latest temporary commits. Coordinate with collaborators before rewriting checkpoints that have already been pushed to a shared branch. Review the staging area before creating the final commit.</span></p>
+</blockquote>
+<hr>
+<h2 id="12-why-this-works-well-with-ai-coding-agents" translate="" [translate-t]="t">12. Why This Works Well with AI Coding Agents</h2>
+<p translate="" [translate-t]="t">A container can give different developers or AI agents independent areas of responsibility:</p>
+<ul>
+<li>Developer A: backend-oriented app-library.</li>
+<li>Developer B: UI-oriented app-library.</li>
+<li>AI Agent A: authentication app-library.</li>
+<li>AI Agent B: tests, documentation, or bug fixes.</li>
+<li>Release coordinator: integration, validation, and deployment.</li>
+</ul>
+<p translate="" [translate-t]="t">The projects can remain independently versioned while being built from source in one workspace.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock51, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock51Html"></code></pre></div>
+<p><code>{{ context.codeblock52 }}</code><span translate="" [translate-t]="t"> can save lightweight development checkpoints; </span><code>{{ context.codeblock53 }}</code><span translate="" [translate-t]="t"> can consolidate them for review; </span><code>{{ context.codeblock54 }}</code><span translate="" [translate-t]="t"> can synchronize repositories; and </span><code>{{ context.codeblock55 }}</code><span translate="" [translate-t]="t"> can build the integrated source tree.</span></p>
+<p translate="" [translate-t]="t" translate-html=""><strong>AI agents should not bypass code review, tests, access controls, or release approval merely because the workflow is convenient.</strong></p>
+<hr>
+<h2 id="13-one-project-architecture-multiple-build-artifacts" translate="" [translate-t]="t">13. One Project Architecture, Multiple Build Artifacts</h2>
+<p translate="" [translate-t]="t">Taon is designed so a project does not have to be permanently tied to one deployment format. The same source architecture can support web applications, desktop applications, reusable libraries, documentation, and — in the future — additional native targets.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock56, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock56Html"></code></pre></div>
+<p translate="" [translate-t]="t">This is a conceptual view of reuse and possible targets, not a promise that every project currently supports every output type.</p>
+<h3 id="design-the-architecture-now-even-if-the-target-arrives-later" translate="" [translate-t]="t">Design the architecture now, even if the target arrives later</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock57, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock57Html"></code></pre></div>
+<p translate="" [translate-t]="t">A company may start with a website, then need Electron, mobile, or other native applications. Keeping business logic, shared models, and platform-specific functionality in appropriate app-libraries can reduce future restructuring.</p>
+<p translate="" [translate-t]="t" translate-html="">Native targets will still require platform-specific code, compatible dependencies, and testing. <strong>The architectural advantage is reuse, not automatic universal runtime compatibility.</strong></p>
+<hr>
+<h2 id="14-from-local-cli-orchestration-to-taon-cloud" translate="" [translate-t]="t">14. From Local CLI Orchestration to Taon Cloud</h2>
+<p translate="" [translate-t]="t">Today, Taon CLI coordinates local development and releases:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock58, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock58Html"></code></pre></div>
+<p translate="" [translate-t]="t">Taon Cloud is intended to add centralized orchestration to the same underlying project model:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock59, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock59Html"></code></pre></div>
+<p translate="" [translate-t]="t">Potential cloud capabilities include remote builds, Git-triggered workflows, automated tests, deployment logs, managed environments, monitoring, and team-based permissions or approvals. These are future-oriented goals rather than claims that every feature is available today.</p>
+<p translate="" [translate-t]="t" translate-html="">The key principle is to <strong>reuse the existing Taon project structure and CLI commands instead of inventing a separate cloud-only build system</strong>.</p>
+<hr>
+<h2 id="15-what-traditional-ci-cd-still-provides" translate="" [translate-t]="t">15. What Traditional CI/CD Still Provides</h2>
+<p translate="" [translate-t]="t">The local approach is useful, but it does not automatically provide:</p>
+<ul>
+<li>Independent, isolated, reproducible build environments.</li>
+<li>Git-triggered tests and pull-request validation.</li>
+<li>Branch protection and mandatory reviews.</li>
+<li>Centralized logs and durable build artifacts.</li>
+<li>Dependency scanning and security policies.</li>
+<li>Deployment approvals, audit trails, and rollback processes.</li>
+<li>Releases independent of one developer's machine.</li>
+</ul>
+<p translate="" [translate-t]="t" translate-html="">Use conventional CI/CD infrastructure when your risk profile, team size, or compliance requirements justify it. Taon's CLI can also be invoked <em>inside</em> external CI/CD systems; it does not have to replace them.</p>
+<hr>
+<h2 id="16-command-reference" translate="" [translate-t]="t">16. Command Reference</h2>
+<table>
+<thead>
+<tr>
+<th>Responsibility</th>
+<th>Command</th>
+<th>Alias / note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pull changes across container projects</td>
+<td><code>{{ context.codeblock60 }}</code></td>
+<td>Multi-repository synchronization</td>
+</tr>
+<tr>
+<td>Push changes across container projects</td>
+<td><code>{{ context.codeblock61 }}</code></td>
+<td>Multi-repository synchronization</td>
+</tr>
+<tr>
+<td>Build first-level container children for development</td>
+<td><code>{{ context.codeblock62 }}</code></td>
+<td><code>{{ context.codeblock63 }}</code></td>
+</tr>
+<tr>
+<td>Build first-level container children for production</td>
+<td><code>{{ context.codeblock64 }}</code></td>
+<td><code>{{ context.codeblock65 }}</code></td>
+</tr>
+<tr>
+<td>Execute configured Cloudflare production release</td>
+<td><code>{{ context.codeblock66 }}</code></td>
+<td><code>{{ context.codeblock67 }}</code></td>
+</tr>
+<tr>
+<td>Update global CLI</td>
+<td><code>{{ context.codeblock68 }}</code></td>
+<td>NPM installation</td>
+</tr>
+<tr>
+<td>Synchronize Taon core containers</td>
+<td><code>{{ context.codeblock69 }}</code></td>
+<td>Shared dependency environment</td>
+</tr>
+<tr>
+<td>Create quick Git checkpoint</td>
+<td><code>{{ context.codeblock70 }}</code></td>
+<td><code>{{ context.codeblock71 }}</code> commit</td>
+</tr>
+<tr>
+<td>Convert latest temporary checkpoints into staged changes</td>
+<td><code>{{ context.codeblock72 }}</code></td>
+<td>Review before final commit</td>
+</tr>
+</tbody>
+</table>
+<h3 id="typical-local-release-sequence" translate="" [translate-t]="t">Typical local release sequence</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock73, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock73Html"></code></pre></div>
+<p translate="" [translate-t]="t">Run the project's relevant tests and validation checks, review and finalize commits, and then release:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock74, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock74Html"></code></pre></div>
+<h3 id="typical-rapid-development-sequence" translate="" [translate-t]="t">Typical rapid-development sequence</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock75, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock75Html"></code></pre></div>
+<hr>
+<h2 id="conclusion" translate="" [translate-t]="t">Conclusion</h2>
+<p translate="" [translate-t]="t" translate-html=""><strong>Taon Cloud CI/CD is coming, but the foundations are useful already.</strong></p>
+<p translate="" [translate-t]="t">Taon standalone projects and containers can model an entire company's software architecture. Isomorphic app-libraries keep backend and frontend functionality together when that makes sense. Source-first builds remove unnecessary internal NPM publishing. Deep Git commands synchronize multi-repository workspaces. Temporary checkpoint commits make fast-moving development more convenient. Build and release commands coordinate delivery from a local machine.</p>
+<p translate="" [translate-t]="t">For solo developers and small teams, that can be enough to start shipping without a dedicated CI/CD server. For larger teams and higher-risk systems, the same commands can participate in conventional CI/CD pipelines today and eventually be orchestrated through Taon Cloud.</p>
+<blockquote>
+<p translate="" [translate-t]="t" translate-html=""><strong>Design the architecture once. Build directly from source. Release locally today. Automate centrally when you're ready.</strong></p>
+</blockquote>
+</article>

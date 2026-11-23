@@ -1,0 +1,13 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/ng2-rest/src/app.auto-gen-docs.component.html:1
+msgid "App <strong>ng2-rest</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/ng2-rest/src/app.auto-gen-docs.component.html:2
+msgid "Description for ng2-rest. Hello world!:"
+msgstr ""

@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/taon/TODO.component.html:1
+msgid "Taon v22.X.X"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/TODO.component.html:8
+msgid "Taon v21.X.X"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/TODO.component.html:17
+msgid "Taon v20.X.X"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/TODO.component.html:18
+msgid "< skipping >"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/TODO.component.html:19
+msgid "Taon v19.X.X (CURRENT VERSION)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/TODO.component.html:31
+msgid "Taon v18.X.X"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/TODO.component.html:38
+msgid "Taon (Firedev) v17.X.X"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/TODO.component.html:39
+msgid "< skipped >"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/TODO.component.html:40
+msgid "Taon (Firedev) v16.X.X"
+msgstr ""

@@ -1,0 +1,27 @@
+<article  class="taon-md-doc"><h1 id="taon-config-service" translate="" [translate-t]="t">Taon Config Service</h1>
+<p translate="" [translate-t]="t" translate-html="">A <strong>Taon Config Service</strong> acts as a bridge between Taon providers and Angular components, exposing context-specific configuration and frontend-friendly properties.</p>
+<p translate="" [translate-t]="t">Use a Config Service to:</p>
+<ul>
+<li><strong>Inject Taon providers</strong> associated with a specific Taon context.</li>
+<li><strong>Access frontend-specific configuration</strong> exposed by Taon providers.</li>
+<li><strong>Expose convenient properties and methods</strong> for Angular components without requiring them to interact directly with providers.</li>
+<li><strong>Keep configuration context-scoped</strong>, rather than sharing a single service instance across the entire Angular application.</li>
+</ul>
+<h2 id="example" translate="" [translate-t]="t">Example</h2>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock0, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock0Html"></code></pre></div>
+<h2 id="important-notes" translate="" [translate-t]="t">Important Notes</h2>
+<h3 id="context-scoped-dependency-injection" translate="" [translate-t]="t">Context-scoped dependency injection</h3>
+<p><strong></strong><span translate="" [translate-t]="t"> when declaring a Taon Config Service.</span></p>
+<p translate="" [translate-t]="t">Unlike regular Angular services registered globally, Taon Config Services must be scoped to their corresponding Taon context.</p>
+<p translate="" [translate-t]="t">This ensures that different contexts can maintain independent configurations without sharing a single service instance across the entire application.</p>
+<h3 id="provider-injection" translate="" [translate-t]="t">Provider injection</h3>
+<p><span translate="" [translate-t]="t">Taon Config Services use </span><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t"> to access Taon providers.</span></p>
+<p translate="" [translate-t]="t" translate-html="">Currently, <strong>only Taon controllers can be injected</strong> into Config Services. Controllers act as the bridge between backend and frontend functionality.</p>
+<h3 id="recommended-usage" translate="" [translate-t]="t">Recommended usage</h3>
+<p translate="" [translate-t]="t">Prefer exposing simple getters and methods from your Config Service instead of accessing provider configuration directly throughout Angular components.</p>
+<p translate="" [translate-t]="t">This keeps components clean, centralizes context-specific configuration, and separates Taon framework logic from UI implementation.</p>
+</article>

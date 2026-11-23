@@ -1,0 +1,42 @@
+<article  class="taon-md-doc"><h1 id="backend" translate="" [translate-t]="t">Backend</h1>
+<h2 id="isomorphic-source" translate="" [translate-t]="t">Isomorphic source</h2>
+<p><span translate="" [translate-t]="t">Do not assume that a </span><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> file containing backend code is backend-only.
+Taon transforms shared source for different runtimes. Isolate code that uses
+runtime-specific APIs with the appropriate markers:</span></p>
+<ul>
+<li><code>{{ context.codeblock1 }}</code> and <code>{{ context.codeblock2 }}</code> for backend code.</li>
+<li><code>{{ context.codeblock3 }}</code> and <code>{{ context.codeblock4 }}</code> for code included in Node.js and WebSQL builds.</li>
+<li><code>{{ context.codeblock5 }}</code> for browser-only code.</li>
+<li><code>{{ context.codeblock6 }}</code> for WebSQL-only code.</li>
+<li><code>{{ context.codeblock7 }}</code> and <code>{{ context.codeblock8 }}</code> for backend module-format differences.</li>
+</ul>
+<p translate="" [translate-t]="t">See <a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/isomorphic-code-regions.md&quot;">Isomorphic code regions</a> for marker
+semantics and examples.</p>
+<h2 id="runtime-differences" translate="" [translate-t]="t">Runtime differences</h2>
+<p translate="" [translate-t]="t">Taon supports these distinct backend targets:</p>
+<ul>
+<li><strong>Node.js</strong> has access to Node.js APIs according to the app's environment
+and permissions.</li>
+<li><strong>Cloudflare Workers</strong> use an ESM runtime with Worker APIs and do not provide
+the full Node.js runtime.</li>
+<li><strong>WebSQL</strong> runs backend logic in the browser.</li>
+<li><strong>Electron</strong> uses a main-process backend with privileged Node.js APIs.</li>
+</ul>
+<p translate="" [translate-t]="t">Review <a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/transport-layer.md&quot;">Transport layer</a> before relying on
+networking, realtime communication, or platform APIs across targets.</p>
+<h2 id="runtime-specific-functions" translate="" [translate-t]="t">Runtime-specific functions</h2>
+<p><span translate="" [translate-t]="t">Wrap a function body in </span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t"> when it requires Node.js-only APIs.
+The browser build keeps the function and returns </span><code>{{ context.codeblock10 }}</code><span translate="" [translate-t]="t">.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock11, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock11Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">Use </span><code>{{ context.codeblock12 }}</code><span translate="" [translate-t]="t"> instead when the implementation should be included in both
+Node.js and WebSQL builds.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock13, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock13Html"></code></pre></div>
+</article>

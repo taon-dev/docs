@@ -1,0 +1,46 @@
+<article  class="taon-md-doc"><h1 id="taon-session" translate="" [translate-t]="t">Taon Session</h1>
+<p><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> supplies Taon login, registration, session state, and
+authorization. It also provides user, session, role, group, and authorization
+backoffice routes. It is designed for Taon applications, not as a standalone
+authentication package.</span></p>
+<h2 id="add-it-to-an-application" translate="" [translate-t]="t">Add it to an application</h2>
+<p><span translate="" [translate-t]="t">For a complete admin installation, use
+<a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/baseline.md&quot;">Taon Baseline</a>, which includes
+</span><code>{{ context.codeblock1 }}</code><span translate="" [translate-t]="t"> and its backoffice routes. To use Session by
+itself, register </span><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t"> in the active Taon context and
+add the specific session routes needed by the application.</span></p>
+<p><span translate="" [translate-t]="t">The browser UI exports </span><code>{{ context.codeblock3 }}</code><span translate="" [translate-t]="t"> and
+</span><code>{{ context.codeblock4 }}</code><span translate="" [translate-t]="t">. The example app imports the button and binds a
+</span><code>{{ context.codeblock5 }}</code><span translate="" [translate-t]="t">:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock6, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock6Html"></code></pre></div>
+<p translate="" [translate-t]="t">The configuration is optional in the example application; configure a
+dashboard destination only when the app has a real need for it. Do not put
+credentials in a client-side configuration.</p>
+<h2 id="main-features-and-authorization" translate="" [translate-t]="t">Main features and authorization</h2>
+<ul>
+<li>Session login and registration support Taon's JWT, cookie, and header
+authentication paths.</li>
+<li><code>{{ context.codeblock7 }}</code> can protect controller methods. Apply it before
+inherited middleware when the request must be authenticated first.</li>
+<li>The session context exposes authorization checks for admin capabilities.
+Baseline's user, session, and authorization menu entries use
+<code>{{ context.codeblock8 }}</code>, <code>{{ context.codeblock9 }}</code>, and <code>{{ context.codeblock10 }}</code>; superusers
+can also see these entries.</li>
+<li>CMS, commerce, SEO, and analytics use their own permission checks. Logging in
+alone does not grant administrator access.</li>
+</ul>
+<p translate="" [translate-t]="t">Use the session state returned by the server as the source of authorization.
+Do not treat a client-provided user ID or permission list as proof of identity.</p>
+<h2 id="runtime-notes" translate="" [translate-t]="t">Runtime notes</h2>
+<p translate="" [translate-t]="t">Register the session context in the backend context that serves the application.
+Node.js and WebSQL are distinct Taon deployment modes; browser mode does not
+make server secrets available to browser code. Use the server environment for
+credentials and deployment-specific authentication configuration.</p>
+<p translate="" [translate-t]="t">See the <a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/baseline.md&quot;">Baseline integration</a> for a working context and
+backoffice route, and the <a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;docs/tutorial/add-taon-admin-to-existing-project.md&quot;">admin tutorial</a>
+for an existing Taon application.</p>
+</article>

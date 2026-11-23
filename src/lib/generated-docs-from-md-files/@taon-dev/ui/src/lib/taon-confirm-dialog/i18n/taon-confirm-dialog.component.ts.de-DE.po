@@ -1,0 +1,13 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-confirm-dialog/taon-confirm-dialog.component.ts:25
+msgid "Buy"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-confirm-dialog/taon-confirm-dialog.component.ts:25
+msgid "Cancel"
+msgstr ""

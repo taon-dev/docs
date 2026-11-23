@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:1
+msgid "Angular Syntax and State"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:2
+msgid "Template syntax"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:16
+msgid "Signals and Observables"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:39
+msgid "Services"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:40
+msgid "API services"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:41
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:44
+msgid "Inject the project's"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:41
+msgid "into components when communication with the Taon REST API is required."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:42
+msgid "Do not create duplicate HTTP/API logic directly inside components when the existing API service can be used."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:43
+msgid "Configuration services"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:44
+msgid "/"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:44
+msgid "when a component needs global frontend/backend configuration."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:45
+msgid "Do not duplicate global configuration as local component state."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:46
+msgid "State services"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:47
+msgid "Create a dedicated"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:47
+msgid "only when the component architecture actually requires shared or sufficiently complex state."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:48
+msgid "Do NOT create a state service automatically for every component."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:49
+msgid "Prefer keeping simple state directly inside the component using Signals."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:50
+msgid "Create a state service when, for example:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:57
+msgid "Dependency Injection"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:58
+msgid "Always prefer Angular's"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:58
+msgid "API over constructor injection."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:59
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:74
+msgid "GOOD:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:60
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock17, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:65
+msgid "BAD:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:66
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock18, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:71
+msgid "Use constructor injection only when there is a specific technical reason that prevents using"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:71
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:91
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:104
+msgid "."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:72
+msgid "Injection naming"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:73
+msgid "Use descriptive names based on the injected class/service."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:75
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock20, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:80
+msgid "Short conventional names are allowed for common Angular/router dependencies where they improve readability:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:81
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock21, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:86
+msgid "Do not use arbitrary abbreviated names for application services."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:87
+msgid "Component Internationalization (i18n)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:88
+msgid "All user-visible component text should use the Taon translation system when appropriate."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:89
+msgid "For all internationalization rules and examples, follow:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:91
+msgid "Before adding, modifying, or reviewing any user-visible text in Angular code,"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:92
+msgid "Treat"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:92
+msgid "as the <strong>single source of truth</strong> for:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:103
+msgid "Do not duplicate or invent alternative i18n patterns in Angular code."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:104
+msgid "If this file and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/angular.component.html:104
+msgid "appear to conflict regarding internationalization,"
+msgstr ""

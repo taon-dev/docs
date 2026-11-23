@@ -1,0 +1,13 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/taon/src/app.auto-gen-docs.component.html:1
+msgid "App <strong>taon</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/src/app.auto-gen-docs.component.html:2
+msgid "Isomorphic solution for backend and frontend:"
+msgstr ""

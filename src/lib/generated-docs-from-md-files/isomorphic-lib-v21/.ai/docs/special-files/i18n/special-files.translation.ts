@@ -1,0 +1,43 @@
+// THIS FILE IS GENERATED - DO NOT MODIFY
+import { CoreModels } from 'tnp-core/src';
+
+// join interface type here
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesModelsComponentHtml } from './models.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesModelsComponentHtml } from './models.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesModelsComponentHtml } from './models.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesModelsComponentTs } from './models.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesModelsComponentTs } from './models.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesModelsComponentTs } from './models.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesUtilsComponentHtml } from './utils.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesUtilsComponentHtml } from './utils.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesUtilsComponentHtml } from './utils.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesUtilsComponentTs } from './utils.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesUtilsComponentTs } from './utils.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesUtilsComponentTs } from './utils.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesValidatorsComponentHtml } from './validators.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesValidatorsComponentHtml } from './validators.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesValidatorsComponentHtml } from './validators.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesValidatorsComponentTs } from './validators.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesValidatorsComponentTs } from './validators.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesValidatorsComponentTs } from './validators.component.ts.de-DE.i18n.data';;
+export type SpecialFilesOverride = CoreModels.DeepPartial<EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesModelsComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesModelsComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesModelsComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesModelsComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesModelsComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesModelsComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesUtilsComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesUtilsComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesUtilsComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesUtilsComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesUtilsComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesUtilsComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesValidatorsComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesValidatorsComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesValidatorsComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesValidatorsComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesValidatorsComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsSpecialFilesValidatorsComponentTs>;
+
+ // THIS FILE IS GENERATED - DO NOT MODIFY
+        

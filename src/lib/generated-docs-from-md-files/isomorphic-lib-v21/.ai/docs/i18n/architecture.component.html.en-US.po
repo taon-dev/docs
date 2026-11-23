@@ -1,0 +1,209 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:1
+msgid "Taon architecture"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:2
+msgid "Taon is a TypeScript framework and CLI for building applications and reusable libraries. A standalone Taon project keeps its source in one"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:2
+msgid "tree. The CLI uses that source to build the library or application artifacts configured for the project."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:3
+msgid "Taon workspaces can contain several projects. Each project has a root"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:3
+msgid "that identifies its type and defines its project-specific configuration."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:4
+msgid "Identify a Taon project"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:5
+msgid "Open"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:5
+msgid "in the directory you are inspecting. Its"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:5
+msgid "field tells you how to navigate the project."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:27
+msgid "The snippets below show only the field that identifies the project type. An existing"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:27
+msgid "can contain additional settings."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:28
+msgid "Standalone projects"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:29
+msgid "A standalone project declares"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:29
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:43
+msgid "in its root"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:29
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:43
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:55
+msgid "."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:30
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock12, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:35
+msgid "A standalone project owns its"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:35
+msgid "tree. It can expose reusable code through its library entry point and use the same code in its application entry points. For example, a project can export a context and its building blocks for other Taon projects to use, while also providing an application that runs them."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:36
+msgid "A standalone project can live on its own or inside a Taon container. It may have its own Git repository. The"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:36
+msgid "field describes the Taon project structure. Check the Git root separately when working across projects."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:37
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock15, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:42
+msgid "Container projects"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:43
+msgid "A container declares"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:44
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock18, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:49
+msgid "A container groups standalone projects and can also contain nested containers. Each child project has its own root configuration. A workspace can therefore contain reusable libraries, consuming applications, and groups of related projects at different levels."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:50
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock19, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:55
+msgid "In this layout,"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:55
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:64
+msgid "and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:55
+msgid "are containers."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:55
+msgid "are standalone projects. If"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:55
+msgid "consumes a feature exported by"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:55
+msgid ", follow the import to find the implementation. Reusable behavior belongs in the project that provides it. Website-specific configuration and integration belong in"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:56
+msgid "Navigate a workspace"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:63
+msgid "Standalone project entry points"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:64
+msgid "The files below are common entry points. Check the project's"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:64
+msgid "tree to see which artifacts it supports."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:99
+msgid "How an application is assembled"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:100
+msgid "A <strong>project</strong> owns source code and build configuration. A <strong>context</strong> assembles runtime building blocks such as controllers, entities, repositories, and providers. A reusable project can export a context through its library entry point so a consuming application can compose it with its own contexts."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:101
+msgid "See <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/taon-building-blocks/contexts.md&quot;\">Contexts</a> and <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/dependency-injection.md&quot;\">Dependency injection</a> for registration, inheritance, and injection patterns."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:102
+msgid "Isomorphic source and runtime targets"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:103
+msgid "Taon can build browser and backend versions of the same TypeScript source. Code regions determine which parts of a file are included in each output. Check the target before choosing a dependency, accessing a secret, or using a runtime-specific API."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:135
+msgid "A project's supported targets depend on its configuration and dependencies. See <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/isomorphic-code-regions.md&quot;\">Isomorphic code regions</a> for how to write code that builds for the intended runtime."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:136
+msgid "Build and run a standalone project"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:137
+msgid "The Taon framework README lists Node.js 22 or later as a prerequisite. From the standalone project root, start the library watch build in one terminal."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:138
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock38, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:143
+msgid "Start the Node.js application in a second terminal (ng server).\nTaon watch build lib mode is needed when we want to see <em>ng serve</em> changes."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:145
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock39, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:150
+msgid "For projects that support other runtime targets, the CLI also provides the following development commands."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:177
+msgid "See the <a [href]=\"baseHref + &quot;/tnp/docs/COMMANDS.md&quot;\">CLI command guide</a>."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/architecture.component.html:178
+msgid "Further reading"
+msgstr ""

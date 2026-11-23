@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/what-to-avoid.component.html:1
+msgid "What to avoid"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/what-to-avoid.component.html:2
+msgid "Finish migration transactions correctly"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/what-to-avoid.component.html:3
+msgid "let say we have migration started:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/what-to-avoid.component.html:4
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock0, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/what-to-avoid.component.html:9
+msgid "to end transaction:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/what-to-avoid.component.html:10
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock1, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/what-to-avoid.component.html:15
+msgid "Use <strong>CURRENT_TIMESTAMP</strong> instead <strong>NOW()</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/what-to-avoid.component.html:16
+msgid "SQlite does not support <strong>NOW()</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/what-to-avoid.component.html:17
+msgid "Use <strong>integer</strong> instead <strong>int</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/what-to-avoid.component.html:18
+msgid "SQlite does not support <strong>int</strong>"
+msgstr ""

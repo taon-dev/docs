@@ -1,0 +1,46 @@
+<article  class="taon-md-doc"><h1 id="taon-cms" translate="" [translate-t]="t">Taon CMS</h1>
+<p><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> provides posts and related content, categories, tags, comments,
+content permissions, revisions, and storage-backed media. Course views and
+structured JSON-table posts build on ordinary CMS posts; they do not require a
+separate course entity.</span></p>
+<h2 id="add-and-configure" translate="" [translate-t]="t">Add and configure</h2>
+<p><span translate="" [translate-t]="t">For the full admin setup, add </span><code>{{ context.codeblock1 }}</code><span translate="" [translate-t]="t"> and
+</span><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t">; Baseline includes </span><code>{{ context.codeblock3 }}</code><span translate="" [translate-t]="t"> and
+the lazy CMS backoffice route. A CMS-only application can register
+</span><code>{{ context.codeblock4 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock5 }}</code><span translate="" [translate-t]="t"> directly.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock6, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock6Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">Add </span><code>{{ context.codeblock7 }}</code><span translate="" [translate-t]="t"> to the application's route configuration. The
+application must also configure the storage provider used for uploaded media
+and initialize the Taon context/database. CMS pages depend on the session and
+authorization contexts; the CMS abstract context includes
+</span><code>{{ context.codeblock8 }}</code><span translate="" [translate-t]="t">.</span></p>
+<h2 id="use-the-backoffice" translate="" [translate-t]="t">Use the backoffice</h2>
+<p translate="" [translate-t]="t">The CMS navigation provides post, course, category, tag, asset, comment, and
+content-permission features. Posts support published or draft content, related
+posts, thumbnails, revisions, and media attachments. Categories can be nested;
+tags are flat. Product pages can link to CMS posts, and course components can
+render a protected post and its related lessons; see
+<a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/e-commerce.md&quot;">e-commerce</a>.</p>
+<p><span translate="" [translate-t]="t">The backoffice's CMS entry is visible to superusers or users with
+</span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t">. Individual controllers can apply finer checks such as
+</span><code>{{ context.codeblock10 }}</code><span translate="" [translate-t]="t">; grant the relevant permission through Taon authorization
+rather than relying on a hidden menu item as the security boundary. CMS APIs
+also enforce their own access and publication rules.</span></p>
+<p translate="" [translate-t]="t">Storage assets are accessed through Taon storage APIs. For example, the Assets
+page lists stored files and requests short-lived private URLs rather than
+buffering file contents in the browser. Configure the storage backend and
+public/private access policy for the deployment target.</p>
+<h2 id="runtime-notes" translate="" [translate-t]="t">Runtime notes</h2>
+<p translate="" [translate-t]="t">The Angular backoffice runs in the browser. Its context and data APIs must be
+registered on the application's Taon backend. WebSQL mode places backend work
+in the browser, so it is not a substitute for a server when the application
+needs server-managed credentials or externally reachable media URLs. Check the
+selected storage provider's support before enabling CMS uploads in WebSQL or a
+Cloudflare Worker.</p>
+<p translate="" [translate-t]="t">See <a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/baseline.md&quot;">Baseline</a> for combined registration and the
+<a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;docs/tutorial/add-taon-admin-to-existing-project.md&quot;">admin setup tutorial</a>.</p>
+</article>

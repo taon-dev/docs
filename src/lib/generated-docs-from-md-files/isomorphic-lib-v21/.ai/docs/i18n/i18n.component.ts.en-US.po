@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.ts:53
+msgid "This will also be translated!"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.ts:25
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.ts:29
+msgid "Label signal"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.ts:25
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.ts:33
+msgid "Params: [[ test ]]"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.ts:25
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.ts:41
+msgid "Normal label"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.ts:25
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.ts:49
+msgid "I am [[ dynamicParam ]]"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.ts:53
+msgid "This also works!"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.ts:89
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/i18n.component.ts:95
+msgid "Hello"
+msgstr ""

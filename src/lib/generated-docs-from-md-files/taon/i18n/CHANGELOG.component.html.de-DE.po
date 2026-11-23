@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/taon/CHANGELOG.component.html:1
+msgid "CHANGELOG"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/CHANGELOG.component.html:2
+msgid "Changes v19"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/CHANGELOG.component.html:6
+msgid "Changes v18"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/CHANGELOG.component.html:11
+msgid "Changes v16"
+msgstr ""

@@ -1,0 +1,31 @@
+// THIS FILE IS GENERATED - DO NOT MODIFY
+import { CoreModels } from 'tnp-core/src';
+
+// join interface type here
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsApplyTranslationsComponentHtml } from './apply-translations.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsApplyTranslationsComponentHtml } from './apply-translations.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsApplyTranslationsComponentHtml } from './apply-translations.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsApplyTranslationsComponentTs } from './apply-translations.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsApplyTranslationsComponentTs } from './apply-translations.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsApplyTranslationsComponentTs } from './apply-translations.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsTranslatePoFilesAndFixTyposComponentHtml } from './translate-po-files-and-fix-typos.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsTranslatePoFilesAndFixTyposComponentHtml } from './translate-po-files-and-fix-typos.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsTranslatePoFilesAndFixTyposComponentHtml } from './translate-po-files-and-fix-typos.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsTranslatePoFilesAndFixTyposComponentTs } from './translate-po-files-and-fix-typos.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsTranslatePoFilesAndFixTyposComponentTs } from './translate-po-files-and-fix-typos.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsTranslatePoFilesAndFixTyposComponentTs } from './translate-po-files-and-fix-typos.component.ts.de-DE.i18n.data';;
+export type UsefullPromptsOverride = CoreModels.DeepPartial<EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsApplyTranslationsComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsApplyTranslationsComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsApplyTranslationsComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsApplyTranslationsComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsApplyTranslationsComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsApplyTranslationsComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsTranslatePoFilesAndFixTyposComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsTranslatePoFilesAndFixTyposComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsTranslatePoFilesAndFixTyposComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsTranslatePoFilesAndFixTyposComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsTranslatePoFilesAndFixTyposComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21DocsUsefullPromptsTranslatePoFilesAndFixTyposComponentTs>;
+
+ // THIS FILE IS GENERATED - DO NOT MODIFY
+        

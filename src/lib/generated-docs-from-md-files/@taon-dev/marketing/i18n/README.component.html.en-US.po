@@ -1,0 +1,121 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:1
+msgid "Marketing"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:2
+msgid "A small Taon module for configurable website popups. Marketing backoffice has\n<strong>Popups</strong>, <strong>Promotions</strong>, <strong>Newsletter</strong>, and <strong>AB</strong> navigation. Only Popups is\nfunctional; the other pages are placeholders. Coupon/discount business logic\nbelongs to ecommerce, and newsletter sending and experimentation are not included."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:6
+msgid "Popup management"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:7
+msgid "Include"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:7
+msgid "in the application context and mount"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:8
+msgid "through the standard Taon admin navigation (as in the example app). Popups can be created, edited, deleted, enabled, and disabled. New popups are disabled by default."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:11
+msgid "uses the existing Taon TypeORM entity registration ("
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:12
+msgid "), with inherited ID/version and automatic creation/update timestamps. The registered"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:13
+msgid "migration creates a missing popup table or adds the configuration columns to the old scaffold table, preserving legacy descriptions as names where available. It also supports contexts where schema synchronization has already run. Hosts with a different concrete context should register this migration in that context. Reverting removes popup configuration fields and retains names in the legacy description column; back up the database before reverting."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:20
+msgid "The popup controller restricts exposed methods to reads, pagination, validated writes, and active-popup loading. Configure access to administrative controller methods using the host application's authorization policy;"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:23
+msgid "is the website read endpoint."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:24
+msgid "Website rendering"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:25
+msgid "Import"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:25
+msgid "from"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:25
+msgid "into a standalone Angular component and place one host in the public website layout:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:27
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock8, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:32
+msgid "The image resolver and event/error handlers are optional. Image keys default to HTTP(S) URLs or root-relative asset paths. For object-storage keys, provide a synchronous resolver returning the public image URL. CTA URLs must also be HTTP(S) or root-relative. Content is plain text, not executable HTML."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:36
+msgid "The renderer loads enabled, date-active popups initially and after Angular router navigation. Date boundaries are inclusive. Empty display paths means every path; exclusions take precedence. Path rules match the pathname (ignoring query/fragment) exactly, or by prefix when ending in"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:39
+msgid ", e.g."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:39
+msgid "."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:40
+msgid "Each delay starts when the page's popup response arrives. Eligible popups display one at a time, in delay/ID order. Navigation cancels pending displays and closes visible popups; eligibility is checked again before display. End dates also close visible popups. Dialog popups support an optional image; bottom banners do not. Popups scheduled to start later become eligible on a subsequent page load/navigation."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:45
+msgid "Visitor display counts use localStorage; once-per-session uses sessionStorage (a browser-tab session). Counts are incremented on display, not on fetch. These are browser-local limits, not authenticated-user or cross-device limits; clearing storage resets them. If storage is unavailable or corrupt, rendering fails closed and reports an error rather than ignoring restrictions."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:50
+msgid "Analytics extension point"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:51
+msgid "The"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:51
+msgid "output emits"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:51
+msgid ","
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:51
+msgid ", and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:51
+msgid "with category"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/marketing/README.component.html:52
+msgid ", path, creation date, and data containing popup ID/type. Connect this output to the host's generic AnalyticsEvent ingestion when available. No statistics columns or analytics dependency are added. The analytics package's event API is currently scaffold-only, so this module does not force integration."
+msgstr ""

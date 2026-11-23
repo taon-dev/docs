@@ -1,0 +1,19 @@
+<article  class="taon-md-doc"><h1 id="what-to-avoid" translate="" [translate-t]="t">What to avoid</h1>
+<h2 id="finish-migration-transactions-correctly" translate="" [translate-t]="t">Finish migration transactions correctly</h2>
+<p translate="" [translate-t]="t">let say we have migration started:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock0, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock0Html"></code></pre></div>
+<p translate="" [translate-t]="t">to end transaction:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock1, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock1Html"></code></pre></div>
+<h2 id="use-current-timestamp-instead-now" translate="" [translate-t]="t" translate-html="">Use <strong>CURRENT_TIMESTAMP</strong> instead <strong>NOW()</strong></h2>
+<p translate="" [translate-t]="t" translate-html="">SQlite does not support <strong>NOW()</strong></p>
+<h2 id="use-integer-instead-int" translate="" [translate-t]="t" translate-html="">Use <strong>integer</strong> instead <strong>int</strong></h2>
+<p translate="" [translate-t]="t" translate-html="">SQlite does not support <strong>int</strong></p>
+</article>

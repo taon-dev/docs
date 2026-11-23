@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/api-services.component.html:1
+msgid "Taon API service"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/api-services.component.html:2
+msgid "An API service injects Taon controllers and provides an application-scoped place to adapt requests and responses or maintain state. Avoid"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/api-services.component.html:3
+msgid "when the service must be scoped to an injected Taon context."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/api-services.component.html:4
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock1, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/api-services.component.html:9
+msgid "exposes the observable request path; awaiting"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/api-services.component.html:10
+msgid "uses the promise path. The response body provides parsed text or JSON and other response representations according to the controller's response type."
+msgstr ""

@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:1
+msgid "ui"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:2
+msgid "Hello from Standalone Project"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:4
+msgid "Context-aware admin navigation"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:5
+msgid "accepts a plain string, a function returning a string, or an Angular"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:6
+msgid ":"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:7
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock2, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:12
+msgid "These are alternative values for the same option. Functions and signals are read when rendering sidebar items and nested tabs, so signal updates refresh labels without reloading routes. Existing string labels remain supported. Omitting"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:15
+msgid "keeps the label derived from the route path."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:16
+msgid "accepts any application-defined context type. Existing routes without context callbacks continue to work."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:18
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock5, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:23
+msgid "Supply the matching context to the panel enclosing the admin router outlet:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:24
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock6, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:29
+msgid "The panel shares its current context with the routed admin layout and nested navigation tabs. Updating the context input (for example, assigning a new"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:31
+msgid "object when authentication changes) updates the menu without reloading route metadata. Provide a context value whenever callbacks require it."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:33
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:34
+msgid "returning"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:33
+msgid "removes the menu item from rendering."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:34
+msgid "keeps the item visible with reduced opacity, but prevents menu navigation and expansion."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:35
+msgid "is evaluated only for disabled items. These options control navigation UI, not access to URLs; use Angular route guards for authorization."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:38
+msgid "Admin page search"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:39
+msgid "Routes are excluded from search unless explicitly opted in:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:40
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock13, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:45
+msgid "Use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:45
+msgid "to use the resolved"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:45
+msgid "(or path-derived label). Custom labels also accept functions or signals. Search traverses nested"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:47
+msgid "and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:47
+msgid "metadata without loading page components. Hidden or disabled routes and their descendants, redirects, wildcards, and routes with unresolved path parameters are excluded. Search is navigation UI, not an authorization mechanism."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:51
+msgid "uses Angular Material's"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:51
+msgid "type ("
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/README.component.html:51
+msgid "), supporting Material icon ligatures without maintaining a partial list of icon names."
+msgstr ""

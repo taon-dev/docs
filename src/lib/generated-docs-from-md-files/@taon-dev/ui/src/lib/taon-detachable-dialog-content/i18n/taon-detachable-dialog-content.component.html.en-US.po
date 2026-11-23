@@ -1,0 +1,430 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:1
+msgid "Taon Detachable Dialog Content"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:2
+msgid "allows a routed Taon Admin component to create a persistent detached copy of itself."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:4
+msgid "Detached windows are independent Angular component instances and survive normal Angular Router navigation."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:6
+msgid "This allows Taon Admin to behave like a small desktop workspace:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:7
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock1, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:12
+msgid "You can detach"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:12
+msgid ", navigate to"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:12
+msgid ", detach that page, open"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:13
+msgid ", detach that page, and then navigate anywhere else."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:14
+msgid "All three detached components remain alive and can continue communicating with the backend."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:17
+msgid "1. Add the global detached windows host"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:18
+msgid "The host MUST live outside the routed component tree."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:19
+msgid "For example, inside the main Taon Admin component:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:20
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock5, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:25
+msgid "Do NOT put"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:25
+msgid "inside a component that gets destroyed during navigation."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:27
+msgid "There should normally be only one host."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:29
+msgid "2. Make a page detachable"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:30
+msgid "Example users component:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:31
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock7, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:36
+msgid "The normal page displays:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:37
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock8, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:42
+msgid "Clicking"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:42
+msgid "creates another"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:42
+msgid "."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:43
+msgid "It does NOT move the existing DOM/component."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:45
+msgid "3. Navigate somewhere else"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:46
+msgid "After detaching Users:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:47
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock11, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:52
+msgid "You can navigate to:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:53
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock12, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:58
+msgid "The original routed"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:58
+msgid "is destroyed normally."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:59
+msgid "The detached"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:59
+msgid "is NOT destroyed because it belongs to:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:60
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock15, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:66
+msgid "4. Detach another page"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:67
+msgid "Posts:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:68
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock16, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:73
+msgid "You can now have:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:74
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock17, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:79
+msgid "at the same time."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:81
+msgid "5. Route parameters are copied"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:82
+msgid "Consider:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:83
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock18, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:88
+msgid "with:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:89
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock19, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:94
+msgid "When the page is detached, Taon captures the route state."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:95
+msgid "The detached component receives its own"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:95
+msgid "containing:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:96
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock21, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:101
+msgid "Therefore the new component can load Post #123 normally."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:102
+msgid "Navigating afterward to:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:103
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock22, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:108
+msgid "does NOT change the detached window."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:109
+msgid "You can therefore have:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:110
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock23, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:115
+msgid "simultaneously."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:117
+msgid "6. Query parameters"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:118
+msgid "Query parameters are also captured."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:119
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:156
+msgid "For example:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:120
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock24, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:125
+msgid "creates a detached component with:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:126
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock25, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:131
+msgid "equivalent to:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:132
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock26, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:137
+msgid "The detached route is intentionally independent from subsequent browser navigation."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:140
+msgid "7. Database operations"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:141
+msgid "A detached component is a REAL Angular component."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:142
+msgid "It can continue using normal Taon services/controllers:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:143
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock27, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:148
+msgid "or:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:149
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock28, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:154
+msgid "There is nothing special about backend communication from a detached window."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:157
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock29, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:162
+msgid "Both windows can still modify database data."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:164
+msgid "8. Component state"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:165
+msgid "Detaching creates a NEW component instance."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:166
+msgid "It does not transfer arbitrary local component state."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:167
+msgid "For example, if the routed component contains:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:168
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock30, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:173
+msgid "the detached component will initialize normally and usually reload its data from the backend."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:175
+msgid "The unsaved form value is NOT automatically copied."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:176
+msgid "This is intentional."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:177
+msgid "Route state is copied."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:178
+msgid "Component state is not."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:179
+msgid "State transfer can be implemented separately later if needed."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:181
+msgid "9. Multiple instances"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:182
+msgid "intentionally stores an array:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:183
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock32, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:188
+msgid "There is no single-dialog restriction."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:189
+msgid "The following is valid:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:190
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock33, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:195
+msgid "all open simultaneously."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:197
+msgid "Architecture"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:198
+msgid "The important ownership model is:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:199
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock34, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:204
+msgid "Angular Router controls only the first branch."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:205
+msgid "Detached windows belong to the second branch."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:206
+msgid "Therefore:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:207
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock35, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:213
+msgid "Future improvements"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:214
+msgid "The detached-window infrastructure can later support:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:230
+msgid "A useful next abstraction would be:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:231
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock36, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/ui/src/lib/taon-detachable-dialog-content/taon-detachable-dialog-content.component.html:236
+msgid "where detachable routed content is only one way of creating a workspace window."
+msgstr ""

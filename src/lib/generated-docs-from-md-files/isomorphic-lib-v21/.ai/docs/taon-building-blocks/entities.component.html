@@ -1,0 +1,35 @@
+<article  class="taon-md-doc"><h1 id="taon-entities" translate="" [translate-t]="t">Taon entities</h1>
+<p translate="" [translate-t]="t">A Taon entity is a TypeScript class that maps to a database table. Taon builds on <a href="https://typeorm.io/entities">TypeORM entities</a>. You can also use an entity class as a data transfer object (DTO) when its fields match the API contract. Define a separate DTO when an endpoint accepts or exposes only part of the entity.</p>
+<h2 id="define-an-entity" translate="" [translate-t]="t">Define an entity</h2>
+<p><span translate="" [translate-t]="t">Decorate the class with </span><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> and set </span><code>{{ context.codeblock1 }}</code><span translate="" [translate-t]="t"> to the class name. Use Taon column decorators to define persisted fields.</span></p>
+<p><span translate="" [translate-t]="t">In this example, </span><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t"> maps </span><code>{{ context.codeblock3 }}</code><span translate="" [translate-t]="t"> to a database column. The </span><code>{{ context.codeblock4 }}</code><span translate="" [translate-t]="t"> region markers are Taon build directives. Keep them around the column decorator as shown.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock5, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock5Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">The </span><code>{{ context.codeblock6 }}</code><span translate="" [translate-t]="t"> makes </span><code>{{ context.codeblock7 }}</code><span translate="" [translate-t]="t"> optional in TypeScript. Configure database nullability and defaults through the column definition.</span></p>
+<h2 id="use-the-base-entity-with-id-and-version-fields" translate="" [translate-t]="t">Use the base entity with ID and version fields</h2>
+<p><span translate="" [translate-t]="t">Extend </span><code>{{ context.codeblock8 }}</code><span translate="" [translate-t]="t"> when you want Taon to provide </span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock10 }}</code><span translate="" [translate-t]="t"> fields. Declare the fields specific to your entity in the subclass.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock11, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock11Html"></code></pre></div>
+<h2 id="inject-an-entity-repository" translate="" [translate-t]="t">Inject an entity repository</h2>
+<p><span translate="" [translate-t]="t">Use </span><code>{{ context.codeblock12 }}</code><span translate="" [translate-t]="t"> in your Taon context to get the repository for an entity. Pass the entity class so Taon can resolve the corresponding repository.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock13, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock13Html"></code></pre></div>
+<h2 id="keep-entities-compatible-with-sqlite" translate="" [translate-t]="t">Keep entities compatible with SQLite</h2>
+<p translate="" [translate-t]="t">Shared entity definitions must work with SQLite-backed Taon runtimes, including browser WebSQL mode. Follow the column decorators and mappings already used by the project.</p>
+<ul>
+<li>Prefer Taon column decorators, such as <code>{{ context.codeblock14 }}</code>, for common field types.</li>
+<li>Avoid declaring raw <code>{{ context.codeblock15 }}</code> column types in shared entities. For whole numbers, use the project's SQLite-compatible integer column mapping.</li>
+<li>Avoid database-specific column types such as PostgreSQL <code>{{ context.codeblock16 }}</code>, native enums, and array columns in shared entities. Use a representation supported by each target runtime.</li>
+<li>Keep column defaults, indexes, and constraints portable. Verify that any database expression used by the entity works on each target.</li>
+<li>When changing the schema of an existing entity, check the corresponding migration against the same runtimes as the entity.</li>
+</ul>
+</article>

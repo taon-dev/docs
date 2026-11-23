@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/marketing.component.html:1
+msgid "Marketing-related analytics events"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/marketing.component.html:2
+msgid "The marketing-related capability documented here is the generic event collection in"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/marketing.component.html:3
+msgid ". It lets an application record interactions such as a promotion or banner click. Analytics does not provide campaign planning, email marketing, audience segmentation, or a marketing automation engine."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/marketing.component.html:7
+msgid "Record an interaction"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/marketing.component.html:8
+msgid "Start"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/marketing.component.html:8
+msgid "once in the browser root component as\ndescribed in <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/analytics.md&quot;\">Analytics</a>. Inject that service into the\ncomponent or application service that handles the interaction:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/marketing.component.html:11
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock2, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/marketing.component.html:16
+msgid "Use stable event names and structured data fields that your project can interpret later. The event is stored in the shared analytics event table; it does not automatically create a campaign report or change a user's access."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/marketing.component.html:19
+msgid "Admin and package boundaries"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/marketing.component.html:20
+msgid "Analytics event data is associated with its optional visitor, session, and user relationships. Authenticated user IDs are taken from verified session tokens. The Analytics backoffice is gated by"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/marketing.component.html:22
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/marketing.component.html:26
+msgid "."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/marketing.component.html:23
+msgid "Baseline also has a separate Marketing navigation entry and imports"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/marketing.component.html:24
+msgid "; that package is distinct from the analytics event API. Do not infer that the separate menu's features are implemented in"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/marketing.component.html:27
+msgid "For event collection lifecycle and backend events, see\n<a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/analytics.md&quot;\">Analytics</a>. For combined admin navigation, see\n<a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/baseline.md&quot;\">Baseline</a>."
+msgstr ""

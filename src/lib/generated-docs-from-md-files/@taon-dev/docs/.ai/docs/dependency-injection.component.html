@@ -1,0 +1,67 @@
+<article  class="taon-md-doc"><h1 id="dependency-injection-naming-conventions" translate="" [translate-t]="t">Dependency Injection Naming Conventions</h1>
+<h2 id="angular-services" translate="" [translate-t]="t">Angular services</h2>
+<p translate="" [translate-t]="t">Use the full class-based name for injected application services.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock0, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock0Html"></code></pre></div>
+<h3 id="short-names-for-common-angular-dependencies" translate="" [translate-t]="t">Short names for common Angular dependencies</h3>
+<p translate="" [translate-t]="t">Short, conventional names are allowed for well-known Angular framework dependencies when their meaning is obvious.</p>
+<p translate="" [translate-t]="t">Examples:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock1, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock1Html"></code></pre></div>
+<p translate="" [translate-t]="t">Do not unnecessarily expand conventional Angular names:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock2, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock2Html"></code></pre></div>
+<p translate="" [translate-t]="t">For application-specific services, always prefer the full class-based name.</p>
+<hr>
+<h2 id="taon-angular-services" translate="" [translate-t]="t">Taon Angular services</h2>
+<p translate="" [translate-t]="t">Use the full class-based name of controllers injected into API services.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock3, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock3Html"></code></pre></div>
+<p translate="" [translate-t]="t">Use the full class-based name of providers injected into config services.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock4, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock4Html"></code></pre></div>
+<p translate="" [translate-t]="t">Avoid shortened or generic names such as:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock5, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock5Html"></code></pre></div>
+<hr>
+<h2 id="taon-framework-di" translate="" [translate-t]="t">Taon framework DI</h2>
+<p translate="" [translate-t]="t">For Taon repositories, providers, controllers, and other injectable building blocks, use the full class-based name.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock6, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock6Html"></code></pre></div>
+<p translate="" [translate-t]="t">Avoid shortened or generic names:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock7, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock7Html"></code></pre></div>
+<h3 id="general-rule" translate="" [translate-t]="t">General rule</h3>
+<p translate="" [translate-t]="t">The injected property name should normally be the camelCase version of the injected class name:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock8, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock8Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">The exception is common Angular framework dependencies with established,
+unambiguous short names such as </span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock10 }}</code><span translate="" [translate-t]="t">, and </span><code>{{ context.codeblock11 }}</code><span translate="" [translate-t]="t">.</span></p>
+</article>

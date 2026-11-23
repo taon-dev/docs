@@ -1,0 +1,13 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/README.component.html:1
+msgid "docs"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/README.component.html:2
+msgid "Hello from Standalone Project"
+msgstr ""

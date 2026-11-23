@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/backend.component.html:1
+msgid "Backend"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/backend.component.html:2
+msgid "Isomorphic source"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/backend.component.html:3
+msgid "Do not assume that a"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/backend.component.html:3
+msgid "file containing backend code is backend-only. Taon transforms shared source for different runtimes. Isolate code that uses runtime-specific APIs with the appropriate markers:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/backend.component.html:13
+msgid "See <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/isomorphic-code-regions.md&quot;\">Isomorphic code regions</a> for marker\nsemantics and examples."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/backend.component.html:15
+msgid "Runtime differences"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/backend.component.html:16
+msgid "Taon supports these distinct backend targets:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/backend.component.html:25
+msgid "Review <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/transport-layer.md&quot;\">Transport layer</a> before relying on\nnetworking, realtime communication, or platform APIs across targets."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/backend.component.html:27
+msgid "Runtime-specific functions"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/backend.component.html:28
+msgid "Wrap a function body in"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/backend.component.html:28
+msgid "when it requires Node.js-only APIs. The browser build keeps the function and returns"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/backend.component.html:29
+msgid "."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/backend.component.html:30
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock11, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/backend.component.html:35
+msgid "Use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/backend.component.html:35
+msgid "instead when the implementation should be included in both Node.js and WebSQL builds."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/rules/backend.component.html:37
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock13, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""

@@ -1,0 +1,43 @@
+// THIS FILE IS GENERATED - DO NOT MODIFY
+import { CoreModels } from 'tnp-core/src';
+
+// join interface type here
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesModelsComponentHtml } from './models.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesModelsComponentHtml } from './models.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesModelsComponentHtml } from './models.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesModelsComponentTs } from './models.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesModelsComponentTs } from './models.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesModelsComponentTs } from './models.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesUtilsComponentHtml } from './utils.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesUtilsComponentHtml } from './utils.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesUtilsComponentHtml } from './utils.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesUtilsComponentTs } from './utils.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesUtilsComponentTs } from './utils.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesUtilsComponentTs } from './utils.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesValidatorsComponentHtml } from './validators.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesValidatorsComponentHtml } from './validators.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesValidatorsComponentHtml } from './validators.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesValidatorsComponentTs } from './validators.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesValidatorsComponentTs } from './validators.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesValidatorsComponentTs } from './validators.component.ts.de-DE.i18n.data';;
+export type SpecialFilesOverride = CoreModels.DeepPartial<EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesModelsComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesModelsComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesModelsComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesModelsComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesModelsComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesModelsComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesUtilsComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesUtilsComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesUtilsComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesUtilsComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesUtilsComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesUtilsComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesValidatorsComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesValidatorsComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesValidatorsComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesValidatorsComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesValidatorsComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevDocsAiDocsSpecialFilesValidatorsComponentTs>;
+
+ // THIS FILE IS GENERATED - DO NOT MODIFY
+        

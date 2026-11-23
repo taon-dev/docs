@@ -1,0 +1,13 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/src/app.auto-gen-docs.component.html:1
+msgid "App <strong>tnp-helpers</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/src/app.auto-gen-docs.component.html:2
+msgid "Description for tnp-helpers. Hello world!:"
+msgstr ""

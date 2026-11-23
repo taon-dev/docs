@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:1
+msgid "Taon vs. Other Frameworks, CLIs, and Platforms"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:2
+msgid "Taon is a TypeScript framework and CLI for building applications with Angular frontends and REST APIs. Its isomorphic build model lets browser and backend code live in the same TypeScript file. The build produces target-specific versions of that file, so backend-only code can be excluded from browser output."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:3
+msgid "Taon also offers composable admin modules for content, commerce, and other application features. The comparisons below cover three decisions: how to build your application, how to organize and package your projects, and how much of a website or store you want to assemble yourself."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:4
+msgid "Taon vs. NestJS"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:5
+msgid "NestJS gives teams a structured Node.js backend with modules, providers, and decorator-based controllers. Taon centers its architecture on contexts, generated REST APIs, and code shared across browser and backend targets."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:42
+msgid "Choose NestJS when the backend is a separate application and you want its module and provider model. Choose Taon when context inheritance, generated REST calls, and a shared browser/backend source model are central to the application."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:43
+msgid "Taon vs. Express"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:44
+msgid "Express provides routing and middleware for Node.js. Taon adds conventions for defining REST APIs in classes and generating the browser calls that consume them."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:81
+msgid "Choose Express when you want direct control over routing and middleware with few framework conventions. Choose Taon when you want the framework to connect controller methods, generated client calls, and browser-based backend development."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:82
+msgid "Taon CLI vs. Angular CLI"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:83
+msgid "Angular CLI manages Angular workspaces, applications, and libraries. Taon CLI manages Taon projects and their build targets, including projects with Angular frontends."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:115
+msgid "Choose Angular CLI for a conventional Angular workspace. Choose Taon CLI when your Angular frontend is part of a Taon application or when several Taon projects need a shared package baseline and build conventions."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:116
+msgid "Taon vs. Next.js"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:117
+msgid "Next.js and Taon both support full-stack TypeScript development. They organize the browser/server boundary differently."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:144
+msgid "Choose Next.js when you want a React application built around its routing and rendering model. Choose Taon when you want Angular, context-based REST APIs, and Taon's approach to sharing TypeScript source across targets."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:145
+msgid "Taon vs. WordPress and PrestaShop"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:146
+msgid "WordPress starts with a content management system. WooCommerce adds store features as a separate plugin. PrestaShop starts with a store application and includes tools for managing content pages. Taon starts with a framework, CLI, and modules that developers assemble into a custom application."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:189
+msgid "What building with Taon involves"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:190
+msgid "For a combined website and store, a developer can use Baseline for the backoffice, CMS for content, and E-commerce for products and checkout. The developer connects these modules to the public site, configures permissions and payments, and deploys the application. Once the application is running, the site owner can manage content and products through the configured backoffice."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:191
+msgid "Taon's Node.js, WebSQL browser, and Cloudflare Worker workflows serve different deployment needs. For example, WebSQL mode can run the backend locally in the browser. Production Stripe credentials and public webhook handling require a server-side deployment."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:192
+msgid "See the <a href=\"https://github.com/darekf77/taon-containers/tree/master/container-v21/isomorphic-lib-v21/.ai/taon-admin\">Taon Admin module guides</a> and the <a href=\"https://github.com/darekf77/taon-containers/blob/master/container-v21/isomorphic-lib-v21/.ai/tutorial/add-taon-admin-to-existing-project.md\">Taon Admin setup tutorial</a>."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/TAON-VS-OTHERS.component.html:193
+msgid "Which platform fits your project?"
+msgstr ""

@@ -1,0 +1,47 @@
+<article  class="taon-md-doc"><h1 id="taon-analytics" translate="" [translate-t]="t">Taon Analytics</h1>
+<p><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> collects visitor, session, page-view, and generic event
+records. The current backoffice includes all-time overview counts and a
+visitor table; Pages View, Events, and Traffic Sources are placeholders rather
+than complete reporting dashboards.</span></p>
+<h2 id="add-and-start-tracking" translate="" [translate-t]="t">Add and start tracking</h2>
+<p><span translate="" [translate-t]="t">Register </span><code>{{ context.codeblock1 }}</code><span translate="" [translate-t]="t"> in the Taon backend context and
+</span><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t"> in the admin routes. Baseline includes both.
+In the Angular root component, provide and start
+</span><code>{{ context.codeblock3 }}</code><span translate="" [translate-t]="t"> once after Taon context initialization:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock4, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock4Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">The service needs browser storage and router navigation, so do not start it in a
+Node-only backend. Calling </span><code>{{ context.codeblock5 }}</code><span translate="" [translate-t]="t"> once from the browser root component is the
+pattern used by the example applications.</span></p>
+<h2 id="events-and-data-behavior" translate="" [translate-t]="t">Events and data behavior</h2>
+<p translate="" [translate-t]="t">Other browser-side services can inject the tracking service and record an
+application event:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock6, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock6Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">The service stores a random visitor ID in </span><code>{{ context.codeblock7 }}</code><span translate="" [translate-t]="t"> and a session ID in
+</span><code>{{ context.codeblock8 }}</code><span translate="" [translate-t]="t">. Reloads reuse the session; 30 minutes without recorded
+activity starts a new session. Navigation completions record page views, and
+pointer/keyboard activity is throttled. Timestamps come from the backend.
+Durations are approximate; there is no unload beacon or background session
+expiry job. No fingerprinting or user-agent parsing is performed.</span></p>
+<p><span translate="" [translate-t]="t">Backend packages can inject </span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t"> and call </span><code>{{ context.codeblock10 }}</code><span translate="" [translate-t]="t">.
+Event names share one generic event table; backend-originated events may omit
+visitor, session, and user associations. Authenticated user IDs are derived
+from verified Taon session tokens, not from the collection payload.</span></p>
+<h2 id="permissions-and-runtime" translate="" [translate-t]="t">Permissions and runtime</h2>
+<p><span translate="" [translate-t]="t">Baseline shows Analytics navigation to superusers or users with
+</span><code>{{ context.codeblock11 }}</code><span translate="" [translate-t]="t">. The Angular tracking service runs in the browser; the
+analytics context, repositories, and backoffice APIs run in the configured
+Taon backend. WebSQL browser mode changes where backend code executes, so
+verify that the selected database and storage behavior is appropriate before
+using it as a production analytics store.</span></p>
+<p translate="" [translate-t]="t">See <a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/marketing.md&quot;">Marketing-related events</a> and
+<a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/baseline.md&quot;">Baseline</a>, or follow the
+<a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;docs/tutorial/track-analytics-events.md&quot;">analytics event tutorial</a>.</p>
+</article>

@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp/src/lib/project/abstract/taon-worker/dev-mode/dev-mode.README.component.html:1
+msgid "Taon Worker/Microservice"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/src/lib/project/abstract/taon-worker/dev-mode/dev-mode.README.component.html:2
+msgid "How to start worker/service"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/src/lib/project/abstract/taon-worker/dev-mode/dev-mode.README.component.html:3
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock0, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""

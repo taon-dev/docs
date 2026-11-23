@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:1
+msgid "Track analytics events in a Taon app"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:2
+msgid "This tutorial starts browser analytics once and records a custom marketing interaction through the shared event API."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:4
+msgid "1. Register the analytics context"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:5
+msgid "Include"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:5
+msgid "in the active Taon backend context, or use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:6
+msgid ", which already includes Analytics. Ensure the application's session context is available as well."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:8
+msgid "2. Start the browser tracker"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:9
+msgid "Provide"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:9
+msgid "in the Angular root component and call"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:10
+msgid "once after Taon initialization:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:11
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock4, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:16
+msgid "The tracker uses browser"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:16
+msgid ","
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:16
+msgid ", and router navigation. Do not start it in a Node-only process."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:18
+msgid "3. Record an interaction"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:19
+msgid "Call"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:19
+msgid "from the code that handles the interaction:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:20
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock8, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:25
+msgid "The event is saved with the generic analytics events. It does not create a campaign or marketing report automatically."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:27
+msgid "Verify"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:28
+msgid "Open the Analytics backoffice with a user who has"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:28
+msgid ", trigger the event in the browser, then inspect the event through the event API or analytics data. The current Events page is a placeholder, so the absence of an Events dashboard is not evidence that the tracker failed."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/tutorial/track-analytics-events.component.html:32
+msgid "See the <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/analytics.md&quot;\">Analytics reference</a> for the session\ntimeout, storage, and backend event behavior."
+msgstr ""

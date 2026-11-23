@@ -1,0 +1,19 @@
+// THIS FILE IS GENERATED - DO NOT MODIFY
+import { CoreModels } from 'tnp-core/src';
+
+// join interface type here
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsTaonBuildComponentHtml } from './taon-build.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsTaonBuildComponentHtml } from './taon-build.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsTaonBuildComponentHtml } from './taon-build.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsTaonBuildComponentTs } from './taon-build.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsTaonBuildComponentTs } from './taon-build.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsTaonBuildComponentTs } from './taon-build.component.ts.de-DE.i18n.data';;
+export type ToolsOverride = CoreModels.DeepPartial<EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsTaonBuildComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsTaonBuildComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsTaonBuildComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsTaonBuildComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsTaonBuildComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTnpSrcLibProjectAbstractArtifactsNpmLibAndCliToolToolsTaonBuildComponentTs>;
+
+ // THIS FILE IS GENERATED - DO NOT MODIFY
+        

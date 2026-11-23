@@ -1,0 +1,42 @@
+<article  class="taon-md-doc"><h1 id="transport-layer" translate="" [translate-t]="t">Transport layer</h1>
+<p translate="" [translate-t]="t">Taon selects transport according to the application target. The transports are
+not interchangeable: realtime support and access to platform APIs depend on
+the runtime.</p>
+<table>
+<thead>
+<tr>
+<th>Target</th>
+<th>Backend location</th>
+<th>Communication and runtime notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Node.js</td>
+<td>Node.js server</td>
+<td>HTTP request/response and Socket.IO-based realtime communication are available. Node.js APIs are available only in the backend.</td>
+</tr>
+<tr>
+<td>Cloudflare Worker</td>
+<td>Worker runtime</td>
+<td>Use request/response APIs supported by the Worker target. Taon's Cloudflare realtime strategy is not implemented, so do not rely on <a href="http://Socket.IO">Socket.IO</a> or realtime subscriptions there.</td>
+</tr>
+<tr>
+<td>WebSQL</td>
+<td>In the browser</td>
+<td>Backend logic runs in the browser. It is not a remote Node.js server, and cross-tab realtime communication is not implemented.</td>
+</tr>
+<tr>
+<td>Electron</td>
+<td>Electron main process</td>
+<td>Renderer-to-backend communication uses Electron IPC. Keep privileged Node.js APIs in the backend.</td>
+</tr>
+</tbody>
+</table>
+<p translate="" [translate-t]="t">Use the target-specific build and test path to verify transport behavior. A
+successful Node.js build does not prove that code is compatible with a
+Cloudflare Worker, WebSQL, or Electron.</p>
+<p translate="" [translate-t]="t">For code that must vary by runtime, use the markers described in
+<a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/isomorphic-code-regions.md&quot;">Isomorphic code regions</a>. For target setup and
+limitations, see <a [href]="baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/architecture.md&quot;">Architecture</a>.</p>
+</article>

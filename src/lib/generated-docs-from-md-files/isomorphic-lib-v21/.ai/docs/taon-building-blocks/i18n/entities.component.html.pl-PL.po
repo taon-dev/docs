@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:1
+msgid "Taon entities"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:2
+msgid "A Taon entity is a TypeScript class that maps to a database table. Taon builds on <a href=\"https://typeorm.io/entities\">TypeORM entities</a>. You can also use an entity class as a data transfer object (DTO) when its fields match the API contract. Define a separate DTO when an endpoint accepts or exposes only part of the entity."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:3
+msgid "Define an entity"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:4
+msgid "Decorate the class with"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:4
+msgid "and set"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:4
+msgid "to the class name. Use Taon column decorators to define persisted fields."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:5
+msgid "In this example,"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:5
+msgid "maps"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:5
+msgid "to a database column. The"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:5
+msgid "region markers are Taon build directives. Keep them around the column decorator as shown."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:6
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock5, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:11
+msgid "The"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:11
+msgid "makes"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:11
+msgid "optional in TypeScript. Configure database nullability and defaults through the column definition."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:12
+msgid "Use the base entity with ID and version fields"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:13
+msgid "Extend"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:13
+msgid "when you want Taon to provide"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:13
+msgid "and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:13
+msgid "fields. Declare the fields specific to your entity in the subclass."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:14
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock11, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:19
+msgid "Inject an entity repository"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:20
+msgid "Use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:20
+msgid "in your Taon context to get the repository for an entity. Pass the entity class so Taon can resolve the corresponding repository."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:21
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock13, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:26
+msgid "Keep entities compatible with SQLite"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/entities.component.html:27
+msgid "Shared entity definitions must work with SQLite-backed Taon runtimes, including browser WebSQL mode. Follow the column decorators and mappings already used by the project."
+msgstr ""

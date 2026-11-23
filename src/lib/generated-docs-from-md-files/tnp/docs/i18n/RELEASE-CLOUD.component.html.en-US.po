@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/RELEASE-CLOUD.component.html:1
+msgid "Cloud Release"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/RELEASE-CLOUD.component.html:3
+msgid "🚀 Trigger release on remote (or localhost) <em>Taon Cloud</em> instance"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/RELEASE-CLOUD.component.html:6
+msgid "🚀 <em>Cloud Release</em> actually uses <em>Manual Release</em> with config on remote (or localhost) <em>Taon Cloud</em>"
+msgstr ""

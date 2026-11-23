@@ -1,0 +1,168 @@
+<article  class="taon-md-doc"><h1 id="developer-guide" translate="" [translate-t]="t">Developer Guide</h1>
+<h2 id="why-do-i-need-tnp-to-develop-taon"><span translate="" [translate-t]="t">Why Do I Need </span><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> to Develop Taon?</span></h2>
+<p><span translate="" [translate-t]="t">The </span><code>{{ context.codeblock1 }}</code><span translate="" [translate-t]="t"> CLI serves as a backup development tool for Taon.</span></p>
+<ul>
+<li>If you modify Taon's internal code, you might accidentally break the build system or CLI, making it impossible to build, release, or manage projects using the <code>{{ context.codeblock2 }}</code> command. The <code>{{ context.codeblock3 }}</code> CLI provides a fallback in such situations.</li>
+<li>The <code>{{ context.codeblock4 }}</code> CLI provides more detailed diagnostic information than the standard <code>{{ context.codeblock5 }}</code> CLI.</li>
+</ul>
+<h2 id="how-to-set-up-a-development-environment-for-taon" translate="" [translate-t]="t">How to Set Up a Development Environment for Taon</h2>
+<p translate="" [translate-t]="t">The Taon ecosystem is split across multiple repositories. However, everything is brought together by the <a href="https://github.com/darekf77/taon-dev">taon-dev</a> repository, which acts as the parent container for individual Taon projects.</p>
+<h3 id="1-install-taon" translate="" [translate-t]="t">1. Install Taon</h3>
+<p translate="" [translate-t]="t">Follow the installation instructions in the <a href="https://github.com/darekf77/taon">Taon repository</a>.</p>
+<h3 id="2-clone-the-taon-dev-repository"><span translate="" [translate-t]="t">2. Clone the </span><code>{{ context.codeblock6 }}</code><span translate="" [translate-t]="t"> Repository</span></h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock7, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock7Html"></code></pre></div>
+<h3 id="3-pull-all-projects" translate="" [translate-t]="t">3. Pull All Projects</h3>
+<p><span translate="" [translate-t]="t">Navigate to the </span><code>{{ context.codeblock8 }}</code><span translate="" [translate-t]="t"> directory and pull all related projects. Follow any additional instructions displayed by the CLI.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock9, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock9Html"></code></pre></div>
+<h3 id="4-link-tnp-globally"><span translate="" [translate-t]="t">4. Link </span><code>{{ context.codeblock10 }}</code><span translate="" [translate-t]="t"> Globally</span></h3>
+<p><span translate="" [translate-t]="t">The </span><code>{{ context.codeblock11 }}</code><span translate="" [translate-t]="t"> project is located inside the </span><code>{{ context.codeblock12 }}</code><span translate="" [translate-t]="t"> repository.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock13, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock13Html"></code></pre></div>
+<h3 id="5-verify-the-tnp-installation"><span translate="" [translate-t]="t">5. Verify the </span><code>{{ context.codeblock14 }}</code><span translate="" [translate-t]="t"> Installation</span></h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock15, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock15Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">You can now use the </span><code>{{ context.codeblock16 }}</code><span translate="" [translate-t]="t"> command wherever you would normally use the </span><code>{{ context.codeblock17 }}</code><span translate="" [translate-t]="t"> command.</span></p>
+<p><span translate="" [translate-t]="t">As a first test, try building </span><code>{{ context.codeblock18 }}</code><span translate="" [translate-t]="t"> using its own CLI in watch mode:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock19, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock19Html"></code></pre></div>
+<h2 id="how-to-modify-the-taon-framework-cli-and-cloud" translate="" [translate-t]="t">How to Modify the Taon Framework, CLI, and Cloud</h2>
+<p><span translate="" [translate-t]="t">The </span><code>{{ context.codeblock20 }}</code><span translate="" [translate-t]="t"> directory contains multiple repositories, including </span><code>{{ context.codeblock21 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock22 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock23 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock24 }}</code><span translate="" [translate-t]="t">, and others.</span></p>
+<p translate="" [translate-t]="t">Each repository is responsible for a specific part of the Taon ecosystem.</p>
+<h3 id="cli-main-repository-tnp"><span translate="" [translate-t]="t">CLI — Main Repository (</span><code>{{ context.codeblock25 }}</code><span translate="" [translate-t]="t">)</span></h3>
+<p translate="" [translate-t]="t">Use this repository to:</p>
+<ul>
+<li>Add or modify <code>{{ context.codeblock26 }}</code> and <code>{{ context.codeblock27 }}</code> CLI commands.</li>
+<li>Extend or modify the build system.</li>
+</ul>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock28, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock28Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">You will see changes immediately in you </span><code>{{ context.codeblock29 }}</code><span translate="" [translate-t]="t"> tool.</span></p>
+<h3 id="framework-main-repository-taon"><span translate="" [translate-t]="t">Framework — Main Repository (</span><code>{{ context.codeblock30 }}</code><span translate="" [translate-t]="t">)</span></h3>
+<p translate="" [translate-t]="t">Use this repository to:</p>
+<ul>
+<li>Develop and modify Taon framework building blocks.</li>
+<li>Work with controllers, contexts, providers, repositories, and other framework components.</li>
+</ul>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock31, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock31Html"></code></pre></div>
+<h3 id="core-helpers-and-utilities-tnp-core"><span translate="" [translate-t]="t">Core Helpers and Utilities (</span><code>{{ context.codeblock32 }}</code><span translate="" [translate-t]="t">)</span></h3>
+<p translate="" [translate-t]="t">Use this repository to:</p>
+<ul>
+<li>Add, modify, and test core utilities and helper functions.</li>
+</ul>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock33, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock33Html"></code></pre></div>
+<h3 id="http-fetch-wrapper-ng2-rest"><span translate="" [translate-t]="t">HTTP Fetch Wrapper (</span><code>{{ context.codeblock34 }}</code><span translate="" [translate-t]="t">)</span></h3>
+<p translate="" [translate-t]="t">Use this repository to:</p>
+<ul>
+<li>Develop and maintain Taon's HTTP communication abstractions.</li>
+<li>Modify the HTTP request and response handling mechanisms.</li>
+</ul>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock35, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock35Html"></code></pre></div>
+<h3 id="advanced-helpers-utilities-and-types-tnp-helpers"><span translate="" [translate-t]="t">Advanced Helpers, Utilities, and Types (</span><code>{{ context.codeblock36 }}</code><span translate="" [translate-t]="t">)</span></h3>
+<p translate="" [translate-t]="t">Use this repository to:</p>
+<ul>
+<li>Develop and maintain higher-level utilities, classes, types, and reusable abstractions.</li>
+</ul>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock37, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock37Html"></code></pre></div>
+<h3 id="typeorm-fork-taon-typeorm"><span translate="" [translate-t]="t">TypeORM Fork (</span><code>{{ context.codeblock38 }}</code><span translate="" [translate-t]="t">)</span></h3>
+<p translate="" [translate-t]="t">Use this repository to:</p>
+<ul>
+<li>Maintain and update Taon's TypeORM fork.</li>
+<li>Apply framework-specific changes to TypeORM.</li>
+</ul>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock39, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock39Html"></code></pre></div>
+<h3 id="taon-ui-ui"><span translate="" [translate-t]="t">Taon UI (</span><code>{{ context.codeblock40 }}</code><span translate="" [translate-t]="t">)</span></h3>
+<p translate="" [translate-t]="t">Use this repository to:</p>
+<ul>
+<li>Develop and maintain reusable UI components.</li>
+<li>Work on Taon's shared frontend components and abstractions.</li>
+</ul>
+<p><span translate="" [translate-t]="t" translate-html=""><strong>Note:</strong> UI functionality is gradually being migrated from the legacy </span><code>{{ context.codeblock41 }}</code><span translate="" [translate-t]="t"> repository to the newer </span><code>{{ context.codeblock42 }}</code><span translate="" [translate-t]="t"> repository.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock43, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock43Html"></code></pre></div>
+<h3 id="taon-admin-modules-session-cms-e-commerce-analytic-seo"><span translate="" [translate-t]="t">Taon Admin Modules (</span><code>{{ context.codeblock44 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock45 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock46 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock47 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock48 }}</code><span translate="" [translate-t]="t">)</span></h3>
+<p translate="" [translate-t]="t">These repositories provide feature-rich backend and frontend administration tools for Taon applications.</p>
+<p translate="" [translate-t]="t">Use them to:</p>
+<ul>
+<li>Extend existing administration features.</li>
+<li>Develop new backend and frontend functionality.</li>
+<li>Improve Taon's back-office tools and interfaces.</li>
+</ul>
+<p translate="" [translate-t]="t">For example, to work on the Session module:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock49, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock49Html"></code></pre></div>
+<p translate="" [translate-t]="t">The same development workflow applies to the CMS, E-Commerce, Analytics, and SEO modules.</p>
+<h3 id="testing-your-changes-in-an-application" translate="" [translate-t]="t">Testing Your Changes in an Application</h3>
+<p translate="" [translate-t]="t">It is also useful to keep a second terminal open to run an actual application while developing.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock50, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock50Html"></code></pre></div>
+<p translate="" [translate-t]="t">This allows you to test your changes in a running application while the framework or module is being rebuilt in watch mode.</p>
+<h2 id="additional-development-requirements" translate="" [translate-t]="t">Additional Development Requirements</h2>
+<h3 id="1-visual-studio-code-or-vscodium" translate="" [translate-t]="t">1. Visual Studio Code or VSCodium</h3>
+<p translate="" [translate-t]="t" translate-html="">Install either <strong>Visual Studio Code</strong> or <strong>VSCodium</strong>.</p>
+<p translate="" [translate-t]="t">Make sure the corresponding command is available globally in your terminal:</p>
+<ul>
+<li><code>{{ context.codeblock51 }}</code> for Visual Studio Code.</li>
+<li><code>{{ context.codeblock52 }}</code> for VSCodium.</li>
+</ul>
+<h3 id="2-taon-development-extension" translate="" [translate-t]="t">2. Taon Development Extension</h3>
+<p><span translate="" [translate-t]="t">Install the </span><strong></strong><span translate="" [translate-t]="t"> extension for Visual Studio Code or VSCodium.</span></p>
+<p><span translate="" [translate-t]="t">You can install it directly from the </span><code>{{ context.codeblock54 }}</code><span translate="" [translate-t]="t"> repository:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock55, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock55Html"></code></pre></div>
+<p translate="" [translate-t]="t" translate-html=""><strong>Restart your editor after installing the extension.</strong></p>
+<h3 id="important-avoid-conflicting-extensions" translate="" [translate-t]="t">Important: Avoid Conflicting Extensions</h3>
+<p><strong></strong></p>
+<p><span translate="" [translate-t]="t">When developing Taon itself, use the </span><code>{{ context.codeblock58 }}</code><span translate="" [translate-t]="t"> extension instead of </span><code>{{ context.codeblock59 }}</code><span translate="" [translate-t]="t"> to avoid potential conflicts.</span></p>
+</article>

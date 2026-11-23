@@ -1,0 +1,296 @@
+<article  class="taon-md-doc"><h1 id="cms" translate="" [translate-t]="t">cms</h1>
+<h2 id="assets-ui" translate="" [translate-t]="t">Assets UI</h2>
+<p><span translate="" [translate-t]="t">The CMS Assets page lists existing files using
+</span><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t">, without an assets repository or
+separate listing endpoint. The shared </span><code>{{ context.codeblock1 }}</code><span translate="" [translate-t]="t"> displays ID (</span><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t">),
+File Name (</span><code>{{ context.codeblock3 }}</code><span translate="" [translate-t]="t">), and Content Type (</span><code>{{ context.codeblock4 }}</code><span translate="" [translate-t]="t">), with client-side
+search, sorting, and pagination. Reload assets fetches the current storage list.</span></p>
+<p><span translate="" [translate-t]="t">Expanding a row requests a fresh five-minute signed URL through the existing
+storage controller's </span><code>{{ context.codeblock5 }}</code><span translate="" [translate-t]="t">. Video and audio MIME types use native
+players with controls; other types display a download link labeled with the
+original filename (or the key when no filename is stored). Attachments use
+</span><code>{{ context.codeblock6 }}</code><span translate="" [translate-t]="t"> so the streaming endpoint returns attachment disposition.
+Files are never fetched as blobs or buffered by the page. Collapsing a row
+destroys its preview/player. Listing and private URL issuance require the same
+authenticated </span><code>{{ context.codeblock7 }}</code><span translate="" [translate-t]="t"> permission as CMS uploads. Failed list, URL, and
+playback operations display errors with reload/retry controls.</span></p>
+<h2 id="categories-and-tags" translate="" [translate-t]="t">Categories and Tags</h2>
+<p><span translate="" [translate-t]="t">CMS navigation includes separate </span><code>{{ context.codeblock8 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t"> management
+pages, each with its own searchable/sortable </span><code>{{ context.codeblock10 }}</code><span translate="" [translate-t]="t"> and create, edit,
+and delete actions. Both resources have a name, unique slug, and description.
+Categories additionally have an integer sort order and an optional parent.
+The category parent selector excludes the current category and its descendants;
+the backend also validates missing parents, self-parenting, and indirect cycles
+inside a serializable transaction. Tags are flat and also require unique names.</span></p>
+<p><span translate="" [translate-t]="t">The pages use </span><code>{{ context.codeblock11 }}</code><span translate="" [translate-t]="t"> and
+</span><code>{{ context.codeblock12 }}</code><span translate="" [translate-t]="t"> through their existing Angular
+API services. All operations require the same authenticated </span><code>{{ context.codeblock13 }}</code><span translate="" [translate-t]="t">
+access as Posts and Assets. Deleting a category still used by a post or child
+category, or a tag still assigned to a post, is rejected. Reassign/remove those
+references first; deletion never silently changes posts.</span></p>
+<p><span translate="" [translate-t]="t">New/Edit Post has one nullable Category selector and searchable Tags with
+removable selected chips. Save/Publish sends </span><code>{{ context.codeblock14 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock15 }}</code><span translate="" [translate-t]="t"> through
+the existing content API. Tag assignments remain rows in
+</span><code>{{ context.codeblock16 }}</code><span translate="" [translate-t]="t">, not strings on the post. Cancel discards selections;
+reopening the editor loads current assignments with </span><code>{{ context.codeblock17 }}</code><span translate="" [translate-t]="t">. Existing
+content revision, duplication, and restore semantics apply to both resources.</span></p>
+<h2 id="post-thumbnails" translate="" [translate-t]="t">Post thumbnails</h2>
+<p><span translate="" [translate-t]="t">New/Edit Post includes Thumbnail above Related Posts, with a preview, Upload
+Thumbnail, and Apply Default Placeholder. Uploaded/generated images use the same
+</span><code>{{ context.codeblock18 }}</code><span translate="" [translate-t]="t"> upload API and configured storage provider as
+other media. Posts store only </span><code>{{ context.codeblock19 }}</code><span translate="" [translate-t]="t">; image data is never stored in the
+content entity. Thumbnail keys are saved, duplicated, and revisioned alongside
+the other content fields. Cancel discards draft changes without deleting assets
+needed by revisions or other posts.</span></p>
+<p><span translate="" [translate-t]="t">Every successful video upload/replacement triggers browser-native extraction
+from that selected </span><code>{{ context.codeblock20 }}</code><span translate="" [translate-t]="t">. An object URL feeds a native video element; a small
+64-pixel-wide canvas checks luminance at 0.25-second intervals over at most the
+first five seconds. A frame is usable when at least 2% of its pixels have
+luminance above 18, allowing small subjects in dark scenes. If none qualifies,
+the most visible scanned frame is used. The selected frame is encoded as WebP
+(or the browser's supported fallback), at up to 1280×720 while preserving aspect
+ratio, then uploaded as an ordinary CMS image asset. Video object URLs are
+always revoked; extraction never uses </span><code>{{ context.codeblock21 }}</code><span translate="" [translate-t]="t">, FFmpeg, or backend
+video processing.</span></p>
+<p translate="" [translate-t]="t">Every video re-upload replaces the current thumbnail, including a manual
+override. Unrelated field edits never trigger extraction. Upload Thumbnail can
+override the result at any time. Local image previews appear before upload
+finishes, and their object URLs are released on replacement, cancellation, or
+editor destruction. A generation failure keeps the uploaded video and reports
+how to choose a manual/default thumbnail.</p>
+<p><span translate="" [translate-t]="t">Defaults are reusable </span><code>{{ context.codeblock22 }}</code><span translate="" [translate-t]="t"> references, rendered as
+clean inline SVG illustrations for normal, video, audio, and attachment posts;
+they do not create duplicate storage objects. Stored image thumbnails use the
+same permission/publication checks and signed-download policy as other media,
+including when assets are shared by multiple posts.</span></p>
+<p><span translate="" [translate-t]="t">Run migration </span><code>{{ context.codeblock23 }}</code><span translate="" [translate-t]="t"> for an existing database.
+It adds the nullable </span><code>{{ context.codeblock24 }}</code><span translate="" [translate-t]="t"> column; old posts and snapshots remain
+compatible. New UI and validation messages follow the existing gettext
+conventions, with English, Polish, and German PO catalogs.</span></p>
+<p translate="" [translate-t]="t">Focused regression tests:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock25, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-sh hljs" [innerHTML]="context.codeblock25Html"></code></pre></div>
+<h2 id="courses-ui" translate="" [translate-t]="t">Courses UI</h2>
+<p><span translate="" [translate-t]="t">The Courses tab is a specialized post view at </span><code>{{ context.codeblock26 }}</code><span translate="" [translate-t]="t">, protected by
+the same </span><code>{{ context.codeblock27 }}</code><span translate="" [translate-t]="t"> permission as Posts. </span><code>{{ context.codeblock28 }}</code><span translate="" [translate-t]="t"> selects distinct,
+non-archived posts with a non-empty thumbnail key and at least one related
+post, without loading the children. Covers reuse the post editor's default
+placeholders and permission-aware thumbnail links, preserve aspect ratio, and
+never exceed 50px in height.</span></p>
+<p><span translate="" [translate-t]="t">Published courses display Public with an unlocked icon and subtle green cells
+across the row; drafts display Private with a locked icon and subtle red cells.
+Expanding a row follows the Users table's lazy </span><code>{{ context.codeblock29 }}</code><span translate="" [translate-t]="t"> pattern and
+calls </span><code>{{ context.codeblock30 }}</code><span translate="" [translate-t]="t"> only for that course. The nested table displays all
+non-archived first-level children, without pagination or recursive expansion.</span></p>
+<p translate="" [translate-t]="t">Both tables reuse the Posts table's Duplicate, Edit/details, and Delete/archive
+actions, including confirmations, optimistic versions, errors, and navigation to
+the normal post editor. Deleting a child reloads the course list and its
+expansions; no separate course entity or management logic is introduced.
+Reload courses fetches the latest list from the server.</p>
+<h2 id="posts-ui" translate="" [translate-t]="t">Posts UI</h2>
+<h3 id="json-table-posts" translate="" [translate-t]="t">JSON Table posts</h3>
+<p><span translate="" [translate-t]="t">Posts can use the </span><code>{{ context.codeblock31 }}</code><span translate="" [translate-t]="t"> content type to store structured rows in the
+existing post </span><code>{{ context.codeblock32 }}</code><span translate="" [translate-t]="t"> field. The versioned document stores ordered columns,
+labels, types, and rows, so edits, duplication, and existing revision restore
+continue to use the normal CMS persistence workflow. The reusable
+</span><code>{{ context.codeblock33 }}</code><span translate="" [translate-t]="t"> component is exported from the package and can be used
+outside the CMS.</span></p>
+<p><span translate="" [translate-t]="t">The editor supports typed cells, row and column editing/reordering, JSON
+preview, JSON/CSV imports, and data-only/full-document JSON plus CSV exports.
+Date cells use ISO </span><code>{{ context.codeblock34 }}</code><span translate="" [translate-t]="t"> strings, and empty typed cells serialize as
+</span><code>{{ context.codeblock35 }}</code><span translate="" [translate-t]="t"> (except explicitly entered empty strings in string columns).
+JSON Table API methods </span><code>{{ context.codeblock36 }}</code><span translate="" [translate-t]="t"> and
+</span><code>{{ context.codeblock37 }}</code><span translate="" [translate-t]="t"> return rows only. Both apply the existing content
+read checks; the public method rejects drafts, archived posts, and
+permission-protected content. CSV parsing supports quoted fields, escaped
+quotes, multiline cells, UTF-8 BOM, comma/semicolon/tab delimiters, and formula
+escaping on export. XLSX parsing/export and related-post batch creation are not
+currently included.</span></p>
+<h3 id="content-editing-and-template-variables" translate="" [translate-t]="t">Content editing and template variables</h3>
+<p><span translate="" [translate-t]="t">The post body has Editor (</span><code>{{ context.codeblock38 }}</code><span translate="" [translate-t]="t">), Raw HTML, and read-only Preview tabs.
+All tabs use the same draft </span><code>{{ context.codeblock39 }}</code><span translate="" [translate-t]="t">; switching tabs does not rewrite HTML or
+discard unsaved edits. WYSIWYG edits serialize the editor's supported HTML
+schema, so use Raw for markup outside that schema. Insert variable has Site
+and Post submenus and inserts at the current rich-text or Raw selection.</span></p>
+<p><span translate="" [translate-t]="t">Preview and read-only post views use the exported </span><code>{{ context.codeblock40 }}</code><span translate="" [translate-t]="t">
+helper from </span><code>{{ context.codeblock41 }}</code><span translate="" [translate-t]="t">. It supports only
+</span><code>{{ context.codeblock42 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock43 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock44 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock45 }}</code><span translate="" [translate-t]="t">,
+</span><code>{{ context.codeblock46 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock47 }}</code><span translate="" [translate-t]="t">, and </span><code>{{ context.codeblock48 }}</code><span translate="" [translate-t]="t">. Unknown and
+unavailable values (including IDs before creation) remain unchanged. Values
+are HTML-escaped, never evaluated or recursively expanded, and the final HTML
+is rendered through Angular's normal sanitizer. Resolved content is never
+written back to the draft, API payload, database, or revisions.</span></p>
+<p><span translate="" [translate-t]="t">Frontend origin comes from the existing API context; site name comes from
+the generated </span><code>{{ context.codeblock49 }}</code><span translate="" [translate-t]="t"> environment setting via the content provider
+and config service. Post URLs use </span><code>{{ context.codeblock50 }}</code><span translate="" [translate-t]="t">;
+the host application must supply that public route. Thumbnail variables reuse
+the existing thumbnail preview/permission-aware URL loading, including default
+placeholders. Signed image URLs are resolved only for display, not stored.</span></p>
+<p><code>{{ context.codeblock51 }}</code><span translate="" [translate-t]="t"> displays posts in </span><code>{{ context.codeblock52 }}</code><span translate="" [translate-t]="t">.
+Create navigates to </span><code>{{ context.codeblock53 }}</code><span translate="" [translate-t]="t">, reusing </span><code>{{ context.codeblock54 }}</code><span translate="" [translate-t]="t"> in </span><code>{{ context.codeblock55 }}</code><span translate="" [translate-t]="t">
+mode without an ID. Saving opens the created post; cancelling returns to the
+list. </span><code>{{ context.codeblock56 }}</code><span translate="" [translate-t]="t"> loads an existing post with its current view/edit controls.
+The list uses </span><code>{{ context.codeblock57 }}</code><span translate="" [translate-t]="t"> with the datatable's client-side filtering, sorting,
+and pagination; archived posts remain visible so they can be restored.</span></p>
+<p><span translate="" [translate-t]="t">The list's Duplicate icon and the post's Duplicate button (after Delete) call
+the same </span><code>{{ context.codeblock58 }}</code><span translate="" [translate-t]="t"> backend operation and open the new post. Duplication
+preserves normal fields, tags, publication state, and all existing media keys
+and body attachment references without copying or uploading files. It clears
+related posts and application hooks, regenerates ID/version/timestamps, and
+records an initial revision. Assigned read permissions and the inheritance flag
+are preserved; an inherited effective permission set becomes independently
+assigned because related links are not copied. Titles/slugs receive matching
+</span><code>{{ context.codeblock59 }}</code><span translate="" [translate-t]="t"> / </span><code>{{ context.codeblock60 }}</code><span translate="" [translate-t]="t"> suffixes, skipping collisions in either field. Copying a
+copy removes existing copy suffixes and advances the number.</span></p>
+<p translate="" [translate-t]="t">Use the post component with a content entity returned by the API:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock61, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-html hljs" [innerHTML]="context.codeblock61Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">Modes are </span><code>{{ context.codeblock62 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock63 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock64 }}</code><span translate="" [translate-t]="t">, and </span><code>{{ context.codeblock65 }}</code><span translate="" [translate-t]="t">. The public </span><code>{{ context.codeblock66 }}</code><span translate="" [translate-t]="t">
+mode has no management controls. </span><code>{{ context.codeblock67 }}</code><span translate="" [translate-t]="t"> emits the entity returned by the
+backend, </span><code>{{ context.codeblock68 }}</code><span translate="" [translate-t]="t"> reports archiving, </span><code>{{ context.codeblock69 }}</code><span translate="" [translate-t]="t"> emits the newly created copy
+for the host to open, and </span><code>{{ context.codeblock70 }}</code><span translate="" [translate-t]="t"> reports cancellation.
+</span><code>{{ context.codeblock71 }}</code><span translate="" [translate-t]="t"> supports two-way binding.</span></p>
+<p translate="" [translate-t]="t">The editor uses contenteditable title/excerpt/body fields instead of a body
+textarea. The body is HTML, rendered with Angular sanitization; pasted text is
+inserted without external markup. A URL slug is required by the create API and
+is editable below the article. Saving or publishing uses the current entity
+version; publishing while editing saves the draft and publishes in one request.</p>
+<p><span translate="" [translate-t]="t">The Material radio selector above the title selects </span><code>{{ context.codeblock72 }}</code><span translate="" [translate-t]="t">,
+</span><code>{{ context.codeblock73 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock74 }}</code><span translate="" [translate-t]="t">, or </span><code>{{ context.codeblock75 }}</code><span translate="" [translate-t]="t">. New posts default to </span><code>{{ context.codeblock76 }}</code><span translate="" [translate-t]="t">. Video, audio,
+and attachment posts show a primary-media upload section directly below the URL
+slug. Uploads use </span><code>{{ context.codeblock77 }}</code><span translate="" [translate-t]="t"> (Taon's bucket storage) and
+store the returned key in </span><code>{{ context.codeblock78 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock79 }}</code><span translate="" [translate-t]="t">, or </span><code>{{ context.codeblock80 }}</code><span translate="" [translate-t]="t">, never in
+</span><code>{{ context.codeblock81 }}</code><span translate="" [translate-t]="t">. The editor previews video/audio with native controls and shows an
+attachment filename with a download/open action. Existing media can be replaced
+or removed.</span></p>
+<p translate="" [translate-t]="t">Changing type only changes which media section is visible; all keys and files
+are retained. Uploads, Replace, and Remove change the draft; Save/Publish
+persists the keys, and Cancel discards draft changes. Remove clears only the
+selected key, not the stored file, so revision history remains usable. Files
+uploaded to discarded drafts are also retained. Upload failures display an
+error and keep the draft intact.</p>
+<p><span translate="" [translate-t]="t">All post uploads (including Replace) display a determinate Material progress bar
+and the actual transferred percentage, starting at 0%. An XHR transport adapter
+adds browser upload events to the existing Taon request pipeline and storage
+upload endpoint; authentication middleware, retries, and response decoding stay
+in that pipeline. 100% transferred is not treated as server success: the draft
+key changes only after a valid successful response. Failure clears progress,
+shows an error, and retains the previous file. Upload state resets after every
+attempt. Both Assets and Post video/audio players use </span><code>{{ context.codeblock82 }}</code><span translate="" [translate-t]="t"> and direct
+storage URLs: rendering a preview does not initiate media downloading. Manual
+playback still uses the storage endpoint's existing HTTP Range support.</span></p>
+<p><span translate="" [translate-t]="t">Publish and Unpublish are mutually exclusive. Unpublish sends a version-checked
+partial update with </span><code>{{ context.codeblock83 }}</code><span translate="" [translate-t]="t"> only. It does not save unsaved editor
+changes, restore content, delete files, or remove revisions; publication history
+and the previous publication timestamp are retained. Public hook reads, media
+URL issuance, and unsigned storage downloads check the current publication state.</span></p>
+<p><code>{{ context.codeblock84 }}</code><span translate="" [translate-t]="t"> exposes private and public
+</span><code>{{ context.codeblock85 }}</code><span translate="" [translate-t]="t">/</span><code>{{ context.codeblock86 }}</code><span translate="" [translate-t]="t">,
+</span><code>{{ context.codeblock87 }}</code><span translate="" [translate-t]="t">/</span><code>{{ context.codeblock88 }}</code><span translate="" [translate-t]="t">, and
+</span><code>{{ context.codeblock89 }}</code><span translate="" [translate-t]="t">/</span><code>{{ context.codeblock90 }}</code><span translate="" [translate-t]="t"> methods. Private URL
+issuance checks the post's assigned permission codes (or super-user access);
+public URL issuance is limited to published posts without permissions. Private
+download URLs are signed, key- and storage-controller-bound tokens that expire
+after five minutes; no temporary-link database or KV records are created.
+Storage downloads validate these tokens and support streamed HTTP Range
+requests for video/audio. Node storage persists content type and original
+filename metadata alongside the object; Cloudflare R2 stores the same metadata
+with the object.</span></p>
+<p><span translate="" [translate-t]="t">Below the media section, the related-post list shows IDs and titles with remove
+buttons. Add related post opens </span><code>{{ context.codeblock91 }}</code><span translate="" [translate-t]="t">
+(</span><code>{{ context.codeblock92 }}</code><span translate="" [translate-t]="t">), with search by ID, title, or slug. The current post
+and already selected posts are excluded. Links are one-way and changes are staged
+until Save or Publish; Cancel discards them, including on new posts.</span></p>
+<p translate="" [translate-t]="t" translate-html="">Below <strong>Allow Read only with Permissions</strong>, <strong>Apply permissions to related posts</strong>
+enables live permission inheritance along this post's outgoing related links.
+It defaults to off. Related posts show the effective permissions using the
+existing chooser, disable permission changes, and identify the source post.
+Changing the source's permissions immediately affects subsequent backend access
+checks; no inherited permission IDs are copied to children. Existing independent
+permissions remain dormant while inheritance is active and become effective
+again when the source disables inheritance or removes the related link.
+Inheritance is transitive: a child passing permissions to its own related posts
+passes its effective source permissions.</p>
+<p><span translate="" [translate-t]="t">Related links remain a general many-to-many graph. Only enabled inheritance
+edges must form a forest: multiple sources for a child and inheritance cycles
+fail with HTTP 409. Create, update, related-link mutations, and restore validate
+this graph transactionally at serializable isolation. Attempts to change a
+child's independent permission IDs while it inherits also fail with HTTP 409.
+The backend resolves effective permissions for hook content, media URL issuance,
+and public storage policy. Super-user access retains its existing bypass.
+</span><code>{{ context.codeblock93 }}</code><span translate="" [translate-t]="t"> returns effective permissions;
+</span><code>{{ context.codeblock94 }}</code><span translate="" [translate-t]="t"> additionally identifies the live source.
+Create/update accept </span><code>{{ context.codeblock95 }}</code><span translate="" [translate-t]="t">, which is also revisioned.
+Older snapshots preserve the current flag when it was not yet stored.
+Run </span><code>{{ context.codeblock96 }}</code><span translate="" [translate-t]="t"> (registered in the CMS
+migration exports) before deployment to add the boolean column with default
+false. A deployment using schema synchronization can create it from the entity.</span></p>
+<p><span translate="" [translate-t]="t">Revert opens </span><code>{{ context.codeblock97 }}</code><span translate="" [translate-t]="t">, which lists revisions through
+</span><code>{{ context.codeblock98 }}</code><span translate="" [translate-t]="t"> and restores through
+</span><code>{{ context.codeblock99 }}</code><span translate="" [translate-t]="t">. The service calls the existing content-controller endpoints;
+no revision snapshots are copied in the UI. Legacy revisions without a complete
+snapshot are shown but cannot be selected. Failed operations keep the editor or
+revision dialog open and show an error.</span></p>
+<p><span translate="" [translate-t]="t">Run </span><code>{{ context.codeblock100 }}</code><span translate="" [translate-t]="t"> for the focused Posts regression
+suite using the workspace's existing TypeScript, TypeORM, SQL.js, RxJS, and Angular
+dependencies. It exercises actual SQLite transactions/relations, inheritance and
+rollback, publication/access policy, upload events and failures, and editor state.
+Editor tests use real Angular signals with mocked injection, not a rendered
+TestBed DOM. The test loader transpiles the isomorphic sources without launching
+a Taon application.</span></p>
+<h2 id="content-api" translate="" [translate-t]="t">Content API</h2>
+<p><code>{{ context.codeblock101 }}</code><span translate="" [translate-t]="t"> exposes Observable-based methods:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock102, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock102Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">Subscribe to execute each request. Creation starts at version 1 and saves a
+complete revision. Updates and restores increment the version and save a new
+revision. Send the current </span><code>{{ context.codeblock103 }}</code><span translate="" [translate-t]="t"> as </span><code>{{ context.codeblock104 }}</code><span translate="" [translate-t]="t">; stale edits fail with
+HTTP 409 instead of overwriting another edit. Existing version-0 posts can be
+updated and their previous state is recorded before replacement.</span></p>
+<p><span translate="" [translate-t]="t">Updates are partial: omitted fields are preserved; </span><code>{{ context.codeblock105 }}</code><span translate="" [translate-t]="t"> clears nullable fields,
+and </span><code>{{ context.codeblock106 }}</code><span translate="" [translate-t]="t"> removes all tag links. Category and tag IDs must already exist.
+The content type is optional on creation and defaults to </span><code>{{ context.codeblock107 }}</code><span translate="" [translate-t]="t">;
+explicit types must be enum values. Primary media keys accept strings or </span><code>{{ context.codeblock108 }}</code><span translate="" [translate-t]="t">
+and are included in revision snapshots. Restoring a complete snapshot from before
+primary-media support preserves the current media keys.
+Create/update also accept </span><code>{{ context.codeblock109 }}</code><span translate="" [translate-t]="t">. Omission preserves links on update;
+</span><code>{{ context.codeblock110 }}</code><span translate="" [translate-t]="t"> clears them. IDs must exist, self-links are rejected, and
+duplicates are deduplicated. Related-post mutations return the updated post with
+its </span><code>{{ context.codeblock111 }}</code><span translate="" [translate-t]="t"> array and use the same version checks and revision history.
+</span><code>{{ context.codeblock112 }}</code><span translate="" [translate-t]="t"> loads live related entities without recursively loading their
+own links. Removing a link never archives or deletes either post.
+Slug conflicts fail with HTTP 409; missing content, categories, tags, or revisions
+fail with HTTP 404. Invalid input fails with HTTP 400.</span></p>
+<p><span translate="" [translate-t]="t" translate-html="">Deletion <strong>archives</strong> the post and creates a revision; it does not delete the
+post, revisions, assets, comments, permissions, shared categories/tags, or stored
+files. Existing </span><code>{{ context.codeblock113 }}</code><span translate="" [translate-t]="t"> behavior remains unchanged and includes archived posts.
+Restoring copies all editable post fields (including status and publication date),
+category, tag links, and related-post links; it preserves the post ID and creation
+date and leaves assets, comments, and permissions unchanged. All writes are
+transactional. Complete snapshots created before related-post support restore
+with no related links.</span></p>
+<p><span translate="" [translate-t]="t">Older revisions containing only title/body have no complete snapshot and cannot
+be fully restored (HTTP 409). The nullable </span><code>{{ context.codeblock114 }}</code><span translate="" [translate-t]="t"> column must be added through
+your deployment's schema synchronization/migration before using this API.
+Related posts also require the </span><code>{{ context.codeblock115 }}</code><span translate="" [translate-t]="t"> join table, created by
+schema synchronization/migration from </span><code>{{ context.codeblock116 }}</code><span translate="" [translate-t]="t">'s relation metadata.
+Primary media also requires nullable varchar columns </span><code>{{ context.codeblock117 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock118 }}</code><span translate="" [translate-t]="t">, and
+</span><code>{{ context.codeblock119 }}</code><span translate="" [translate-t]="t">, and the type column's default is now </span><code>{{ context.codeblock120 }}</code><span translate="" [translate-t]="t">. Migrate legacy
+</span><code>{{ context.codeblock121 }}</code><span translate="" [translate-t]="t"> types to </span><code>{{ context.codeblock122 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock123 }}</code><span translate="" [translate-t]="t"> types to </span><code>{{ context.codeblock124 }}</code><span translate="" [translate-t]="t"> in existing content
+and revision snapshots before using enum-validated writes/restores.</span></p>
+<p translate="" [translate-t]="t">The content context includes its category, tag, content-tag, and revision
+dependencies. Assets, comments, and permissions need no new repository operations
+for archive-based deletion. Media uses the post's existing permissions; it does
+not add separate video, audio, or attachment permissions. The content storage
+controller exposes only uploads and token/public-policy-validated downloads;
+physical file deletion remains unavailable through this controller.</p>
+</article>

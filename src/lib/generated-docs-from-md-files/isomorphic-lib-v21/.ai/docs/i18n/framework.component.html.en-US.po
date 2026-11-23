@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/framework.component.html:1
+msgid "Taon framework building blocks"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/framework.component.html:2
+msgid "A Taon application is assembled from building blocks registered in a context. Controllers expose APIs, repositories handle backend data access, and Angular services connect the UI to those APIs and to context configuration."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/framework.component.html:3
+msgid "Start with <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/architecture.md&quot;\">Architecture</a> if you need to locate the right project or understand its runtime targets. Start with <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/taon-building-blocks/contexts.md&quot;\">Contexts</a> if you are adding a feature to an existing project."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/framework.component.html:4
+msgid "Find the right building block"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/framework.component.html:59
+msgid "How the pieces fit together"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/framework.component.html:60
+msgid "For a feature such as listing users, an Angular component calls an API service. The service calls a Taon controller endpoint. The controller uses a repository to query the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/framework.component.html:60
+msgid "entity and returns the result. The context registers the backend building blocks that the feature uses."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/framework.component.html:61
+msgid "Configuration follows its own path. A provider holds context-scoped configuration, and an Angular configuration service exposes the values the UI needs. Middleware can intercept the API request, while subscribers react to entity events and migrations evolve the database over time."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/framework.component.html:62
+msgid "Related guides"
+msgstr ""

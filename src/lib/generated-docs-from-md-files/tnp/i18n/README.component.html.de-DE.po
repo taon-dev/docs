@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp/README.component.html:1
+msgid "tnp -> CLI part of taon framework"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/README.component.html:3
+msgid "Purpose of this project"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/README.component.html:8
+msgid "(tnp means \"typescript-npm-project\" - old name of taon framework)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/README.component.html:9
+msgid "<a [href]=\"baseHref + '/tnp/' + &quot;DEVELOPER_GUIDE.md&quot;\">TAON DEVELOPER GUIDE - HOW TO USE TNP</a>"
+msgstr ""

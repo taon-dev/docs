@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:1
+msgid "Taon Analytics"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:2
+msgid "collects visitor, session, page-view, and generic event records. The current backoffice includes all-time overview counts and a visitor table; Pages View, Events, and Traffic Sources are placeholders rather than complete reporting dashboards."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:6
+msgid "Add and start tracking"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:7
+msgid "Register"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:7
+msgid "in the Taon backend context and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:8
+msgid "in the admin routes. Baseline includes both. In the Angular root component, provide and start"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:10
+msgid "once after Taon context initialization:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:11
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock4, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:16
+msgid "The service needs browser storage and router navigation, so do not start it in a Node-only backend. Calling"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:17
+msgid "once from the browser root component is the pattern used by the example applications."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:19
+msgid "Events and data behavior"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:20
+msgid "Other browser-side services can inject the tracking service and record an application event:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:22
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock6, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:27
+msgid "The service stores a random visitor ID in"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:27
+msgid "and a session ID in"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:28
+msgid ". Reloads reuse the session; 30 minutes without recorded activity starts a new session. Navigation completions record page views, and pointer/keyboard activity is throttled. Timestamps come from the backend. Durations are approximate; there is no unload beacon or background session expiry job. No fingerprinting or user-agent parsing is performed."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:33
+msgid "Backend packages can inject"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:33
+msgid "and call"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:33
+msgid ". Event names share one generic event table; backend-originated events may omit visitor, session, and user associations. Authenticated user IDs are derived from verified Taon session tokens, not from the collection payload."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:37
+msgid "Permissions and runtime"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:38
+msgid "Baseline shows Analytics navigation to superusers or users with"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:39
+msgid ". The Angular tracking service runs in the browser; the analytics context, repositories, and backoffice APIs run in the configured Taon backend. WebSQL browser mode changes where backend code executes, so verify that the selected database and storage behavior is appropriate before using it as a production analytics store."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/analytics.component.html:44
+msgid "See <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/marketing.md&quot;\">Marketing-related events</a> and\n<a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/baseline.md&quot;\">Baseline</a>, or follow the\n<a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/tutorial/track-analytics-events.md&quot;\">analytics event tutorial</a>."
+msgstr ""

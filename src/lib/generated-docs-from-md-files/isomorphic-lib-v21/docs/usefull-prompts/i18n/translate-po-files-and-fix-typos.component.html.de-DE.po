@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/translate-po-files-and-fix-typos.component.html:1
+msgid "Fix all translations in the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/translate-po-files-and-fix-typos.component.html:1
+msgid "files for the following locales only:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/translate-po-files-and-fix-typos.component.html:6
+msgid "Also review"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/translate-po-files-and-fix-typos.component.html:6
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/translate-po-files-and-fix-typos.component.html:15
+msgid "and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/translate-po-files-and-fix-typos.component.html:6
+msgid "files for <strong>clear typos or obvious language/grammar mistakes in translatable source strings</strong>."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/translate-po-files-and-fix-typos.component.html:7
+msgid "Requirements:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/translate-po-files-and-fix-typos.component.html:15
+msgid "For"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/translate-po-files-and-fix-typos.component.html:15
+msgid "files:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/translate-po-files-and-fix-typos.component.html:22
+msgid "Allowed files:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/translate-po-files-and-fix-typos.component.html:29
+msgid "<strong>Do not modify any other files.</strong>"
+msgstr ""

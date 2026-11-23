@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:1
+msgid "Taon Config Service"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:2
+msgid "A <strong>Taon Config Service</strong> acts as a bridge between Taon providers and Angular components, exposing context-specific configuration and frontend-friendly properties."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:3
+msgid "Use a Config Service to:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:10
+msgid "Example"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:11
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock0, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:16
+msgid "Important Notes"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:17
+msgid "Context-scoped dependency injection"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:18
+msgid "when declaring a Taon Config Service."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:19
+msgid "Unlike regular Angular services registered globally, Taon Config Services must be scoped to their corresponding Taon context."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:20
+msgid "This ensures that different contexts can maintain independent configurations without sharing a single service instance across the entire application."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:21
+msgid "Provider injection"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:22
+msgid "Taon Config Services use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:22
+msgid "to access Taon providers."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:23
+msgid "Currently, <strong>only Taon controllers can be injected</strong> into Config Services. Controllers act as the bridge between backend and frontend functionality."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:24
+msgid "Recommended usage"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:25
+msgid "Prefer exposing simple getters and methods from your Config Service instead of accessing provider configuration directly throughout Angular components."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/config-services.component.html:26
+msgid "This keeps components clean, centralizes context-specific configuration, and separates Taon framework logic from UI implementation."
+msgstr ""

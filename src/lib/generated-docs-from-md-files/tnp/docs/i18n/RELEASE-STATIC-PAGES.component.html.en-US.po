@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/RELEASE-STATIC-PAGES.component.html:1
+msgid "Static Pages Release"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/RELEASE-STATIC-PAGES.component.html:2
+msgid "Take advantage of github pages (or similar solution) in a best possible way."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/RELEASE-STATIC-PAGES.component.html:4
+msgid "🚀 Purpose: release any compiled/bundled artifact to static pages\n(free <a href=\"https://pages.github.com/\">Github Pages</a>)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/RELEASE-STATIC-PAGES.component.html:8
+msgid "🚀 Purpose: A convenient way to store artifacts with with versions"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/RELEASE-STATIC-PAGES.component.html:11
+msgid "🚀 Perfect for storing open source apps/libs/docs"
+msgstr ""

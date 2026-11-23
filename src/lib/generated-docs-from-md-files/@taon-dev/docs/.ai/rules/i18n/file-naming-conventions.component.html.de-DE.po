@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/file-naming-conventions.component.html:1
+msgid "File Naming and Layout Conventions"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/file-naming-conventions.component.html:2
+msgid "TypeScript filenames"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/file-naming-conventions.component.html:3
+msgid "Use a lowercase kebab-case base name followed by dot-separated suffixes that identify the file’s role. The base name should usually match the feature or subfeature folder that owns the file."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/file-naming-conventions.component.html:50
+msgid "Angular component files"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/file-naming-conventions.component.html:51
+msgid "Keep each Angular component’s TypeScript, HTML template, and SCSS styles in separate files in the same folder. Use the same"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/file-naming-conventions.component.html:51
+msgid "filename stem for all three. Reference the external files through"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/file-naming-conventions.component.html:51
+msgid "and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/file-naming-conventions.component.html:51
+msgid "(or"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/file-naming-conventions.component.html:51
+msgid ")."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/file-naming-conventions.component.html:52
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock22, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/file-naming-conventions.component.html:57
+msgid "Feature folder layout"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/file-naming-conventions.component.html:58
+msgid "Keep feature-level entities, controllers, and repositories in the feature folder. When a feature contains both a controller and Angular components, put each component in its own subfolder and use the subfolder name as the component’s filename base."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/rules/file-naming-conventions.component.html:59
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock23, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""

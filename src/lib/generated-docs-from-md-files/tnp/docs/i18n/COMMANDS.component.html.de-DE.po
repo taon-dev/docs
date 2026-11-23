@@ -1,0 +1,746 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:1
+msgid "Taon CLI — Developer Guide"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:2
+msgid "Taon CLI provides a unified development workflow for creating, building, running, and releasing full-stack applications and libraries."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:3
+msgid "A Taon project can be both an <strong>application and a library</strong>, with shared TypeScript code across frontend and backend environments."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:4
+msgid "1. Creating Projects"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:5
+msgid "Use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:5
+msgid "to create standalone projects, containers, and organization-level project structures."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:6
+msgid "Standalone Project"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:7
+msgid "Create a standalone project with a basic CRUD application:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:8
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock1, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:13
+msgid "Standalone Project with Admin Backoffice"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:14
+msgid "Create a standalone project using the Taon baseline, which includes the full Taon Admin backoffice:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:15
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock2, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:20
+msgid "Documentation Project"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:21
+msgid "Create a documentation application that collects Markdown files distributed across projects:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:22
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock3, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:27
+msgid "Container with a Child Project"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:28
+msgid "Create a container and a standalone child project inside it:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:29
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock4, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:34
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:47
+msgid "Resulting structure:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:35
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock5, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:40
+msgid "Organization Container"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:41
+msgid "Create a container named"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:41
+msgid ", mark it as an organization, and create a child project:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:42
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock7, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:48
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock8, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:53
+msgid "Organization containers allow related Taon projects to be managed together."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:55
+msgid "2. Supported Build Artifacts"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:56
+msgid "Taon can produce multiple artifact types from a shared project architecture."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:95
+msgid "Documentation sources include files matching"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:95
+msgid "and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:95
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:316
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:374
+msgid "."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:96
+msgid "A single Taon project may contain multiple entry points, allowing it to serve as both a reusable library and an application."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:98
+msgid "3. Building Projects"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:99
+msgid "Taon provides a consistent set of commands for development, production, and watch builds."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:100
+msgid "Development Build"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:101
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock17, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:106
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:120
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:134
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:148
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:170
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:302
+msgid "Alias:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:107
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock18, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:112
+msgid "Builds the NPM library and application source code, including Angular-compatible code."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:113
+msgid "The build process updates the corresponding bundled output used by dependent projects."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:114
+msgid "Clean Development Build"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:115
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock19, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:121
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock20, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:126
+msgid "Removes temporary and distribution build output before rebuilding the project."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:127
+msgid "Useful when generated files or cached build artifacts become inconsistent."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:128
+msgid "Production Build"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:129
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock21, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:135
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock22, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:140
+msgid "Performs a clean production-oriented build (same as in release)."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:141
+msgid "This may take longer than a development build because production optimizations and additional processing are applied."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:142
+msgid "Watch Build"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:143
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock23, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:149
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock24, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:154
+msgid "Watches project source files and rebuilds the library when changes are detected."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:155
+msgid "This is useful when developing an application and its reusable library functionality simultaneously."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:156
+msgid "Docs extract"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:157
+msgid "Extract docs of projects from"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:157
+msgid "property inside"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:157
+msgid ". Taon will automatically find project if it is linked inside package (source is a symlink to real project location after"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:158
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:164
+msgid ")"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:159
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock28, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:164
+msgid "To Generate documentation Angular components (inside"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:165
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock30, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:171
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock31, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:176
+msgid "Watches and rebuilds library code without running the complete application build workflow."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:177
+msgid "This is particularly useful for Electron and VS Code extension development."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:179
+msgid "4. Running Applications"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:180
+msgid "Taon provides commands for running applications in different development environments."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:181
+msgid "The interactive application menu is available through:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:182
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock32, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:187
+msgid "Application Commands"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:219
+msgid "Normal Web Application"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:220
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock41, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:225
+msgid "Starts the application development environment using Angular and the Node.js backend."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:226
+msgid "Cloudflare Development"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:227
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock42, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:232
+msgid "Starts the Angular development environment configured for local Cloudflare backend development."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:233
+msgid "WebSQL Development"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:234
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock43, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:239
+msgid "Starts the Angular application in WebSQL mode."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:240
+msgid "In this mode, compatible backend and database functionality runs directly in the browser without requiring a separately running Node.js backend."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:241
+msgid "Electron Development"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:242
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock44, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:247
+msgid "Starts the Electron application development workflow."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:249
+msgid "5. Recommended Development Workflows"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:250
+msgid "For workflows involving both an application and a reusable library, build the library before starting the application."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:251
+msgid "Scenario 1: Web Application and NPM Library"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:252
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:268
+msgid "Use two terminals."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:253
+msgid "<strong>Terminal 1 — Start the library watch build</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:254
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock45, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:259
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:275
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:290
+msgid "Wait for the initial library build to complete."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:260
+msgid "<strong>Terminal 2 — Start the web application</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:261
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock46, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:266
+msgid "This allows you to develop library functionality and the web application together."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:267
+msgid "Scenario 2: Electron Application and NPM Library"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:269
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:284
+msgid "<strong>Terminal 1 — Start the library-only watch build</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:270
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock47, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:276
+msgid "<strong>Terminal 2 — Start Electron</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:277
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock48, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:282
+msgid "This workflow allows library changes to be rebuilt while developing the Electron application."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:283
+msgid "Scenario 3: VS Code Extension and NPM Library"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:285
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock49, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:291
+msgid "Then start the VS Code debugger using the project's launch configuration."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:292
+msgid "Each debugger start recreates the extension's menu options."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:294
+msgid "6. Releasing Projects"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:295
+msgid "Taon provides both interactive and automated release workflows."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:296
+msgid "Interactive Release Menu"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:297
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock50, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:303
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock51, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:308
+msgid "Opens the terminal interface for selecting a release operation."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:309
+msgid "Automated Releases"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:310
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock52, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:315
+msgid "Runs the configured automatic release workflow."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:316
+msgid "Release tasks are defined in"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:316
+msgid "using"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:317
+msgid "To execute a specific task:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:318
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock55, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:323
+msgid "NPM Release"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:324
+msgid "The default automated release configuration includes an NPM release task."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:325
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock56, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:330
+msgid "This works with standalone projects and container organizations."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:331
+msgid "Cloudflare Production Release"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:332
+msgid "For projects configured for Cloudflare deployment:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:333
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock57, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:338
+msgid "Taon executes the corresponding configured release task."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:340
+msgid "7. Linking Projects and CLI Tools"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:341
+msgid "Taon provides linking commands similar to"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:341
+msgid ", allowing locally developed CLI tools and libraries to be used without publishing them first."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:342
+msgid "Interactive Linking"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:343
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock59, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:348
+msgid "Opens the linking workflow."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:349
+msgid "Local Linking"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:350
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock60, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:355
+msgid "Links the CLI created in the current repository."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:356
+msgid "Global Development Linking"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:357
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock61, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:362
+msgid "Creates a global NPM link for the current project in development mode."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:363
+msgid "Useful when testing changes to a CLI tool directly from its source repository."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:364
+msgid "Release Branch Linking"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:365
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock62, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:370
+msgid "Links the CLI built from a separate release branch."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:371
+msgid "This can be useful when testing a released version without replacing the active development version."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:373
+msgid "8. Branding and PWA Assets"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:374
+msgid "Taon can generate branding assets from a project's"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:375
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock64, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:380
+msgid "This recreates assets such as favicons and Progressive Web App icons."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:381
+msgid "It helps keep branding consistent across supported application targets."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:383
+msgid "9. Automated Code Refactoring"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:384
+msgid "Taon provides a project-wide refactoring command."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:385
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock65, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:390
+msgid "The command processes project files to:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:396
+msgid "This helps maintain consistent code formatting across projects and reduces repetitive maintenance work."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:398
+msgid "10. Cloudflare Subprojects"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:399
+msgid "Taon supports managing Cloudflare Worker subprojects."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:400
+msgid "These can be used to extend a Taon application with additional Cloudflare-specific functionality."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:401
+msgid "Add a Subproject"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:402
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock66, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:407
+msgid "Creates a subproject inside the project's"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:407
+msgid "directory."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:408
+msgid "Example Structure"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:409
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock68, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:414
+msgid "Remove a Subproject"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:415
+msgid "To remove a subproject, delete its directory."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:416
+msgid "For example:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:417
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock69, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:422
+msgid "Deploy Subprojects Manually"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:423
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock70, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:428
+msgid "Deploys the configured Cloudflare subproject."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:429
+msgid "Manual deployment is usually unnecessary because the main Taon release workflow can handle deployment."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:430
+msgid "Local Cloudflare Worker Development"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:431
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock71, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:436
+msgid "Starts the local development environment for Cloudflare subprojects."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:437
+msgid "When developing an Angular application connected to a local Cloudflare Worker, start the Worker development environment first."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:438
+msgid "Then start the Angular application in a separate terminal:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:439
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock72, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:444
+msgid "This allows the Angular application to communicate with the locally running Cloudflare backend."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:446
+msgid "11. Quick Command Reference"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:559
+msgid "Summary"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:560
+msgid "Taon CLI provides a consistent workflow for managing the entire development lifecycle:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:561
+msgid "<strong>Create → Build → Develop → Test → Release</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:562
+msgid "Its app-library architecture allows projects to combine reusable libraries, backend functionality, frontend applications, and multiple deployment targets."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/COMMANDS.component.html:563
+msgid "Developers can work with a single project or coordinate entire containers of interconnected applications without manually maintaining separate build and release systems for each project."
+msgstr ""

@@ -1,0 +1,334 @@
+<article  class="taon-md-doc"><h1 id="taon-migrations" translate="" [translate-t]="t">Taon Migrations</h1>
+<p translate="" [translate-t]="t" translate-html="">Taon provides a database migration system built on top of <strong>TypeORM</strong>, supporting both traditional <strong>Node.js backends</strong> and <strong>WebSQL browser backends</strong> .</p>
+<p translate="" [translate-t]="t">Migration classes are generated automatically, can be shared between Taon projects, and can be versioned in Git alongside application code.</p>
+<p translate="" [translate-t]="t">Migrations can be executed locally or integrated into CI/CD workflows to keep database schemas synchronized with application changes.</p>
+<h2 id="1-migration-workflow" translate="" [translate-t]="t">1. Migration Workflow</h2>
+<p translate="" [translate-t]="t">The typical migration workflow is:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock0, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock0Html"></code></pre></div>
+<p translate="" [translate-t]="t">Taon manages migration discovery and execution through its context system.</p>
+<p translate="" [translate-t]="t">Each migration belongs to a specific Taon context, allowing applications with multiple contexts to manage their database changes independently.</p>
+<h2 id="2-interactive-migration-menu" translate="" [translate-t]="t">2. Interactive Migration Menu</h2>
+<p translate="" [translate-t]="t">The easiest way to manage migrations is through Taon's interactive terminal interface.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock1, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock1Html"></code></pre></div>
+<p translate="" [translate-t]="t">Short alias:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock2, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock2Html"></code></pre></div>
+<p translate="" [translate-t]="t">The terminal menu provides access to migration operations such as creating, running, and reverting migrations.</p>
+<p translate="" [translate-t]="t">You can also execute these operations directly using CLI commands.</p>
+<h2 id="3-creating-migrations" translate="" [translate-t]="t">3. Creating Migrations</h2>
+<p translate="" [translate-t]="t">Before generating migrations, start the application at least once so Taon can detect and initialize its active contexts.</p>
+<p translate="" [translate-t]="t">Then stop the application and execute the command from the Taon project root.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock3, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock3Html"></code></pre></div>
+<p translate="" [translate-t]="t">Short alias:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock4, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock4Html"></code></pre></div>
+<p translate="" [translate-t]="t">Taon generates migration classes for all detected contexts in:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock5, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock5Html"></code></pre></div>
+<h3 id="example-generated-structure" translate="" [translate-t]="t">Example Generated Structure</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock6, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock6Html"></code></pre></div>
+<p translate="" [translate-t]="t" translate-html="">Each generated migration is associated with its corresponding <strong>active</strong> context.</p>
+<h3 id="migration-safety" translate="" [translate-t]="t">Migration Safety</h3>
+<p translate="" [translate-t]="t">Newly generated migrations are disabled by default.</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock7, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock7Html"></code></pre></div>
+<p translate="" [translate-t]="t">After implementing and reviewing the migration, enable it:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock8, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock8Html"></code></pre></div>
+<p translate="" [translate-t]="t">This prevents incomplete migration classes from being executed accidentally.</p>
+<h2 id="4-writing-migrations" translate="" [translate-t]="t">4. Writing Migrations</h2>
+<p><span translate="" [translate-t]="t">Taon migrations extend </span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t"> and use TypeORM's </span><code>{{ context.codeblock10 }}</code><span translate="" [translate-t]="t"> API.</span></p>
+<p translate="" [translate-t]="t">Each migration implements two methods:</p>
+<ul>
+<li><code>{{ context.codeblock11 }}</code> — applies the database changes.</li>
+<li><code>{{ context.codeblock12 }}</code> — reverses the changes when the migration is reverted.</li>
+</ul>
+<p><span translate="" [translate-t]="t">Use TypeORM's </span><code>{{ context.codeblock13 }}</code><span translate="" [translate-t]="t"> methods for schema operations such as creating tables, adding columns, and modifying indexes.</span></p>
+<p translate="" [translate-t]="t">Raw SQL can be used when the TypeORM API does not support a required operation.</p>
+<h3 id="example-migration" translate="" [translate-t]="t">Example Migration</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock14, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock14Html"></code></pre></div>
+<h3 id="injecting-taon-repositories" translate="" [translate-t]="t">Injecting Taon Repositories</h3>
+<p><span translate="" [translate-t]="t">Migrations can access Taon repositories using </span><code>{{ context.codeblock15 }}</code><span translate="" [translate-t]="t">.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock16, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock16Html"></code></pre></div>
+<p translate="" [translate-t]="t">This can be useful for data transformations requiring application-level logic.</p>
+<p><span translate="" [translate-t]="t">For schema changes, prefer working directly with </span><code>{{ context.codeblock17 }}</code><span translate="" [translate-t]="t"> to keep the migration explicit and predictable.</span></p>
+<h3 id="transactions" translate="" [translate-t]="t">Transactions</h3>
+<p translate="" [translate-t]="t">Generated migration templates include transaction handling.</p>
+<p translate="" [translate-t]="t">Preserve the generated transaction behavior when modifying migration code:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock18, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock18Html"></code></pre></div>
+<p translate="" [translate-t]="t">Database engines may differ in their support for transactional schema changes. Always test migrations against the target database.</p>
+<h2 id="5-running-migrations" translate="" [translate-t]="t">5. Running Migrations</h2>
+<p><span translate="" [translate-t]="t">(Usually you don't need to do that since </span><code>{{ context.codeblock19 }}</code><span translate="" [translate-t]="t"> command includes migration run for every new release/deploy )</span></p>
+<p translate="" [translate-t]="t">Execute pending migrations across all detected contexts:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock20, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock20Html"></code></pre></div>
+<p translate="" [translate-t]="t">Short alias:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock21, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock21Html"></code></pre></div>
+<p translate="" [translate-t]="t">Unlike starting the full application, this command initializes the necessary application contexts, executes migrations, and then exits.</p>
+<h2 id="6-reverting-migrations" translate="" [translate-t]="t">6. Reverting Migrations</h2>
+<p translate="" [translate-t]="t">Taon supports reverting migrations using their timestamps.</p>
+<p translate="" [translate-t]="t">For example, given the migration:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock22, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock22Html"></code></pre></div>
+<p translate="" [translate-t]="t">Use the timestamp:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock23, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock23Html"></code></pre></div>
+<p translate="" [translate-t]="t">The terminal menu can also guide you through the revert process.</p>
+<p><span translate="" [translate-t]="t">A migration's </span><code>{{ context.codeblock24 }}</code><span translate="" [translate-t]="t"> method defines how its changes are reversed.</span></p>
+<p translate="" [translate-t]="t" translate-html=""><strong>Important:</strong> Reverting schema changes may cause data loss, particularly when dropping columns or tables. Always review the migration and back up important data before reverting production databases.</p>
+<h2 id="7-database-recreation-modes" translate="" [translate-t]="t">7. Database Recreation Modes</h2>
+<p><span translate="" [translate-t]="t">Taon contexts support different database initialization strategies through </span><code>{{ context.codeblock25 }}</code><span translate="" [translate-t]="t">.</span></p>
+<p translate="" [translate-t]="t">The selected mode determines whether existing database data is preserved or recreated.</p>
+<h3 id="available-modes" translate="" [translate-t]="t">Available Modes</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock26, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock26Html"></code></pre></div>
+<p translate="" [translate-t]="t" translate-html="">(<strong>Websql mode</strong>) by default run DROP_DB__RUN_MIGRATIONS and
+you can change it to PRESERVE_DATA__RUN_MIGRATIONS inside '@taon-dev/sudo'  package backoffice.</p>
+<p><span translate="" [translate-t]="t">The enum is available from the </span><code>{{ context.codeblock27 }}</code><span translate="" [translate-t]="t"> package.</span></p>
+<h3 id="behavior-comparison" translate="" [translate-t]="t">Behavior Comparison</h3>
+<table>
+<thead>
+<tr>
+<th>Database mode</th>
+<th>Node.js backend</th>
+<th>WebSQL browser backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>{{ context.codeblock28 }}</code></td>
+<td>Drops and recreates the database and entity tables, then saves default entities. Existing data is deleted and migrations are skipped.</td>
+<td>Recreates the database and entity tables on every page reload, deleting existing data. Migrations are skipped and default entities are saved.</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock29 }}</code></td>
+<td>Preserves existing data, runs pending migrations, and saves default entities.</td>
+<td>Preserves data across reloads and saves default entities. On the first switch to this mode, existing migrations are marked as completed without execution; subsequent runs execute pending migrations.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="development-mode-recreate-database" translate="" [translate-t]="t">Development Mode — Recreate Database</h3>
+<p><code>{{ context.codeblock30 }}</code><span translate="" [translate-t]="t"> is the default development mode.</span></p>
+<p translate="" [translate-t]="t">It is useful when:</p>
+<ul>
+<li>Working on early database schemas.</li>
+<li>Testing entities without preserving existing data.</li>
+<li>Frequently changing database structures.</li>
+<li>Recreating a clean development environment.</li>
+</ul>
+<p translate="" [translate-t]="t" translate-html="">However, <strong>this mode deletes existing database data</strong>.</p>
+<p translate="" [translate-t]="t">Despite the mode's name, migrations are skipped during database recreation.</p>
+<h3 id="persistent-mode-preserve-data" translate="" [translate-t]="t">Persistent Mode — Preserve Data</h3>
+<p><code>{{ context.codeblock31 }}</code><span translate="" [translate-t]="t"> keeps existing database data and applies pending migrations.</span></p>
+<p translate="" [translate-t]="t">This mode is appropriate when database contents must survive application restarts or page reloads.</p>
+<p translate="" [translate-t]="t">It is particularly important for production applications and persistent WebSQL environments.</p>
+<h2 id="8-sharing-migrations-between-projects" translate="" [translate-t]="t">8. Sharing Migrations Between Projects</h2>
+<p translate="" [translate-t]="t">Taon migrations can be shared between standalone projects and container projects, just like other Taon framework classes.</p>
+<p translate="" [translate-t]="t">This is particularly useful for reusable application libraries that provide their own database entities and repositories.</p>
+<p translate="" [translate-t]="t">For example:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock32, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock32Html"></code></pre></div>
+<p translate="" [translate-t]="t">This allows database schema changes to remain close to the functionality that depends on them.</p>
+<p translate="" [translate-t]="t">Shared migration classes should be managed carefully to avoid duplicate registration or conflicting execution across contexts.</p>
+<h2 id="9-raw-migrations-and-database-snapshots" translate="" [translate-t]="t">9. Raw Migrations and Database Snapshots</h2>
+<p translate="" [translate-t]="t">Schema migrations are not always the best solution for restoring large amounts of development data.</p>
+<p><span translate="" [translate-t]="t">Since </span><code>{{ context.codeblock33 }}</code><span translate="" [translate-t]="t"> recreates the database by default in development mode, developers may need a convenient way to save and restore database contents.</span></p>
+<p translate="" [translate-t]="t">Taon provides raw migration and data snapshot functionality through:</p>
+<p><strong><code>{{ context.codeblock34 }}</code></strong></p>
+<p translate="" [translate-t]="t">The Sudo backoffice can be used to create, export, and restore database snapshots.</p>
+<h3 id="schema-migrations-vs-raw-data-snapshots" translate="" [translate-t]="t">Schema Migrations vs. Raw Data Snapshots</h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Schema migrations</th>
+<th>Raw migrations / snapshots</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main purpose</td>
+<td>Evolve database structure</td>
+<td>Save and restore database contents</td>
+</tr>
+<tr>
+<td>Implementation</td>
+<td>TypeORM migration classes</td>
+<td>Sudo backoffice</td>
+</tr>
+<tr>
+<td>Version control</td>
+<td>Migration source files</td>
+<td>Exported snapshot files</td>
+</tr>
+<tr>
+<td>Typical use</td>
+<td>Production schema evolution</td>
+<td>Development data restoration</td>
+</tr>
+<tr>
+<td>Reversible</td>
+<td>Through <code>{{ context.codeblock35 }}</code> when implemented</td>
+<td>Through restoring a suitable snapshot</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example-development-workflow" translate="" [translate-t]="t">Example Development Workflow</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock36, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-text hljs" [innerHTML]="context.codeblock36Html"></code></pre></div>
+<p translate="" [translate-t]="t">This is useful for preserving representative development data while working with frequently changing entity definitions.</p>
+<p translate="" [translate-t]="t">Snapshots should be compatible with the target schema. Restoring data into a changed database structure may require transformation or additional validation.</p>
+<h2 id="10-cli-command-reference" translate="" [translate-t]="t">10. CLI Command Reference</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Alias</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>{{ context.codeblock37 }}</code></td>
+<td><code>{{ context.codeblock38 }}</code></td>
+<td>Open the interactive migration menu</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock39 }}</code></td>
+<td><code>{{ context.codeblock40 }}</code></td>
+<td>Generate migration classes for detected contexts</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock41 }}</code></td>
+<td><code>{{ context.codeblock42 }}</code></td>
+<td>Run pending migrations and exit</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock43 }}</code></td>
+<td>—</td>
+<td>Revert migration changes using a timestamp</td>
+</tr>
+</tbody>
+</table>
+<h3 id="create" translate="" [translate-t]="t">Create</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock44, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock44Html"></code></pre></div>
+<h3 id="run" translate="" [translate-t]="t">Run</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock45, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock45Html"></code></pre></div>
+<h3 id="revert" translate="" [translate-t]="t">Revert</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock46, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock46Html"></code></pre></div>
+<h3 id="interactive-menu" translate="" [translate-t]="t">Interactive Menu</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock47, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock47Html"></code></pre></div>
+<h2 id="11-recommended-practices" translate="" [translate-t]="t">11. Recommended Practices</h2>
+<ol>
+<li>
+<p translate="" [translate-t]="t" translate-html=""><strong>Keep migrations in version control.</strong> Migration history should evolve alongside application code.</p>
+</li>
+<li>
+<p><span translate="" [translate-t]="t" translate-html=""><strong>Review generated migrations before enabling them.</strong> Generated classes start with </span><code>{{ context.codeblock48 }}</code><span translate="" [translate-t]="t"> returning </span><code>{{ context.codeblock49 }}</code><span translate="" [translate-t]="t"> for a reason.</span></p>
+</li>
+<li>
+<p><strong></strong><span translate="" [translate-t]="t"> Reversible migrations make development and recovery easier, although some data changes cannot be fully reversed.</span></p>
+</li>
+<li>
+<p><strong></strong><span translate="" [translate-t]="t"> Use raw SQL when necessary and account for database-specific behavior.</span></p>
+</li>
+<li>
+<p translate="" [translate-t]="t" translate-html=""><strong>Test migrations in both Node.js and WebSQL when targeting both runtimes.</strong> Shared migration classes do not guarantee identical database engine behavior.</p>
+</li>
+<li>
+<p translate="" [translate-t]="t" translate-html=""><strong>Use persistent database mode when data matters.</strong> Avoid destructive database recreation outside disposable development environments.</p>
+</li>
+<li>
+<p translate="" [translate-t]="t" translate-html=""><strong>Use Sudo snapshots for development data.</strong> Schema migrations and database snapshots solve different problems.</p>
+</li>
+<li>
+<p translate="" [translate-t]="t" translate-html=""><strong>Integrate migrations into release workflows.</strong> Validate database changes before deploying application code that depends on them.</p>
+</li>
+</ol>
+<hr>
+<h2 id="summary" translate="" [translate-t]="t">Summary</h2>
+<p translate="" [translate-t]="t">Taon migrations provide a unified way to manage database evolution across Node.js and browser-based WebSQL applications.</p>
+<p translate="" [translate-t]="t">The migration system integrates with Taon's context architecture, supports reusable migration classes, and can participate in automated build and deployment workflows.</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>One migration architecture. Multiple execution environments. Consistent database evolution.</strong></p>
+</article>

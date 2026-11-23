@@ -1,0 +1,109 @@
+<article  class="taon-md-doc"><h2 id="ng2-rest" translate="" [translate-t]="t">ng2-rest</h2>
+<p translate="" [translate-t]="t">Robust isomorphic REST framework</p>
+<ul>
+<li>for browser (Angular, React etc.)</li>
+<li>for backend Taon apps/libs (NodeJS/TypeScript)
+(part of <a href="https://github.com/darekf77/taon">taon.dev</a>).</li>
+</ul>
+<p translate="" [translate-t]="t">Features:</p>
+<ul>
+<li>Compatible with Angular (2+) (newest 13,14 also...) , React, Vue , NodeJS (works everywhere)</li>
+<li>Compatible with RxJS operators (exhaustMap, switchMap, request cancelation etc.)</li>
+<li>Based on <a href="https://axios-http.com/">axios</a> =&gt; excellent alternative to  Angular's <a href="https://angular.io/api/common/http/HttpClient">HttpClient</a></li>
+<li>JSONP api request handling</li>
+<li>Transfer class instance from server to client and back</li>
+<li>Elegant way of dealing with REST api ( <em>similar to ExpressJS routes definitions</em> )</li>
+</ul>
+<p translate="" [translate-t]="t">(more documentation soon... )</p>
+<p translate="" [translate-t]="t">To install this package run:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock0, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code>{{ context.codeblock0 }}</code></pre></div>
+<p translate="" [translate-t]="t">Import Resource class:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock1, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock1Html"></code></pre></div>
+<h1 id="resource" translate="" [translate-t]="t">Resource</h1>
+<p translate="" [translate-t]="t" translate-html="">Fit you existing API (not only REST) into new fluent objects with <strong>Resource</strong>
+class observables. Use power of <strong>async</strong> in new angular templates;</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>template.html</strong></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock2, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-html hljs" [innerHTML]="context.codeblock2Html"></code></pre></div>
+<p translate="" [translate-t]="t" translate-html=""><strong>component.ts</strong></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock3, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock3Html"></code></pre></div>
+<h1 id="specification" translate="" [translate-t]="t">Specification</h1>
+<p><span translate="" [translate-t]="t" translate-html="">Example <strong>UrlParams[]</strong> :
+</span><code>{{ context.codeblock4 }}</code></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Name</th>
+<th>Parameters</th>
+<th style="text-align:right">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>array</strong></td>
+<td>changes response type to array</td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>get</strong></td>
+<td><code>{{ context.codeblock5 }}</code></td>
+<td style="text-align:right">get data</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>post</strong></td>
+<td><code>{{ context.codeblock6 }}</code></td>
+<td style="text-align:right">create data</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>patch</strong></td>
+<td><code>{{ context.codeblock7 }}</code></td>
+<td style="text-align:right">change data <br>(effect of changing data may be diffrent with each request)</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>put</strong></td>
+<td><code>{{ context.codeblock8 }}</code></td>
+<td style="text-align:right">change data <br>(can be done multiple times with same effect)</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>head</strong></td>
+<td><code>{{ context.codeblock9 }}</code></td>
+<td style="text-align:right">check data</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>delete</strong></td>
+<td><code>{{ context.codeblock10 }}</code></td>
+<td style="text-align:right">remove data</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>jsonp</strong></td>
+<td><code>{{ context.codeblock11 }}</code></td>
+<td style="text-align:right">get jsonp data</td>
+</tr>
+</tbody>
+</table>
+<h1 id="production-mode" translate="" [translate-t]="t">Production mode</h1>
+<p translate="" [translate-t]="t">===
+Nice things to do in production mode:</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>1. Disable warnings.</strong></p>
+<p translate="" [translate-t]="t">If you don't wanna see warning, disable it like this:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock12, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock12Html"></code></pre></div>
+</article>

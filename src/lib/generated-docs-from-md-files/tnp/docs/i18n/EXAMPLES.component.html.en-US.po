@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:1
+msgid "<strong>Isomorphic code in TypeScript offers a range of advantages for full-stack developers.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:2
+msgid "By enabling code reuse on both the client and server sides, it enhances efficiency and ensures consistency."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:3
+msgid "1. No separation between backend and frontend code"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:11
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:41
+msgid "<b>user.entity.ts</b>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:12
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock0, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:17
+msgid "your browser will get code below:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:18
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock1, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:23
+msgid "<em>..same thing applies in reverse to browser code</em>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:24
+msgid "<b>common.service.ts</b>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:25
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock2, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:30
+msgid "your backend will get code below:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:31
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock3, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:36
+msgid "2. Websql Mode for writing backend in browser!"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:42
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock4, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:47
+msgid "your browser in WEBSQL mode will get code below:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:48
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock5, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:53
+msgid "your browser in NORMAL NodeJS mode will get code below:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:54
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock6, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:59
+msgid "Database columns can be created in browser/frontend with sql.js !"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:60
+msgid "3. Create BE/FE CRUD REST API in a blink of the eye..."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:63
+msgid "Define the host only once for both backend and frontend!"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:66
+msgid "No more ugly access to the server... Taon takes it to the next level!"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:69
+msgid "In an Angular/RxJS environment, it’s more than the perfect solution!"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:72
+msgid "<strong>user.controller.ts</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:73
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock7, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:78
+msgid "<strong>user-api.service.ts</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:79
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock8, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:84
+msgid "<strong>user.component.ts</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:85
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock9, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:90
+msgid "<strong>app.context.ts</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:91
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock10, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:96
+msgid "4. Super easy realtime / sockets communication"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:101
+msgid "<strong>app.ts</strong>  (<em>imports</em>)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:102
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock11, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:107
+msgid "<strong>app.ts</strong> (<em>constants</em>)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:108
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock12, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:113
+msgid "<strong>app.ts</strong> (<em>angular component + module</em>)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:114
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock13, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:119
+msgid "<strong>app.ts</strong> (<em>user entity</em>)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:120
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock14, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:125
+msgid "<strong>app.ts</strong> (<em>user subscriber</em>)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:126
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock15, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:131
+msgid "<strong>app.ts</strong> (<em>user controller</em>)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:132
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock16, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:137
+msgid "<strong>app.ts</strong> (<em>user context + start function</em>)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/EXAMPLES.component.html:138
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock17, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""

@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:1
+msgid "Taon Session"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:2
+msgid "supplies Taon login, registration, session state, and authorization. It also provides user, session, role, group, and authorization backoffice routes. It is designed for Taon applications, not as a standalone authentication package."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:6
+msgid "Add it to an application"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:7
+msgid "For a complete admin installation, use\n<a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/baseline.md&quot;\">Taon Baseline</a>, which includes"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:9
+msgid "and its backoffice routes. To use Session by itself, register"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:10
+msgid "in the active Taon context and add the specific session routes needed by the application."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:12
+msgid "The browser UI exports"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:12
+msgid "and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:13
+msgid ". The example app imports the button and binds a"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:14
+msgid ":"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:15
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock6, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:20
+msgid "The configuration is optional in the example application; configure a dashboard destination only when the app has a real need for it. Do not put credentials in a client-side configuration."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:23
+msgid "Main features and authorization"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:36
+msgid "Use the session state returned by the server as the source of authorization. Do not treat a client-provided user ID or permission list as proof of identity."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:38
+msgid "Runtime notes"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:39
+msgid "Register the session context in the backend context that serves the application. Node.js and WebSQL are distinct Taon deployment modes; browser mode does not make server secrets available to browser code. Use the server environment for credentials and deployment-specific authentication configuration."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/session.component.html:43
+msgid "See the <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/baseline.md&quot;\">Baseline integration</a> for a working context and\nbackoffice route, and the <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/tutorial/add-taon-admin-to-existing-project.md&quot;\">admin tutorial</a>\nfor an existing Taon application."
+msgstr ""

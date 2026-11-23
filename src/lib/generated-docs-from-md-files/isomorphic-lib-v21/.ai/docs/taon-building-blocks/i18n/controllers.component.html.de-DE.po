@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:1
+msgid "Taon controllers"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:2
+msgid "Taon controllers define backend endpoints that frontend code can call through an Angular API service. Inject controllers only in"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:2
+msgid "files. Angular components call the API service."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:4
+msgid "Use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:4
+msgid "to define a controller and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:4
+msgid "to expose a method as a GET endpoint. The example below returns a plain string. Keep the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:4
+msgid "region markers in the example because Taon uses them as build directives."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:5
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock4, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:11
+msgid "Extend"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:11
+msgid "and set"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:11
+msgid "to return the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:11
+msgid "entity class. The base controller provides standard CRUD methods such as"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:11
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:18
+msgid "and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:11
+msgid ". You can add custom endpoints alongside those methods."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:12
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock10, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:17
+msgid "Error handling in controllers"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:18
+msgid "Prefer"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:18
+msgid "when an endpoint needs to return a structured error. It throws immediately, so execution stops at the call. Supply"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:18
+msgid ", and include"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:18
+msgid "when clients need a stable identifier for the error."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:45
+msgid "The example selects an error-handling approach using the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:45
+msgid "query parameter. When the parameter is omitted, the endpoint returns a greeting."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/taon-building-blocks/controllers.component.html:46
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock22, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""

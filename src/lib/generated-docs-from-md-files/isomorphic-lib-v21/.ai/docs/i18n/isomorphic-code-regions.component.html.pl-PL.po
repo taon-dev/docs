@@ -1,0 +1,136 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:1
+msgid "Isomorphic code regions"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:2
+msgid "Taon builds shared TypeScript source for different runtimes. The CLI processes the region markers below when it creates browser, WebSQL, CommonJS, or ESM output. Put explanatory prose outside code examples; keep the exact region markers in code because they are part of the build input."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:6
+msgid "Backend code"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:7
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:32
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:40
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:61
+msgid "Use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:7
+msgid "for a block that belongs to a backend build and can be omitted from ordinary browser output. Use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:8
+msgid "when a function body is backend-only and the browser build must retain a function that returns"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:10
+msgid "."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:11
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock3, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:16
+msgid "and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:16
+msgid "are for code that belongs to Node.js and WebSQL backend builds. WebSQL mode runs backend logic in the browser; it is not the same as an ordinary browser build."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:19
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock6, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:24
+msgid "Use a shared fallback after a"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:24
+msgid "region when the browser needs a different implementation:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:26
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock8, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:31
+msgid "Browser-only and WebSQL-only code"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:32
+msgid "for code that should be emitted for the browser and omitted from backend output. Imports can also use an inline marker at the end of the import statement:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:35
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock10, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:40
+msgid "for code that is specific to WebSQL browser mode and should not be emitted for Node.js:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:42
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock12, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:47
+msgid "CommonJS and ESM differences"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:48
+msgid "marks code to remove from the ESM backend output, such as a Node.js API that is unavailable in a Cloudflare Worker."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:49
+msgid "marks code to remove from the CommonJS backend output."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:51
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock15, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:56
+msgid "Cloudflare Workers use an ESM runtime and do not provide the full Node.js runtime. Keep Worker bindings and APIs in the ESM-compatible path and test the actual Worker artifact; a successful Node.js build does not verify Worker compatibility."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:60
+msgid "File suffixes and imports"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:61
+msgid "for files intended only for browser-side code and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:62
+msgid "for Node.js-only code when the project's build recognizes those suffixes. Angular component files are browser UI. Do not infer runtime support from a generic"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:64
+msgid "or"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:64
+msgid "name; inspect the target project's build rules and examples."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:66
+msgid "Inline import annotations such as"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:66
+msgid "are build markers and must remain at the end of the import statement. Do not place the marker above or below the import. Avoid unmarked Node.js built-ins in shared files; use a region or a runtime-neutral Taon API."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/.ai/docs/isomorphic-code-regions.component.html:70
+msgid "For available targets and transport differences, see\n<a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/architecture.md&quot;\">Architecture</a> and\n<a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;.ai/docs/transport-layer.md&quot;\">Transport layer</a>."
+msgstr ""

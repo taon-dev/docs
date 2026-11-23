@@ -1,0 +1,175 @@
+<article  class="taon-md-doc"><h1 id="taon-cloud" translate="" [translate-t]="t">Taon Cloud</h1>
+<p translate="" [translate-t]="t" translate-html=""><strong>Taon Cloud is currently under active development.</strong></p>
+<p translate="" [translate-t]="t" translate-html="">However, its foundation is already available through <strong>Taon Service</strong> and the <strong>Taon Cloud Terminal UI</strong>, which you can use today.</p>
+<p translate="" [translate-t]="t">Every Taon command integrates with the local service, providing a unified environment for managing projects, ports, databases, builds, processes, and deployments.</p>
+<p translate="" [translate-t]="t" translate-html="">The long-term goal is simple: <strong>manage your entire development and deployment infrastructure using the same tools, whether you're working locally or on a remote server.</strong></p>
+<h2 id="taon-service" translate="" [translate-t]="t">Taon Service</h2>
+<p translate="" [translate-t]="t">Taon includes a built-in local service that simplifies project management, port allocation, domain configuration, process monitoring, and deployments.</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>Taon Service is the foundation of Taon Cloud.</strong> Both share the same core functionality, with additional capabilities depending on whether Taon runs on your local machine or a remote server.</p>
+<h3 id="how-it-works" translate="" [translate-t]="t">How it works</h3>
+<p translate="" [translate-t]="t">Whenever you execute a Taon command, the CLI automatically checks whether a healthy Taon Service instance is running.</p>
+<p translate="" [translate-t]="t">If the service is unavailable, Taon launches a dedicated system terminal with its interactive management interface.</p>
+<p translate="" [translate-t]="t">The service continues running independently, maintaining information about active projects, allocated ports, databases, builds, and other background processes.</p>
+<p translate="" [translate-t]="t">This means you don't have to manually start or configure the service before working with your projects.</p>
+<h2 id="taon-cloud-terminal-ui" translate="" [translate-t]="t">Taon Cloud Terminal UI</h2>
+<p><img src="/src/assets/shared/generated-docs-from-md-files/tnp/docs/taon-cloud-terminal-ui.png" alt="Taon Cloud Terminal UI"></p>
+<p translate="" [translate-t]="t" translate-html=""><strong>The Taon Cloud Terminal UI brings infrastructure management directly into your terminal.</strong></p>
+<p translate="" [translate-t]="t">It provides a centralized interface for managing local development environments and, eventually, remote servers over SSH.</p>
+<p translate="" [translate-t]="t">No browser dashboard is required. You can monitor processes, inspect logs, manage deployments, and control your infrastructure without leaving the terminal.</p>
+<p translate="" [translate-t]="t">The terminal-first approach also makes Taon particularly suitable for remote development, headless servers, and automated environments.</p>
+<h2 id="taon-cloud-web-ui" translate="" [translate-t]="t">Taon Cloud Web UI</h2>
+<p translate="" [translate-t]="t">The planned Taon Cloud Web UI will provide an alternative interface for managing the same infrastructure through a browser.</p>
+<p translate="" [translate-t]="t">You will be able to install Taon Cloud on any compatible server running Node.js.</p>
+<h3 id="installation" translate="" [translate-t]="t">Installation</h3>
+<p translate="" [translate-t]="t">Install Taon globally:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock0, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock0Html"></code></pre></div>
+<p translate="" [translate-t]="t">Start the cloud service in detached mode:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock1, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock1Html"></code></pre></div>
+<p translate="" [translate-t]="t">Once the service is configured, you'll be able to access the Taon Cloud dashboard through your browser.</p>
+<p><img src="/src/assets/shared/generated-docs-from-md-files/tnp/docs/taon-cloud-ui.png" alt="Taon Cloud UI proposal"></p>
+<p translate="" [translate-t]="t" translate-html=""><em>Taon Cloud Web UI — proposed interface, currently under development.</em></p>
+<h2 id="features-localhost-vs-cloud" translate="" [translate-t]="t">Features — Localhost vs. Cloud</h2>
+<p translate="" [translate-t]="t" translate-html="">Taon is designed around a simple principle: <strong>the same management experience should work on your local machine and in the cloud.</strong></p>
+<p translate="" [translate-t]="t">Most features are shared between both environments. The main differences concern networking, domain configuration, and infrastructure deployment.</p>
+<h3 id="1-enable-or-disable-cloud-infrastructure" translate="" [translate-t]="t">1. Enable or Disable Cloud Infrastructure</h3>
+<p translate="" [translate-t]="t" translate-html=""><strong>On localhost</strong></p>
+<p translate="" [translate-t]="t">Enable or disable the local infrastructure required for cloud-style deployments.</p>
+<ul>
+<li>Enable or disable Docker-based deployments.</li>
+<li>Start or stop Traefik and related services.</li>
+<li>Test deployment configurations locally before moving to production.</li>
+</ul>
+<p translate="" [translate-t]="t" translate-html=""><strong>On a cloud server</strong></p>
+<p translate="" [translate-t]="t">Manage publicly accessible infrastructure, including:</p>
+<ul>
+<li>Reverse proxy configuration.</li>
+<li>Domain routing.</li>
+<li>Automatic SSL certificate provisioning and renewal.</li>
+<li>Secure HTTPS access to deployed applications.</li>
+</ul>
+<h3 id="2-project-management" translate="" [translate-t]="t">2. Project Management</h3>
+<p translate="" [translate-t]="t">Discover, register, create, and manage Taon projects from a single interface.</p>
+<ul>
+<li>Automatically discover existing projects.</li>
+<li>View, add, and edit registered projects.</li>
+<li>Create new Taon projects.</li>
+<li>Organize projects for deployment.</li>
+</ul>
+<p translate="" [translate-t]="t" translate-html=""><strong>Available in both environments:</strong> The same project management workflow is intended to work on localhost and remote Taon Cloud instances.</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>Planned:</strong> Integration with domain registrars to simplify domain purchasing and assignment when creating new projects.</p>
+<h3 id="3-deployment-management" translate="" [translate-t]="t">3. Deployment Management</h3>
+<p translate="" [translate-t]="t" translate-html="">A centralized place to decide <strong>what to deploy, where to deploy it, and how it should run.</strong></p>
+<ul>
+<li>Configure deployment targets.</li>
+<li>Deploy individual projects or build artifacts.</li>
+<li>Deploy multiple projects or artifacts as a group.</li>
+<li>Manage deployment configurations.</li>
+<li>Reuse deployment workflows across local and remote environments.</li>
+</ul>
+<p translate="" [translate-t]="t" translate-html=""><strong>Localhost:</strong> Prepare, test, and execute deployments using local infrastructure.</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>Cloud:</strong> Deploy and manage applications on remote servers using the same workflow.</p>
+<h3 id="4-domain-management" translate="" [translate-t]="t">4. Domain Management</h3>
+<p translate="" [translate-t]="t">Manage domains without repeatedly editing configuration files or manually setting up routing rules.</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>On localhost</strong></p>
+<ul>
+<li>Test domain connectivity using ping.</li>
+<li>Assign local development domains to projects.</li>
+<li>Simulate production-style domains using <code>{{ context.codeblock2 }}</code>.</li>
+<li>Test domain routing before deployment.</li>
+</ul>
+<p translate="" [translate-t]="t" translate-html=""><strong>On a cloud server</strong></p>
+<ul>
+<li>Manage domains assigned to deployed applications.</li>
+<li>Configure domain routing through the reverse proxy.</li>
+<li>Use automatically managed SSL certificates.</li>
+</ul>
+<p translate="" [translate-t]="t" translate-html=""><strong>Planned:</strong> Direct integration with domain providers to simplify DNS configuration, domain assignment, and routing.</p>
+<h3 id="5-automatic-port-management" translate="" [translate-t]="t">5. Automatic Port Management</h3>
+<p translate="" [translate-t]="t">Stop manually assigning ports to every project.</p>
+<p translate="" [translate-t]="t">Taon Service manages port allocation automatically, helping prevent conflicts between projects and background services.</p>
+<ul>
+<li>Automatically assign available ports when starting projects.</li>
+<li>Reuse the same ports for projects in the same location.</li>
+<li>Track ports assigned to applications, services, and Docker containers.</li>
+<li>Reduce the need for manual <code>{{ context.codeblock3 }}</code> configuration.</li>
+</ul>
+<p translate="" [translate-t]="t" translate-html=""><strong>Available in both environments:</strong> Port management follows the same principles on localhost and remote servers.</p>
+<h3 id="6-process-management-and-logs" translate="" [translate-t]="t">6. Process Management and Logs</h3>
+<p translate="" [translate-t]="t">Monitor the processes running within your Taon environment.</p>
+<ul>
+<li>View active processes.</li>
+<li>Inspect real-time process output.</li>
+<li>Read existing log files.</li>
+<li>Monitor application and service activity.</li>
+</ul>
+<p translate="" [translate-t]="t" translate-html=""><strong>Available in both environments:</strong> Manage local processes or inspect processes running on connected Taon Cloud instances.</p>
+<h3 id="7-taon-instance-management" translate="" [translate-t]="t">7. Taon Instance Management</h3>
+<p translate="" [translate-t]="t">Connect multiple Taon instances to create a unified development and deployment environment.</p>
+<ul>
+<li>Add and register Taon instances.</li>
+<li>List available instances.</li>
+<li>Check instance connectivity and health.</li>
+<li>Authenticate connections between instances.</li>
+<li>Connect local and remote Taon installations.</li>
+</ul>
+<p translate="" [translate-t]="t" translate-html=""><strong>The goal:</strong> Your local Taon Service can communicate with remote Taon Cloud instances, allowing you to manage distributed infrastructure from a single interface.</p>
+<h3 id="8-deployment-scheduler" translate="" [translate-t]="t">8. Deployment Scheduler</h3>
+<p translate="" [translate-t]="t">Automate deployments without requiring a separate CI/CD platform for every project.</p>
+<ul>
+<li>Schedule deployments for a specific date and time.</li>
+<li>Trigger deployments automatically after pushing to a selected Git branch.</li>
+<li>Configure deployment automation for individual projects.</li>
+</ul>
+<p translate="" [translate-t]="t" translate-html=""><strong>Available in both environments once implemented:</strong> The scheduler will use the same configuration model for local and remote deployments.</p>
+<h3 id="9-settings-and-security" translate="" [translate-t]="t">9. Settings and Security</h3>
+<p translate="" [translate-t]="t">Configure how your Taon environment operates and how users access it.</p>
+<ul>
+<li>Configure administrator authentication.</li>
+<li>Enable password-based access.</li>
+<li>Configure two-factor authentication (2FA).</li>
+<li>Manage service-level settings.</li>
+<li>Enable optional infrastructure components, such as Portainer.</li>
+</ul>
+<p translate="" [translate-t]="t" translate-html=""><strong>Localhost:</strong> Configure your local Taon Service and development infrastructure.</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>Cloud:</strong> Secure access to remote management interfaces and deployed services.</p>
+<h2 id="cloudflare-deploy-taon-to-production-today" translate="" [translate-t]="t">Cloudflare — Deploy Taon to Production Today</h2>
+<p translate="" [translate-t]="t" translate-html=""><strong>You don't have to wait for the full Taon Cloud implementation to deploy Taon applications to production.</strong></p>
+<p translate="" [translate-t]="t" translate-html="">Taon already supports deployment to <strong>Cloudflare Workers</strong>, providing a serverless alternative to managing your own infrastructure.</p>
+<p><span translate="" [translate-t]="t">Each Taon project includes a predefined </span><code>{{ context.codeblock4 }}</code><span translate="" [translate-t]="t"> release task in its </span><code>{{ context.codeblock5 }}</code><span translate="" [translate-t]="t"> configuration.</span></p>
+<p translate="" [translate-t]="t">With a single command, you can build and deploy your application together with its configured Cloudflare infrastructure.</p>
+<h3 id="cloudflare-infrastructure" translate="" [translate-t]="t">Cloudflare Infrastructure</h3>
+<p translate="" [translate-t]="t">Taon integrates with the following Cloudflare services:</p>
+<ul>
+<li><strong>Cloudflare Workers</strong> — Run your application backend in a serverless environment.</li>
+<li><strong>Cloudflare D1</strong> — SQL database storage.</li>
+<li><strong>Cloudflare R2</strong> — Object storage for files and other assets.</li>
+<li><strong>Cloudflare KV</strong> — Distributed key-value storage for application data.</li>
+</ul>
+<h3 id="deploy-with-one-command" translate="" [translate-t]="t">Deploy with One Command</h3>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock6, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-bash hljs" [innerHTML]="context.codeblock6Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">Here, </span><code>{{ context.codeblock7 }}</code><span translate="" [translate-t]="t"> is an alias for </span><code>{{ context.codeblock8 }}</code><span translate="" [translate-t]="t">.</span></p>
+<p translate="" [translate-t]="t">The command executes the project's configured Cloudflare release workflow, building and deploying the application and its associated resources.</p>
+<p><img src="/src/assets/shared/generated-docs-from-md-files/tnp/docs/cloudflare-admin-panel.png" alt="Cloudflare Admin Panel"></p>
+<h2 id="two-deployment-approaches-one-framework" translate="" [translate-t]="t">Two Deployment Approaches, One Framework</h2>
+<p translate="" [translate-t]="t">Taon is designed to support two complementary deployment models.</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>Taon Cloud — Self-hosted infrastructure</strong></p>
+<p translate="" [translate-t]="t">Run your applications on your own servers, manage processes and deployments, configure domains, and maintain control over your infrastructure.</p>
+<p translate="" [translate-t]="t">Ideal for applications requiring dedicated servers, custom runtime environments, or direct infrastructure access.</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>Cloudflare — Serverless infrastructure</strong></p>
+<p translate="" [translate-t]="t">Deploy Taon applications to Cloudflare Workers without maintaining a traditional Node.js server.</p>
+<p translate="" [translate-t]="t">Ideal for applications that benefit from managed infrastructure, global distribution, and simplified operations.</p>
+<p translate="" [translate-t]="t">Both approaches use the same Taon framework and CLI, allowing you to choose the deployment environment that best suits your project.</p>
+<p translate="" [translate-t]="t" translate-html=""><strong>Develop locally. Deploy anywhere. Manage everything with Taon.</strong></p>
+</article>

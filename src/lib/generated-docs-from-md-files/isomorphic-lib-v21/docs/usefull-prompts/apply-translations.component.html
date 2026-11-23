@@ -1,0 +1,248 @@
+<article  class="taon-md-doc"><h1 id="apply-internationalization-to-the-entire-project" translate="" [translate-t]="t">Apply Internationalization to the Entire Project</h1>
+<p><span translate="" [translate-t]="t">Apply the existing Taon internationalization (i18n) system to </span><strong></strong><span translate="" [translate-t]="t">.</span></p>
+<p translate="" [translate-t]="t" translate-html="">Follow the project's existing <strong>Internationalization (i18n)</strong> rules exactly.</p>
+<h2 id="goal" translate="" [translate-t]="t">Goal</h2>
+<p><span translate="" [translate-t]="t">Go through the entire </span><code>{{ context.codeblock1 }}</code><span translate="" [translate-t]="t"> directory and find user-visible text that should be translated.</span></p>
+<p translate="" [translate-t]="t">Replace appropriate hardcoded user-visible strings with the Taon translation system.</p>
+<p translate="" [translate-t]="t">This applies to both:</p>
+<ul>
+<li>frontend code</li>
+<li>backend code</li>
+</ul>
+<p translate="" [translate-t]="t">Do NOT blindly translate every string.</p>
+<p translate="" [translate-t]="t">Only translate text that is intended to be displayed or communicated to the user.</p>
+<h2 id="frontend" translate="" [translate-t]="t">Frontend</h2>
+<p><span translate="" [translate-t]="t">Inspect all applicable frontend files inside </span><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t">, including:</span></p>
+<ul>
+<li>Angular components</li>
+<li>component templates</li>
+<li>services</li>
+<li>directives</li>
+<li>dialogs</li>
+<li>forms</li>
+<li>validation messages</li>
+<li>notifications</li>
+<li>tooltips</li>
+<li>labels</li>
+<li>buttons</li>
+<li>menu items</li>
+<li>placeholders</li>
+<li>titles</li>
+<li>empty-state messages</li>
+<li>confirmation messages</li>
+<li>errors intended for the user</li>
+</ul>
+<p translate="" [translate-t]="t">Examples of strings that SHOULD normally be translated:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock3, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock3Html"></code></pre></div>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock4, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-html hljs" [innerHTML]="context.codeblock4Html"></code></pre></div>
+<p translate="" [translate-t]="t">Convert them using the appropriate Taon translation mechanism.</p>
+<h3 id="choose-the-correct-api" translate="" [translate-t]="t">Choose the correct API</h3>
+<p translate="" [translate-t]="t">Use the simplest appropriate translation mechanism.</p>
+<p translate="" [translate-t]="t">Prefer Signal translations when the value should react to language changes:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock5, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock5Html"></code></pre></div>
+<p translate="" [translate-t]="t">Use normal synchronous translations when reactivity is unnecessary:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock6, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock6Html"></code></pre></div>
+<p translate="" [translate-t]="t">Use Observable translations only when the translation naturally belongs to an existing RxJS stream:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock7, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock7Html"></code></pre></div>
+<p translate="" [translate-t]="t">Do NOT create an Observable solely for translation.</p>
+<p translate="" [translate-t]="t">For simple template text, use the project's supported template translation mechanism when appropriate:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock8, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-html hljs" [innerHTML]="context.codeblock8Html"></code></pre></div>
+<p translate="" [translate-t]="t">or:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock9, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-html hljs" [innerHTML]="context.codeblock9Html"></code></pre></div>
+<p translate="" [translate-t]="t">Follow existing project conventions when deciding between these approaches.</p>
+<h3 id="translation-parameters" translate="" [translate-t]="t">Translation parameters</h3>
+<p translate="" [translate-t]="t">Do NOT construct translated sentences by concatenating translated and dynamic fragments when the whole sentence can be translated.</p>
+<p translate="" [translate-t]="t">Avoid:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock10, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock10Html"></code></pre></div>
+<p translate="" [translate-t]="t">Prefer:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock11, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock11Html"></code></pre></div>
+<p translate="" [translate-t]="t">This allows translators to translate the complete sentence correctly.</p>
+<h2 id="backend" translate="" [translate-t]="t">Backend</h2>
+<p translate="" [translate-t]="t">Inspect backend code for user-facing text returned or sent to users.</p>
+<p translate="" [translate-t]="t">Examples include:</p>
+<ul>
+<li>API response messages</li>
+<li>validation messages</li>
+<li>authentication messages</li>
+<li>emails</li>
+<li>notifications</li>
+<li>user-facing errors</li>
+</ul>
+<p><span translate="" [translate-t]="t">For controller request translation, use the request-specific </span><code>{{ context.codeblock12 }}</code><span translate="" [translate-t]="t"> provided by Taon:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock13, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock13Html"></code></pre></div>
+<p translate="" [translate-t]="t">Do NOT create:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock14, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock14Html"></code></pre></div>
+<p translate="" [translate-t]="t">for controller request translation.</p>
+<p><span translate="" [translate-t]="t">Backend controller translations must use the </span><code>{{ context.codeblock15 }}</code><span translate="" [translate-t]="t"> supplied through:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock16, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock16Html"></code></pre></div>
+<p translate="" [translate-t]="t">Use only synchronous translation APIs there.</p>
+<p translate="" [translate-t]="t">Do NOT use:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock17, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock17Html"></code></pre></div>
+<p translate="" [translate-t]="t">on the backend.</p>
+<h2 id="what-not-to-translate" translate="" [translate-t]="t">What NOT to translate</h2>
+<p translate="" [translate-t]="t">Do NOT translate strings that are internal implementation details.</p>
+<p translate="" [translate-t]="t">Examples:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock18, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock18Html"></code></pre></div>
+<p translate="" [translate-t]="t">Also do NOT translate:</p>
+<ul>
+<li>enum values</li>
+<li>object/property names</li>
+<li>database column names</li>
+<li>entity names used internally</li>
+<li>API paths</li>
+<li>route paths</li>
+<li>file paths</li>
+<li>CSS classes</li>
+<li>selectors</li>
+<li>IDs</li>
+<li>storage keys</li>
+<li>configuration keys</li>
+<li>environment variable names</li>
+<li>event names</li>
+<li>logging/debugging messages intended only for developers</li>
+<li>protocol values</li>
+<li>MIME types</li>
+<li>Material icon names</li>
+<li>code identifiers</li>
+<li>test data unless it represents actual user-visible UI text</li>
+</ul>
+<p translate="" [translate-t]="t">For example:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock19, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-html hljs" [innerHTML]="context.codeblock19Html"></code></pre></div>
+<p><code>{{ context.codeblock20 }}</code><span translate="" [translate-t]="t"> is a Material icon identifier and MUST NOT be translated.</span></p>
+<p translate="" [translate-t]="t">Likewise:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock21, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock21Html"></code></pre></div>
+<p translate="" [translate-t]="t">is a route path and MUST NOT be translated.</p>
+<p translate="" [translate-t]="t">But:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock22, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock22Html"></code></pre></div>
+<p translate="" [translate-t]="t">is user-visible and SHOULD be translated if the API supports translated values there.</p>
+<h2 id="preserve-behavior" translate="" [translate-t]="t">Preserve behavior</h2>
+<p translate="" [translate-t]="t" translate-html="">This task is an <strong>i18n migration</strong>, not a refactoring task.</p>
+<p translate="" [translate-t]="t">Do NOT:</p>
+<ul>
+<li>redesign components</li>
+<li>change business logic</li>
+<li>change application behavior</li>
+<li>rename unrelated variables</li>
+<li>reorganize files</li>
+<li>introduce new architecture</li>
+<li>modify APIs unnecessarily</li>
+<li>perform unrelated cleanup</li>
+</ul>
+<p translate="" [translate-t]="t">Make only changes required to correctly internationalize user-visible text.</p>
+<h2 id="scope-restrictions" translate="" [translate-t]="t">Scope restrictions</h2>
+<p translate="" [translate-t]="t">Follow the project's general coding rules.</p>
+<p translate="" [translate-t]="t">In particular:</p>
+<ul>
+<li>modify files only inside <code>{{ context.codeblock23 }}</code></li>
+<li>do NOT modify <code>{{ context.codeblock24 }}</code></li>
+<li>do NOT modify <code>{{ context.codeblock25 }}</code></li>
+<li>do NOT modify project configuration</li>
+<li>do NOT create tests</li>
+<li>do NOT create <code>{{ context.codeblock26 }}</code></li>
+<li>do NOT create <code>{{ context.codeblock27 }}</code></li>
+<li>do NOT create test configuration</li>
+<li>do NOT build the project</li>
+<li>do NOT publish anything</li>
+<li>do NOT release anything</li>
+<li>do NOT initialize anything</li>
+</ul>
+<h2 id="existing-translations" translate="" [translate-t]="t">Existing translations</h2>
+<p translate="" [translate-t]="t">Before changing a file, inspect how translation is already implemented in that file and nearby files.</p>
+<p translate="" [translate-t]="t">If a file already has:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock28, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock28Html"></code></pre></div>
+<p translate="" [translate-t]="t">or:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock29, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock29Html"></code></pre></div>
+<p translate="" [translate-t]="t">reuse the existing setup.</p>
+<p translate="" [translate-t]="t">Do NOT create duplicate translation helpers.</p>
+<p translate="" [translate-t]="t">Preserve existing translated strings unless they are clearly incorrect.</p>
+<h2 id="work-systematically" translate="" [translate-t]="t">Work systematically</h2>
+<p><span translate="" [translate-t]="t">Process the complete </span><code>{{ context.codeblock30 }}</code><span translate="" [translate-t]="t"> tree.</span></p>
+<p translate="" [translate-t]="t">Do not stop after converting a few obvious components.</p>
+<p translate="" [translate-t]="t">For each applicable file:</p>
+<ol>
+<li>inspect the file for user-visible text</li>
+<li>distinguish user-visible strings from internal/programmatic strings</li>
+<li>apply the appropriate Taon translation mechanism</li>
+<li>preserve dynamic parameters using <code>{{ context.codeblock31 }}</code></li>
+<li>preserve existing behavior</li>
+<li>continue to the next file</li>
+</ol>
+<p><span translate="" [translate-t]="t">The task is complete only after the entire </span><code>{{ context.codeblock32 }}</code><span translate="" [translate-t]="t"> tree has been inspected for applicable user-visible strings.</span></p>
+<p translate="" [translate-t]="t">When uncertain whether a string is user-visible, inspect its usage before modifying it. Do not translate strings blindly based only on their English-looking content.</p>
+</article>

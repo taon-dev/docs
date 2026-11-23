@@ -1,0 +1,42 @@
+<article  class="taon-md-doc"><h1 id="taon-seo" translate="" [translate-t]="t">Taon SEO</h1>
+<p><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> manages global SEO defaults and path-specific overrides for
+static application routes. It resolves browser document metadata; it does not
+analyze keywords, generate content, or automatically convert CMS posts into
+SEO pages.</span></p>
+<h2 id="add-and-configure" translate="" [translate-t]="t">Add and configure</h2>
+<p><span translate="" [translate-t]="t">Register </span><code>{{ context.codeblock1 }}</code><span translate="" [translate-t]="t"> in the application's backend context and
+</span><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t"> in the admin route tree. Baseline does both when
+</span><code>{{ context.codeblock3 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock4 }}</code><span translate="" [translate-t]="t"> are used.
+The Angular app also needs the SEO provider:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock5, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock5Html"></code></pre></div>
+<p><span translate="" [translate-t]="t" translate-html="">Merge the provider into the app's existing providers; keep its Taon context,
+router, and startup providers. In the backoffice, set global defaults under
+<strong>SEO &gt; General (Settings)</strong> and add path overrides under <strong>SEO &gt; Pages</strong>.
+Blank optional page values inherit global defaults. Set </span><code>{{ context.codeblock6 }}</code><span translate="" [translate-t]="t"> in
+global settings and </span><code>{{ context.codeblock7 }}</code><span translate="" [translate-t]="t"> on a page override as absolute HTTP(S) URLs
+without query strings or fragments.</span></p>
+<h2 id="metadata-behavior-and-permissions" translate="" [translate-t]="t">Metadata behavior and permissions</h2>
+<p translate="" [translate-t]="t">The SEO provider loads the global settings and matching page override after
+Angular starts and on primary route changes. It updates title, description,
+keywords, canonical URL, robots, and Open Graph metadata. Query strings,
+fragments, matrix parameters, and auxiliary outlets do not select a page
+override; trailing slashes are normalized.</p>
+<p><span translate="" [translate-t]="t">Baseline shows SEO navigation to superusers or users with </span><code>{{ context.codeblock8 }}</code><span translate="" [translate-t]="t">.
+Configuration writes, page listings, and image uploads require this access;
+public settings lookups and social-image downloads are available for rendering
+and crawlers. Store images through Taon storage; the database stores image keys,
+not temporary browser blob URLs.</span></p>
+<h2 id="runtime-notes" translate="" [translate-t]="t">Runtime notes</h2>
+<p><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t"> is an Angular/browser provider, while SEO settings and image
+lookups are served by the registered Taon context. Client-side metadata updates
+do not replace server-rendered metadata for crawlers that do not execute
+JavaScript. Make the backend host and public social-image URLs reachable to
+crawlers. For SSR, verify that the server rendering path emits the metadata
+needed by the target crawler.</span></p>
+<p translate="" [translate-t]="t">See <a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/baseline.md&quot;">Baseline</a> and the
+<a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;docs/tutorial/add-taon-admin-to-existing-project.md&quot;">admin setup tutorial</a>.</p>
+</article>

@@ -1,0 +1,115 @@
+<article  class="taon-md-doc"><h1 id="taon-dev-e-commerce" translate="" [translate-t]="t">@taon-dev/e-commerce</h1>
+<p><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> opens the authenticated cart and checkout flow. Available
+products are loaded from the backend, which filters inactive products and
+applies product-group suggestions for the current user.</span></p>
+<p><span translate="" [translate-t]="t">Configure Stripe's secret key and webhook signing secret in the server-side
+Taon environment (</span><code>{{ context.codeblock1 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t" translate-html="">). Never expose
+these values to browser code. The Products page's <strong>Sync with Stripe</strong> dialog
+checks the server connection, synchronizes local products, and displays the
+dedicated webhook URL to register in Stripe.</span></p>
+<p translate="" [translate-t]="t">Stripe webhooks are signature-verified against the raw request body. Orders
+and product entitlements are finalized from verified Stripe events, not from
+the browser success redirect. Day-based subscription intervals use Stripe
+recurring prices; seconds, minutes, and hours are represented as Taon-side
+entitlement expirations.</p>
+<h2 id="checkout-and-stripe-lifecycle" translate="" [translate-t]="t">Checkout and Stripe lifecycle</h2>
+<p translate="" [translate-t]="t" translate-html="">Register these events on the <strong>same</strong> webhook endpoint:</p>
+<ul>
+<li><code>{{ context.codeblock3 }}</code>, <code>{{ context.codeblock4 }}</code></li>
+<li><code>{{ context.codeblock5 }}</code>,
+<code>{{ context.codeblock6 }}</code> (for delayed payment methods)</li>
+<li><code>{{ context.codeblock7 }}</code>, <code>{{ context.codeblock8 }}</code>,
+<code>{{ context.codeblock9 }}</code></li>
+<li><code>{{ context.codeblock10 }}</code>, <code>{{ context.codeblock11 }}</code></li>
+<li><code>{{ context.codeblock12 }}</code>, <code>{{ context.codeblock13 }}</code></li>
+</ul>
+<p><code>{{ context.codeblock14 }}</code><span translate="" [translate-t]="t"> is also accepted for existing Stripe configurations.
+Handlers retrieve current Stripe resources rather than trusting an older event's
+snapshot. Local webhook writes use serializable transactions, so failed processing
+rolls back and Stripe can retry. Checkout, subscription and invoice IDs identify
+existing records; replaying a checkout neither consumes a new cart nor extends a
+fixed-duration entitlement.</span></p>
+<p><span translate="" [translate-t]="t">Expired checkouts cancel pending orders and release stock/purchase reservations.
+Cart items remain available for another checkout. Leaving Stripe through
+</span><code>{{ context.codeblock15 }}</code><span translate="" [translate-t]="t"> only displays a message; it does not cancel the order.</span></p>
+<p><span translate="" [translate-t]="t">Canceling subscription renewal retains access through the paid period end;
+that deadline is enforced even if the final cancellation webhook is delayed.
+Actual cancellation, unpaid, paused and expired states
+remove access. </span><code>{{ context.codeblock16 }}</code><span translate="" [translate-t]="t"> retains access during Stripe's retry/dunning window;
+configure Stripe's final failed-payment action to cancel or mark the subscription
+unpaid when that window ends. Invoices update payment history and reconcile the
+current subscription period and status, including when delivered before checkout
+completion.</span></p>
+<p translate="" [translate-t]="t">Full refunds and full-amount lost disputes for normal/lifetime Checkout payments mark the
+order/payment refunded and revoke that order's entitlements. Partial refunds
+and partial lost disputes leave access intact. Other purchases and directly assigned permissions are not
+revoked. A refunded lifetime purchase can be purchased again.</p>
+<h2 id="product-presentation-and-eligibility" translate="" [translate-t]="t">Product presentation and eligibility</h2>
+<p translate="" [translate-t]="t" translate-html="">Use the product editor's <strong>Link to post</strong> field to associate a CMS post. Published
+post titles, excerpts, public content and thumbnails enrich the product details
+dialog. Protected post bodies and video/audio/file attachments are not exposed
+by the sales preview. Product thumbnails reuse CMS storage/download tokens,
+including for posts whose full content requires purchase.</p>
+<p translate="" [translate-t]="t">Product information opens a normal details dialog from Buy, Cart and Checkout;
+purchase, quantity and remove controls are separate. List thumbnails are bounded
+to 100px height, checkout thumbnails to 50px, preserving aspect ratio. Neither
+list downloads full post media attachments.</p>
+<p><span translate="" [translate-t]="t">The backend exposes </span><code>{{ context.codeblock17 }}</code><span translate="" [translate-t]="t"> on suggested
+products. Its shared eligibility check is also used by cart mutations and
+checkout, enforcing singleton lifetime/subscription purchases, ownership/current
+subscriptions, pending reservations, stock, per-user limits, currency and
+recurring-checkout compatibility. Unavailable suggestions remain visible with a
+reason; cart changes refresh their eligibility. Lifetime and subscription cart
+quantities are always one.</span></p>
+<h2 id="regression-tests" translate="" [translate-t]="t">Regression tests</h2>
+<p translate="" [translate-t]="t">With the project's existing TypeScript dependency available:</p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock18, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-sh hljs" [innerHTML]="context.codeblock18Html"></code></pre></div>
+<p translate="" [translate-t]="t">These tests load the actual isomorphic business methods with in-memory
+repositories and Stripe API doubles. They cover eligibility, webhook replays,
+out-of-order invoices/refunds, cancellation timing, retrying payments, refund
+access revocation and transactional rollback. They do not replace live Stripe or
+database integration testing.</p>
+<h2 id="courses-from-cms-posts" translate="" [translate-t]="t">Courses from CMS posts</h2>
+<p><span translate="" [translate-t]="t">Import </span><code>{{ context.codeblock19 }}</code><span translate="" [translate-t]="t"> and </span><code>{{ context.codeblock20 }}</code><span translate="" [translate-t]="t"> into the consuming
+Angular component. Both are standalone components exported by this package:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock21, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-html hljs" [innerHTML]="context.codeblock21Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">Use the same </span><code>{{ context.codeblock22 }}</code><span translate="" [translate-t]="t"> without the tabs wrapper for a large parent hero.
+Inside tabs the parent is the first clickable row. Tab labels follow the
+authorized parent, using its thumbnail when present and title otherwise.
+Material handles tab-header pagination on narrow screens.</span></p>
+<p translate="" [translate-t]="t" translate-html="">Each root is an ordinary CMS post. Add lessons through its existing related-post
+editor; the components keep the order returned by CMS. Enable <strong>Apply permissions
+to related posts</strong> on the protected root so lessons inherit its permissions.
+Link the existing product to the protected root and configure its effective
+permissions as usual. No course table, special content types, or additional
+purchase rules are involved. A private slug is optional.</p>
+<p><span translate="" [translate-t]="t">Bind </span><code>{{ context.codeblock23 }}</code><span translate="" [translate-t]="t"> to the latest authorization context emitted by the session button
+or session state service. Every replacement reloads access from the server,
+including login, logout and </span><code>{{ context.codeblock24 }}</code><span translate="" [translate-t]="t"> after authorization changes.
+The browser context is a refresh trigger, never an authorization credential.
+The server uses the session and entitlement-aware auth repository; it never
+trusts permissions supplied by a caller. Applications must use this package's
+</span><code>{{ context.codeblock25 }}</code><span translate="" [translate-t]="t"> override in their concrete Taon context, as for
+protected purchased CMS media. After a purchase is finalized, refresh the
+session context through the existing session API/state flow.</span></p>
+<p><code>{{ context.codeblock26 }}</code><span translate="" [translate-t]="t"> is registered by </span><code>{{ context.codeblock27 }}</code><span translate="" [translate-t]="t">. It bridges
+the CMS's manager-only post/related-post endpoints to read-only course
+presentation using CMS effective permission inheritance and the CMS media read
+policy (published and unprotected, superuser, or a matching permission). Each
+lesson is checked separately, and unchecked nested relations are not returned.
+Missing/inaccessible previews produce a retryable error; a missing private root
+falls back to the preview with a notice. Inaccessible lessons are omitted with
+a notice.</span></p>
+<p><span translate="" [translate-t]="t">Rows fetch only thumbnails initially. Video/audio rows instantiate the existing
+clean CMS renderer on demand (</span><code>{{ context.codeblock28 }}</code><span translate="" [translate-t]="t">); attachments use CMS download
+links; text posts open the clean CMS renderer in a Material dialog. Context
+changes discard stale loads, close course dialogs, and remove old players.</span></p>
+</article>

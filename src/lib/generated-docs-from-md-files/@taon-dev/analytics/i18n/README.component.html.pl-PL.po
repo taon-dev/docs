@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/analytics/README.component.html:1
+msgid "Analytics"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/analytics/README.component.html:2
+msgid "Small, anonymous visitor/session/page-view collection for Taon applications. Include"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/analytics/README.component.html:3
+msgid "in your application context. Provide"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/analytics/README.component.html:4
+msgid "on the root Angular component and call"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/analytics/README.component.html:4
+msgid "once after the Taon context has initialized. The example application does this in its root component."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/analytics/README.component.html:7
+msgid "The random browser UUID is stored in localStorage; the current session ID is stored in sessionStorage. Reloads reuse the session; 30 minutes without recorded activity starts a new one. Navigation completions record page views. Basic pointer/keyboard activity updates are throttled to once per minute. No fingerprinting or user-agent parsing is performed; device/browser/OS fields are reserved and nullable. Authenticated user IDs are taken from verified Taon session tokens, never from the collection payload."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/analytics/README.component.html:14
+msgid "Overview shows all-time visitor, session and page-view counts. Visitors uses the standard Taon datatable. Pages View, Events and Traffic Sources are placeholders; their underlying data can be extended later."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/analytics/README.component.html:17
+msgid "Other Angular packages can inject the same tracking service and call:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/analytics/README.component.html:18
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock3, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/analytics/README.component.html:23
+msgid "Backend packages can inject"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/analytics/README.component.html:23
+msgid "and use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/analytics/README.component.html:23
+msgid ". All event names use the same generic table. Session/visitor/user associations are optional for backend events."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/analytics/README.component.html:26
+msgid "Timestamps come from the backend. Page durations end at the next navigation or the last observed activity when an expired session is next collected. There is no unload beacon or background session-expiry job; durations are approximate, not a measure of active attention."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/analytics/README.component.html:30
+msgid "Tables follow the project's"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/analytics/README.component.html:30
+msgid "/TypeORM synchronization convention. No event-specific tables or reporting charts are added."
+msgstr ""

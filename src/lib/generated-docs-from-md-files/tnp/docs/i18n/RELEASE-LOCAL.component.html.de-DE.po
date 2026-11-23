@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/RELEASE-LOCAL.component.html:1
+msgid "Local/Repo Release"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/RELEASE-LOCAL.component.html:3
+msgid "🚀 All released artifacts stored inside project repository"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/RELEASE-LOCAL.component.html:6
+msgid "🚀 Perfect if you are starting project alone and you need<br>\nto somehow show your work/progress"
+msgstr ""

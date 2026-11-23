@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ROADMAP.component.html:1
+msgid "Taon Roadmap"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ROADMAP.component.html:2
+msgid "Track each roadmap item across Taon's deployment targets."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ROADMAP.component.html:3
+msgid "Status legend"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ROADMAP.component.html:9
+msgid "The row below shows example statuses."
+msgstr ""

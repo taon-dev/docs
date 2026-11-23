@@ -1,0 +1,37 @@
+<article  class="taon-md-doc"><h1 id="taon-repositories" translate="" [translate-t]="t">Taon repositories</h1>
+<p translate="" [translate-t]="t">Taon repositories are injectable classes that encapsulate backend data access, similar to <a href="https://typeorm.io/custom-repository">TypeORM custom repositories</a>. Use repositories in backend code. Browser UI code accesses their functionality through Taon controller endpoints.</p>
+<table>
+<thead>
+<tr>
+<th>Base class</th>
+<th>When to use it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>{{ context.codeblock0 }}</code></td>
+<td>Use it for a repository backed by a Taon entity, with built-in CRUD operations and optional custom queries.</td>
+</tr>
+<tr>
+<td><code>{{ context.codeblock1 }}</code></td>
+<td>Use it for backend operations that need their own methods, such as calling an external service.</td>
+</tr>
+</tbody>
+</table>
+<h4>Create an entity repository</h4>
+<p><span translate="" [translate-t]="t">Extend </span><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t"> and set </span><code>{{ context.codeblock3 }}</code><span translate="" [translate-t]="t"> to return the </span><code>{{ context.codeblock4 }}</code><span translate="" [translate-t]="t"> entity class. Use </span><code>{{ context.codeblock5 }}</code><span translate="" [translate-t]="t"> to run TypeORM queries against that entity. In this example, </span><code>{{ context.codeblock6 }}</code><span translate="" [translate-t]="t"> looks up a user by email.</span></p>
+<p><span translate="" [translate-t]="t">The </span><code>{{ context.codeblock7 }}</code><span translate="" [translate-t]="t"> region is a Taon build directive that allows the method implementation to run in the WebSQL backend.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock8, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock8Html"></code></pre></div>
+<h4>Create a custom repository</h4>
+<p><span translate="" [translate-t]="t">Extend </span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t"> when your repository provides custom backend operations. This example delegates checkout URL creation to an application-specific Stripe integration. Implement </span><code>{{ context.codeblock10 }}</code><span translate="" [translate-t]="t"> using your project's Stripe client and server-side configuration.</span></p>
+<p><span translate="" [translate-t]="t">The </span><code>{{ context.codeblock11 }}</code><span translate="" [translate-t]="t"> region is a Taon build directive that keeps the method implementation on the server.</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock12, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock12Html"></code></pre></div>
+</article>

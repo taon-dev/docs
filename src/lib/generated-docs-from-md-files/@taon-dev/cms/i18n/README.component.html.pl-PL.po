@@ -1,0 +1,615 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:1
+msgid "cms"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:2
+msgid "Assets UI"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:3
+msgid "The CMS Assets page lists existing files using"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:4
+msgid ", without an assets repository or separate listing endpoint. The shared"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:5
+msgid "displays ID ("
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:5
+msgid "), File Name ("
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:6
+msgid "), and Content Type ("
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:6
+msgid "), with client-side search, sorting, and pagination. Reload assets fetches the current storage list."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:8
+msgid "Expanding a row requests a fresh five-minute signed URL through the existing storage controller's"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:9
+msgid ". Video and audio MIME types use native players with controls; other types display a download link labeled with the original filename (or the key when no filename is stored). Attachments use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:12
+msgid "so the streaming endpoint returns attachment disposition. Files are never fetched as blobs or buffered by the page. Collapsing a row destroys its preview/player. Listing and private URL issuance require the same authenticated"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:15
+msgid "permission as CMS uploads. Failed list, URL, and playback operations display errors with reload/retry controls."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:17
+msgid "Categories and Tags"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:18
+msgid "CMS navigation includes separate"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:18
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:25
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:32
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:105
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:288
+msgid "and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:18
+msgid "management pages, each with its own searchable/sortable"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:19
+msgid "and create, edit, and delete actions. Both resources have a name, unique slug, and description. Categories additionally have an integer sort order and an optional parent. The category parent selector excludes the current category and its descendants; the backend also validates missing parents, self-parenting, and indirect cycles inside a serializable transaction. Tags are flat and also require unique names."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:25
+msgid "The pages use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:26
+msgid "through their existing Angular API services. All operations require the same authenticated"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:27
+msgid "access as Posts and Assets. Deleting a category still used by a post or child category, or a tag still assigned to a post, is rejected. Reassign/remove those references first; deletion never silently changes posts."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:31
+msgid "New/Edit Post has one nullable Category selector and searchable Tags with removable selected chips. Save/Publish sends"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:32
+msgid "through the existing content API. Tag assignments remain rows in"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:34
+msgid ", not strings on the post. Cancel discards selections; reopening the editor loads current assignments with"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:35
+msgid ". Existing content revision, duplication, and restore semantics apply to both resources."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:37
+msgid "Post thumbnails"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:38
+msgid "New/Edit Post includes Thumbnail above Related Posts, with a preview, Upload Thumbnail, and Apply Default Placeholder. Uploaded/generated images use the same"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:40
+msgid "upload API and configured storage provider as other media. Posts store only"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:41
+msgid "; image data is never stored in the content entity. Thumbnail keys are saved, duplicated, and revisioned alongside the other content fields. Cancel discards draft changes without deleting assets needed by revisions or other posts."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:45
+msgid "Every successful video upload/replacement triggers browser-native extraction from that selected"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:46
+msgid ". An object URL feeds a native video element; a small 64-pixel-wide canvas checks luminance at 0.25-second intervals over at most the first five seconds. A frame is usable when at least 2% of its pixels have luminance above 18, allowing small subjects in dark scenes. If none qualifies, the most visible scanned frame is used. The selected frame is encoded as WebP (or the browser's supported fallback), at up to 1280×720 while preserving aspect ratio, then uploaded as an ordinary CMS image asset. Video object URLs are always revoked; extraction never uses"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:53
+msgid ", FFmpeg, or backend video processing."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:55
+msgid "Every video re-upload replaces the current thumbnail, including a manual override. Unrelated field edits never trigger extraction. Upload Thumbnail can override the result at any time. Local image previews appear before upload finishes, and their object URLs are released on replacement, cancellation, or editor destruction. A generation failure keeps the uploaded video and reports how to choose a manual/default thumbnail."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:61
+msgid "Defaults are reusable"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:61
+msgid "references, rendered as clean inline SVG illustrations for normal, video, audio, and attachment posts; they do not create duplicate storage objects. Stored image thumbnails use the same permission/publication checks and signed-download policy as other media, including when assets are shared by multiple posts."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:66
+msgid "Run migration"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:66
+msgid "for an existing database. It adds the nullable"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:67
+msgid "column; old posts and snapshots remain compatible. New UI and validation messages follow the existing gettext conventions, with English, Polish, and German PO catalogs."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:70
+msgid "Focused regression tests:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:71
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock25, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:76
+msgid "Courses UI"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:77
+msgid "The Courses tab is a specialized post view at"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:77
+msgid ", protected by the same"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:78
+msgid "permission as Posts."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:78
+msgid "selects distinct, non-archived posts with a non-empty thumbnail key and at least one related post, without loading the children. Covers reuse the post editor's default placeholders and permission-aware thumbnail links, preserve aspect ratio, and never exceed 50px in height."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:83
+msgid "Published courses display Public with an unlocked icon and subtle green cells across the row; drafts display Private with a locked icon and subtle red cells. Expanding a row follows the Users table's lazy"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:85
+msgid "pattern and calls"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:86
+msgid "only for that course. The nested table displays all non-archived first-level children, without pagination or recursive expansion."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:88
+msgid "Both tables reuse the Posts table's Duplicate, Edit/details, and Delete/archive actions, including confirmations, optimistic versions, errors, and navigation to the normal post editor. Deleting a child reloads the course list and its expansions; no separate course entity or management logic is introduced. Reload courses fetches the latest list from the server."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:93
+msgid "Posts UI"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:94
+msgid "JSON Table posts"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:95
+msgid "Posts can use the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:95
+msgid "content type to store structured rows in the existing post"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:96
+msgid "field. The versioned document stores ordered columns, labels, types, and rows, so edits, duplication, and existing revision restore continue to use the normal CMS persistence workflow. The reusable"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:99
+msgid "component is exported from the package and can be used outside the CMS."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:101
+msgid "The editor supports typed cells, row and column editing/reordering, JSON preview, JSON/CSV imports, and data-only/full-document JSON plus CSV exports. Date cells use ISO"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:103
+msgid "strings, and empty typed cells serialize as"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:104
+msgid "(except explicitly entered empty strings in string columns). JSON Table API methods"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:106
+msgid "return rows only. Both apply the existing content read checks; the public method rejects drafts, archived posts, and permission-protected content. CSV parsing supports quoted fields, escaped quotes, multiline cells, UTF-8 BOM, comma/semicolon/tab delimiters, and formula escaping on export. XLSX parsing/export and related-post batch creation are not currently included."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:112
+msgid "Content editing and template variables"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:113
+msgid "The post body has Editor ("
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:113
+msgid "), Raw HTML, and read-only Preview tabs. All tabs use the same draft"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:114
+msgid "; switching tabs does not rewrite HTML or discard unsaved edits. WYSIWYG edits serialize the editor's supported HTML schema, so use Raw for markup outside that schema. Insert variable has Site and Post submenus and inserts at the current rich-text or Raw selection."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:118
+msgid "Preview and read-only post views use the exported"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:118
+msgid "helper from"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:119
+msgid ". It supports only"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:120
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:121
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:154
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:164
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:165
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:168
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:194
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:286
+msgid ","
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:121
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:154
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:195
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:286
+msgid ", and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:121
+msgid ". Unknown and unavailable values (including IDs before creation) remain unchanged. Values are HTML-escaped, never evaluated or recursively expanded, and the final HTML is rendered through Angular's normal sanitizer. Resolved content is never written back to the draft, API payload, database, or revisions."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:126
+msgid "Frontend origin comes from the existing API context; site name comes from the generated"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:127
+msgid "environment setting via the content provider and config service. Post URLs use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:128
+msgid "; the host application must supply that public route. Thumbnail variables reuse the existing thumbnail preview/permission-aware URL loading, including default placeholders. Signed image URLs are resolved only for display, not stored."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:132
+msgid "displays posts in"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:132
+msgid ". Create navigates to"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:133
+msgid ", reusing"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:133
+msgid "in"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:133
+msgid "mode without an ID. Saving opens the created post; cancelling returns to the list."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:135
+msgid "loads an existing post with its current view/edit controls. The list uses"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:136
+msgid "with the datatable's client-side filtering, sorting, and pagination; archived posts remain visible so they can be restored."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:138
+msgid "The list's Duplicate icon and the post's Duplicate button (after Delete) call the same"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:139
+msgid "backend operation and open the new post. Duplication preserves normal fields, tags, publication state, and all existing media keys and body attachment references without copying or uploading files. It clears related posts and application hooks, regenerates ID/version/timestamps, and records an initial revision. Assigned read permissions and the inheritance flag are preserved; an inherited effective permission set becomes independently assigned because related links are not copied. Titles/slugs receive matching"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:146
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:194
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:195
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:196
+msgid "/"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:146
+msgid "suffixes, skipping collisions in either field. Copying a copy removes existing copy suffixes and advances the number."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:148
+msgid "Use the post component with a content entity returned by the API:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:149
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock61, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:154
+msgid "Modes are"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:154
+msgid ". The public"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:154
+msgid "mode has no management controls."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:155
+msgid "emits the entity returned by the backend,"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:156
+msgid "reports archiving,"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:156
+msgid "emits the newly created copy for the host to open, and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:157
+msgid "reports cancellation."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:158
+msgid "supports two-way binding."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:159
+msgid "The editor uses contenteditable title/excerpt/body fields instead of a body textarea. The body is HTML, rendered with Angular sanitization; pasted text is inserted without external markup. A URL slug is required by the create API and is editable below the article. Saving or publishing uses the current entity version; publishing while editing saves the draft and publishes in one request."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:164
+msgid "The Material radio selector above the title selects"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:165
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:168
+msgid ", or"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:165
+msgid ". New posts default to"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:165
+msgid ". Video, audio, and attachment posts show a primary-media upload section directly below the URL slug. Uploads use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:167
+msgid "(Taon's bucket storage) and store the returned key in"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:168
+msgid ", never in"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:169
+msgid ". The editor previews video/audio with native controls and shows an attachment filename with a download/open action. Existing media can be replaced or removed."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:172
+msgid "Changing type only changes which media section is visible; all keys and files are retained. Uploads, Replace, and Remove change the draft; Save/Publish persists the keys, and Cancel discards draft changes. Remove clears only the selected key, not the stored file, so revision history remains usable. Files uploaded to discarded drafts are also retained. Upload failures display an error and keep the draft intact."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:178
+msgid "All post uploads (including Replace) display a determinate Material progress bar and the actual transferred percentage, starting at 0%. An XHR transport adapter adds browser upload events to the existing Taon request pipeline and storage upload endpoint; authentication middleware, retries, and response decoding stay in that pipeline. 100% transferred is not treated as server success: the draft key changes only after a valid successful response. Failure clears progress, shows an error, and retains the previous file. Upload state resets after every attempt. Both Assets and Post video/audio players use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:185
+msgid "and direct storage URLs: rendering a preview does not initiate media downloading. Manual playback still uses the storage endpoint's existing HTTP Range support."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:188
+msgid "Publish and Unpublish are mutually exclusive. Unpublish sends a version-checked partial update with"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:189
+msgid "only. It does not save unsaved editor changes, restore content, delete files, or remove revisions; publication history and the previous publication timestamp are retained. Public hook reads, media URL issuance, and unsigned storage downloads check the current publication state."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:193
+msgid "exposes private and public"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:196
+msgid "methods. Private URL issuance checks the post's assigned permission codes (or super-user access); public URL issuance is limited to published posts without permissions. Private download URLs are signed, key- and storage-controller-bound tokens that expire after five minutes; no temporary-link database or KV records are created. Storage downloads validate these tokens and support streamed HTTP Range requests for video/audio. Node storage persists content type and original filename metadata alongside the object; Cloudflare R2 stores the same metadata with the object."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:205
+msgid "Below the media section, the related-post list shows IDs and titles with remove buttons. Add related post opens"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:206
+msgid "("
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:207
+msgid "), with search by ID, title, or slug. The current post and already selected posts are excluded. Links are one-way and changes are staged until Save or Publish; Cancel discards them, including on new posts."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:210
+msgid "Below <strong>Allow Read only with Permissions</strong>, <strong>Apply permissions to related posts</strong>\nenables live permission inheritance along this post's outgoing related links.\nIt defaults to off. Related posts show the effective permissions using the\nexisting chooser, disable permission changes, and identify the source post.\nChanging the source's permissions immediately affects subsequent backend access\nchecks; no inherited permission IDs are copied to children. Existing independent\npermissions remain dormant while inheritance is active and become effective\nagain when the source disables inheritance or removes the related link.\nInheritance is transitive: a child passing permissions to its own related posts\npasses its effective source permissions."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:220
+msgid "Related links remain a general many-to-many graph. Only enabled inheritance edges must form a forest: multiple sources for a child and inheritance cycles fail with HTTP 409. Create, update, related-link mutations, and restore validate this graph transactionally at serializable isolation. Attempts to change a child's independent permission IDs while it inherits also fail with HTTP 409. The backend resolves effective permissions for hook content, media URL issuance, and public storage policy. Super-user access retains its existing bypass."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:227
+msgid "returns effective permissions;"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:228
+msgid "additionally identifies the live source. Create/update accept"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:229
+msgid ", which is also revisioned. Older snapshots preserve the current flag when it was not yet stored. Run"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:231
+msgid "(registered in the CMS migration exports) before deployment to add the boolean column with default false. A deployment using schema synchronization can create it from the entity."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:234
+msgid "Revert opens"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:234
+msgid ", which lists revisions through"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:235
+msgid "and restores through"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:236
+msgid ". The service calls the existing content-controller endpoints; no revision snapshots are copied in the UI. Legacy revisions without a complete snapshot are shown but cannot be selected. Failed operations keep the editor or revision dialog open and show an error."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:240
+msgid "Run"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:240
+msgid "for the focused Posts regression suite using the workspace's existing TypeScript, TypeORM, SQL.js, RxJS, and Angular dependencies. It exercises actual SQLite transactions/relations, inheritance and rollback, publication/access policy, upload events and failures, and editor state. Editor tests use real Angular signals with mocked injection, not a rendered TestBed DOM. The test loader transpiles the isomorphic sources without launching a Taon application."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:247
+msgid "Content API"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:248
+msgid "exposes Observable-based methods:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:249
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock102, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:254
+msgid "Subscribe to execute each request. Creation starts at version 1 and saves a complete revision. Updates and restores increment the version and save a new revision. Send the current"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:256
+msgid "as"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:256
+msgid "; stale edits fail with HTTP 409 instead of overwriting another edit. Existing version-0 posts can be updated and their previous state is recorded before replacement."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:259
+msgid "Updates are partial: omitted fields are preserved;"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:259
+msgid "clears nullable fields, and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:260
+msgid "removes all tag links. Category and tag IDs must already exist. The content type is optional on creation and defaults to"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:261
+msgid "; explicit types must be enum values. Primary media keys accept strings or"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:262
+msgid "and are included in revision snapshots. Restoring a complete snapshot from before primary-media support preserves the current media keys. Create/update also accept"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:265
+msgid ". Omission preserves links on update;"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:266
+msgid "clears them. IDs must exist, self-links are rejected, and duplicates are deduplicated. Related-post mutations return the updated post with its"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:268
+msgid "array and use the same version checks and revision history."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:269
+msgid "loads live related entities without recursively loading their own links. Removing a link never archives or deletes either post. Slug conflicts fail with HTTP 409; missing content, categories, tags, or revisions fail with HTTP 404. Invalid input fails with HTTP 400."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:273
+msgid "Deletion <strong>archives</strong> the post and creates a revision; it does not delete the\npost, revisions, assets, comments, permissions, shared categories/tags, or stored\nfiles. Existing"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:275
+msgid "behavior remains unchanged and includes archived posts. Restoring copies all editable post fields (including status and publication date), category, tag links, and related-post links; it preserves the post ID and creation date and leaves assets, comments, and permissions unchanged. All writes are transactional. Complete snapshots created before related-post support restore with no related links."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:281
+msgid "Older revisions containing only title/body have no complete snapshot and cannot be fully restored (HTTP 409). The nullable"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:282
+msgid "column must be added through your deployment's schema synchronization/migration before using this API. Related posts also require the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:284
+msgid "join table, created by schema synchronization/migration from"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:285
+msgid "'s relation metadata. Primary media also requires nullable varchar columns"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:287
+msgid ", and the type column's default is now"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:287
+msgid ". Migrate legacy"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:288
+msgid "types to"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:288
+msgid "in existing content and revision snapshots before using enum-validated writes/restores."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/cms/README.component.html:290
+msgid "The content context includes its category, tag, content-tag, and revision dependencies. Assets, comments, and permissions need no new repository operations for archive-based deletion. Media uses the post's existing permissions; it does not add separate video, audio, or attachment permissions. The content storage controller exposes only uploads and token/public-policy-validated downloads; physical file deletion remains unavailable through this controller."
+msgstr ""

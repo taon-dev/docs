@@ -1,0 +1,34 @@
+<article  class="taon-md-doc"><h1 id="track-analytics-events-in-a-taon-app" translate="" [translate-t]="t">Track analytics events in a Taon app</h1>
+<p translate="" [translate-t]="t">This tutorial starts browser analytics once and records a custom marketing
+interaction through the shared event API.</p>
+<h2 id="1-register-the-analytics-context" translate="" [translate-t]="t">1. Register the analytics context</h2>
+<p><span translate="" [translate-t]="t">Include </span><code>{{ context.codeblock0 }}</code><span translate="" [translate-t]="t"> in the active Taon backend context, or
+use </span><code>{{ context.codeblock1 }}</code><span translate="" [translate-t]="t">, which already includes Analytics. Ensure
+the application's session context is available as well.</span></p>
+<h2 id="2-start-the-browser-tracker" translate="" [translate-t]="t">2. Start the browser tracker</h2>
+<p><span translate="" [translate-t]="t">Provide </span><code>{{ context.codeblock2 }}</code><span translate="" [translate-t]="t"> in the Angular root component and call
+</span><code>{{ context.codeblock3 }}</code><span translate="" [translate-t]="t"> once after Taon initialization:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock4, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock4Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">The tracker uses browser </span><code>{{ context.codeblock5 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock6 }}</code><span translate="" [translate-t]="t">, and router
+navigation. Do not start it in a Node-only process.</span></p>
+<h2 id="3-record-an-interaction" translate="" [translate-t]="t">3. Record an interaction</h2>
+<p><span translate="" [translate-t]="t">Call </span><code>{{ context.codeblock7 }}</code><span translate="" [translate-t]="t"> from the code that handles the interaction:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock8, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock8Html"></code></pre></div>
+<p translate="" [translate-t]="t">The event is saved with the generic analytics events. It does not create a
+campaign or marketing report automatically.</p>
+<h2 id="verify" translate="" [translate-t]="t">Verify</h2>
+<p><span translate="" [translate-t]="t">Open the Analytics backoffice with a user who has </span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t">, trigger
+the event in the browser, then inspect the event through the event API or
+analytics data. The current Events page is a placeholder, so the absence of an
+Events dashboard is not evidence that the tracker failed.</span></p>
+<p translate="" [translate-t]="t">See the <a [href]="baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/analytics.md&quot;">Analytics reference</a> for the session
+timeout, storage, and backend event behavior.</p>
+</article>

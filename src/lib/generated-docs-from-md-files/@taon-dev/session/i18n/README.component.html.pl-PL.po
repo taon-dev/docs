@@ -1,0 +1,225 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:1
+msgid "@taon-dev/session"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:2
+msgid "adds authentication and role-based access control (RBAC) to Taon applications. It provides an Angular sign-in interface, server-side session checks, and backoffice pages for managing users and access."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:7
+msgid "The package is designed for applications built with Taon."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:8
+msgid "Add sign-in to your Angular application"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:10
+msgid "Use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:10
+msgid "to open the sign-in dialog from an existing page. Use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:10
+msgid "when sign-in needs a dedicated page. In both cases, import the component that matches the selector in your template."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:11
+msgid "Sign-in button and dialog"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:12
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock3, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:17
+msgid "Dedicated sign-in page"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:18
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock4, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:23
+msgid "Set"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:23
+msgid "to the route users should reach after signing in. In isomorphic source files, scope the Angular imports to the browser build using your project's Taon build markers."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:24
+msgid "Protect an endpoint with session middleware"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:25
+msgid "Add"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:25
+msgid "to an endpoint that requires a signed-in user. Put it before inherited middleware so subsequent middleware can use the user and session IDs attached to the request."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:26
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock7, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:31
+msgid "Protect controller methods with"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:32
+msgid "Use the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:32
+msgid "hook to apply access rules to selected methods, including inherited methods such as"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:32
+msgid ". First authenticate the request, then check the signed-in user's access."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:33
+msgid "In this example, the hook requires permission to manage posts before running"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:33
+msgid ". To apply the same rule to every endpoint on a controller, remove the method-name check."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:34
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock12, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:39
+msgid "Use your app's translation helper for the error message if your API returns localized errors."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:40
+msgid "Extend authorization for your application"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:41
+msgid "Extend the default groups, roles, and permissions with application-specific entries. Define a named access rule such as"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:41
+msgid "so controllers and Angular components can use the same rule."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:68
+msgid "Define groups, roles, and permissions"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:69
+msgid "Add these definitions to your application's authorization module, shown here as"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:69
+msgid "."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:70
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock18, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:75
+msgid "Add an access rule"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:76
+msgid "Continue in the same module with a custom authorization context and repository. This example grants"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:76
+msgid "to superusers, members of the built-in Administrator group, and users with the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:76
+msgid "role. The"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:76
+msgid "group and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:76
+msgid "permission illustrate additional RBAC entries you can use in other rules."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:77
+msgid "The backend evaluates the rule against the current authorization context. The browser reads the result from the context snapshot and can use it to show or hide UI actions. Enforce access on the backend for every protected operation."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:78
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock23, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:83
+msgid "Keep the framework's"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:83
+msgid "spelling and the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:83
+msgid "and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:83
+msgid "regions. They connect the browser and backend implementations of the access rule."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:84
+msgid "Backoffice"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:85
+msgid "Taon Session includes Taon Admin pages for inspecting sessions, managing user accounts, and configuring access."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:86
+msgid "Sessions"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:87
+msgid "See who is signed in and inspect the origin of each session."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:89
+msgid "Users"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:90
+msgid "Browse user accounts and inspect the groups, roles, and permissions associated with each user."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:92
+msgid "Authorization"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:93
+msgid "Manage groups, roles, and permissions from their respective pages."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:95
+msgid "Organize users by team or responsibility so you can manage access for users with common needs."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:98
+msgid "Define roles around responsibilities such as managing posts. Use roles to assign a common set of capabilities to multiple users."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/session/README.component.html:101
+msgid "Define individual capabilities and use them to control access to specific actions."
+msgstr ""

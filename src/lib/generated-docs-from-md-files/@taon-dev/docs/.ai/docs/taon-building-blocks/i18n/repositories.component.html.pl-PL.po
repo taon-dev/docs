@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:1
+msgid "Taon repositories"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:2
+msgid "Taon repositories are injectable classes that encapsulate backend data access, similar to <a href=\"https://typeorm.io/custom-repository\">TypeORM custom repositories</a>. Use repositories in backend code. Browser UI code accesses their functionality through Taon controller endpoints."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:22
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:30
+msgid "Extend"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:22
+msgid "and set"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:22
+msgid "to return the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:22
+msgid "entity class. Use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:22
+msgid "to run TypeORM queries against that entity. In this example,"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:22
+msgid "looks up a user by email."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:23
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:31
+msgid "The"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:23
+msgid "region is a Taon build directive that allows the method implementation to run in the WebSQL backend."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:24
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock8, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:30
+msgid "when your repository provides custom backend operations. This example delegates checkout URL creation to an application-specific Stripe integration. Implement"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:30
+msgid "using your project's Stripe client and server-side configuration."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:31
+msgid "region is a Taon build directive that keeps the method implementation on the server."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/repositories.component.html:32
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock12, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""

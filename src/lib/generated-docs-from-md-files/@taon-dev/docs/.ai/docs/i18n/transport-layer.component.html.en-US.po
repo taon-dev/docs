@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/transport-layer.component.html:1
+msgid "Transport layer"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/transport-layer.component.html:2
+msgid "Taon selects transport according to the application target. The transports are not interchangeable: realtime support and access to platform APIs depend on the runtime."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/transport-layer.component.html:36
+msgid "Use the target-specific build and test path to verify transport behavior. A successful Node.js build does not prove that code is compatible with a Cloudflare Worker, WebSQL, or Electron."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/transport-layer.component.html:39
+msgid "For code that must vary by runtime, use the markers described in\n<a [href]=\"baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/isomorphic-code-regions.md&quot;\">Isomorphic code regions</a>. For target setup and\nlimitations, see <a [href]=\"baseHref + '/@taon-dev/docs/' + &quot;.ai/docs/architecture.md&quot;\">Architecture</a>."
+msgstr ""

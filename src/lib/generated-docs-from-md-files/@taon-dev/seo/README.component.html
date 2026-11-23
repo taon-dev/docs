@@ -1,0 +1,56 @@
+<article  class="taon-md-doc"><h1 id="seo" translate="" [translate-t]="t">SEO</h1>
+<p translate="" [translate-t]="t">Basic website SEO configuration for Taon applications. This module does not
+analyze keywords, score pages, generate content, or duplicate CMS metadata.</p>
+<h2 id="backoffice" translate="" [translate-t]="t">Backoffice</h2>
+<p translate="" [translate-t]="t" translate-html="">Navigation: <strong>SEO &gt; General (Settings)</strong> and <strong>SEO &gt; Pages</strong>.</p>
+<ul>
+<li>General edits one global settings record (ID <code>{{ context.codeblock0 }}</code>).</li>
+<li>Pages uses the Taon datatable to add, edit, and delete overrides for static
+application paths such as <code>{{ context.codeblock1 }}</code>, <code>{{ context.codeblock2 }}</code>, or <code>{{ context.codeblock3 }}</code>.</li>
+<li>Blank optional values inherit global defaults.</li>
+<li>Social images are uploaded through Taon storage. PNG, JPEG, GIF and WebP are
+supported; keys are persisted instead of temporary browser blob URLs.</li>
+<li>Configuration writes, page listings, and image uploads require the session's
+<code>{{ context.codeblock4 }}</code> group (or super-user access). Global settings, path lookups,
+and social-image downloads are public.</li>
+</ul>
+<h2 id="application-integration" translate="" [translate-t]="t">Application integration</h2>
+<p><span translate="" [translate-t]="t">Include </span><code>{{ context.codeblock5 }}</code><span translate="" [translate-t]="t"> in the application's backend context and
+</span><code>{{ context.codeblock6 }}</code><span translate="" [translate-t]="t"> in its backoffice navigation. Add the frontend providers:</span></p>
+<div class="docs-code-block"><span translate="" [translate-t]="t">
+          <button type="button" class="docs-code-copy" aria-label="Copy code" title="Copy code" (click)="copyCode(context.codeblock7, $event)">
+            <span class="material-icons" aria-hidden="true">content_copy</span>
+          </button>
+        </span><pre><code class="language-ts hljs" [innerHTML]="context.codeblock7Html"></code></pre></div>
+<p><span translate="" [translate-t]="t">The service starts after Angular bootstrap, when the application's existing
+Taon initialization has completed. It loads settings and the matching override
+on initial navigation and each primary path change. Query strings, fragments,
+matrix parameters and auxiliary/backoffice outlets do not identify SEO pages.
+Trailing slashes are normalized (</span><code>{{ context.codeblock8 }}</code><span translate="" [translate-t]="t"> matches </span><code>{{ context.codeblock9 }}</code><span translate="" [translate-t]="t">).</span></p>
+<p><span translate="" [translate-t]="t">Metadata includes document title, description, keywords, canonical URL, robots,
+</span><code>{{ context.codeblock10 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock11 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock12 }}</code><span translate="" [translate-t]="t">, </span><code>{{ context.codeblock13 }}</code><span translate="" [translate-t]="t">, and </span><code>{{ context.codeblock14 }}</code><span translate="" [translate-t]="t">.
+Open Graph text falls back to the resolved page title and description; its image
+falls back to the global image. Global indexing/follow restrictions remain in
+force; page flags can further restrict them.</span></p>
+<p translate="" [translate-t]="t">Canonical URLs must be absolute HTTP(S) URLs without query strings or fragments.
+When no page canonical URL exists, the canonical base URL (including an optional
+deployment subpath) is combined with the current application path. Without
+either value, the canonical tag is removed.</p>
+<p><span translate="" [translate-t]="t">Metadata is replaced rather than accumulated between routes. Superseded route
+requests cannot overwrite newer metadata. Failures are logged and exposed via
+</span><code>{{ context.codeblock15 }}</code><span translate="" [translate-t]="t">; failed image resolution leaves text metadata intact.
+The backend host must be externally reachable so social crawlers can fetch
+public image URLs. Client-side navigation does not replace server-rendered SEO
+for crawlers that do not execute JavaScript.</span></p>
+<p><code>{{ context.codeblock16 }}</code><span translate="" [translate-t]="t"> is the shared resolution function for future CMS adapters.
+CMS content is not automatically registered as an application/static page.</span></p>
+<h2 id="migration" translate="" [translate-t]="t">Migration</h2>
+<p translate="" [translate-t]="t">The SEO configuration migration creates both tables in data-preserving mode
+and seeds the singleton settings record without overwriting existing settings.
+It also works when Taon has already synchronized the entity schema. Empty old
+demo tables are replaced; populated legacy demo tables cause an explicit error
+so their data can be mapped deliberately rather than discarded or assigned
+invented application routes. Reverting this migration drops the two SEO tables.</p>
+<p translate="" [translate-t]="t">Builds, tests and migration execution have not been run. Further initialization
+was skipped as requested.</p>
+</article>

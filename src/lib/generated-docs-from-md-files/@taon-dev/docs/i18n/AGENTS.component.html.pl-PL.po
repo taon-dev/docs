@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/AGENTS.component.html:1
+msgid "Taon project instructions"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/AGENTS.component.html:2
+msgid "This project uses Taon. Read the applicable reference before changing code, and verify framework behavior against the implementation when a guide does not cover it."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/AGENTS.component.html:5
+msgid "Core rules"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/AGENTS.component.html:16
+msgid "References"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/AGENTS.component.html:25
+msgid "Existing code and verification"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/AGENTS.component.html:26
+msgid "Before creating an abstraction, search"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/AGENTS.component.html:26
+msgid "for an equivalent implementation.\nFor Taon CLI workflows, see the\n<a href=\"https://github.com/darekf77/tnp/blob/master/docs/COMMANDS.md\">CLI command guide</a>."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/AGENTS.component.html:29
+msgid "The project's tests and the Taon Testbench are useful for runtime-specific examples; do not assume that Node.js, WebSQL, and Cloudflare Worker support are interchangeable."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/AGENTS.component.html:32
+msgid "After code changes, run the smallest relevant test or build available in the project. Do not claim a command or runtime behavior is verified unless it was checked against source or a working example."
+msgstr ""

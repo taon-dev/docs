@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:1
+msgid "Running nodejs backend app"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:2
+msgid "Usually you <strong>don't</strong> use this command for development"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:3
+msgid "-&gt; <strong>debugger</strong> from Visual Studio Code is for this\n(F5 on keyboard, Task \"Debug/Start Server\")."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:5
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock0, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:10
+msgid "Tnp extension for Visual Studio Code"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:11
+msgid "Install essential vscode plugins from project workspace recommended or to apply best global config for VScode"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:13
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock1, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:18
+msgid "Pause"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:19
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:26
+msgid "Pause terminal test"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:20
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock2, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:25
+msgid "Github pages from /docs to branch"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:27
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock3, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:32
+msgid "Show version of projects inside container"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:33
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock4, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:38
+msgid "Download video as mp3"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:39
+msgid "Download mp3 from url (got to ~/Download/mp3-from-websites)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:40
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock5, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:45
+msgid "Download video as mp4 video"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:46
+msgid "Download mp4 from url (got to ~/Download/mp4-from-websites)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/ADDITIONAL-COMMANDS.component.html:47
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock6, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""

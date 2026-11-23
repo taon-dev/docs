@@ -1,0 +1,31 @@
+//#region imports
+import { BehaviorSubject } from 'rxjs';
+import { Taon } from 'taon/src';
+import { ChangeDetectionStrategy, Component, Input, ViewChild } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { Translation, TranslateDirective } from '@taon-dev/i18n/src';
+import { TaonDocsPageComponent, DocsHeading } from 'taon/src';
+
+//#endregion
+
+const t = Translation.for(Taon.__FILE_RELATIVE_PATH, Taon.LANG_IMPORT_MAP);
+
+@Component({
+  selector: 'app-my-docs-page-app-auto-gen-docs-md',
+  templateUrl: './app.auto-gen-docs.component.html',
+  styles: '',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [TranslateDirective],
+})
+export class TnpHelpersSrcAppAutoGenDocsMdComponent extends TaonDocsPageComponent {
+  t = t.for(this);
+  public baseHref: string = '/';
+  public context: any = {
+
+  };
+
+  headings: DocsHeading[] = [];
+
+}
+
+    

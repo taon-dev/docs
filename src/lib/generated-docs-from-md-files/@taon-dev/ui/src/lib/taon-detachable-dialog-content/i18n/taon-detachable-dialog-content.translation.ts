@@ -1,0 +1,19 @@
+// THIS FILE IS GENERATED - DO NOT MODIFY
+import { CoreModels } from 'tnp-core/src';
+
+// join interface type here
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevUiSrcLibTaonDetachableDialogContentTaonDetachableDialogContentComponentHtml } from './taon-detachable-dialog-content.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevUiSrcLibTaonDetachableDialogContentTaonDetachableDialogContentComponentHtml } from './taon-detachable-dialog-content.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevUiSrcLibTaonDetachableDialogContentTaonDetachableDialogContentComponentHtml } from './taon-detachable-dialog-content.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevUiSrcLibTaonDetachableDialogContentTaonDetachableDialogContentComponentTs } from './taon-detachable-dialog-content.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevUiSrcLibTaonDetachableDialogContentTaonDetachableDialogContentComponentTs } from './taon-detachable-dialog-content.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevUiSrcLibTaonDetachableDialogContentTaonDetachableDialogContentComponentTs } from './taon-detachable-dialog-content.component.ts.de-DE.i18n.data';;
+export type TaonDetachableDialogContentOverride = CoreModels.DeepPartial<EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevUiSrcLibTaonDetachableDialogContentTaonDetachableDialogContentComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevUiSrcLibTaonDetachableDialogContentTaonDetachableDialogContentComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevUiSrcLibTaonDetachableDialogContentTaonDetachableDialogContentComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevUiSrcLibTaonDetachableDialogContentTaonDetachableDialogContentComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevUiSrcLibTaonDetachableDialogContentTaonDetachableDialogContentComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesTaonDevUiSrcLibTaonDetachableDialogContentTaonDetachableDialogContentComponentTs>;
+
+ // THIS FILE IS GENERATED - DO NOT MODIFY
+        

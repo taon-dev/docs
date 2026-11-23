@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/apply-translations.component.ts:51
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/apply-translations.component.ts:55
+msgid "No results found"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/apply-translations.component.ts:39
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/apply-translations.component.ts:43
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/apply-translations.component.ts:47
+msgid "Save"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/usefull-prompts/apply-translations.component.ts:69
+msgid "Something went wrong"
+msgstr ""

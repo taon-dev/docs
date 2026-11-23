@@ -1,0 +1,103 @@
+// THIS FILE IS GENERATED - DO NOT MODIFY
+import { CoreModels } from 'tnp-core/src';
+
+// join interface type here
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsArchitectureComponentHtml } from './architecture.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsArchitectureComponentHtml } from './architecture.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsArchitectureComponentHtml } from './architecture.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsArchitectureComponentTs } from './architecture.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsArchitectureComponentTs } from './architecture.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsArchitectureComponentTs } from './architecture.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsDependencyInjectionComponentHtml } from './dependency-injection.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsDependencyInjectionComponentHtml } from './dependency-injection.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsDependencyInjectionComponentHtml } from './dependency-injection.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsDependencyInjectionComponentTs } from './dependency-injection.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsDependencyInjectionComponentTs } from './dependency-injection.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsDependencyInjectionComponentTs } from './dependency-injection.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsFrameworkComponentHtml } from './framework.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsFrameworkComponentHtml } from './framework.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsFrameworkComponentHtml } from './framework.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsFrameworkComponentTs } from './framework.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsFrameworkComponentTs } from './framework.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsFrameworkComponentTs } from './framework.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsI18NComponentHtml } from './i18n.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsI18NComponentHtml } from './i18n.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsI18NComponentHtml } from './i18n.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsI18NComponentTs } from './i18n.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsI18NComponentTs } from './i18n.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsI18NComponentTs } from './i18n.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsIsomorphicCodeRegionsComponentHtml } from './isomorphic-code-regions.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsIsomorphicCodeRegionsComponentHtml } from './isomorphic-code-regions.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsIsomorphicCodeRegionsComponentHtml } from './isomorphic-code-regions.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsIsomorphicCodeRegionsComponentTs } from './isomorphic-code-regions.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsIsomorphicCodeRegionsComponentTs } from './isomorphic-code-regions.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsIsomorphicCodeRegionsComponentTs } from './isomorphic-code-regions.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsRealtimeComponentHtml } from './realtime.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsRealtimeComponentHtml } from './realtime.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsRealtimeComponentHtml } from './realtime.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsRealtimeComponentTs } from './realtime.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsRealtimeComponentTs } from './realtime.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsRealtimeComponentTs } from './realtime.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsTransportLayerComponentHtml } from './transport-layer.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsTransportLayerComponentHtml } from './transport-layer.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsTransportLayerComponentHtml } from './transport-layer.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsTransportLayerComponentTs } from './transport-layer.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsTransportLayerComponentTs } from './transport-layer.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsTransportLayerComponentTs } from './transport-layer.component.ts.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsWhatToAvoidComponentHtml } from './what-to-avoid.component.html.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsWhatToAvoidComponentHtml } from './what-to-avoid.component.html.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsWhatToAvoidComponentHtml } from './what-to-avoid.component.html.de-DE.i18n.data';
+import { EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsWhatToAvoidComponentTs } from './what-to-avoid.component.ts.en-US.i18n.data';
+import { PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsWhatToAvoidComponentTs } from './what-to-avoid.component.ts.pl-PL.i18n.data';
+import { DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsWhatToAvoidComponentTs } from './what-to-avoid.component.ts.de-DE.i18n.data';;
+export type DocsOverride = CoreModels.DeepPartial<EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsArchitectureComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsArchitectureComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsArchitectureComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsArchitectureComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsArchitectureComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsArchitectureComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsDependencyInjectionComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsDependencyInjectionComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsDependencyInjectionComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsDependencyInjectionComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsDependencyInjectionComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsDependencyInjectionComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsFrameworkComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsFrameworkComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsFrameworkComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsFrameworkComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsFrameworkComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsFrameworkComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsI18NComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsI18NComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsI18NComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsI18NComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsI18NComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsI18NComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsIsomorphicCodeRegionsComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsIsomorphicCodeRegionsComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsIsomorphicCodeRegionsComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsIsomorphicCodeRegionsComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsIsomorphicCodeRegionsComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsIsomorphicCodeRegionsComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsRealtimeComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsRealtimeComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsRealtimeComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsRealtimeComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsRealtimeComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsRealtimeComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsTransportLayerComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsTransportLayerComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsTransportLayerComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsTransportLayerComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsTransportLayerComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsTransportLayerComponentTs 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsWhatToAvoidComponentHtml 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsWhatToAvoidComponentHtml 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsWhatToAvoidComponentHtml 
+| EnUsTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsWhatToAvoidComponentTs 
+| PlPlTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsWhatToAvoidComponentTs 
+| DeDeTraslationOverrideSrcLibGeneratedDocsFromMdFilesIsomorphicLibV21AiDocsWhatToAvoidComponentTs>;
+
+ // THIS FILE IS GENERATED - DO NOT MODIFY
+        

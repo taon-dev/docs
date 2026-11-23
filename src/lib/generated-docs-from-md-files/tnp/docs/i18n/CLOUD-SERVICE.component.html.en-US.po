@@ -1,0 +1,363 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:1
+msgid "Taon Cloud"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:2
+msgid "<strong>Taon Cloud is currently under active development.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:3
+msgid "However, its foundation is already available through <strong>Taon Service</strong> and the <strong>Taon Cloud Terminal UI</strong>, which you can use today."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:4
+msgid "Every Taon command integrates with the local service, providing a unified environment for managing projects, ports, databases, builds, processes, and deployments."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:5
+msgid "The long-term goal is simple: <strong>manage your entire development and deployment infrastructure using the same tools, whether you're working locally or on a remote server.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:6
+msgid "Taon Service"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:7
+msgid "Taon includes a built-in local service that simplifies project management, port allocation, domain configuration, process monitoring, and deployments."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:8
+msgid "<strong>Taon Service is the foundation of Taon Cloud.</strong> Both share the same core functionality, with additional capabilities depending on whether Taon runs on your local machine or a remote server."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:9
+msgid "How it works"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:10
+msgid "Whenever you execute a Taon command, the CLI automatically checks whether a healthy Taon Service instance is running."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:11
+msgid "If the service is unavailable, Taon launches a dedicated system terminal with its interactive management interface."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:12
+msgid "The service continues running independently, maintaining information about active projects, allocated ports, databases, builds, and other background processes."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:13
+msgid "This means you don't have to manually start or configure the service before working with your projects."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:14
+msgid "Taon Cloud Terminal UI"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:16
+msgid "<strong>The Taon Cloud Terminal UI brings infrastructure management directly into your terminal.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:17
+msgid "It provides a centralized interface for managing local development environments and, eventually, remote servers over SSH."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:18
+msgid "No browser dashboard is required. You can monitor processes, inspect logs, manage deployments, and control your infrastructure without leaving the terminal."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:19
+msgid "The terminal-first approach also makes Taon particularly suitable for remote development, headless servers, and automated environments."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:20
+msgid "Taon Cloud Web UI"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:21
+msgid "The planned Taon Cloud Web UI will provide an alternative interface for managing the same infrastructure through a browser."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:22
+msgid "You will be able to install Taon Cloud on any compatible server running Node.js."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:23
+msgid "Installation"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:24
+msgid "Install Taon globally:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:25
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock0, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:30
+msgid "Start the cloud service in detached mode:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:31
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock1, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:36
+msgid "Once the service is configured, you'll be able to access the Taon Cloud dashboard through your browser."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:38
+msgid "<em>Taon Cloud Web UI — proposed interface, currently under development.</em>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:39
+msgid "Features — Localhost vs. Cloud"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:40
+msgid "Taon is designed around a simple principle: <strong>the same management experience should work on your local machine and in the cloud.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:41
+msgid "Most features are shared between both environments. The main differences concern networking, domain configuration, and infrastructure deployment."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:42
+msgid "1. Enable or Disable Cloud Infrastructure"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:43
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:81
+msgid "<strong>On localhost</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:44
+msgid "Enable or disable the local infrastructure required for cloud-style deployments."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:50
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:88
+msgid "<strong>On a cloud server</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:51
+msgid "Manage publicly accessible infrastructure, including:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:58
+msgid "2. Project Management"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:59
+msgid "Discover, register, create, and manage Taon projects from a single interface."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:66
+msgid "<strong>Available in both environments:</strong> The same project management workflow is intended to work on localhost and remote Taon Cloud instances."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:67
+msgid "<strong>Planned:</strong> Integration with domain registrars to simplify domain purchasing and assignment when creating new projects."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:68
+msgid "3. Deployment Management"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:69
+msgid "A centralized place to decide <strong>what to deploy, where to deploy it, and how it should run.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:77
+msgid "<strong>Localhost:</strong> Prepare, test, and execute deployments using local infrastructure."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:78
+msgid "<strong>Cloud:</strong> Deploy and manage applications on remote servers using the same workflow."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:79
+msgid "4. Domain Management"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:80
+msgid "Manage domains without repeatedly editing configuration files or manually setting up routing rules."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:94
+msgid "<strong>Planned:</strong> Direct integration with domain providers to simplify DNS configuration, domain assignment, and routing."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:95
+msgid "5. Automatic Port Management"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:96
+msgid "Stop manually assigning ports to every project."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:97
+msgid "Taon Service manages port allocation automatically, helping prevent conflicts between projects and background services."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:104
+msgid "<strong>Available in both environments:</strong> Port management follows the same principles on localhost and remote servers."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:105
+msgid "6. Process Management and Logs"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:106
+msgid "Monitor the processes running within your Taon environment."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:113
+msgid "<strong>Available in both environments:</strong> Manage local processes or inspect processes running on connected Taon Cloud instances."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:114
+msgid "7. Taon Instance Management"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:115
+msgid "Connect multiple Taon instances to create a unified development and deployment environment."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:123
+msgid "<strong>The goal:</strong> Your local Taon Service can communicate with remote Taon Cloud instances, allowing you to manage distributed infrastructure from a single interface."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:124
+msgid "8. Deployment Scheduler"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:125
+msgid "Automate deployments without requiring a separate CI/CD platform for every project."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:131
+msgid "<strong>Available in both environments once implemented:</strong> The scheduler will use the same configuration model for local and remote deployments."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:132
+msgid "9. Settings and Security"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:133
+msgid "Configure how your Taon environment operates and how users access it."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:141
+msgid "<strong>Localhost:</strong> Configure your local Taon Service and development infrastructure."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:142
+msgid "<strong>Cloud:</strong> Secure access to remote management interfaces and deployed services."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:143
+msgid "Cloudflare — Deploy Taon to Production Today"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:144
+msgid "<strong>You don't have to wait for the full Taon Cloud implementation to deploy Taon applications to production.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:145
+msgid "Taon already supports deployment to <strong>Cloudflare Workers</strong>, providing a serverless alternative to managing your own infrastructure."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:146
+msgid "Each Taon project includes a predefined"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:146
+msgid "release task in its"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:146
+msgid "configuration."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:147
+msgid "With a single command, you can build and deploy your application together with its configured Cloudflare infrastructure."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:148
+msgid "Cloudflare Infrastructure"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:149
+msgid "Taon integrates with the following Cloudflare services:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:156
+msgid "Deploy with One Command"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:157
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock6, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:162
+msgid "Here,"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:162
+msgid "is an alias for"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:162
+msgid "."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:163
+msgid "The command executes the project's configured Cloudflare release workflow, building and deploying the application and its associated resources."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:165
+msgid "Two Deployment Approaches, One Framework"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:166
+msgid "Taon is designed to support two complementary deployment models."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:167
+msgid "<strong>Taon Cloud — Self-hosted infrastructure</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:168
+msgid "Run your applications on your own servers, manage processes and deployments, configure domains, and maintain control over your infrastructure."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:169
+msgid "Ideal for applications requiring dedicated servers, custom runtime environments, or direct infrastructure access."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:170
+msgid "<strong>Cloudflare — Serverless infrastructure</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:171
+msgid "Deploy Taon applications to Cloudflare Workers without maintaining a traditional Node.js server."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:172
+msgid "Ideal for applications that benefit from managed infrastructure, global distribution, and simplified operations."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:173
+msgid "Both approaches use the same Taon framework and CLI, allowing you to choose the deployment environment that best suits your project."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/docs/CLOUD-SERVICE.component.html:174
+msgid "<strong>Develop locally. Deploy anywhere. Manage everything with Taon.</strong>"
+msgstr ""

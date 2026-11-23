@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:1
+msgid "Taon Baseline"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:2
+msgid "is the composition layer for Taon's admin backoffice. Its"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:3
+msgid "includes Session, Sudo, Emails, CMS, E-commerce, Analytics, Marketing, and SEO contexts."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:4
+msgid "lazily loads their admin routes and gates menu entries using the current session's permissions."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:7
+msgid "Register the context and route"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:8
+msgid "Add the abstract context to the application's active Taon context:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:9
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock3, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:14
+msgid "Register Baseline's route in the application's Angular router. The example apps use the named"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:15
+msgid "outlet exposed as"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:16
+msgid ", and provide the same active context to that route:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:18
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock6, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:23
+msgid "Use your application's existing Taon initialization and router providers. Baseline brings module contexts and navigation together; it does not replace those app-specific providers or deployment configuration."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:26
+msgid "Configure access"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:27
+msgid "The backoffice routes are lazy-loaded. CMS, E-commerce, Analytics, SEO, Marketing, user, session, and authorization entries are shown only when the session has the corresponding permission or the user is a superuser. Permission names include"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:30
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:31
+msgid ","
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:32
+msgid ", and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:32
+msgid "."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:33
+msgid "Grant permissions using the Session authorization/group workflow, then test with both an authorized and unauthorized account. Menu visibility is not the security boundary: module controllers also validate protected operations."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:36
+msgid "Runtime and project dependencies"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:37
+msgid "The route tree is Angular/browser code. The active Taon context runs on the backend chosen by the application. Node.js is the normal server target; WebSQL runs backend logic in the browser and does not provide server-side secrets or public webhook reception. Cloudflare Worker deployments need their own bindings and target-compatible database/storage providers. Baseline's abstract context does not select or configure those providers."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:43
+msgid "The example apps register"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:43
+msgid "in their active context and lazy-load"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:44
+msgid "in the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/isomorphic-lib-v21/docs/taon-admin/baseline.component.html:44
+msgid "outlet. See\n<a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/session.md&quot;\">Session</a>, <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/cms.md&quot;\">CMS</a>, <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/e-commerce.md&quot;\">E-commerce</a>,\n<a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/seo.md&quot;\">SEO</a>, <a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/analytics.md&quot;\">Analytics</a>, and\n<a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/taon-admin/marketing.md&quot;\">Marketing-related events</a> for module details. To register\nBaseline step by step, follow the\n<a [href]=\"baseHref + '/isomorphic-lib-v21/' + &quot;docs/tutorial/add-taon-admin-to-existing-project.md&quot;\">existing-project setup tutorial</a>."
+msgstr ""

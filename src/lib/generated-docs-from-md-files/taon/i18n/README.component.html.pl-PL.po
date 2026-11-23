@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:1
+msgid "Taon Framework/CLI/Cloud"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:4
+msgid "TAON  <strong>T</strong>ypescript <strong>A</strong>ngular <strong>O</strong>rm <strong>N</strong>ode )"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:5
+msgid "( BETA VERSION - For early testing. )"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:6
+msgid "<strong>Taon</strong> 🔥🔥🔥 is a:<br>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:15
+msgid "+\n<a href=\"https://www.typescriptlang.org/\">TypesScript</a> isomorphic libraries/backends/frontends ✅"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:17
+msgid "+\n<a href=\"https://angular.io/\">Angular</a> libraries and PWA apps ✅"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:19
+msgid "+ Databases with Orm (<a href=\"https://typeorm.io/\">TypeORM</a>) <br>\n&nbsp;- <a href=\"https://sql.js.org\">sql.js</a><br>\n&nbsp;&nbsp;&nbsp;-&gt;  local development mode ✅<br>\n&nbsp;&nbsp;&nbsp;-&gt;  local development with backend in browser mode (WEBSQL) ✅<br>\n&nbsp;&nbsp;&nbsp;-&gt;  production dockerized mode ✅<br>\n&nbsp;&nbsp;&nbsp;-&gt;  production backend in browser mode (WEBSQL) ✅<br>\n&nbsp;- <a href=\"https://www.mysql.com/\">mysql</a><br>\n&nbsp;&nbsp;&nbsp;-&gt; production dockerized mode (NOT READY YET) <br>\n&nbsp;- <a href=\"https://developers.cloudflare.com/d1/\">D1</a><br>\n&nbsp;&nbsp;&nbsp;-&gt; production read sql db ✅<br>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:29
+msgid "+\n<a href=\"https://nodejs.org/en/\">NodeJS</a> backends deployable on any server with on command (Taon Cloud - PROOF OF CONCEPT READY)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:31
+msgid "+\n<a href=\"https://nodejs.org/en/\">NodeJS</a> backends deployable <a href=\"https://developers.cloudflare.com/workers/\">Cloudflare Wokers®</a> on command ✅"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:33
+msgid "+\n<a href=\"https://www.electronjs.org/\">Electron</a> desktop apps ✅"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:35
+msgid "+\n<a href=\"https://capacitorjs.com/\">Capacitor</a> mobile apps (NOT READY YET)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:37
+msgid "+\n<a href=\"https://www.electronjs.org/\">Visual Studio Code</a>/ <a href=\"https://vscodium.com/\">VScodium</a> plugins ✅"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:43
+msgid "<strong><a href=\"https://taon.dev/#/docs\">READ DOCUMENTATION</a></strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:44
+msgid "<strong>Initial requirements of taon</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:47
+msgid "Installed git"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:50
+msgid "Increased watchers limit (only on linux):"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:53
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock0, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:58
+msgid "Supported OS-es:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:64
+msgid "Supported editors"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:74
+msgid "Required version of NodeJS"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:80
+msgid "How to install taon"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:81
+msgid "<strong>every OS (except linux Arch)</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:82
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock1, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:87
+msgid "<strong>linux Arch:</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:88
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock2, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:93
+msgid "How to update Taon's core container"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:94
+msgid "Update active core containers for your current cli version"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:95
+msgid "( for taon@<strong>21</strong> =&gt; container-<strong>21</strong> )"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:96
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock3, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:101
+msgid "for other containers you have to reinstall whole taon, ex."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:102
+msgid "and then"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:103
+msgid "How to uninstall taon from local machine"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:104
+msgid "Taon stores a big global container (in ~/.taon) for npm packages <br>\nthat are being shared across all taon projects."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:106
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock6, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:111
+msgid "Projects that are part of taon.dev:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:112
+msgid "( I am slowly moving taon projects to <a href=\"https://github.com/orgs/taon-dev\">https://github.com/orgs/taon-dev</a>)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:180
+msgid "Global npm dependencies installed with taon"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:181
+msgid "Installation happens when you first time use taon"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/taon/README.component.html:182
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock7, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""

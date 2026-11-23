@@ -1,0 +1,327 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:1
+msgid "Os"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:2
+msgid "=> check if port(s) are taken"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:3
+msgid "=> copy file or folder"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:4
+msgid "=> link file or folder"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:5
+msgid "=> refresh linked projects configuration (after deleting or adding new repo)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:7
+msgid "=> set random nice colors for you vscode window"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:8
+msgid "java & tomcat"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:9
+msgid "=> select java for $JAVA_HOME"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:10
+msgid "=> select tomcat for $TOMCAT_HOME"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:11
+msgid "/etc/host"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:12
+msgid "=> modify /etc/host in a nice way"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:13
+msgid "=> open /etc/hosts files in VSCode"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:14
+msgid "Git"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:15
+msgid "Handy shortcuts"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:16
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:25
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:27
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:40
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:47
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:48
+msgid "=>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:17
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:24
+msgid "=> show origin of project"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:18
+msgid "=> remove all submodules from repo"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:19
+msgid "=> remove submodule by folder name"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:20
+msgid "=> remove git tag (if not provided name - select menu appears)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:21
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:22
+msgid "=> display info aboutlast tag"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:23
+msgid "Remotes"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:26
+msgid "=> show all origins of project"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:28
+msgid "=> replaces default origin new provided"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:29
+msgid "=> alias to rename:origin"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:30
+msgid "=> changes http remote to ssh remote"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:31
+msgid "=> changes ssh remote to https remote"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:32
+msgid "Rebase"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:33
+msgid "=> rebase current branch with default branch"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:34
+msgid "=> rebase current branch with changes from branch-to-rebase"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:35
+msgid "Stash"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:36
+msgid "=> stash only staged files"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:37
+msgid "=> stash all files"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:38
+msgid "Reset + change branch"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:39
+msgid "=> git fetch / display menu with branches to select / select branch"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:40
+msgid "+ remove tmp files for project +"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:40
+msgid "(include children)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:41
+msgid "=> same as"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:41
+msgid "but specific branch"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:42
+msgid "=> reset hard and pull (recrusively)"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:43
+msgid "Pull & Pull"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:44
+msgid "=> pull current branch or current workspace projects one after another"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:45
+msgid "=> pull current repo branch and first level of children projects"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:46
+msgid "=> pull current repo branch and all projects deep"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:49
+msgid "=> push current project repo with temp message"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:50
+msgid "=> push current project (+ first level children) repo with temp message"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:51
+msgid "=> push current project (+ deep children repos) repo with temp message"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:52
+msgid "=> push code to all remotes(origins) defined in .git/config"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:53
+msgid "Smart Conventional Commits Branching"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:54
+msgid "<strong>Checkout branch + add changes + commit message + push branch</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:55
+msgid "Create special branches (with metadata inside name) that can be use later with command"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:56
+msgid "<br> to \"re-push\" changes and use matadata from branch name\nas commit message."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:59
+msgid "Quick commit and push bugfix<br>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:60
+msgid "<br>\n&lt;=&gt;<br>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:62
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:63
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:64
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:71
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:72
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:73
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:80
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:81
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:82
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:89
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:90
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:91
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:98
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:99
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:100
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:107
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:108
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:109
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:116
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:117
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:118
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:125
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:126
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:127
+msgid "+ <br>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:66
+msgid "taon pfix <=> taon pushfix <=> taon push:fix"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:68
+msgid "Quick commit and push feature<br>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:69
+msgid "<br>\n&lt;&gt;=&gt;<br>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:75
+msgid "taon pf <=> taon pushfeature <=> taon push:feature"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:77
+msgid "Quick commit and push chore <br>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:78
+msgid "<br>\n&lt;=&gt;  <br>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:84
+msgid "taon pc <=> taon chore <=> taon pchore"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:86
+msgid "Quick commit and push docs update <br>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:87
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:96
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:105
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:114
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:123
+msgid "<br>\n&lt;=&gt; <br>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:93
+msgid "taon pd <=> taon pdocs"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:95
+msgid "Quick commit and push tests update <br>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:102
+msgid "taon push:test <=> taon ptest <=> taon ptests"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:104
+msgid "Quick commit and push style update (formatting, linting etc.) <br>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:111
+msgid "taon pstyl <=> taon pstyle"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:113
+msgid "Quick commit and push code refactor <br>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:120
+msgid "taon pref <=> taon prefactor"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:122
+msgid "Quick commit and push release commit <br>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp-helpers/BASE-HELPERS-COMMANDS.component.html:129
+msgid "taon prel <=> taon prelase"
+msgstr ""

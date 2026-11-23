@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Language: de-DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/src/app.auto-gen-docs.component.ts:33
+msgid "Example hello world from backend API:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/src/app.auto-gen-docs.component.ts:33
+msgid "Basic app info"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/src/app.auto-gen-docs.component.ts:33
+msgid "Name"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/src/app.auto-gen-docs.component.ts:33
+msgid "Angular version:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/src/app.auto-gen-docs.component.ts:33
+msgid "Taon backend:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/src/app.auto-gen-docs.component.ts:33
+msgid "Add new example user with random name"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/src/app.auto-gen-docs.component.ts:33
+msgid "hello world from backend:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/src/app.auto-gen-docs.component.ts:33
+msgid "Copyright"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/src/app.auto-gen-docs.component.ts:33
+msgid "Example users from backend API:"
+msgstr ""

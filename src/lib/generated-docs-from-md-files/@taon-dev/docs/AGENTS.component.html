@@ -1,0 +1,35 @@
+<article  class="taon-md-doc"><h1 id="taon-project-instructions" translate="" [translate-t]="t">Taon project instructions</h1>
+<p translate="" [translate-t]="t">This project uses Taon. Read the applicable reference before changing code, and
+verify framework behavior against the implementation when a guide does not
+cover it.</p>
+<h2 id="core-rules" translate="" [translate-t]="t">Core rules</h2>
+<ul>
+<li>Do not install dependencies with <code>{{ context.codeblock0 }}</code> or <code>{{ context.codeblock1 }}</code>; use the
+Taon project workflow.</li>
+<li>Make application changes in <code>{{ context.codeblock2 }}</code>, preserve Taon patterns and generated
+files, and do not reformat unrelated code.</li>
+<li>Reuse existing classes and helpers. Do not replace Taon conventions with
+conventional Angular, Express, or TypeORM patterns without checking the
+project guidance first.</li>
+<li>Keep code changes surgical. Do not modify sibling projects.</li>
+</ul>
+<h2 id="references" translate="" [translate-t]="t">References</h2>
+<ul>
+<li><a [href]="baseHref + &quot;/.ai/docs/architecture.md&quot;">Architecture and runtime targets</a></li>
+<li><a [href]="baseHref + &quot;/.ai/docs/taon-building-blocks/contexts.md&quot;">Taon contexts</a></li>
+<li><a [href]="baseHref + &quot;/.ai/docs/isomorphic-code-regions.md&quot;">Isomorphic code regions</a></li>
+<li><a [href]="baseHref + &quot;/.ai/docs/taon-building-blocks/&quot;">Building-block references</a></li>
+<li><a [href]="baseHref + &quot;/.ai/rules/&quot;">Coding rules</a></li>
+<li><a [href]="baseHref + &quot;/.ai/examples/&quot;">Canonical examples</a></li>
+</ul>
+<h2 id="existing-code-and-verification" translate="" [translate-t]="t">Existing code and verification</h2>
+<p><span translate="" [translate-t]="t">Before creating an abstraction, search </span><code>{{ context.codeblock3 }}</code><span translate="" [translate-t]="t"> for an equivalent implementation.
+For Taon CLI workflows, see the
+<a href="https://github.com/darekf77/tnp/blob/master/docs/COMMANDS.md">CLI command guide</a>.</span></p>
+<p translate="" [translate-t]="t">The project's tests and the Taon Testbench are useful for runtime-specific
+examples; do not assume that Node.js, WebSQL, and Cloudflare Worker support are
+interchangeable.</p>
+<p translate="" [translate-t]="t">After code changes, run the smallest relevant test or build available in the
+project. Do not claim a command or runtime behavior is verified unless it was
+checked against source or a working example.</p>
+</article>

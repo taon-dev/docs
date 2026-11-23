@@ -1,0 +1,342 @@
+msgid ""
+msgstr ""
+"Language: pl-PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:1
+msgid "Developer Guide"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:2
+msgid "Why Do I Need"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:2
+msgid "to Develop Taon?"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:3
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:26
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:46
+msgid "The"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:3
+msgid "CLI serves as a backup development tool for Taon."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:8
+msgid "How to Set Up a Development Environment for Taon"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:9
+msgid "The Taon ecosystem is split across multiple repositories. However, everything is brought together by the <a href=\"https://github.com/darekf77/taon-dev\">taon-dev</a> repository, which acts as the parent container for individual Taon projects."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:10
+msgid "1. Install Taon"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:11
+msgid "Follow the installation instructions in the <a href=\"https://github.com/darekf77/taon\">Taon repository</a>."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:12
+msgid "2. Clone the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:12
+msgid "Repository"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:13
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock7, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:18
+msgid "3. Pull All Projects"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:19
+msgid "Navigate to the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:19
+msgid "directory and pull all related projects. Follow any additional instructions displayed by the CLI."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:20
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock9, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:25
+msgid "4. Link"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:25
+msgid "Globally"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:26
+msgid "project is located inside the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:26
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:119
+msgid "repository."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:27
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock13, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:32
+msgid "5. Verify the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:32
+msgid "Installation"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:33
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock15, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:38
+msgid "You can now use the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:38
+msgid "command wherever you would normally use the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:38
+msgid "command."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:39
+msgid "As a first test, try building"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:39
+msgid "using its own CLI in watch mode:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:40
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock19, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:45
+msgid "How to Modify the Taon Framework, CLI, and Cloud"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:46
+msgid "directory contains multiple repositories, including"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:46
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:125
+msgid ","
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:46
+msgid ", and others."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:47
+msgid "Each repository is responsible for a specific part of the Taon ecosystem."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:48
+msgid "CLI — Main Repository ("
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:48
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:60
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:71
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:81
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:92
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:102
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:113
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:125
+msgid ")"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:49
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:61
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:72
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:82
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:93
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:103
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:114
+msgid "Use this repository to:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:54
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock28, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:59
+msgid "You will see changes immediately in you"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:59
+msgid "tool."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:60
+msgid "Framework — Main Repository ("
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:66
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock31, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:71
+msgid "Core Helpers and Utilities ("
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:76
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock33, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:81
+msgid "HTTP Fetch Wrapper ("
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:87
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock35, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:92
+msgid "Advanced Helpers, Utilities, and Types ("
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:97
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock37, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:102
+msgid "TypeORM Fork ("
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:108
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock39, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:113
+msgid "Taon UI ("
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:119
+msgid "<strong>Note:</strong> UI functionality is gradually being migrated from the legacy"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:119
+msgid "repository to the newer"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:120
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock43, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:125
+msgid "Taon Admin Modules ("
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:126
+msgid "These repositories provide feature-rich backend and frontend administration tools for Taon applications."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:127
+msgid "Use them to:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:133
+msgid "For example, to work on the Session module:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:134
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock49, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:139
+msgid "The same development workflow applies to the CMS, E-Commerce, Analytics, and SEO modules."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:140
+msgid "Testing Your Changes in an Application"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:141
+msgid "It is also useful to keep a second terminal open to run an actual application while developing."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:142
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock50, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:147
+msgid "This allows you to test your changes in a running application while the framework or module is being rebuilt in watch mode."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:148
+msgid "Additional Development Requirements"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:149
+msgid "1. Visual Studio Code or VSCodium"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:150
+msgid "Install either <strong>Visual Studio Code</strong> or <strong>VSCodium</strong>."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:151
+msgid "Make sure the corresponding command is available globally in your terminal:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:156
+msgid "2. Taon Development Extension"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:157
+msgid "Install the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:157
+msgid "extension for Visual Studio Code or VSCodium."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:158
+msgid "You can install it directly from the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:158
+msgid "repository:"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:159
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock55, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:164
+msgid "<strong>Restart your editor after installing the extension.</strong>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:165
+msgid "Important: Avoid Conflicting Extensions"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:167
+msgid "When developing Taon itself, use the"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:167
+msgid "extension instead of"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/tnp/DEVELOPER_GUIDE.component.html:167
+msgid "to avoid potential conflicts."
+msgstr ""

@@ -1,0 +1,145 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:1
+msgid "Taon middleware and interceptors"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:2
+msgid "Taon middleware lets you intercept backend requests and frontend API calls. Server hooks follow the Express middleware pattern. Client hooks follow the Angular HTTP interceptor pattern and work with Axios responses and RxJS."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:3
+msgid "Middleware classes are injectable singletons within their Taon context and can participate in inheritance."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:30
+msgid "Controller-wide and endpoint-specific middleware use the same hooks. Where you register the middleware determines which methods it applies to."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:32
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:39
+msgid "Implement"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:32
+msgid "to handle server requests across the context. Call"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:32
+msgid "to continue processing the request."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:33
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock8, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:39
+msgid "to handle client API calls across the context. Return"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:39
+msgid "to forward the request and pass its response back to the caller."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:40
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock11, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:46
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:54
+msgid "Use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:46
+msgid "for middleware attached to a controller or endpoint. The second argument provides information about the matched endpoint, including its method name, Express path, and HTTP request type. You can use"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:46
+msgid "and"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:46
+msgid "before calling"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:46
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:69
+msgid "."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:47
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:55
+msgid "Set"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:47
+msgid "to keep this middleware scoped to the controller or endpoint on the server."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:48
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock17, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:54
+msgid "to intercept client calls to the controller or endpoint where the middleware is registered. You can use RxJS operators on the response from"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:54
+msgid ". This example uses"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:54
+msgid "to inspect the response status."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:55
+msgid "to keep this middleware scoped to the controller or endpoint on the client."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:56
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock22, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:62
+msgid "Add the middleware to"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:62
+msgid ". Spread"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:62
+msgid "to retain the middleware supplied by the parent."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:63
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock25, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:69
+msgid "Add the middleware to the endpoint decorator’s"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:69
+msgid "option. Here,"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:69
+msgid "applies only to"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:70
+msgid "The"
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:70
+msgid "region markers in the controller examples are Taon build directives."
+msgstr ""
+
+#: src/lib/generated-docs-from-md-files/@taon-dev/docs/.ai/docs/taon-building-blocks/middlewares.component.html:71
+msgid "<button type=\"button\" class=\"docs-code-copy\" aria-label=\"Copy code\" title=\"Copy code\" (click)=\"copyCode(context.codeblock30, $event)\">\n            <span class=\"material-icons\" aria-hidden=\"true\">content_copy</span>\n          </button>"
+msgstr ""

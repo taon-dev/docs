@@ -1,0 +1,1221 @@
+{
+  "schemaVersion": 1,
+  "project": {
+    "name": "isomorphic-lib-v21",
+    "location": "."
+  },
+  "files": {
+    "src/lib/build-info._auto-generated_.ts": {
+      "id": "src/lib/build-info._auto-generated_.ts",
+      "imports": [],
+      "exports": [
+        "BUILD_FRAMEWORK_CLI_NAME",
+        "APP_ID",
+        "BUILD_BASE_HREF",
+        "PROJECT_NPM_NAME",
+        "CURRENT_PACKAGE_TAON_VERSION",
+        "CURRENT_PACKAGE_VERSION",
+        "TAON_CLOUDFLARE_WORKERS_URLS"
+      ],
+      "symbolIds": [
+        "src/lib/build-info._auto-generated_.ts#BUILD_FRAMEWORK_CLI_NAME",
+        "src/lib/build-info._auto-generated_.ts#APP_ID",
+        "src/lib/build-info._auto-generated_.ts#BUILD_BASE_HREF",
+        "src/lib/build-info._auto-generated_.ts#PROJECT_NPM_NAME",
+        "src/lib/build-info._auto-generated_.ts#CURRENT_PACKAGE_TAON_VERSION",
+        "src/lib/build-info._auto-generated_.ts#CURRENT_PACKAGE_VERSION",
+        "src/lib/build-info._auto-generated_.ts#TAON_CLOUDFLARE_WORKERS_URLS",
+        "src/lib/build-info._auto-generated_.ts#TAON_CLOUDFLARE_WORKERS_URLS.IsomorphicLib21110Af"
+      ]
+    },
+    "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts": {
+      "id": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts",
+      "imports": [],
+      "exports": [
+        "EnUsTraslationOverrideSrcLibMyOrganizationProjTs"
+      ],
+      "symbolIds": [
+        "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs"
+      ]
+    },
+    "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts": {
+      "id": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts",
+      "imports": [],
+      "exports": [
+        "PlPlTraslationOverrideSrcLibMyOrganizationProjTs"
+      ],
+      "symbolIds": [
+        "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs"
+      ]
+    },
+    "src/lib/i18n/lib.translation.ts": {
+      "id": "src/lib/i18n/lib.translation.ts",
+      "imports": [
+        "tnp-core/src",
+        "./my-organization-proj.ts.en-US.i18n.data",
+        "./my-organization-proj.ts.pl-PL.i18n.data"
+      ],
+      "exports": [
+        "LibOverride"
+      ],
+      "symbolIds": [
+        "src/lib/i18n/lib.translation.ts#LibOverride"
+      ]
+    },
+    "src/lib/my-organization-proj.ts": {
+      "id": "src/lib/my-organization-proj.ts",
+      "imports": [
+        "@taon-dev/i18n/src",
+        "taon/src"
+      ],
+      "exports": [
+        "myOrgProj"
+      ],
+      "symbolIds": [
+        "src/lib/my-organization-proj.ts#t",
+        "src/lib/my-organization-proj.ts#myOrgProj"
+      ]
+    },
+    "src/lib/start-cli.ts": {
+      "id": "src/lib/start-cli.ts",
+      "imports": [
+        "tnp-core/src",
+        "tnp-helpers/src",
+        "tnp-helpers/src"
+      ],
+      "exports": [
+        "startCli",
+        "default"
+      ],
+      "symbolIds": [
+        "src/lib/start-cli.ts#$Global",
+        "src/lib/start-cli.ts#$Version",
+        "src/lib/start-cli.ts#ver",
+        "src/lib/start-cli.ts#startCli"
+      ]
+    },
+    "src/lib/index._auto-generated_.ts": {
+      "id": "src/lib/index._auto-generated_.ts",
+      "imports": [],
+      "exports": [
+        "BUILD_FRAMEWORK_CLI_NAME",
+        "APP_ID",
+        "BUILD_BASE_HREF",
+        "PROJECT_NPM_NAME",
+        "CURRENT_PACKAGE_TAON_VERSION",
+        "CURRENT_PACKAGE_VERSION",
+        "TAON_CLOUDFLARE_WORKERS_URLS",
+        "myOrgProj",
+        "startCli"
+      ],
+      "symbolIds": []
+    },
+    "src/lib/migrations/migrations_index._auto-generated_.ts": {
+      "id": "src/lib/migrations/migrations_index._auto-generated_.ts",
+      "imports": [],
+      "exports": [
+        "MIGRATIONS_CLASSES_FOR_IsomorphicLibV21Context"
+      ],
+      "symbolIds": [
+        "src/lib/migrations/migrations_index._auto-generated_.ts#MIGRATIONS_CLASSES_FOR_IsomorphicLibV21Context"
+      ]
+    },
+    "src/lib/migrations/index.ts": {
+      "id": "src/lib/migrations/index.ts",
+      "imports": [],
+      "exports": [
+        "MIGRATIONS_CLASSES_FOR_IsomorphicLibV21Context"
+      ],
+      "symbolIds": []
+    },
+    "src/lib/index.ts": {
+      "id": "src/lib/index.ts",
+      "imports": [],
+      "exports": [
+        "MIGRATIONS_CLASSES_FOR_IsomorphicLibV21Context",
+        "BUILD_FRAMEWORK_CLI_NAME",
+        "APP_ID",
+        "BUILD_BASE_HREF",
+        "PROJECT_NPM_NAME",
+        "CURRENT_PACKAGE_TAON_VERSION",
+        "CURRENT_PACKAGE_VERSION",
+        "TAON_CLOUDFLARE_WORKERS_URLS",
+        "myOrgProj",
+        "startCli"
+      ],
+      "symbolIds": []
+    }
+  },
+  "symbols": {
+    "src/lib/build-info._auto-generated_.ts#BUILD_FRAMEWORK_CLI_NAME": {
+      "id": "src/lib/build-info._auto-generated_.ts#BUILD_FRAMEWORK_CLI_NAME",
+      "name": "BUILD_FRAMEWORK_CLI_NAME",
+      "kind": "variable",
+      "fileId": "src/lib/build-info._auto-generated_.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/build-info._auto-generated_.ts",
+          "line": 5,
+          "column": 14
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/build-info._auto-generated_.ts",
+        "src/lib/index._auto-generated_.ts",
+        "src/lib/index.ts"
+      ],
+      "docs": {
+        "description": "Autogenerated by current cli tool",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [],
+      "signatures": [],
+      "type": {
+        "text": "\"tnp\"",
+        "symbolIds": []
+      },
+      "value": "'tnp'",
+      "taonCategory": "other"
+    },
+    "src/lib/build-info._auto-generated_.ts#APP_ID": {
+      "id": "src/lib/build-info._auto-generated_.ts#APP_ID",
+      "name": "APP_ID",
+      "kind": "variable",
+      "fileId": "src/lib/build-info._auto-generated_.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/build-info._auto-generated_.ts",
+          "line": 9,
+          "column": 14
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/build-info._auto-generated_.ts",
+        "src/lib/index._auto-generated_.ts",
+        "src/lib/index.ts"
+      ],
+      "docs": {
+        "description": "This value can be change in taon.jsonc (appId)",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [],
+      "signatures": [],
+      "type": {
+        "text": "\"com.domain.example.isomorphic-lib-v21\"",
+        "symbolIds": []
+      },
+      "value": "'com.domain.example.isomorphic-lib-v21'",
+      "taonCategory": "other"
+    },
+    "src/lib/build-info._auto-generated_.ts#BUILD_BASE_HREF": {
+      "id": "src/lib/build-info._auto-generated_.ts#BUILD_BASE_HREF",
+      "name": "BUILD_BASE_HREF",
+      "kind": "variable",
+      "fileId": "src/lib/build-info._auto-generated_.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/build-info._auto-generated_.ts",
+          "line": 13,
+          "column": 14
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/build-info._auto-generated_.ts",
+        "src/lib/index._auto-generated_.ts",
+        "src/lib/index.ts"
+      ],
+      "docs": {
+        "description": "Autogenerated by current cli tool",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [],
+      "signatures": [],
+      "type": {
+        "text": "\"\"",
+        "symbolIds": []
+      },
+      "value": "''",
+      "taonCategory": "other"
+    },
+    "src/lib/build-info._auto-generated_.ts#PROJECT_NPM_NAME": {
+      "id": "src/lib/build-info._auto-generated_.ts#PROJECT_NPM_NAME",
+      "name": "PROJECT_NPM_NAME",
+      "kind": "variable",
+      "fileId": "src/lib/build-info._auto-generated_.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/build-info._auto-generated_.ts",
+          "line": 17,
+          "column": 14
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/build-info._auto-generated_.ts",
+        "src/lib/index._auto-generated_.ts",
+        "src/lib/index.ts"
+      ],
+      "docs": {
+        "description": "This value can be change in taon.jsonc (overrideNpmName)",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [],
+      "signatures": [],
+      "type": {
+        "text": "\"isomorphic-lib-v21\"",
+        "symbolIds": []
+      },
+      "value": "'isomorphic-lib-v21'",
+      "taonCategory": "other"
+    },
+    "src/lib/build-info._auto-generated_.ts#CURRENT_PACKAGE_TAON_VERSION": {
+      "id": "src/lib/build-info._auto-generated_.ts#CURRENT_PACKAGE_TAON_VERSION",
+      "name": "CURRENT_PACKAGE_TAON_VERSION",
+      "kind": "variable",
+      "fileId": "src/lib/build-info._auto-generated_.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/build-info._auto-generated_.ts",
+          "line": 21,
+          "column": 14
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/build-info._auto-generated_.ts",
+        "src/lib/index._auto-generated_.ts",
+        "src/lib/index.ts"
+      ],
+      "docs": {
+        "description": "Taon version from you project taon.json",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [],
+      "signatures": [],
+      "type": {
+        "text": "\"v21\"",
+        "symbolIds": []
+      },
+      "value": "'v21'",
+      "taonCategory": "other"
+    },
+    "src/lib/build-info._auto-generated_.ts#CURRENT_PACKAGE_VERSION": {
+      "id": "src/lib/build-info._auto-generated_.ts#CURRENT_PACKAGE_VERSION",
+      "name": "CURRENT_PACKAGE_VERSION",
+      "kind": "variable",
+      "fileId": "src/lib/build-info._auto-generated_.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/build-info._auto-generated_.ts",
+          "line": 25,
+          "column": 14
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/build-info._auto-generated_.ts",
+        "src/lib/index._auto-generated_.ts",
+        "src/lib/index.ts"
+      ],
+      "docs": {
+        "description": "Autogenerated by current cli tool. Use *tnp release* to bump version.",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [],
+      "signatures": [],
+      "type": {
+        "text": "\"16.0.0\"",
+        "symbolIds": []
+      },
+      "value": "'16.0.0'",
+      "taonCategory": "other"
+    },
+    "src/lib/build-info._auto-generated_.ts#TAON_CLOUDFLARE_WORKERS_URLS": {
+      "id": "src/lib/build-info._auto-generated_.ts#TAON_CLOUDFLARE_WORKERS_URLS",
+      "name": "TAON_CLOUDFLARE_WORKERS_URLS",
+      "kind": "namespace",
+      "fileId": "src/lib/build-info._auto-generated_.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/build-info._auto-generated_.ts",
+          "line": 27,
+          "column": 1
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/build-info._auto-generated_.ts",
+        "src/lib/index._auto-generated_.ts",
+        "src/lib/index.ts"
+      ],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [
+        "export"
+      ],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [],
+      "signatures": [],
+      "taonCategory": "other"
+    },
+    "src/lib/build-info._auto-generated_.ts#TAON_CLOUDFLARE_WORKERS_URLS.IsomorphicLib21110Af": {
+      "id": "src/lib/build-info._auto-generated_.ts#TAON_CLOUDFLARE_WORKERS_URLS.IsomorphicLib21110Af",
+      "name": "IsomorphicLib21110Af",
+      "kind": "variable",
+      "fileId": "src/lib/build-info._auto-generated_.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/build-info._auto-generated_.ts",
+          "line": 28,
+          "column": 15
+        }
+      ],
+      "exported": false,
+      "exportPaths": [],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [],
+      "signatures": [],
+      "type": {
+        "text": "\"https://isomorphic-lib-21-110af.undefined.workers.dev\"",
+        "symbolIds": []
+      },
+      "value": "'https://isomorphic-lib-21-110af.undefined.workers.dev'",
+      "taonCategory": "other"
+    },
+    "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs": {
+      "id": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
+      "name": "EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
+      "kind": "interface",
+      "fileId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts",
+          "line": 3,
+          "column": 1
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts"
+      ],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [
+        "export"
+      ],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [
+        "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs::property:\"en-US\""
+      ],
+      "signatures": [],
+      "taonCategory": "other"
+    },
+    "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs": {
+      "id": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
+      "name": "PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
+      "kind": "interface",
+      "fileId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts",
+          "line": 3,
+          "column": 1
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts"
+      ],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [
+        "export"
+      ],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [
+        "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs::property:\"pl-PL\""
+      ],
+      "signatures": [],
+      "taonCategory": "other"
+    },
+    "src/lib/i18n/lib.translation.ts#LibOverride": {
+      "id": "src/lib/i18n/lib.translation.ts#LibOverride",
+      "name": "LibOverride",
+      "kind": "type",
+      "fileId": "src/lib/i18n/lib.translation.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/i18n/lib.translation.ts",
+          "line": 7,
+          "column": 1
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/i18n/lib.translation.ts"
+      ],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [
+        "export"
+      ],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [],
+      "signatures": [],
+      "type": {
+        "text": "LibOverride",
+        "symbolIds": [
+          "src/lib/i18n/lib.translation.ts#LibOverride",
+          "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
+          "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs"
+        ]
+      },
+      "taonCategory": "other"
+    },
+    "src/lib/my-organization-proj.ts#t": {
+      "id": "src/lib/my-organization-proj.ts#t",
+      "name": "t",
+      "kind": "variable",
+      "fileId": "src/lib/my-organization-proj.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/my-organization-proj.ts",
+          "line": 4,
+          "column": 7
+        }
+      ],
+      "exported": false,
+      "exportPaths": [],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [],
+      "signatures": [],
+      "type": {
+        "text": "Translation",
+        "symbolIds": []
+      },
+      "value": "Translation.for(Taon.__FILE_RELATIVE_PATH, Taon.LANG_IMPORT_MAP)",
+      "taonCategory": "other"
+    },
+    "src/lib/my-organization-proj.ts#myOrgProj": {
+      "id": "src/lib/my-organization-proj.ts#myOrgProj",
+      "name": "myOrgProj",
+      "kind": "function",
+      "fileId": "src/lib/my-organization-proj.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/my-organization-proj.ts",
+          "line": 6,
+          "column": 1
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/my-organization-proj.ts",
+        "src/lib/index._auto-generated_.ts",
+        "src/lib/index.ts"
+      ],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [
+        "export"
+      ],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [],
+      "signatures": [
+        {
+          "text": "(): void",
+          "parameters": [],
+          "returnType": {
+            "text": "void",
+            "symbolIds": []
+          },
+          "typeParameters": []
+        }
+      ],
+      "taonCategory": "other"
+    },
+    "src/lib/start-cli.ts#$Global": {
+      "id": "src/lib/start-cli.ts#$Global",
+      "name": "$Global",
+      "kind": "class",
+      "fileId": "src/lib/start-cli.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/start-cli.ts",
+          "line": 14,
+          "column": 1
+        }
+      ],
+      "exported": false,
+      "exportPaths": [],
+      "docs": {
+        "description": "This class is for handling global arguments. *\nCli engine will parse: hello:world:from:global:arg to helloWorldFromGlobalArg\n(lower case, camel case) .. so you don't need to worry about misspelling\narguments",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [],
+      "typeParameters": [],
+      "heritage": [
+        {
+          "kind": "extends",
+          "type": {
+            "text": "BaseCommandLineFeature<{}, BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-helpers/src\").BaseProjectResolver<BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>>",
+            "symbolIds": [
+              "src/lib/start-cli.ts#$Global"
+            ]
+          }
+        }
+      ],
+      "members": [
+        "src/lib/start-cli.ts#$Global::method:_",
+        "src/lib/start-cli.ts#$Global::method:helloWorldFromGlobalArg"
+      ],
+      "signatures": [],
+      "taonCategory": "other"
+    },
+    "src/lib/start-cli.ts#$Version": {
+      "id": "src/lib/start-cli.ts#$Version",
+      "name": "$Version",
+      "kind": "class",
+      "fileId": "src/lib/start-cli.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/start-cli.ts",
+          "line": 38,
+          "column": 1
+        }
+      ],
+      "exported": false,
+      "exportPaths": [],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [],
+      "typeParameters": [],
+      "heritage": [
+        {
+          "kind": "extends",
+          "type": {
+            "text": "BaseCommandLineFeature<{ anyCLIparamsHere: string; }, BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-helpers/src\").BaseProjectResolver<BaseProject<BaseProject<any, any>, import(\"/Users/dfilipiak/.taon/taon-containers/container-v21/node_modules/tnp-core/src\").CoreModels.BaseProjectType>>>",
+            "symbolIds": [
+              "src/lib/start-cli.ts#__type",
+              "src/lib/start-cli.ts#$Version"
+            ]
+          }
+        }
+      ],
+      "members": [
+        "src/lib/start-cli.ts#$Version::method:_",
+        "src/lib/start-cli.ts#$Version::method:getFromPackageJson"
+      ],
+      "signatures": [],
+      "taonCategory": "other"
+    },
+    "src/lib/start-cli.ts#ver": {
+      "id": "src/lib/start-cli.ts#ver",
+      "name": "ver",
+      "kind": "variable",
+      "fileId": "src/lib/start-cli.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/start-cli.ts",
+          "line": 53,
+          "column": 11
+        }
+      ],
+      "exported": false,
+      "exportPaths": [],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [],
+      "signatures": [],
+      "type": {
+        "text": "any",
+        "symbolIds": []
+      },
+      "value": "UtilsJson.getValue(\n      this.project.pathFor('package.json'),\n      'version',\n      {\n        defaultValue: '<not defined>',\n      },\n    )",
+      "taonCategory": "other"
+    },
+    "src/lib/start-cli.ts#startCli": {
+      "id": "src/lib/start-cli.ts#startCli",
+      "name": "startCli",
+      "kind": "function",
+      "fileId": "src/lib/start-cli.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/start-cli.ts",
+          "line": 71,
+          "column": 1
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/start-cli.ts",
+        "src/lib/index._auto-generated_.ts",
+        "src/lib/index.ts"
+      ],
+      "docs": {
+        "description": "",
+        "tags": [
+          {
+            "name": "param",
+            "text": "argsv process.argsv"
+          },
+          {
+            "name": "param",
+            "text": "filename needed if you want ipc communicaiton"
+          }
+        ]
+      },
+      "decorators": [],
+      "modifiers": [
+        "export",
+        "async"
+      ],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [],
+      "signatures": [
+        {
+          "text": "(argsv: string[], filename: string): Promise<void>",
+          "parameters": [
+            {
+              "name": "argsv",
+              "type": {
+                "text": "string[]",
+                "symbolIds": []
+              },
+              "optional": false,
+              "rest": false,
+              "docs": {
+                "description": "process.argsv",
+                "tags": [
+                  {
+                    "name": "param",
+                    "text": "argsv process.argsv"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "filename",
+              "type": {
+                "text": "string",
+                "symbolIds": []
+              },
+              "optional": false,
+              "rest": false,
+              "docs": {
+                "description": "needed if you want ipc communicaiton",
+                "tags": [
+                  {
+                    "name": "param",
+                    "text": "filename needed if you want ipc communicaiton"
+                  }
+                ]
+              }
+            }
+          ],
+          "returnType": {
+            "text": "Promise<void>",
+            "symbolIds": []
+          },
+          "typeParameters": []
+        }
+      ],
+      "taonCategory": "other"
+    },
+    "src/lib/migrations/migrations_index._auto-generated_.ts#MIGRATIONS_CLASSES_FOR_IsomorphicLibV21Context": {
+      "id": "src/lib/migrations/migrations_index._auto-generated_.ts#MIGRATIONS_CLASSES_FOR_IsomorphicLibV21Context",
+      "name": "MIGRATIONS_CLASSES_FOR_IsomorphicLibV21Context",
+      "kind": "variable",
+      "fileId": "src/lib/migrations/migrations_index._auto-generated_.ts",
+      "locations": [
+        {
+          "fileId": "src/lib/migrations/migrations_index._auto-generated_.ts",
+          "line": 4,
+          "column": 14
+        }
+      ],
+      "exported": true,
+      "exportPaths": [
+        "src/lib/migrations/migrations_index._auto-generated_.ts",
+        "src/lib/migrations/index.ts",
+        "src/lib/index.ts"
+      ],
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "modifiers": [],
+      "typeParameters": [],
+      "heritage": [],
+      "members": [],
+      "signatures": [],
+      "type": {
+        "text": "{}",
+        "symbolIds": [
+          "src/lib/migrations/migrations_index._auto-generated_.ts#MIGRATIONS_CLASSES_FOR_IsomorphicLibV21Context"
+        ]
+      },
+      "value": "{}",
+      "taonCategory": "other"
+    }
+  },
+  "members": {
+    "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs::property:\"en-US\"": {
+      "id": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs::property:\"en-US\"",
+      "ownerId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
+      "name": "\"en-US\"",
+      "kind": "property",
+      "visibility": "public",
+      "static": false,
+      "readonly": false,
+      "optional": false,
+      "abstract": false,
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "location": {
+        "fileId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts",
+        "line": 4,
+        "column": 3
+      },
+      "signatures": [],
+      "type": {
+        "text": "{ \"\": { \"My Translated Company Name!\"?: string; }; }",
+        "symbolIds": [
+          "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#__type"
+        ]
+      }
+    },
+    "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs::property:\"pl-PL\"": {
+      "id": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs::property:\"pl-PL\"",
+      "ownerId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
+      "name": "\"pl-PL\"",
+      "kind": "property",
+      "visibility": "public",
+      "static": false,
+      "readonly": false,
+      "optional": false,
+      "abstract": false,
+      "docs": {
+        "description": "",
+        "tags": []
+      },
+      "decorators": [],
+      "location": {
+        "fileId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts",
+        "line": 4,
+        "column": 3
+      },
+      "signatures": [],
+      "type": {
+        "text": "{ \"\": { \"My Translated Company Name!\"?: string; }; }",
+        "symbolIds": [
+          "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#__type"
+        ]
+      }
+    },
+    "src/lib/start-cli.ts#$Global::method:_": {
+      "id": "src/lib/start-cli.ts#$Global::method:_",
+      "ownerId": "src/lib/start-cli.ts#$Global",
+      "name": "_",
+      "kind": "method",
+      "visibility": "public",
+      "static": false,
+      "readonly": false,
+      "optional": false,
+      "abstract": false,
+      "docs": {
+        "description": "When you execute cli without arguments:`$ cli`",
+        "tags": []
+      },
+      "decorators": [],
+      "location": {
+        "fileId": "src/lib/start-cli.ts",
+        "line": 18,
+        "column": 3
+      },
+      "signatures": [
+        {
+          "text": "(): void",
+          "parameters": [],
+          "returnType": {
+            "text": "void",
+            "symbolIds": []
+          },
+          "typeParameters": []
+        }
+      ]
+    },
+    "src/lib/start-cli.ts#$Global::method:helloWorldFromGlobalArg": {
+      "id": "src/lib/start-cli.ts#$Global::method:helloWorldFromGlobalArg",
+      "ownerId": "src/lib/start-cli.ts#$Global",
+      "name": "helloWorldFromGlobalArg",
+      "kind": "method",
+      "visibility": "public",
+      "static": false,
+      "readonly": false,
+      "optional": false,
+      "abstract": false,
+      "docs": {
+        "description": "When you execute: `$ cli hello:world:from:global:arg`\n(or `$ cli helloWorldFromGlobalArg`)",
+        "tags": []
+      },
+      "decorators": [],
+      "location": {
+        "fileId": "src/lib/start-cli.ts",
+        "line": 27,
+        "column": 3
+      },
+      "signatures": [
+        {
+          "text": "(): void",
+          "parameters": [],
+          "returnType": {
+            "text": "void",
+            "symbolIds": []
+          },
+          "typeParameters": []
+        }
+      ]
+    },
+    "src/lib/start-cli.ts#$Version::method:_": {
+      "id": "src/lib/start-cli.ts#$Version::method:_",
+      "ownerId": "src/lib/start-cli.ts#$Version",
+      "name": "_",
+      "kind": "method",
+      "visibility": "public",
+      "static": false,
+      "readonly": false,
+      "optional": false,
+      "abstract": false,
+      "docs": {
+        "description": "When you execute: `$ cli version`",
+        "tags": []
+      },
+      "decorators": [],
+      "location": {
+        "fileId": "src/lib/start-cli.ts",
+        "line": 44,
+        "column": 3
+      },
+      "signatures": [
+        {
+          "text": "(): void",
+          "parameters": [],
+          "returnType": {
+            "text": "void",
+            "symbolIds": []
+          },
+          "typeParameters": []
+        }
+      ]
+    },
+    "src/lib/start-cli.ts#$Version::method:getFromPackageJson": {
+      "id": "src/lib/start-cli.ts#$Version::method:getFromPackageJson",
+      "ownerId": "src/lib/start-cli.ts#$Version",
+      "name": "getFromPackageJson",
+      "kind": "method",
+      "visibility": "public",
+      "static": false,
+      "readonly": false,
+      "optional": false,
+      "abstract": false,
+      "docs": {
+        "description": "When you execute: `$ cli version:getFromPackageJson`",
+        "tags": []
+      },
+      "decorators": [],
+      "location": {
+        "fileId": "src/lib/start-cli.ts",
+        "line": 52,
+        "column": 3
+      },
+      "signatures": [
+        {
+          "text": "(): void",
+          "parameters": [],
+          "returnType": {
+            "text": "void",
+            "symbolIds": []
+          },
+          "typeParameters": []
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "fromId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs::property:\"en-US\"",
+      "toId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#__type",
+      "kind": "property-type"
+    },
+    {
+      "fromId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs::property:\"pl-PL\"",
+      "toId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#__type",
+      "kind": "property-type"
+    },
+    {
+      "fromId": "src/lib/i18n/lib.translation.ts#LibOverride",
+      "toId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
+      "kind": "references"
+    },
+    {
+      "fromId": "src/lib/i18n/lib.translation.ts#LibOverride",
+      "toId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
+      "kind": "references"
+    },
+    {
+      "fromId": "src/lib/start-cli.ts#$Version",
+      "toId": "src/lib/start-cli.ts#__type",
+      "kind": "extends"
+    }
+  ],
+  "exports": [
+    {
+      "moduleId": "src/lib/build-info._auto-generated_.ts",
+      "name": "BUILD_FRAMEWORK_CLI_NAME",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#BUILD_FRAMEWORK_CLI_NAME"
+    },
+    {
+      "moduleId": "src/lib/build-info._auto-generated_.ts",
+      "name": "APP_ID",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#APP_ID"
+    },
+    {
+      "moduleId": "src/lib/build-info._auto-generated_.ts",
+      "name": "BUILD_BASE_HREF",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#BUILD_BASE_HREF"
+    },
+    {
+      "moduleId": "src/lib/build-info._auto-generated_.ts",
+      "name": "PROJECT_NPM_NAME",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#PROJECT_NPM_NAME"
+    },
+    {
+      "moduleId": "src/lib/build-info._auto-generated_.ts",
+      "name": "CURRENT_PACKAGE_TAON_VERSION",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#CURRENT_PACKAGE_TAON_VERSION"
+    },
+    {
+      "moduleId": "src/lib/build-info._auto-generated_.ts",
+      "name": "CURRENT_PACKAGE_VERSION",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#CURRENT_PACKAGE_VERSION"
+    },
+    {
+      "moduleId": "src/lib/build-info._auto-generated_.ts",
+      "name": "TAON_CLOUDFLARE_WORKERS_URLS",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#TAON_CLOUDFLARE_WORKERS_URLS"
+    },
+    {
+      "moduleId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts",
+      "name": "EnUsTraslationOverrideSrcLibMyOrganizationProjTs",
+      "symbolId": "src/lib/i18n/my-organization-proj.ts.en-US.i18n.data.ts#EnUsTraslationOverrideSrcLibMyOrganizationProjTs"
+    },
+    {
+      "moduleId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts",
+      "name": "PlPlTraslationOverrideSrcLibMyOrganizationProjTs",
+      "symbolId": "src/lib/i18n/my-organization-proj.ts.pl-PL.i18n.data.ts#PlPlTraslationOverrideSrcLibMyOrganizationProjTs"
+    },
+    {
+      "moduleId": "src/lib/i18n/lib.translation.ts",
+      "name": "LibOverride",
+      "symbolId": "src/lib/i18n/lib.translation.ts#LibOverride"
+    },
+    {
+      "moduleId": "src/lib/my-organization-proj.ts",
+      "name": "myOrgProj",
+      "symbolId": "src/lib/my-organization-proj.ts#myOrgProj"
+    },
+    {
+      "moduleId": "src/lib/start-cli.ts",
+      "name": "startCli",
+      "symbolId": "src/lib/start-cli.ts#startCli"
+    },
+    {
+      "moduleId": "src/lib/start-cli.ts",
+      "name": "default",
+      "symbolId": "src/lib/start-cli.ts#startCli"
+    },
+    {
+      "moduleId": "src/lib/index._auto-generated_.ts",
+      "name": "BUILD_FRAMEWORK_CLI_NAME",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#BUILD_FRAMEWORK_CLI_NAME"
+    },
+    {
+      "moduleId": "src/lib/index._auto-generated_.ts",
+      "name": "APP_ID",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#APP_ID"
+    },
+    {
+      "moduleId": "src/lib/index._auto-generated_.ts",
+      "name": "BUILD_BASE_HREF",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#BUILD_BASE_HREF"
+    },
+    {
+      "moduleId": "src/lib/index._auto-generated_.ts",
+      "name": "PROJECT_NPM_NAME",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#PROJECT_NPM_NAME"
+    },
+    {
+      "moduleId": "src/lib/index._auto-generated_.ts",
+      "name": "CURRENT_PACKAGE_TAON_VERSION",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#CURRENT_PACKAGE_TAON_VERSION"
+    },
+    {
+      "moduleId": "src/lib/index._auto-generated_.ts",
+      "name": "CURRENT_PACKAGE_VERSION",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#CURRENT_PACKAGE_VERSION"
+    },
+    {
+      "moduleId": "src/lib/index._auto-generated_.ts",
+      "name": "TAON_CLOUDFLARE_WORKERS_URLS",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#TAON_CLOUDFLARE_WORKERS_URLS"
+    },
+    {
+      "moduleId": "src/lib/index._auto-generated_.ts",
+      "name": "myOrgProj",
+      "symbolId": "src/lib/my-organization-proj.ts#myOrgProj"
+    },
+    {
+      "moduleId": "src/lib/index._auto-generated_.ts",
+      "name": "startCli",
+      "symbolId": "src/lib/start-cli.ts#startCli"
+    },
+    {
+      "moduleId": "src/lib/migrations/migrations_index._auto-generated_.ts",
+      "name": "MIGRATIONS_CLASSES_FOR_IsomorphicLibV21Context",
+      "symbolId": "src/lib/migrations/migrations_index._auto-generated_.ts#MIGRATIONS_CLASSES_FOR_IsomorphicLibV21Context"
+    },
+    {
+      "moduleId": "src/lib/migrations/index.ts",
+      "name": "MIGRATIONS_CLASSES_FOR_IsomorphicLibV21Context",
+      "symbolId": "src/lib/migrations/migrations_index._auto-generated_.ts#MIGRATIONS_CLASSES_FOR_IsomorphicLibV21Context"
+    },
+    {
+      "moduleId": "src/lib/index.ts",
+      "name": "MIGRATIONS_CLASSES_FOR_IsomorphicLibV21Context",
+      "symbolId": "src/lib/migrations/migrations_index._auto-generated_.ts#MIGRATIONS_CLASSES_FOR_IsomorphicLibV21Context"
+    },
+    {
+      "moduleId": "src/lib/index.ts",
+      "name": "BUILD_FRAMEWORK_CLI_NAME",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#BUILD_FRAMEWORK_CLI_NAME"
+    },
+    {
+      "moduleId": "src/lib/index.ts",
+      "name": "APP_ID",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#APP_ID"
+    },
+    {
+      "moduleId": "src/lib/index.ts",
+      "name": "BUILD_BASE_HREF",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#BUILD_BASE_HREF"
+    },
+    {
+      "moduleId": "src/lib/index.ts",
+      "name": "PROJECT_NPM_NAME",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#PROJECT_NPM_NAME"
+    },
+    {
+      "moduleId": "src/lib/index.ts",
+      "name": "CURRENT_PACKAGE_TAON_VERSION",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#CURRENT_PACKAGE_TAON_VERSION"
+    },
+    {
+      "moduleId": "src/lib/index.ts",
+      "name": "CURRENT_PACKAGE_VERSION",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#CURRENT_PACKAGE_VERSION"
+    },
+    {
+      "moduleId": "src/lib/index.ts",
+      "name": "TAON_CLOUDFLARE_WORKERS_URLS",
+      "symbolId": "src/lib/build-info._auto-generated_.ts#TAON_CLOUDFLARE_WORKERS_URLS"
+    },
+    {
+      "moduleId": "src/lib/index.ts",
+      "name": "myOrgProj",
+      "symbolId": "src/lib/my-organization-proj.ts#myOrgProj"
+    },
+    {
+      "moduleId": "src/lib/index.ts",
+      "name": "startCli",
+      "symbolId": "src/lib/start-cli.ts#startCli"
+    }
+  ],
+  "diagnostics": []
+}
